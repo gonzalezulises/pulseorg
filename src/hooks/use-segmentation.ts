@@ -3,11 +3,14 @@
 import { useQuery } from "@tanstack/react-query";
 import { useMemo } from "react";
 import { useCompany } from "@/contexts/company-context";
+import { DIMENSION_LABELS_V2 } from "@/types/clima-v2";
+import type { DimensionCodeV2 } from "@/types/clima-v2";
 import type {
   SegmentationData,
   SegmentStats,
   RiskGroup,
   HeatmapData,
+  HeatmapCell,
   SegmentComparison,
   DemographicFilters,
 } from "@/types/segmentation";
@@ -76,28 +79,96 @@ export function useSegmentStats(type: "department" | "tenure" | "gender") {
   };
 }
 
+// Color scale matching segmentation-charts getScoreColor
+function scoreToColor(score: number): string {
+  if (score >= 4.50) return "#1dc47c";
+  if (score >= 4.20) return "#00B4D8";
+  if (score >= 4.00) return "#FCD34D";
+  if (score >= 3.50) return "#F59E0B";
+  return "#DC2626";
+}
+
+// Map dimension codes to display labels
+function dimensionLabel(code: string): string {
+  return DIMENSION_LABELS_V2[code as DimensionCodeV2] || code;
+}
+
 /**
- * Hook to get risk groups
+ * Hook to get risk groups — transforms raw JSON shape to RiskGroup[]
  */
 export function useRiskGroups() {
   const { data, ...rest } = useSegmentationData();
 
+  // Raw JSON uses: group_name, description, count, percentage, avg_engagement, key_factors
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const raw: any[] = (data as any)?.risk_groups || [];
+
+  const groups: RiskGroup[] = raw.map((r, i) => {
+    const name: string = r.group_name || r.department || "";
+    const avg: number = r.avg_engagement ?? r.engagement_score ?? 0;
+    const level: RiskGroup["risk_level"] =
+      r.risk_level ??
+      (name.toLowerCase().includes("alto")
+        ? "high"
+        : name.toLowerCase().includes("moderado") || name.toLowerCase().includes("medio")
+        ? "medium"
+        : "low");
+
+    return {
+      id: r.id ?? `risk-${i}`,
+      department: name,
+      tenure: r.tenure ?? r.description ?? "N/A",
+      hierarchy: r.hierarchy ?? "N/A",
+      location: r.location ?? "N/A",
+      respondent_count: r.respondent_count ?? r.count ?? 0,
+      engagement_pct: r.engagement_pct ?? r.percentage ?? (avg / 5) * 100,
+      critical_dimensions: (r.critical_dimensions || r.key_factors || []).map(dimensionLabel),
+      risk_level: level,
+    };
+  });
+
   return {
-    data: data?.risk_groups || [],
+    data: groups,
     ...rest,
   };
 }
 
 /**
- * Hook to get heatmap data
+ * Hook to get heatmap data — transforms raw JSON shape to HeatmapData
  */
 export function useHeatmapData() {
   const { data, ...rest } = useSegmentationData();
 
-  return {
-    data: data?.heatmap || null,
-    ...rest,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const raw: any = (data as any)?.heatmap;
+  if (!raw) return { data: null, ...rest };
+
+  // Already in expected format
+  if (raw.segment_keys) return { data: raw as HeatmapData, ...rest };
+
+  // Transform from raw format: { dimensions, departments, cells: [{department, dimension, score, segment}] }
+  const departments: string[] = raw.departments || [];
+  const dimensions: string[] = raw.dimensions || [];
+
+  const cells: HeatmapCell[] = (raw.cells || []).map((c: any) => ({
+    segment: c.department || c.segment || "",
+    segment_name: c.department || c.segment_name || "",
+    dimension: c.dimension || "",
+    dimension_name: c.dimension || c.dimension_name || "",
+    score: c.score ?? 0,
+    favorability: c.favorability ?? (c.score ? (c.score / 5) * 100 : 0),
+    color: c.color ?? scoreToColor(c.score ?? 0),
+  }));
+
+  const heatmap: HeatmapData = {
+    segments: departments,
+    segment_keys: departments,
+    dimensions,
+    dimension_keys: dimensions,
+    cells,
   };
+
+  return { data: heatmap, ...rest };
 }
 
 /**

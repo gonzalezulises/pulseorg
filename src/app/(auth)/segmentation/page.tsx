@@ -219,7 +219,7 @@ export default function SegmentationPage() {
                             <p>
                               Los colaboradores con{" "}
                               <strong>{tenureComparison[0].segment_name}</strong> muestran el mayor
-                              engagement ({tenureComparison[0].engagement_score.toFixed(2)})
+                              engagement ({(tenureComparison[0].engagement_score ?? 0).toFixed(2)})
                             </p>
                           </div>
                           <div className="flex items-start gap-2">
@@ -227,7 +227,7 @@ export default function SegmentationPage() {
                             <p>
                               El grupo con{" "}
                               <strong>{tenureComparison[tenureComparison.length - 1].segment_name}</strong>{" "}
-                              presenta menor engagement ({tenureComparison[tenureComparison.length - 1].engagement_score.toFixed(2)})
+                              presenta menor engagement ({(tenureComparison[tenureComparison.length - 1].engagement_score ?? 0).toFixed(2)})
                             </p>
                           </div>
                         </>
@@ -274,7 +274,7 @@ export default function SegmentationPage() {
                             <Users className="h-4 w-4 text-primary mt-0.5" />
                             <p>
                               <strong>{genderComparison[0].segment_name}</strong> tiene el mayor
-                              engagement ({genderComparison[0].engagement_score.toFixed(2)}) con{" "}
+                              engagement ({(genderComparison[0].engagement_score ?? 0).toFixed(2)}) con{" "}
                               {genderComparison[0].respondent_count} respondentes
                             </p>
                           </div>
@@ -282,15 +282,15 @@ export default function SegmentationPage() {
                             <Users className="h-4 w-4 text-muted-foreground mt-0.5" />
                             <p>
                               <strong>{genderComparison[1].segment_name}</strong> tiene un engagement de{" "}
-                              {genderComparison[1].engagement_score.toFixed(2)} con{" "}
+                              {(genderComparison[1].engagement_score ?? 0).toFixed(2)} con{" "}
                               {genderComparison[1].respondent_count} respondentes
                             </p>
                           </div>
                           <div className="flex items-start gap-2 pt-2 border-t">
                             <p className="text-muted-foreground">
                               Diferencia de engagement entre géneros:{" "}
-                              <strong className={Math.abs(genderComparison[0].engagement_score - genderComparison[1].engagement_score) > 0.1 ? "text-yellow-600" : "text-green-600"}>
-                                {Math.abs(genderComparison[0].engagement_score - genderComparison[1].engagement_score).toFixed(2)} puntos
+                              <strong className={Math.abs((genderComparison[0].engagement_score ?? 0) - (genderComparison[1].engagement_score ?? 0)) > 0.1 ? "text-yellow-600" : "text-green-600"}>
+                                {Math.abs((genderComparison[0].engagement_score ?? 0) - (genderComparison[1].engagement_score ?? 0)).toFixed(2)} puntos
                               </strong>
                             </p>
                           </div>
@@ -367,7 +367,7 @@ export default function SegmentationPage() {
                                 {group.department} - {group.tenure}
                               </p>
                               <Badge variant="outline" className="text-xs">
-                                {group.engagement_pct.toFixed(1)}%
+                                {(group.engagement_pct ?? 0).toFixed(1)}%
                               </Badge>
                             </div>
                             <p className="text-sm text-muted-foreground">

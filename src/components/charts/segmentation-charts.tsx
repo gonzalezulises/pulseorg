@@ -59,11 +59,11 @@ export function SegmentBarChart({
           <div className="space-y-1 text-sm">
             <div className="flex justify-between gap-4">
               <span className="text-muted-foreground">Score:</span>
-              <span className="font-bold">{d.engagement_score.toFixed(2)}</span>
+              <span className="font-bold">{(d.engagement_score ?? 0).toFixed(2)}</span>
             </div>
             <div className="flex justify-between gap-4">
               <span className="text-muted-foreground">Engagement:</span>
-              <span>{d.engagement_pct.toFixed(1)}%</span>
+              <span>{(d.engagement_pct ?? 0).toFixed(1)}%</span>
             </div>
             <div className="flex justify-between gap-4">
               <span className="text-muted-foreground">Respuestas:</span>
@@ -71,8 +71,8 @@ export function SegmentBarChart({
             </div>
             <div className="flex justify-between gap-4 pt-1 border-t">
               <span>vs Global:</span>
-              <span className={d.vs_global >= 0 ? "text-green-600" : "text-red-600"}>
-                {d.vs_global >= 0 ? "+" : ""}{d.vs_global.toFixed(2)}
+              <span className={(d.vs_global ?? 0) >= 0 ? "text-green-600" : "text-red-600"}>
+                {(d.vs_global ?? 0) >= 0 ? "+" : ""}{(d.vs_global ?? 0).toFixed(2)}
               </span>
             </div>
           </div>
@@ -203,12 +203,12 @@ export function RiskGroupsTable({
                     {getRiskIcon(group.risk_level)}
                     <span
                       className={`font-bold ${
-                        group.engagement_pct < 65
+                        (group.engagement_pct ?? 0) < 65
                           ? "text-red-600"
                           : "text-yellow-600"
                       }`}
                     >
-                      {group.engagement_pct.toFixed(1)}%
+                      {(group.engagement_pct ?? 0).toFixed(1)}%
                     </span>
                   </div>
                 </TableCell>
@@ -321,10 +321,10 @@ export function HeatmapChart({
                         <span
                           className="text-[10px] font-bold"
                           style={{
-                            color: cell.score < 4.0 ? "#FFF" : "#000",
+                            color: (cell.score ?? 0) < 4.0 ? "#FFF" : "#000",
                           }}
                         >
-                          {cell.score.toFixed(1)}
+                          {(cell.score ?? 0).toFixed(1)}
                         </span>
                       </div>
                     </TooltipTrigger>
@@ -333,9 +333,9 @@ export function HeatmapChart({
                         <p className="font-medium">{cell.dimension_name}</p>
                         <p className="text-muted-foreground">{cell.segment_name}</p>
                         <p className="mt-1">
-                          Score: <strong>{cell.score.toFixed(2)}</strong>
+                          Score: <strong>{(cell.score ?? 0).toFixed(2)}</strong>
                         </p>
-                        <p>Favorabilidad: {cell.favorability.toFixed(1)}%</p>
+                        <p>Favorabilidad: {(cell.favorability ?? 0).toFixed(1)}%</p>
                       </div>
                     </TooltipContent>
                   </UITooltip>
@@ -392,9 +392,9 @@ export function SegmentComparisonCards({
                 <div className="flex items-end gap-2">
                   <span
                     className="text-2xl font-bold"
-                    style={{ color: getScoreColor(segment.engagement_score) }}
+                    style={{ color: getScoreColor(segment.engagement_score ?? 0) }}
                   >
-                    {segment.engagement_score.toFixed(2)}
+                    {(segment.engagement_score ?? 0).toFixed(2)}
                   </span>
                   <span className="text-sm text-muted-foreground mb-1">
                     / 5.00
@@ -411,7 +411,7 @@ export function SegmentComparisonCards({
                     }`}
                   >
                     {isAboveAvg ? "+" : ""}
-                    {segment.vs_global.toFixed(2)} vs global
+                    {(segment.vs_global ?? 0).toFixed(2)} vs global
                   </span>
                 </div>
 
@@ -420,8 +420,8 @@ export function SegmentComparisonCards({
                   <div
                     className="h-full rounded-full transition-all"
                     style={{
-                      width: `${(segment.engagement_score / 5) * 100}%`,
-                      backgroundColor: getScoreColor(segment.engagement_score),
+                      width: `${((segment.engagement_score ?? 0) / 5) * 100}%`,
+                      backgroundColor: getScoreColor(segment.engagement_score ?? 0),
                     }}
                   />
                 </div>
