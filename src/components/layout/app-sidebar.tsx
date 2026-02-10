@@ -16,6 +16,7 @@ import {
   Network,
   Trophy,
   Waypoints,
+  BookOpen,
 } from "lucide-react";
 import {
   Sidebar,
@@ -42,6 +43,11 @@ interface NavigationItem {
 }
 
 const navigationItems: NavigationItem[] = [
+  {
+    title: "Instrumento",
+    href: "/instrumento",
+    icon: BookOpen,
+  },
   {
     title: "Ficha Técnica",
     href: "/ficha-tecnica",
