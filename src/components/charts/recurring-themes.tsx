@@ -66,7 +66,7 @@ function ThemeCard({ theme }: { theme: Theme }) {
   const { data: analysisData } = useTextAnalysisData();
 
   const exampleComments =
-    analysisData?.comments.filter((c) =>
+    analysisData?.comments?.filter((c) =>
       theme.example_comments.includes(c.id)
     ) || [];
 

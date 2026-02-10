@@ -82,7 +82,7 @@ export function useNewAlertsCount() {
 export function useHighSeverityAlerts() {
   const { data, isLoading } = usePredictionsData();
   return {
-    data: data?.early_alerts.filter((alert) => alert.severity === "high") || [],
+    data: data?.early_alerts?.filter((alert) => alert.severity === "high") || [],
     count: data?.summary?.high_severity_alerts || 0,
     isLoading,
   };
