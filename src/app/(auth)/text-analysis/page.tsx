@@ -221,7 +221,7 @@ export default function TextAnalysisPage() {
                     <SelectValue placeholder="Todos los departamentos" />
                   </SelectTrigger>
                   <SelectContent>
-                    {departmentOptions.map((opt) => (
+                    {(departmentOptions || []).map((opt) => (
                       <SelectItem key={opt.value} value={opt.value}>
                         {opt.label}
                       </SelectItem>
@@ -261,7 +261,7 @@ export default function TextAnalysisPage() {
             {activeFilterCount > 0 && (
               <div className="flex items-center gap-2 mt-4 pt-4 border-t">
                 <span className="text-sm text-muted-foreground">
-                  Mostrando {filteredComments.length} de{" "}
+                  Mostrando {(filteredComments || []).length} de{" "}
                   {analysisData?.total_comments || 0} comentarios
                 </span>
               </div>
@@ -299,7 +299,7 @@ export default function TextAnalysisPage() {
                 />
 
                 <CommentList
-                  comments={filteredComments.slice(0, 20)}
+                  comments={(filteredComments || []).slice(0, 20)}
                   title="Comentarios Recientes"
                   maxHeight="350px"
                 />
@@ -317,8 +317,8 @@ export default function TextAnalysisPage() {
             ) : (
               <>
                 <div className="grid gap-6 lg:grid-cols-2">
-                  <SentimentDonut data={sentimentData.summary} />
-                  <SentimentTrendChart data={sentimentData.trend} />
+                  <SentimentDonut data={sentimentData?.summary ?? { positive: 0, neutral: 0, negative: 0, total: 0 }} />
+                  <SentimentTrendChart data={sentimentData?.trend ?? []} />
                 </div>
 
                 <CommentList
@@ -339,8 +339,8 @@ export default function TextAnalysisPage() {
               </div>
             ) : (
               <>
-                <ThemesSummary themes={themes} />
-                <RecurringThemes data={themes} />
+                <ThemesSummary themes={themes || []} />
+                <RecurringThemes data={themes || []} />
               </>
             )}
           </TabsContent>

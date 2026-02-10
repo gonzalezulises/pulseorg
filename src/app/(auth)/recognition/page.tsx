@@ -137,7 +137,7 @@ export default function RecognitionPage() {
             <SummaryCard
               icon={Star}
               label="Engagement Promedio"
-              value={summary.average_engagement.toFixed(2)}
+              value={(summary.average_engagement ?? 0).toFixed(2)}
               color="bg-blue-100 text-blue-600"
             />
             <SummaryCard
@@ -183,12 +183,12 @@ export default function RecognitionPage() {
             ) : (
               <>
                 {/* Podium */}
-                <Podium podium={podium} />
+                <Podium podium={podium || []} />
 
                 {/* Area of Month + Achievements */}
                 <div className="grid gap-6 lg:grid-cols-2">
                   <AreaOfMonthCard data={areaOfMonth ?? null} />
-                  <AchievementsFeed achievements={achievements} />
+                  <AchievementsFeed achievements={achievements || []} />
                 </div>
               </>
             )}
@@ -199,7 +199,7 @@ export default function RecognitionPage() {
             {isLoading ? (
               <Skeleton className="h-[600px]" />
             ) : (
-              <RankingsTable rankings={rankings} />
+              <RankingsTable rankings={rankings || []} />
             )}
           </TabsContent>
 
@@ -208,7 +208,7 @@ export default function RecognitionPage() {
             {isLoading ? (
               <Skeleton className="h-[400px]" />
             ) : (
-              <GoalsProgress goals={goals} />
+              <GoalsProgress goals={goals || []} />
             )}
           </TabsContent>
 
@@ -217,7 +217,7 @@ export default function RecognitionPage() {
             {isLoading ? (
               <Skeleton className="h-[500px]" />
             ) : (
-              <BadgesDisplay rankings={rankings} />
+              <BadgesDisplay rankings={rankings || []} />
             )}
           </TabsContent>
         </Tabs>

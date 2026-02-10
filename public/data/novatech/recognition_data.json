@@ -660,7 +660,7 @@
   ],
   "area_of_month": {
     "current": {
-      "area": "Gente Tower y Administración",
+      "area": "Gestión de Personas",
       "improvement": 0.34,
       "previous_score": 4.56,
       "current_score": 4.9,
@@ -836,10 +836,10 @@
       "description": ""
     },
     {
-      "id": "dim_liderazgo_Gente Tower y Administración",
+      "id": "dim_liderazgo_Gestión de Personas",
       "type": "dimension",
       "icon": "star",
-      "message": "Gente Tower y Administración alcanzó 4.89 en Liderazgo Efectivo",
+      "message": "Gestión de Personas alcanzó 4.89 en Liderazgo Efectivo",
       "area": "DevOps",
       "dimension": "liderazgo",
       "value": 4.89,
@@ -847,10 +847,10 @@
       "description": ""
     },
     {
-      "id": "engagement_Gente Tower y Administración",
+      "id": "engagement_Gestión de Personas",
       "type": "milestone",
       "icon": "trophy",
-      "message": "Gente Tower y Administración superó 4.5 en Engagement",
+      "message": "Gestión de Personas superó 4.5 en Engagement",
       "area": "People Ops",
       "value": 4.9,
       "date": "2026-01-06T01:14:57.432510",
@@ -878,10 +878,10 @@
       "description": ""
     },
     {
-      "id": "dim_reconocimiento_Gente Tower y Administración",
+      "id": "dim_reconocimiento_Gestión de Personas",
       "type": "dimension",
       "icon": "star",
-      "message": "Gente Tower y Administración alcanzó 4.71 en Reconocimiento",
+      "message": "Gestión de Personas alcanzó 4.71 en Reconocimiento",
       "area": "Product",
       "dimension": "reconocimiento",
       "value": 4.71,
@@ -889,10 +889,10 @@
       "description": ""
     },
     {
-      "id": "dim_balance_Gente Tower y Administración",
+      "id": "dim_balance_Gestión de Personas",
       "type": "dimension",
       "icon": "star",
-      "message": "Gente Tower y Administración alcanzó 4.93 en Balance Vida-Trabajo",
+      "message": "Gestión de Personas alcanzó 4.93 en Balance Vida-Trabajo",
       "area": "DevOps",
       "dimension": "balance",
       "value": 4.93,

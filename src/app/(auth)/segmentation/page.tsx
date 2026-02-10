@@ -49,11 +49,11 @@ export default function SegmentationPage() {
   const { data: globalStats } = useGlobalStats();
 
   // Calculate summary stats
-  const lowEngagementCount = departmentComparison.filter(
+  const lowEngagementCount = (departmentComparison || []).filter(
     (s) => s.engagement_pct < 70
   ).length;
 
-  const highPerformers = departmentComparison.filter(
+  const highPerformers = (departmentComparison || []).filter(
     (s) => s.vs_global > 0.1
   ).length;
 
@@ -79,7 +79,7 @@ export default function SegmentationPage() {
                   <Users className="h-5 w-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold">{globalStats.totalRespondents}</p>
+                  <p className="text-2xl font-bold">{globalStats?.totalRespondents ?? 0}</p>
                   <p className="text-xs text-muted-foreground">Total Respuestas</p>
                 </div>
               </div>
@@ -93,7 +93,7 @@ export default function SegmentationPage() {
                   <TrendingUp className="h-5 w-5 text-cyan-600" />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold">{globalStats.globalScore.toFixed(2)}</p>
+                  <p className="text-2xl font-bold">{(globalStats?.globalScore ?? 0).toFixed(2)}</p>
                   <p className="text-xs text-muted-foreground">Score Global</p>
                 </div>
               </div>
@@ -107,21 +107,21 @@ export default function SegmentationPage() {
                   <Building2 className="h-5 w-5 text-green-600" />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold">{departmentComparison.length}</p>
+                  <p className="text-2xl font-bold">{(departmentComparison || []).length}</p>
                   <p className="text-xs text-muted-foreground">Áreas Analizadas</p>
                 </div>
               </div>
             </CardContent>
           </Card>
 
-          <Card className={riskGroups.length > 0 ? "border-red-200" : ""}>
+          <Card className={(riskGroups || []).length > 0 ? "border-red-200" : ""}>
             <CardContent className="p-4">
               <div className="flex items-center gap-3">
                 <div className="p-2 rounded-lg bg-red-500/10">
                   <AlertTriangle className="h-5 w-5 text-red-600" />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold">{riskGroups.length}</p>
+                  <p className="text-2xl font-bold">{(riskGroups || []).length}</p>
                   <p className="text-xs text-muted-foreground">Grupos de Riesgo</p>
                 </div>
               </div>
@@ -212,7 +212,7 @@ export default function SegmentationPage() {
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3 text-sm">
-                      {tenureComparison[0] && tenureComparison[tenureComparison.length - 1] && (
+                      {tenureComparison?.length > 0 && tenureComparison[0] && tenureComparison[tenureComparison.length - 1] && (
                         <>
                           <div className="flex items-start gap-2">
                             <TrendingUp className="h-4 w-4 text-green-600 mt-0.5" />
@@ -268,7 +268,7 @@ export default function SegmentationPage() {
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3 text-sm">
-                      {genderComparison.length >= 2 && (
+                      {(genderComparison || []).length >= 2 && (
                         <>
                           <div className="flex items-start gap-2">
                             <Users className="h-4 w-4 text-primary mt-0.5" />
@@ -323,19 +323,19 @@ export default function SegmentationPage() {
                     <div className="grid gap-4 sm:grid-cols-3">
                       <div className="text-center p-4 rounded-lg bg-red-50 dark:bg-red-950/20">
                         <p className="text-3xl font-bold text-red-600">
-                          {riskGroups.filter((r) => r.risk_level === "high").length}
+                          {(riskGroups || []).filter((r) => r.risk_level === "high").length}
                         </p>
                         <p className="text-sm text-muted-foreground">Alto Riesgo</p>
                       </div>
                       <div className="text-center p-4 rounded-lg bg-yellow-50 dark:bg-yellow-950/20">
                         <p className="text-3xl font-bold text-yellow-600">
-                          {riskGroups.filter((r) => r.risk_level === "medium").length}
+                          {(riskGroups || []).filter((r) => r.risk_level === "medium").length}
                         </p>
                         <p className="text-sm text-muted-foreground">Riesgo Medio</p>
                       </div>
                       <div className="text-center p-4 rounded-lg bg-slate-50 dark:bg-slate-950/20">
                         <p className="text-3xl font-bold text-slate-600">
-                          {riskGroups.reduce((sum, r) => sum + r.respondent_count, 0)}
+                          {(riskGroups || []).reduce((sum, r) => sum + r.respondent_count, 0)}
                         </p>
                         <p className="text-sm text-muted-foreground">Colaboradores Afectados</p>
                       </div>
@@ -350,14 +350,14 @@ export default function SegmentationPage() {
                 />
 
                 {/* Action recommendations */}
-                {riskGroups.length > 0 && (
+                {(riskGroups || []).length > 0 && (
                   <Card>
                     <CardHeader>
                       <CardTitle className="text-base">Recomendaciones de Acción</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <div className="space-y-4">
-                        {riskGroups.slice(0, 3).map((group) => (
+                        {(riskGroups || []).slice(0, 3).map((group) => (
                           <div
                             key={group.id}
                             className="p-3 rounded-lg bg-muted/50 border-l-4 border-red-500"
@@ -382,7 +382,7 @@ export default function SegmentationPage() {
                   </Card>
                 )}
 
-                {riskGroups.length === 0 && (
+                {(riskGroups || []).length === 0 && (
                   <Card>
                     <CardContent className="py-8 text-center text-muted-foreground">
                       No se identificaron grupos de riesgo con engagement menor al 70%.

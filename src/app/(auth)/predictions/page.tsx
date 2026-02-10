@@ -150,7 +150,7 @@ export default function PredictionsPage() {
             {isLoading ? (
               <Skeleton className="h-[500px]" />
             ) : (
-              <EarlyAlertsList alerts={alerts} />
+              <EarlyAlertsList alerts={alerts || []} />
             )}
           </TabsContent>
         </Tabs>

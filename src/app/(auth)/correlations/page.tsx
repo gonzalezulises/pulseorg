@@ -75,10 +75,10 @@ export default function CorrelationsPage() {
   const handleBusinessCorrelationClick = useCallback(
     (dimensionCode: string, indicator: string) => {
       // Find dimension index
-      const dimIndex = dimensions.findIndex((d) => d.code === dimensionCode);
+      const dimIndex = (dimensions || []).findIndex((d) => d.code === dimensionCode);
       if (dimIndex !== -1) {
         // For business indicators, we show scatter against engagement (D17)
-        const engagementIndex = dimensions.findIndex((d) => d.code === "D17");
+        const engagementIndex = (dimensions || []).findIndex((d) => d.code === "D17");
         setScatterDialog({
           open: true,
           dim1Index: dimIndex,
@@ -193,7 +193,7 @@ export default function CorrelationsPage() {
 
   // Business impact summary
   const businessImpactSummary = useMemo(() => {
-    if (!businessCorrelations.length) return null;
+    if (!businessCorrelations || !businessCorrelations.length) return null;
 
     const rotationImpact = [...businessCorrelations].sort(
       (a, b) => Math.abs(b.rotation) - Math.abs(a.rotation)
@@ -306,7 +306,7 @@ export default function CorrelationsPage() {
                   />
                 )}
                 <BusinessCorrelationsTable
-                  data={businessCorrelations}
+                  data={businessCorrelations || []}
                   onDimensionClick={handleBusinessCorrelationClick}
                 />
               </>
@@ -326,12 +326,12 @@ export default function CorrelationsPage() {
               </div>
             ) : (
               <>
-                <DriversSummary drivers={engagementDrivers} />
+                <DriversSummary drivers={engagementDrivers || []} />
                 <EngagementDriversChart
                   data={engagementDrivers}
                   onBarClick={(dimCode) => {
-                    const dimIndex = dimensions.findIndex((d) => d.code === dimCode);
-                    const engIndex = dimensions.findIndex((d) => d.code === "D17");
+                    const dimIndex = (dimensions || []).findIndex((d) => d.code === dimCode);
+                    const engIndex = (dimensions || []).findIndex((d) => d.code === "D17");
                     if (dimIndex !== -1 && engIndex !== -1) {
                       setScatterDialog({ open: true, dim1Index: dimIndex, dim2Index: engIndex });
                     }

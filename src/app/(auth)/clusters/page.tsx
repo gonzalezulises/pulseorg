@@ -340,7 +340,7 @@ export default function ClustersPage() {
               <div className="grid gap-6 lg:grid-cols-3">
                 {/* Clusters List */}
                 <ClusterPanel
-                  clusters={clusters}
+                  clusters={clusters || []}
                   selectedClusterId={selectedClusterId}
                   onClusterSelect={handleClusterSelect}
                   maxParticipants={metrics?.participant_count}

@@ -208,7 +208,7 @@ export default function AnalyticsPage() {
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
-                  {availableYears.map((year) => (
+                  {(availableYears || []).map((year) => (
                     <SelectItem key={year} value={year.toString()}>
                       {year}
                     </SelectItem>
@@ -247,7 +247,7 @@ export default function AnalyticsPage() {
                       <div className="grid gap-4 lg:grid-cols-2">
                         {/* Keyword Cloud */}
                         <KeywordCloud
-                          keywords={data.keywords}
+                          keywords={data.keywords || []}
                           title={`Palabras Clave - ${title}`}
                         />
 
@@ -261,13 +261,13 @@ export default function AnalyticsPage() {
                       <div className="grid gap-4 lg:grid-cols-2">
                         {/* Top Keywords List */}
                         <KeywordList
-                          keywords={data.keywords}
+                          keywords={data.keywords || []}
                           title="Top 10 Palabras"
                         />
 
                         {/* Bigrams */}
                         <BigramList
-                          bigrams={data.bigrams}
+                          bigrams={data.bigrams || []}
                           title="Frases Comunes"
                         />
                       </div>
