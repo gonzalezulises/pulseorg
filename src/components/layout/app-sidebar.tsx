@@ -169,7 +169,10 @@ export function AppSidebar() {
 
       <SidebarFooter className="border-t border-sidebar-border px-4 py-4">
         <p className="text-xs text-sidebar-foreground/50">
-          © 2026 PulseOrg
+          © 2026 PulseOrg ·{" "}
+          <a href="https://www.rizo.ma" target="_blank" rel="noopener noreferrer" className="underline hover:text-sidebar-foreground">
+            rizo.ma
+          </a>
         </p>
       </SidebarFooter>
     </Sidebar>
