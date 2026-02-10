@@ -317,7 +317,7 @@
   ],
   "podium": [
     {
-      "area": "Seguridad de la información y ciberseguridad",
+      "area": "Seguridad Informática",
       "engagement": 5.0,
       "respondents": 6,
       "dimensions": {
@@ -367,7 +367,7 @@
       ]
     },
     {
-      "area": "Dominio de Automatización",
+      "area": "Transformación Digital",
       "engagement": 4.95,
       "respondents": 7,
       "dimensions": {
@@ -417,7 +417,7 @@
       ]
     },
     {
-      "area": "Gente Tower y Administración",
+      "area": "Gestión del Talento",
       "engagement": 4.9,
       "respondents": 7,
       "dimensions": {
@@ -476,7 +476,7 @@
   ],
   "area_of_month": {
     "current": {
-      "area": "Gente Tower y Administración",
+      "area": "Gestión del Talento",
       "improvement": 0.34,
       "previous_score": 4.56,
       "current_score": 4.9,
@@ -507,7 +507,7 @@
       },
       {
         "month": "Noviembre 2025",
-        "area": "Dominio de Automatización",
+        "area": "Transformación Digital",
         "improvement": 0.12
       },
       {
@@ -575,147 +575,147 @@
   ],
   "achievements": [
     {
-      "id": "dim_engagement_Seguridad de la información y ciberseguridad",
+      "id": "dim_engagement_Seguridad Informática",
       "type": "dimension",
       "icon": "star",
-      "message": "Seguridad de la información y ciberseguridad alcanzó 5.00 en Engagement Global",
-      "area": "Seguridad de la información y ciberseguridad",
+      "message": "Seguridad Informática alcanzó 5.00 en Engagement Global",
+      "area": "Seguridad Informática",
       "dimension": "engagement",
       "value": 5.0,
       "date": "2026-01-20T01:14:57.432510"
     },
     {
-      "id": "engagement_Dominio de Automatización",
+      "id": "engagement_Transformación Digital",
       "type": "milestone",
       "icon": "trophy",
-      "message": "Dominio de Automatización superó 4.5 en Engagement",
-      "area": "Dominio de Automatización",
+      "message": "Transformación Digital superó 4.5 en Engagement",
+      "area": "Transformación Digital",
       "value": 4.95,
       "date": "2026-01-18T01:14:57.432510"
     },
     {
-      "id": "engagement_Seguridad de la información y ciberseguridad",
+      "id": "engagement_Seguridad Informática",
       "type": "milestone",
       "icon": "trophy",
-      "message": "Seguridad de la información y ciberseguridad superó 4.5 en Engagement",
-      "area": "Seguridad de la información y ciberseguridad",
+      "message": "Seguridad Informática superó 4.5 en Engagement",
+      "area": "Seguridad Informática",
       "value": 5.0,
       "date": "2026-01-14T01:14:57.432510"
     },
     {
-      "id": "dim_balance_Seguridad de la información y ciberseguridad",
+      "id": "dim_balance_Seguridad Informática",
       "type": "dimension",
       "icon": "star",
-      "message": "Seguridad de la información y ciberseguridad alcanzó 4.83 en Balance Vida-Trabajo",
-      "area": "Seguridad de la información y ciberseguridad",
+      "message": "Seguridad Informática alcanzó 4.83 en Balance Vida-Trabajo",
+      "area": "Seguridad Informática",
       "dimension": "balance",
       "value": 4.83,
       "date": "2026-01-14T01:14:57.432510"
     },
     {
-      "id": "dim_balance_Dominio de Automatización",
+      "id": "dim_balance_Transformación Digital",
       "type": "dimension",
       "icon": "star",
-      "message": "Dominio de Automatización alcanzó 4.79 en Balance Vida-Trabajo",
-      "area": "Dominio de Automatización",
+      "message": "Transformación Digital alcanzó 4.79 en Balance Vida-Trabajo",
+      "area": "Transformación Digital",
       "dimension": "balance",
       "value": 4.79,
       "date": "2026-01-11T01:14:57.432510"
     },
     {
-      "id": "dim_liderazgo_Dominio de Automatización",
+      "id": "dim_liderazgo_Transformación Digital",
       "type": "dimension",
       "icon": "star",
-      "message": "Dominio de Automatización alcanzó 4.93 en Liderazgo Efectivo",
-      "area": "Dominio de Automatización",
+      "message": "Transformación Digital alcanzó 4.93 en Liderazgo Efectivo",
+      "area": "Transformación Digital",
       "dimension": "liderazgo",
       "value": 4.93,
       "date": "2026-01-09T01:14:57.432510"
     },
     {
-      "id": "dim_reconocimiento_Seguridad de la información y ciberseguridad",
+      "id": "dim_reconocimiento_Seguridad Informática",
       "type": "dimension",
       "icon": "star",
-      "message": "Seguridad de la información y ciberseguridad alcanzó 4.92 en Reconocimiento",
-      "area": "Seguridad de la información y ciberseguridad",
+      "message": "Seguridad Informática alcanzó 4.92 en Reconocimiento",
+      "area": "Seguridad Informática",
       "dimension": "reconocimiento",
       "value": 4.92,
       "date": "2026-01-08T01:14:57.432510"
     },
     {
-      "id": "dim_liderazgo_Gente Tower y Administración",
+      "id": "dim_liderazgo_Gestión del Talento",
       "type": "dimension",
       "icon": "star",
-      "message": "Gente Tower y Administración alcanzó 4.89 en Liderazgo Efectivo",
-      "area": "Gente Tower y Administración",
+      "message": "Gestión del Talento alcanzó 4.89 en Liderazgo Efectivo",
+      "area": "Gestión del Talento",
       "dimension": "liderazgo",
       "value": 4.89,
       "date": "2026-01-08T01:14:57.432510"
     },
     {
-      "id": "engagement_Gente Tower y Administración",
+      "id": "engagement_Gestión del Talento",
       "type": "milestone",
       "icon": "trophy",
-      "message": "Gente Tower y Administración superó 4.5 en Engagement",
-      "area": "Gente Tower y Administración",
+      "message": "Gestión del Talento superó 4.5 en Engagement",
+      "area": "Gestión del Talento",
       "value": 4.9,
       "date": "2026-01-06T01:14:57.432510"
     },
     {
-      "id": "dim_compensacion_Seguridad de la información y ciberseguridad",
+      "id": "dim_compensacion_Seguridad Informática",
       "type": "dimension",
       "icon": "star",
-      "message": "Seguridad de la información y ciberseguridad alcanzó 4.67 en Compensación",
-      "area": "Seguridad de la información y ciberseguridad",
+      "message": "Seguridad Informática alcanzó 4.67 en Compensación",
+      "area": "Seguridad Informática",
       "dimension": "compensacion",
       "value": 4.67,
       "date": "2026-01-06T01:14:57.432510"
     },
     {
-      "id": "engagement_Dominio IA & Data",
+      "id": "engagement_Analítica de Datos",
       "type": "milestone",
       "icon": "trophy",
-      "message": "Dominio IA & Data superó 4.5 en Engagement",
-      "area": "Dominio IA & Data",
+      "message": "Analítica de Datos superó 4.5 en Engagement",
+      "area": "Analítica de Datos",
       "value": 4.78,
       "date": "2026-01-03T01:14:57.432510"
     },
     {
-      "id": "dim_reconocimiento_Gente Tower y Administración",
+      "id": "dim_reconocimiento_Gestión del Talento",
       "type": "dimension",
       "icon": "star",
-      "message": "Gente Tower y Administración alcanzó 4.71 en Reconocimiento",
-      "area": "Gente Tower y Administración",
+      "message": "Gestión del Talento alcanzó 4.71 en Reconocimiento",
+      "area": "Gestión del Talento",
       "dimension": "reconocimiento",
       "value": 4.71,
       "date": "2026-01-03T01:14:57.432510"
     },
     {
-      "id": "dim_balance_Gente Tower y Administración",
+      "id": "dim_balance_Gestión del Talento",
       "type": "dimension",
       "icon": "star",
-      "message": "Gente Tower y Administración alcanzó 4.93 en Balance Vida-Trabajo",
-      "area": "Gente Tower y Administración",
+      "message": "Gestión del Talento alcanzó 4.93 en Balance Vida-Trabajo",
+      "area": "Gestión del Talento",
       "dimension": "balance",
       "value": 4.93,
       "date": "2026-01-02T01:14:57.432510"
     },
     {
-      "id": "dim_liderazgo_Seguridad de la información y ciberseguridad",
+      "id": "dim_liderazgo_Seguridad Informática",
       "type": "dimension",
       "icon": "star",
-      "message": "Seguridad de la información y ciberseguridad alcanzó 4.96 en Liderazgo Efectivo",
-      "area": "Seguridad de la información y ciberseguridad",
+      "message": "Seguridad Informática alcanzó 4.96 en Liderazgo Efectivo",
+      "area": "Seguridad Informática",
       "dimension": "liderazgo",
       "value": 4.96,
       "date": "2026-01-01T01:14:57.432510"
     },
     {
-      "id": "dim_orgullo_institucional_Dominio de Automatización",
+      "id": "dim_orgullo_institucional_Transformación Digital",
       "type": "dimension",
       "icon": "star",
-      "message": "Dominio de Automatización alcanzó 5.00 en Orgullo Institucional",
-      "area": "Dominio de Automatización",
+      "message": "Transformación Digital alcanzó 5.00 en Orgullo Institucional",
+      "area": "Transformación Digital",
       "dimension": "orgullo_institucional",
       "value": 5.0,
       "date": "2025-12-31T01:14:57.432510"
