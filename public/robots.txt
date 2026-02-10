@@ -1,0 +1,8 @@
+# Prevenir indexación por motores de búsqueda
+# Este dashboard contiene datos internos de la organización
+
+User-agent: *
+Disallow: /
+
+# No permitir archivos de datos
+Disallow: /data/

@@ -1,0 +1,211 @@
+{
+  "generated_at": "2026-01-21T02:07:00.718465",
+  "global_engagement": 90.6,
+  "global_score": 4.48,
+  "total_respondents": 1200,
+  "by_department": [
+    {
+      "segment_id": "ventas_tienda",
+      "segment_name": "Ventas Tienda",
+      "segment_type": "department",
+      "respondent_count": 116,
+      "engagement_score": 4.7,
+      "engagement_pct": 95.4,
+      "dimensions": []
+    },
+    {
+      "segment_id": "log_stica",
+      "segment_name": "Logística",
+      "segment_type": "department",
+      "respondent_count": 112,
+      "engagement_score": 4.61,
+      "engagement_pct": 94.1,
+      "dimensions": []
+    },
+    {
+      "segment_id": "e_commerce",
+      "segment_name": "E-Commerce",
+      "segment_type": "department",
+      "respondent_count": 126,
+      "engagement_score": 4.52,
+      "engagement_pct": 91.7,
+      "dimensions": []
+    },
+    {
+      "segment_id": "marketing",
+      "segment_name": "Marketing",
+      "segment_type": "department",
+      "respondent_count": 127,
+      "engagement_score": 4.72,
+      "engagement_pct": 93.7,
+      "dimensions": []
+    },
+    {
+      "segment_id": "rrhh",
+      "segment_name": "RRHH",
+      "segment_type": "department",
+      "respondent_count": 115,
+      "engagement_score": 4.64,
+      "engagement_pct": 92.7,
+      "dimensions": []
+    },
+    {
+      "segment_id": "finanzas",
+      "segment_name": "Finanzas",
+      "segment_type": "department",
+      "respondent_count": 126,
+      "engagement_score": 4.68,
+      "engagement_pct": 92.6,
+      "dimensions": []
+    },
+    {
+      "segment_id": "compras",
+      "segment_name": "Compras",
+      "segment_type": "department",
+      "respondent_count": 129,
+      "engagement_score": 4.67,
+      "engagement_pct": 92.5,
+      "dimensions": []
+    },
+    {
+      "segment_id": "atenci_n_al_cliente",
+      "segment_name": "Atención al Cliente",
+      "segment_type": "department",
+      "respondent_count": 119,
+      "engagement_score": 4.47,
+      "engagement_pct": 90.4,
+      "dimensions": []
+    },
+    {
+      "segment_id": "it",
+      "segment_name": "IT",
+      "segment_type": "department",
+      "respondent_count": 121,
+      "engagement_score": 4.5,
+      "engagement_pct": 90.8,
+      "dimensions": []
+    },
+    {
+      "segment_id": "operaciones",
+      "segment_name": "Operaciones",
+      "segment_type": "department",
+      "respondent_count": 112,
+      "engagement_score": 4.44,
+      "engagement_pct": 90.0,
+      "dimensions": []
+    }
+  ],
+  "by_tenure": [
+    {
+      "segment_id": "menos_de_1_año",
+      "segment_name": "Menos de 1 año",
+      "segment_type": "tenure",
+      "respondent_count": 286,
+      "engagement_score": 4.53,
+      "engagement_pct": 90.4,
+      "dimensions": []
+    },
+    {
+      "segment_id": "entre_1_y_3_años",
+      "segment_name": "1-3 años",
+      "segment_type": "tenure",
+      "respondent_count": 476,
+      "engagement_score": 4.37,
+      "engagement_pct": 88.6,
+      "dimensions": []
+    },
+    {
+      "segment_id": "entre_3_y_5_años",
+      "segment_name": "3-5 años",
+      "segment_type": "tenure",
+      "respondent_count": 108,
+      "engagement_score": 4.29,
+      "engagement_pct": 87.2,
+      "dimensions": []
+    },
+    {
+      "segment_id": "más_de_7_años",
+      "segment_name": "Más de 7 años",
+      "segment_type": "tenure",
+      "respondent_count": 273,
+      "engagement_score": 4.24,
+      "engagement_pct": 86.5,
+      "dimensions": []
+    },
+    {
+      "segment_id": "entre_5_y_7_años",
+      "segment_name": "5-7 años",
+      "segment_type": "tenure",
+      "respondent_count": 57,
+      "engagement_score": 4.27,
+      "engagement_pct": 85.1,
+      "dimensions": []
+    }
+  ],
+  "by_gender": [
+    {
+      "segment_id": "masculino",
+      "segment_name": "Masculino",
+      "segment_type": "gender",
+      "respondent_count": 476,
+      "engagement_score": 4.51,
+      "engagement_pct": 90.2,
+      "dimensions": []
+    },
+    {
+      "segment_id": "femenino",
+      "segment_name": "Femenino",
+      "segment_type": "gender",
+      "respondent_count": 692,
+      "engagement_score": 4.46,
+      "engagement_pct": 88.7,
+      "dimensions": []
+    }
+  ],
+  "by_hierarchy": [],
+  "by_location": [],
+  "risk_groups": [],
+  "heatmap": {
+    "segments": [
+      "Ventas Tienda",
+      "Logística",
+      "E-Commerce",
+      "Marketing",
+      "RRHH",
+      "Finanzas",
+      "Compras",
+      "Atención al Cliente",
+      "IT",
+      "Operaciones"
+    ],
+    "segment_keys": [
+      "ventas_tienda",
+      "log_stica",
+      "e_commerce",
+      "marketing",
+      "rrhh",
+      "finanzas",
+      "compras",
+      "atenci_n_al_cliente",
+      "it",
+      "operaciones"
+    ],
+    "dimensions": [
+      "Orgullo Institucional",
+      "Liderazgo Efectivo",
+      "Comunicación Interna",
+      "Desarrollo Profesional",
+      "Balance Vida-Trabajo",
+      "Compensación"
+    ],
+    "dimension_keys": [
+      "orgullo_institucional",
+      "liderazgo_efectivo",
+      "comunicacion_interna",
+      "desarrollo_profesional",
+      "balance_vida_trabajo",
+      "compensacion"
+    ],
+    "cells": []
+  }
+}

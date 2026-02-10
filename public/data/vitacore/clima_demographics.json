@@ -1,0 +1,508 @@
+{
+  "generated_at": "2026-01-20T21:46:21.120470",
+  "model_version": "v2_demographics",
+  "years": {
+    "2023": {
+      "year": 2023,
+      "ficha_tecnica": {
+        "population_n": 800,
+        "sample_n": 700,
+        "response_rate": 87.5,
+        "margin_of_error": 3.4,
+        "confidence_level": 95
+      },
+      "demographics": {
+        "departments": {
+          "Medicina General": 72,
+          "Enfermería": 73,
+          "Farmacia": 64,
+          "Laboratorio": 65,
+          "Administración": 66,
+          "TI Salud": 76,
+          "Recursos Humanos": 70,
+          "Calidad": 68,
+          "Urgencias": 69,
+          "Investigación": 77
+        },
+        "genders": {
+          "Masculino": 213,
+          "Femenino": 473,
+          "Sin especificar": 7,
+          "Otro": 7
+        },
+        "tenures": {
+          "Sin especificar": 700
+        },
+        "generations": {
+          "Sin especificar": 105
+        }
+      },
+      "enps": {
+        "enps": 0,
+        "promoters": 1,
+        "passives": 1,
+        "detractors": 1,
+        "score": 36.8
+      },
+      "top_5_items": [
+        {
+          "item": "Las personas son tratadas con justicia independientemente de su orientación sexu",
+          "question": "Las personas son tratadas con justicia independientemente de su orientación sexual",
+          "avg_score": 4.02,
+          "favorability": 100.0,
+          "n": 33
+        },
+        {
+          "item": "Las personas son tratadas con justicia independientemente de su condición socioe",
+          "question": "Las personas son tratadas con justicia independientemente de su condición socioeconómica",
+          "avg_score": 4.0,
+          "favorability": 97.3,
+          "n": 37
+        },
+        {
+          "item": "Aquí celebramos eventos especiales.",
+          "question": "Aquí celebramos eventos especiales.",
+          "avg_score": 3.97,
+          "favorability": 97.4,
+          "n": 39
+        },
+        {
+          "item": "Las personas son tratadas con justicia independientemente de su edad",
+          "question": "Las personas son tratadas con justicia independientemente de su edad",
+          "avg_score": 3.94,
+          "favorability": 96.0,
+          "n": 50
+        },
+        {
+          "item": "Mi jefe conduce el área o departamento de forma competente.",
+          "question": "Mi jefe conduce el área o departamento de forma competente.",
+          "avg_score": 3.96,
+          "favorability": 95.6,
+          "n": 45
+        }
+      ],
+      "bottom_5_items": [
+        {
+          "item": "Mi jefe reconoce el esfuerzo y trabajo adicional que yo realizo.",
+          "question": "Mi jefe reconoce el esfuerzo y trabajo adicional que yo realizo.",
+          "avg_score": 3.67,
+          "favorability": 81.6,
+          "n": 49
+        },
+        {
+          "item": "Mi jefe habla conmigo de forma periódica sobre la calidad de mi trabajo y como p",
+          "question": "Mi jefe habla conmigo de forma periódica sobre la calidad de mi trabajo y como podría mejorar",
+          "avg_score": 3.59,
+          "favorability": 80.9,
+          "n": 47
+        },
+        {
+          "item": "Aquí tenemos beneficios especiales, que no son comunes.",
+          "question": "Aquí tenemos beneficios especiales, que no son comunes.",
+          "avg_score": 3.46,
+          "favorability": 70.0,
+          "n": 50
+        },
+        {
+          "item": "Aquí me ofrecen capacitación u otras formas de desarrollo para crecer laboralmen",
+          "question": "Aquí me ofrecen capacitación u otras formas de desarrollo para crecer laboralmente",
+          "avg_score": 3.3,
+          "favorability": 69.4,
+          "n": 49
+        },
+        {
+          "item": "Aquí todos tenemos la oportunidad de recibir un reconocimiento especial",
+          "question": "Aquí todos tenemos la oportunidad de recibir un reconocimiento especial",
+          "avg_score": 3.27,
+          "favorability": 68.1,
+          "n": 47
+        }
+      ]
+    },
+    "2024": {
+      "year": 2024,
+      "ficha_tecnica": {
+        "population_n": 800,
+        "sample_n": 732,
+        "response_rate": 91.5,
+        "margin_of_error": 2.12,
+        "confidence_level": 95
+      },
+      "demographics": {
+        "departments": {
+          "Medicina General": 69,
+          "Enfermería": 75,
+          "Farmacia": 75,
+          "Laboratorio": 78,
+          "Administración": 76,
+          "TI Salud": 71,
+          "Recursos Humanos": 75,
+          "Calidad": 76,
+          "Urgencias": 67,
+          "Investigación": 70
+        },
+        "genders": {
+          "Femenino": 416,
+          "Sin especificar": 28,
+          "Masculino": 284,
+          "Otro": 4
+        },
+        "tenures": {
+          ">7 años": 232,
+          "3-5 años": 40,
+          "<1 año": 204,
+          "1-3 años": 200,
+          "5-7 años": 56
+        },
+        "generations": {
+          "Veteranos": 58,
+          "Millennials": 10,
+          "Gen Z / Nuevos": 51,
+          "Millennials Recientes": 50,
+          "Gen X / Senior": 14
+        }
+      },
+      "enps": {
+        "enps": 66.1,
+        "promoters_n": 265,
+        "promoters_pct": 72.4,
+        "passives_n": 78,
+        "passives_pct": 21.3,
+        "detractors_n": 23,
+        "detractors_pct": 6.3,
+        "score": 41.9
+      },
+      "top_5_items": [
+        {
+          "item": "Las personas son tratadas con justicia, independientemente de su orientación sex",
+          "question": "Las personas son tratadas con justicia, independientemente de su orientación sexual.",
+          "avg_score": 4.85,
+          "favorability": 98.4,
+          "n": 183
+        },
+        {
+          "item": "Las personas son tratadas con justicia, independientemente de su raza.",
+          "question": "Las personas son tratadas con justicia, independientemente de su raza.",
+          "avg_score": 4.82,
+          "favorability": 97.3,
+          "n": 183
+        },
+        {
+          "item": "Las personas son tratadas con justicia, independientemente de su género.",
+          "question": "Las personas son tratadas con justicia, independientemente de su género.",
+          "avg_score": 4.86,
+          "favorability": 97.8,
+          "n": 183
+        },
+        {
+          "item": "Éste es un lugar físicamente seguro para trabajar.",
+          "question": "Éste es un lugar físicamente seguro para trabajar.",
+          "avg_score": 4.77,
+          "favorability": 97.3,
+          "n": 183
+        },
+        {
+          "item": "Las personas son tratadas con justicia, independientemente de su condición socio",
+          "question": "Las personas son tratadas con justicia, independientemente de su condición socio-económica.",
+          "avg_score": 4.66,
+          "favorability": 96.7,
+          "n": 183
+        }
+      ],
+      "bottom_5_items": [
+        {
+          "item": "Las personas evitan los rumores o politiquería para conseguir las cosas.",
+          "question": "Las personas evitan los rumores o politiquería para conseguir las cosas.",
+          "avg_score": 4.06,
+          "favorability": 79.8,
+          "n": 183
+        },
+        {
+          "item": "Aquí me ofrecen capacitación u otras formas de desarrollo para crecer laboralmen",
+          "question": "Aquí me ofrecen capacitación u otras formas de desarrollo para crecer laboralmente.",
+          "avg_score": 4.22,
+          "favorability": 77.6,
+          "n": 183
+        },
+        {
+          "item": "Éste es un lugar psicológica y emocionalmente saludable para trabajar.",
+          "question": "Éste es un lugar psicológica y emocionalmente saludable para trabajar.",
+          "avg_score": 4.12,
+          "favorability": 76.5,
+          "n": 183
+        },
+        {
+          "item": "Aquí todos tenemos la oportunidad de recibir un reconocimiento especial.\n",
+          "question": "Aquí todos tenemos la oportunidad de recibir un reconocimiento especial.\n",
+          "avg_score": 3.97,
+          "favorability": 74.3,
+          "n": 183
+        },
+        {
+          "item": "Aquí tenemos beneficios especiales, que no son comunes en otras organizaciones.",
+          "question": "Aquí tenemos beneficios especiales, que no son comunes en otras organizaciones.",
+          "avg_score": 4.01,
+          "favorability": 73.2,
+          "n": 183
+        }
+      ]
+    },
+    "2025": {
+      "year": 2025,
+      "ficha_tecnica": {
+        "population_n": 800,
+        "sample_n": 689,
+        "response_rate": 86.1,
+        "margin_of_error": 2.94,
+        "confidence_level": 95
+      },
+      "demographics": {
+        "departments": {
+          "Medicina General": 68,
+          "Enfermería": 72,
+          "Farmacia": 67,
+          "Laboratorio": 69,
+          "Administración": 68,
+          "TI Salud": 71,
+          "Recursos Humanos": 69,
+          "Calidad": 73,
+          "Urgencias": 62,
+          "Investigación": 70
+        },
+        "genders": {
+          "Femenino": 436,
+          "Masculino": 240,
+          "Sin especificar": 9,
+          "Otro": 4
+        },
+        "tenures": {
+          "3-5 años": 62,
+          ">7 años": 231,
+          "<1 año": 151,
+          "1-3 años": 151,
+          "5-7 años": 80,
+          "Sin especificar": 13
+        },
+        "generations": {
+          "Millennials": 14,
+          "Veteranos": 52,
+          "Gen Z / Nuevos": 34,
+          "Millennials Recientes": 34,
+          "Gen X / Senior": 18,
+          "Sin especificar": 3
+        }
+      },
+      "enps": {
+        "enps": 55.9,
+        "promoters_n": 207,
+        "promoters_pct": 67.6,
+        "passives_n": 63,
+        "passives_pct": 20.6,
+        "detractors_n": 36,
+        "detractors_pct": 11.8,
+        "score": 40.3
+      },
+      "top_5_items": [
+        {
+          "item": "Las personas son tratadas con justicia, independientemente de su orientación sex",
+          "question": "Las personas son tratadas con justicia, independientemente de su orientación sexual.",
+          "avg_score": 4.7,
+          "favorability": 96.0,
+          "n": 151
+        },
+        {
+          "item": "Éste es un lugar físicamente seguro para trabajar.",
+          "question": "Éste es un lugar físicamente seguro para trabajar.",
+          "avg_score": 4.65,
+          "favorability": 93.4,
+          "n": 152
+        },
+        {
+          "item": "Las personas son tratadas con justicia, independientemente de su raza.",
+          "question": "Las personas son tratadas con justicia, independientemente de su raza.",
+          "avg_score": 4.73,
+          "favorability": 94.1,
+          "n": 153
+        },
+        {
+          "item": "Las personas son tratadas con justicia, independientemente de su género.",
+          "question": "Las personas son tratadas con justicia, independientemente de su género.",
+          "avg_score": 4.63,
+          "favorability": 94.1,
+          "n": 153
+        },
+        {
+          "item": "Mi líder realiza su trabajo y conduce nuestro departamento de una forma honesta ",
+          "question": "Mi líder realiza su trabajo y conduce nuestro departamento de una forma honesta y ética.",
+          "avg_score": 4.54,
+          "favorability": 90.8,
+          "n": 153
+        }
+      ],
+      "bottom_5_items": [
+        {
+          "item": "Éste es un lugar piscológica y emocionalmente saludable para trabajar.",
+          "question": "Éste es un lugar piscológica y emocionalmente saludable para trabajar.",
+          "avg_score": 3.89,
+          "favorability": 67.8,
+          "n": 152
+        },
+        {
+          "item": "Aquí me ofrecen capacitación u otras formas de desarrollo para crecer laboralmen",
+          "question": "Aquí me ofrecen capacitación u otras formas de desarrollo para crecer laboralmente.",
+          "avg_score": 3.84,
+          "favorability": 68.0,
+          "n": 153
+        },
+        {
+          "item": "Las personas evitan los rumores o politiquería para conseguir las cosas.",
+          "question": "Las personas evitan los rumores o politiquería para conseguir las cosas.",
+          "avg_score": 3.79,
+          "favorability": 68.4,
+          "n": 152
+        },
+        {
+          "item": "Aquí tenemos beneficios especiales, que no son comunes en otras organizaciones.",
+          "question": "Aquí tenemos beneficios especiales, que no son comunes en otras organizaciones.",
+          "avg_score": 3.73,
+          "favorability": 66.0,
+          "n": 153
+        },
+        {
+          "item": "Aquí todos tenemos la oportunidad de recibir un reconocimiento especial.\n",
+          "question": "Aquí todos tenemos la oportunidad de recibir un reconocimiento especial.\n",
+          "avg_score": 3.57,
+          "favorability": 59.9,
+          "n": 152
+        }
+      ]
+    },
+    "2026": {
+      "year": 2026,
+      "ficha_tecnica": {
+        "population_n": 800,
+        "sample_n": 710,
+        "response_rate": 88.8,
+        "margin_of_error": 2.4,
+        "confidence_level": 95
+      },
+      "demographics": {
+        "departments": {
+          "Medicina General": 70,
+          "Enfermería": 66,
+          "Farmacia": 66,
+          "Laboratorio": 76,
+          "Administración": 76,
+          "TI Salud": 67,
+          "Recursos Humanos": 74,
+          "Calidad": 73,
+          "Urgencias": 70,
+          "Investigación": 72
+        },
+        "genders": {
+          "Femenino": 409,
+          "Masculino": 282,
+          "Sin especificar": 19
+        },
+        "tenures": {
+          "<1 año": 169,
+          "1-3 años": 282,
+          "3-5 años": 64,
+          ">7 años": 162,
+          "5-7 años": 34
+        },
+        "generations": {
+          "Gen Z / Nuevos": 45,
+          "Millennials Recientes": 75,
+          "Millennials": 17,
+          "Veteranos": 43,
+          "Gen X / Senior": 9
+        }
+      },
+      "enps": {
+        "enps": 79.9,
+        "promoters_n": 312,
+        "promoters_pct": 82.5,
+        "passives_n": 56,
+        "passives_pct": 14.8,
+        "detractors_n": 10,
+        "detractors_pct": 2.6,
+        "score": 38.6
+      },
+      "top_5_items": [
+        {
+          "item": "Las personas son tratadas con justicia, independientemente de su orientación sex",
+          "question": "Las personas son tratadas con justicia, independientemente de su orientación sexual.",
+          "avg_score": 4.91,
+          "favorability": 99.5,
+          "n": 189
+        },
+        {
+          "item": "Las personas son tratadas con justicia, independientemente de su género.",
+          "question": "Las personas son tratadas con justicia, independientemente de su género.",
+          "avg_score": 4.79,
+          "favorability": 98.9,
+          "n": 189
+        },
+        {
+          "item": "Las personas son tratadas con justicia, independientemente de su raza.",
+          "question": "Las personas son tratadas con justicia, independientemente de su raza.",
+          "avg_score": 4.71,
+          "favorability": 98.4,
+          "n": 189
+        },
+        {
+          "item": "Éste es un lugar físicamente seguro para trabajar.",
+          "question": "Éste es un lugar físicamente seguro para trabajar.",
+          "avg_score": 4.74,
+          "favorability": 97.4,
+          "n": 189
+        },
+        {
+          "item": "Las personas son tratadas con justicia, independientemente de su condición socio",
+          "question": "Las personas son tratadas con justicia, independientemente de su condición socio-económica.",
+          "avg_score": 4.72,
+          "favorability": 97.9,
+          "n": 189
+        }
+      ],
+      "bottom_5_items": [
+        {
+          "item": "Aquí me ofrecen capacitación u otras formas de desarrollo para crecer laboralmen",
+          "question": "Aquí me ofrecen capacitación u otras formas de desarrollo para crecer laboralmente.",
+          "avg_score": 4.25,
+          "favorability": 83.6,
+          "n": 189
+        },
+        {
+          "item": "Las personas evitan los rumores o politiquería para conseguir las cosas.",
+          "question": "Las personas evitan los rumores o politiquería para conseguir las cosas.",
+          "avg_score": 4.29,
+          "favorability": 83.6,
+          "n": 189
+        },
+        {
+          "item": "Aquí todos tenemos la oportunidad de recibir un reconocimiento especial.\n",
+          "question": "Aquí todos tenemos la oportunidad de recibir un reconocimiento especial.\n",
+          "avg_score": 4.21,
+          "favorability": 83.1,
+          "n": 189
+        },
+        {
+          "item": "Éste es un lugar psicológica y emocionalmente saludable para trabajar.",
+          "question": "Éste es un lugar psicológica y emocionalmente saludable para trabajar.",
+          "avg_score": 4.29,
+          "favorability": 82.0,
+          "n": 189
+        },
+        {
+          "item": "Aquí tenemos beneficios especiales, que no son comunes en otras organizaciones.",
+          "question": "Aquí tenemos beneficios especiales, que no son comunes en otras organizaciones.",
+          "avg_score": 4.04,
+          "favorability": 81.5,
+          "n": 189
+        }
+      ]
+    }
+  }
+}

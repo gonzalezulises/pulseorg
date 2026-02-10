@@ -1,0 +1,949 @@
+{
+  "generated_at": "2026-01-21T01:14:57.432797",
+  "rankings": [
+    {
+      "area": "Finanzas",
+      "engagement": 4.73,
+      "respondents": 11,
+      "dimensions": {
+        "orgullo_institucional": 4.82,
+        "engagement": 4.73,
+        "liderazgo": 4.82,
+        "comunicacion": 4.82,
+        "desarrollo": 4.68,
+        "compensacion": 4.36,
+        "reconocimiento": 4.68,
+        "balance": 4.59,
+        "cohesion": 4.67
+      },
+      "medal": "gold",
+      "rank": 1,
+      "change": 0.11,
+      "trend": "up",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        },
+        {
+          "id": "leadership_excellence",
+          "name": "Excelencia en Liderazgo",
+          "description": "Liderazgo destacado",
+          "icon": "award",
+          "color": "purple"
+        }
+      ],
+      "id": "finanzas",
+      "score": 83.5,
+      "respondent_count": 122
+    },
+    {
+      "area": "E-Commerce",
+      "engagement": 4.9,
+      "respondents": 7,
+      "dimensions": {
+        "orgullo_institucional": 5.0,
+        "engagement": 4.9,
+        "liderazgo": 4.89,
+        "comunicacion": 4.95,
+        "desarrollo": 4.07,
+        "compensacion": 4.21,
+        "reconocimiento": 4.71,
+        "balance": 4.93,
+        "cohesion": 4.95
+      },
+      "medal": "silver",
+      "rank": 2,
+      "change": 0.34,
+      "trend": "up",
+      "badges": [
+        {
+          "id": "rising_star",
+          "name": "Estrella en Ascenso",
+          "description": "Mejoró 0.34 puntos vs año anterior",
+          "icon": "star",
+          "color": "yellow"
+        },
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        },
+        {
+          "id": "leadership_excellence",
+          "name": "Excelencia en Liderazgo",
+          "description": "Liderazgo destacado",
+          "icon": "award",
+          "color": "purple"
+        }
+      ],
+      "id": "e_commerce",
+      "score": 81.8,
+      "respondent_count": 123
+    },
+    {
+      "area": "Compras",
+      "engagement": 4.72,
+      "respondents": 12,
+      "dimensions": {
+        "orgullo_institucional": 4.92,
+        "engagement": 4.72,
+        "liderazgo": 4.73,
+        "comunicacion": 4.69,
+        "desarrollo": 4.67,
+        "compensacion": 4.04,
+        "reconocimiento": 4.58,
+        "balance": 4.67,
+        "cohesion": 4.64
+      },
+      "medal": "bronze",
+      "rank": 3,
+      "change": 0,
+      "trend": "new",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        },
+        {
+          "id": "leadership_excellence",
+          "name": "Excelencia en Liderazgo",
+          "description": "Liderazgo destacado",
+          "icon": "award",
+          "color": "purple"
+        }
+      ],
+      "id": "compras",
+      "score": 80.2,
+      "respondent_count": 125
+    },
+    {
+      "area": "IT",
+      "engagement": 4.67,
+      "respondents": 7,
+      "dimensions": {
+        "orgullo_institucional": 4.93,
+        "engagement": 4.67,
+        "liderazgo": 4.64,
+        "comunicacion": 4.81,
+        "desarrollo": 4.5,
+        "compensacion": 4.43,
+        "reconocimiento": 4.64,
+        "balance": 4.57,
+        "cohesion": 4.52
+      },
+      "medal": "none",
+      "rank": 4,
+      "change": 0,
+      "trend": "new",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        },
+        {
+          "id": "leadership_excellence",
+          "name": "Excelencia en Liderazgo",
+          "description": "Liderazgo destacado",
+          "icon": "award",
+          "color": "purple"
+        }
+      ],
+      "id": "it",
+      "score": 78.3,
+      "respondent_count": 119
+    },
+    {
+      "area": "Marketing",
+      "engagement": 4.78,
+      "respondents": 20,
+      "dimensions": {
+        "orgullo_institucional": 4.95,
+        "engagement": 4.78,
+        "liderazgo": 4.7,
+        "comunicacion": 4.82,
+        "desarrollo": 4.32,
+        "compensacion": 4.38,
+        "reconocimiento": 4.65,
+        "balance": 4.62,
+        "cohesion": 4.55
+      },
+      "medal": "none",
+      "rank": 5,
+      "change": 0.03,
+      "trend": "stable",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        },
+        {
+          "id": "leadership_excellence",
+          "name": "Excelencia en Liderazgo",
+          "description": "Liderazgo destacado",
+          "icon": "award",
+          "color": "purple"
+        }
+      ],
+      "id": "marketing",
+      "score": 77.7,
+      "respondent_count": 125
+    },
+    {
+      "area": "RRHH",
+      "engagement": 4.78,
+      "respondents": 6,
+      "dimensions": {
+        "orgullo_institucional": 4.92,
+        "engagement": 4.78,
+        "liderazgo": 4.29,
+        "comunicacion": 4.5,
+        "desarrollo": 4.08,
+        "compensacion": 4.0,
+        "reconocimiento": 4.58,
+        "balance": 4.75,
+        "cohesion": 4.67
+      },
+      "medal": "none",
+      "rank": 6,
+      "change": 0,
+      "trend": "new",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        }
+      ],
+      "id": "rrhh",
+      "score": 77.7,
+      "respondent_count": 123
+    },
+    {
+      "area": "Operaciones",
+      "engagement": 4.67,
+      "respondents": 3,
+      "dimensions": {
+        "orgullo_institucional": 5.0,
+        "engagement": 4.67,
+        "liderazgo": 4.67,
+        "comunicacion": 4.56,
+        "desarrollo": 4.33,
+        "compensacion": 4.17,
+        "reconocimiento": 4.5,
+        "balance": 4.17,
+        "cohesion": 4.0
+      },
+      "medal": "none",
+      "rank": 7,
+      "change": 0,
+      "trend": "new",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "leadership_excellence",
+          "name": "Excelencia en Liderazgo",
+          "description": "Liderazgo destacado",
+          "icon": "award",
+          "color": "purple"
+        }
+      ],
+      "id": "operaciones",
+      "score": 77.6,
+      "respondent_count": 122
+    },
+    {
+      "area": "Ventas Tienda",
+      "engagement": 5.0,
+      "respondents": 6,
+      "dimensions": {
+        "orgullo_institucional": 5.0,
+        "engagement": 5.0,
+        "liderazgo": 4.96,
+        "comunicacion": 4.94,
+        "desarrollo": 4.92,
+        "compensacion": 4.67,
+        "reconocimiento": 4.92,
+        "balance": 4.83,
+        "cohesion": 4.94
+      },
+      "medal": "none",
+      "rank": 8,
+      "change": 0,
+      "trend": "new",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        },
+        {
+          "id": "leadership_excellence",
+          "name": "Excelencia en Liderazgo",
+          "description": "Liderazgo destacado",
+          "icon": "award",
+          "color": "purple"
+        }
+      ],
+      "id": "ventas_tienda",
+      "score": 77.3,
+      "respondent_count": 121
+    },
+    {
+      "area": "Atención al Cliente",
+      "engagement": 4.67,
+      "respondents": 3,
+      "dimensions": {
+        "orgullo_institucional": 4.83,
+        "engagement": 4.67,
+        "liderazgo": 4.75,
+        "comunicacion": 4.78,
+        "desarrollo": 4.0,
+        "compensacion": 4.0,
+        "reconocimiento": 4.33,
+        "balance": 4.17,
+        "cohesion": 4.44
+      },
+      "medal": "none",
+      "rank": 9,
+      "change": -0.16,
+      "trend": "down",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "leadership_excellence",
+          "name": "Excelencia en Liderazgo",
+          "description": "Liderazgo destacado",
+          "icon": "award",
+          "color": "purple"
+        }
+      ],
+      "id": "atenci_n_al_cliente",
+      "score": 77.3,
+      "respondent_count": 118
+    },
+    {
+      "area": "Logística",
+      "engagement": 4.95,
+      "respondents": 7,
+      "dimensions": {
+        "orgullo_institucional": 5.0,
+        "engagement": 4.95,
+        "liderazgo": 4.93,
+        "comunicacion": 5.0,
+        "desarrollo": 4.86,
+        "compensacion": 4.57,
+        "reconocimiento": 5.0,
+        "balance": 4.79,
+        "cohesion": 4.9
+      },
+      "medal": "none",
+      "rank": 10,
+      "change": 0.12,
+      "trend": "up",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        },
+        {
+          "id": "leadership_excellence",
+          "name": "Excelencia en Liderazgo",
+          "description": "Liderazgo destacado",
+          "icon": "award",
+          "color": "purple"
+        }
+      ],
+      "id": "log_stica",
+      "score": 76.3,
+      "respondent_count": 120
+    }
+  ],
+  "podium": [
+    {
+      "area": "Finanzas",
+      "engagement": 4.73,
+      "respondents": 11,
+      "dimensions": {
+        "orgullo_institucional": 4.82,
+        "engagement": 4.73,
+        "liderazgo": 4.82,
+        "comunicacion": 4.82,
+        "desarrollo": 4.68,
+        "compensacion": 4.36,
+        "reconocimiento": 4.68,
+        "balance": 4.59,
+        "cohesion": 4.67
+      },
+      "medal": "gold",
+      "rank": 1,
+      "change": 0.11,
+      "trend": "up",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        },
+        {
+          "id": "leadership_excellence",
+          "name": "Excelencia en Liderazgo",
+          "description": "Liderazgo destacado",
+          "icon": "award",
+          "color": "purple"
+        }
+      ],
+      "id": "finanzas",
+      "score": 83.5,
+      "respondent_count": 122
+    },
+    {
+      "area": "E-Commerce",
+      "engagement": 4.9,
+      "respondents": 7,
+      "dimensions": {
+        "orgullo_institucional": 5.0,
+        "engagement": 4.9,
+        "liderazgo": 4.89,
+        "comunicacion": 4.95,
+        "desarrollo": 4.07,
+        "compensacion": 4.21,
+        "reconocimiento": 4.71,
+        "balance": 4.93,
+        "cohesion": 4.95
+      },
+      "medal": "silver",
+      "rank": 2,
+      "change": 0.34,
+      "trend": "up",
+      "badges": [
+        {
+          "id": "rising_star",
+          "name": "Estrella en Ascenso",
+          "description": "Mejoró 0.34 puntos vs año anterior",
+          "icon": "star",
+          "color": "yellow"
+        },
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        },
+        {
+          "id": "leadership_excellence",
+          "name": "Excelencia en Liderazgo",
+          "description": "Liderazgo destacado",
+          "icon": "award",
+          "color": "purple"
+        }
+      ],
+      "id": "e_commerce",
+      "score": 81.8,
+      "respondent_count": 123
+    },
+    {
+      "area": "Compras",
+      "engagement": 4.72,
+      "respondents": 12,
+      "dimensions": {
+        "orgullo_institucional": 4.92,
+        "engagement": 4.72,
+        "liderazgo": 4.73,
+        "comunicacion": 4.69,
+        "desarrollo": 4.67,
+        "compensacion": 4.04,
+        "reconocimiento": 4.58,
+        "balance": 4.67,
+        "cohesion": 4.64
+      },
+      "medal": "bronze",
+      "rank": 3,
+      "change": 0,
+      "trend": "new",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        },
+        {
+          "id": "leadership_excellence",
+          "name": "Excelencia en Liderazgo",
+          "description": "Liderazgo destacado",
+          "icon": "award",
+          "color": "purple"
+        }
+      ],
+      "id": "compras",
+      "score": 80.2,
+      "respondent_count": 125
+    }
+  ],
+  "area_of_month": {
+    "current": {
+      "area": "Gente Tower y Administración",
+      "improvement": 0.34,
+      "previous_score": 4.56,
+      "current_score": 4.9,
+      "top_improving_dimensions": [
+        {
+          "dimension": "balance",
+          "name": "Balance Vida-Trabajo",
+          "improvement": 0.49
+        },
+        {
+          "dimension": "engagement",
+          "name": "Engagement Global",
+          "improvement": 0.34
+        },
+        {
+          "dimension": "reconocimiento",
+          "name": "Reconocimiento",
+          "improvement": 0.32
+        }
+      ],
+      "month": "Enero 2026"
+    },
+    "history": [
+      {
+        "month": "Diciembre 2025",
+        "area": "Operaciones",
+        "improvement": 0.16
+      },
+      {
+        "month": "Noviembre 2025",
+        "area": "Dominio de Automatización",
+        "improvement": 0.12
+      },
+      {
+        "month": "Octubre 2025",
+        "area": "Cumplimiento",
+        "improvement": 0.11
+      }
+    ],
+    "area": "Finanzas",
+    "score": 83.5
+  },
+  "goals_progress": [
+    {
+      "dimension": "engagement",
+      "name": "Engagement Global",
+      "current": 8.9,
+      "target": 4.5,
+      "progress": 100,
+      "status": "achieved",
+      "deadline": "2026-12-31"
+    },
+    {
+      "dimension": "comunicacion",
+      "name": "Comunicación Interna",
+      "current": 7.4,
+      "target": 4.3,
+      "progress": 100,
+      "status": "achieved",
+      "deadline": "2026-12-31"
+    },
+    {
+      "dimension": "desarrollo",
+      "name": "Desarrollo Profesional",
+      "current": 8.6,
+      "target": 4.4,
+      "progress": 97.8,
+      "status": "on_track",
+      "deadline": "2026-12-31"
+    },
+    {
+      "dimension": "reconocimiento",
+      "name": "Reconocimiento",
+      "current": 4.5,
+      "target": 4.2,
+      "progress": 100,
+      "status": "achieved",
+      "deadline": "2026-12-31"
+    },
+    {
+      "dimension": "balance",
+      "name": "Balance Vida-Trabajo",
+      "current": 0.0,
+      "target": 4.3,
+      "progress": 100,
+      "status": "achieved",
+      "deadline": "2026-12-31"
+    },
+    {
+      "dimension": "compensacion",
+      "name": "Compensación",
+      "current": 0.4,
+      "target": 4.0,
+      "progress": 100,
+      "status": "achieved",
+      "deadline": "2026-12-31"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "dim_engagement_Seguridad de la información y ciberseguridad",
+      "type": "dimension",
+      "icon": "star",
+      "message": "Seguridad de la información y ciberseguridad alcanzó 5.00 en Engagement Global",
+      "area": "Logística",
+      "dimension": "engagement",
+      "value": 5.0,
+      "date": "2026-01-20T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "engagement_Dominio de Automatización",
+      "type": "milestone",
+      "icon": "trophy",
+      "message": "Dominio de Automatización superó 4.5 en Engagement",
+      "area": "E-Commerce",
+      "value": 4.95,
+      "date": "2026-01-18T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "engagement_Seguridad de la información y ciberseguridad",
+      "type": "milestone",
+      "icon": "trophy",
+      "message": "Seguridad de la información y ciberseguridad superó 4.5 en Engagement",
+      "area": "Compras",
+      "value": 5.0,
+      "date": "2026-01-14T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "dim_balance_Seguridad de la información y ciberseguridad",
+      "type": "dimension",
+      "icon": "star",
+      "message": "Seguridad de la información y ciberseguridad alcanzó 4.83 en Balance Vida-Trabajo",
+      "area": "Compras",
+      "dimension": "balance",
+      "value": 4.83,
+      "date": "2026-01-14T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "dim_balance_Dominio de Automatización",
+      "type": "dimension",
+      "icon": "star",
+      "message": "Dominio de Automatización alcanzó 4.79 en Balance Vida-Trabajo",
+      "area": "Compras",
+      "dimension": "balance",
+      "value": 4.79,
+      "date": "2026-01-11T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "dim_liderazgo_Dominio de Automatización",
+      "type": "dimension",
+      "icon": "star",
+      "message": "Dominio de Automatización alcanzó 4.93 en Liderazgo Efectivo",
+      "area": "Marketing",
+      "dimension": "liderazgo",
+      "value": 4.93,
+      "date": "2026-01-09T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "dim_reconocimiento_Seguridad de la información y ciberseguridad",
+      "type": "dimension",
+      "icon": "star",
+      "message": "Seguridad de la información y ciberseguridad alcanzó 4.92 en Reconocimiento",
+      "area": "Marketing",
+      "dimension": "reconocimiento",
+      "value": 4.92,
+      "date": "2026-01-08T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "dim_liderazgo_Gente Tower y Administración",
+      "type": "dimension",
+      "icon": "star",
+      "message": "Gente Tower y Administración alcanzó 4.89 en Liderazgo Efectivo",
+      "area": "Compras",
+      "dimension": "liderazgo",
+      "value": 4.89,
+      "date": "2026-01-08T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "engagement_Gente Tower y Administración",
+      "type": "milestone",
+      "icon": "trophy",
+      "message": "Gente Tower y Administración superó 4.5 en Engagement",
+      "area": "Operaciones",
+      "value": 4.9,
+      "date": "2026-01-06T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "dim_compensacion_Seguridad de la información y ciberseguridad",
+      "type": "dimension",
+      "icon": "star",
+      "message": "Seguridad de la información y ciberseguridad alcanzó 4.67 en Compensación",
+      "area": "Finanzas",
+      "dimension": "compensacion",
+      "value": 4.67,
+      "date": "2026-01-06T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "engagement_Dominio IA & Data",
+      "type": "milestone",
+      "icon": "trophy",
+      "message": "Dominio IA & Data superó 4.5 en Engagement",
+      "area": "IT",
+      "value": 4.78,
+      "date": "2026-01-03T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "dim_reconocimiento_Gente Tower y Administración",
+      "type": "dimension",
+      "icon": "star",
+      "message": "Gente Tower y Administración alcanzó 4.71 en Reconocimiento",
+      "area": "RRHH",
+      "dimension": "reconocimiento",
+      "value": 4.71,
+      "date": "2026-01-03T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "dim_balance_Gente Tower y Administración",
+      "type": "dimension",
+      "icon": "star",
+      "message": "Gente Tower y Administración alcanzó 4.93 en Balance Vida-Trabajo",
+      "area": "Compras",
+      "dimension": "balance",
+      "value": 4.93,
+      "date": "2026-01-02T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "dim_liderazgo_Seguridad de la información y ciberseguridad",
+      "type": "dimension",
+      "icon": "star",
+      "message": "Seguridad de la información y ciberseguridad alcanzó 4.96 en Liderazgo Efectivo",
+      "area": "Ventas Tienda",
+      "dimension": "liderazgo",
+      "value": 4.96,
+      "date": "2026-01-01T01:14:57.432510",
+      "description": ""
+    },
+    {
+      "id": "dim_orgullo_institucional_Dominio de Automatización",
+      "type": "dimension",
+      "icon": "star",
+      "message": "Dominio de Automatización alcanzó 5.00 en Orgullo Institucional",
+      "area": "IT",
+      "dimension": "orgullo_institucional",
+      "value": 5.0,
+      "date": "2025-12-31T01:14:57.432510",
+      "description": ""
+    }
+  ],
+  "summary": {
+    "total_areas": 10,
+    "gold_medals": 17,
+    "silver_medals": 3,
+    "bronze_medals": 0,
+    "average_engagement": 4.66,
+    "goals_on_track": 6,
+    "goals_at_risk": 0,
+    "total_respondents": 1200
+  }
+}
