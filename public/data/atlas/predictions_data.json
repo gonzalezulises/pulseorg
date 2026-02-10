@@ -1,123 +1,98 @@
 {
-  "generated_at": "2026-01-21T00:54:03.108235",
-  "data_source": "Generated data for Atlas Capital Group",
+  "generated_at": "2026-02-10T02:31:09.621057",
+  "data_source": "Real survey data from CSV files (2023-2026)",
   "total_respondents": 350,
   "rotation_risk": {
-    "overall_index": 17.4,
+    "overall_index": 16,
     "trend": "improving",
     "risk_factors": [
       {
-        "id": "rf_compensacion",
-        "factor": "Satisfacción con compensación baja",
-        "impact_score": 0.26,
-        "affected_percentage": 24,
-        "dimension": "compensacion",
-        "avg_score": 3.8
-      },
-      {
-        "id": "rf_reconocimiento",
-        "factor": "Falta de reconocimiento",
-        "impact_score": 0.13,
-        "affected_percentage": 32,
-        "dimension": "reconocimiento",
-        "avg_score": 3.88
-      },
-      {
-        "id": "rf_balance",
-        "factor": "Carga de trabajo excesiva",
-        "impact_score": 0.1,
-        "affected_percentage": 12,
-        "dimension": "balance",
-        "avg_score": 4.41
-      },
-      {
-        "id": "rf_desarrollo",
-        "factor": "Oportunidades de desarrollo limitadas",
-        "impact_score": 0.08,
-        "affected_percentage": 9,
-        "dimension": "desarrollo",
-        "avg_score": 4.54
+        "id": "rf_innovacion",
+        "factor": "Resistencia a la innovación",
+        "impact_score": 0.27,
+        "affected_percentage": 21,
+        "dimension": "innovacion_cambio",
+        "avg_score": 3.54
       },
       {
         "id": "rf_comunicacion",
-        "factor": "Comunicación deficiente con liderazgo",
-        "impact_score": 0.08,
-        "affected_percentage": 11,
-        "dimension": "comunicacion",
-        "avg_score": 4.45
+        "factor": "Comunicación deficiente entre áreas",
+        "impact_score": 0.16,
+        "affected_percentage": 21,
+        "dimension": "comunicacion_interna",
+        "avg_score": 3.83
+      },
+      {
+        "id": "rf_cohesion",
+        "factor": "Baja cohesión entre equipos",
+        "impact_score": 0.11,
+        "affected_percentage": 13,
+        "dimension": "cohesion_equipo",
+        "avg_score": 4.08
       }
     ],
     "high_risk_areas": [
       {
-        "area": "Gestión de Propósitos Estratégicos y Portafolio",
+        "area": "RRHH",
+        "risk_level": 19,
+        "engagement_score": 3.8,
+        "headcount": 51,
+        "key_issues": [
+          "Reconocimiento"
+        ]
+      },
+      {
+        "area": "Tesorería",
         "risk_level": 15,
-        "engagement_score": 3.7,
-        "headcount": 5,
-        "key_issues": [
-          "Compensación",
-          "Reconocimiento"
-        ],
-        "department": "Auditoría",
-        "risk_score": 40.7
-      },
-      {
-        "area": "Negocios",
-        "risk_level": 12,
-        "engagement_score": 4.0,
-        "headcount": 12,
-        "key_issues": [
-          "Reconocimiento"
-        ],
-        "department": "Banca Privada",
-        "risk_score": 58.5
-      },
-      {
-        "area": "Banca de Personas y Global Payments",
-        "risk_level": 11,
-        "engagement_score": 4.1,
+        "engagement_score": 3.96,
         "headcount": 19,
         "key_issues": [
-          "Compensación",
+          "Resistencia",
+          "Comunicación"
+        ]
+      },
+      {
+        "area": "Cumplimiento",
+        "risk_level": 12,
+        "engagement_score": 4.1,
+        "headcount": 42,
+        "key_issues": [
+          "Comunicación",
+          "Comunicación"
+        ]
+      },
+      {
+        "area": "Riesgos",
+        "risk_level": 11,
+        "engagement_score": 4.12,
+        "headcount": 29,
+        "key_issues": [
+          "Resistencia"
+        ]
+      },
+      {
+        "area": "Auditoría",
+        "risk_level": 7,
+        "engagement_score": 4.3,
+        "headcount": 45,
+        "key_issues": [
+          "Comunicación",
           "Reconocimiento"
-        ],
-        "department": "Banca Privada",
-        "risk_score": 44.2
-      },
-      {
-        "area": "Banca de Personas y Comercial",
-        "risk_level": 9,
-        "engagement_score": 4.3,
-        "headcount": 46,
-        "key_issues": [
-          "General"
-        ],
-        "department": "Cumplimiento",
-        "risk_score": 59.4
-      },
-      {
-        "area": "Tesorería e inversiones",
-        "risk_level": 8,
-        "engagement_score": 4.3,
-        "headcount": 6,
-        "key_issues": [
-          "Compensación"
-        ],
-        "department": "Tesorería",
-        "risk_score": 43.0
+        ]
       }
     ],
     "engagement_rotation_correlation": [
       {
         "engagement": 2.5,
-        "rotation": 53
+        "rotation": 51
       },
       {
         "engagement": 3.0,
-        "rotation": 44
+        "rotation": 45
       },
       {
         "engagement": 3.5,
-        "rotation": 36
+        "rotation": 37
       },
       {
         "engagement": 4.0,
@@ -135,15 +110,15 @@
   },
   "projections": {
     "overall": {
-      "current_score": 4.7,
+      "current_score": 4.75,
       "historical": [
         {
           "month": "2026-07",
-          "score": 4.71
+          "score": 4.66
         },
         {
           "month": "2026-08",
-          "score": 4.72
+          "score": 4.68
         },
         {
           "month": "2026-09",
@@ -159,45 +134,45 @@
         },
         {
           "month": "2026-12",
-          "score": 4.81
+          "score": 4.8
         }
       ],
       "forecast": [
         {
           "month": "2026-01",
-          "optimistic": 4.89,
-          "expected": 4.81,
-          "pessimistic": 4.73
+          "optimistic": 4.83,
+          "expected": 4.76,
+          "pessimistic": 4.72
         },
         {
           "month": "2026-02",
-          "optimistic": 5.0,
-          "expected": 4.94,
-          "pessimistic": 4.86
+          "optimistic": 4.89,
+          "expected": 4.83,
+          "pessimistic": 4.71
         },
         {
           "month": "2026-03",
-          "optimistic": 4.92,
-          "expected": 4.84,
-          "pessimistic": 4.76
+          "optimistic": 4.93,
+          "expected": 4.82,
+          "pessimistic": 4.79
         },
         {
           "month": "2026-04",
-          "optimistic": 4.99,
-          "expected": 4.91,
-          "pessimistic": 4.83
+          "optimistic": 4.98,
+          "expected": 4.9,
+          "pessimistic": 4.79
         },
         {
           "month": "2026-05",
-          "optimistic": 5.0,
-          "expected": 5.0,
-          "pessimistic": 4.96
+          "optimistic": 4.97,
+          "expected": 4.9,
+          "pessimistic": 4.85
         },
         {
           "month": "2026-06",
           "optimistic": 5.0,
-          "expected": 4.95,
-          "pessimistic": 4.87
+          "expected": 4.93,
+          "pessimistic": 4.89
         }
       ]
     },
@@ -205,10 +180,10 @@
       {
         "dimension": "Orgullo Institucional",
         "label": "Orgullo Institucional",
-        "current_score": 4.77,
+        "current_score": 4.73,
         "trend": "up",
-        "projected_6m": 4.89,
-        "projected_12m": 5.0,
+        "projected_6m": 4.72,
+        "projected_12m": 4.84,
         "change_rate": 0.02,
         "confidence": 0.84
       },
@@ -217,48 +192,48 @@
         "label": "Desarrollo Profesional",
         "current_score": 4.62,
         "trend": "up",
-        "projected_6m": 4.74,
-        "projected_12m": 4.86,
+        "projected_6m": 4.66,
+        "projected_12m": 4.78,
         "change_rate": 0.02,
         "confidence": 0.81
       },
       {
         "dimension": "Compensación",
         "label": "Compensación",
-        "current_score": 3.9,
+        "current_score": 3.98,
         "trend": "up",
-        "projected_6m": 4.02,
-        "projected_12m": 4.14,
+        "projected_6m": 3.92,
+        "projected_12m": 4.04,
         "change_rate": 0.02,
         "confidence": 0.76
       },
       {
         "dimension": "Balance Vida-Trabajo",
         "label": "Balance Vida-Trabajo",
-        "current_score": 4.56,
+        "current_score": 4.41,
         "trend": "up",
-        "projected_6m": 4.68,
-        "projected_12m": 4.8,
+        "projected_6m": 4.53,
+        "projected_12m": 4.65,
         "change_rate": 0.02,
         "confidence": 0.78
       },
       {
         "dimension": "Liderazgo",
         "label": "Liderazgo",
-        "current_score": 4.46,
+        "current_score": 4.48,
         "trend": "up",
-        "projected_6m": 4.58,
-        "projected_12m": 4.7,
+        "projected_6m": 4.56,
+        "projected_12m": 4.68,
         "change_rate": 0.02,
         "confidence": 0.82
       },
       {
         "dimension": "Reconocimiento",
         "label": "Reconocimiento",
-        "current_score": 4.07,
+        "current_score": 3.89,
         "trend": "up",
-        "projected_6m": 4.19,
-        "projected_12m": 4.31,
+        "projected_6m": 4.0,
+        "projected_12m": 4.12,
         "change_rate": 0.02,
         "confidence": 0.73
       }
@@ -303,37 +278,5 @@
     "confidence_level": 0.85,
     "model": "Linear regression with variance estimation",
     "last_updated": "2026-01-21"
-  },
-  "early_alerts": [
-    {
-      "id": "alert_comunicacion",
-      "dimension": "comunicacion",
-      "dimension_name": "Comunicación",
-      "area": "RRHH",
-      "severity": "medium",
-      "change": -0.33,
-      "months_declining": 2,
-      "current_score": 3.42,
-      "previous_score": 3.58,
-      "description": "Comunicación muestra deterioro continuo"
-    },
-    {
-      "id": "alert_compensacion",
-      "dimension": "compensacion",
-      "dimension_name": "Compensación y Beneficios",
-      "area": "Tecnología",
-      "severity": "medium",
-      "change": -0.25,
-      "months_declining": 6,
-      "current_score": 3.05,
-      "previous_score": 4.36,
-      "description": "Compensación y Beneficios muestra deterioro continuo"
-    }
-  ],
-  "summary": {
-    "total_alerts": 2,
-    "new_alerts": 4,
-    "high_severity_alerts": 2,
-    "risk_index": 17.4
   }
 }

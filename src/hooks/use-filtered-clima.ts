@@ -116,7 +116,7 @@ export function useFilteredDimensionStats(year: number = DASHBOARD_CONFIG.defaul
     // Find matching segment
     const matchingSegment = findMatchingSegment(filters, segmentationData || null);
 
-    if (!matchingSegment || !matchingSegment.dimensions) {
+    if (!matchingSegment || !matchingSegment.dimensions || matchingSegment.dimensions.length === 0) {
       return yearData.dimensions;
     }
 

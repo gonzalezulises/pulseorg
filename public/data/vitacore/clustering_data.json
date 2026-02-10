@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-01-21T01:34:59.181732",
+  "generated_at": "2026-02-10T02:31:09.722424",
   "source": "text_analysis_data.json",
-  "total_comments_processed": 812,
+  "total_comments_processed": 3248,
   "nodes": [
     {
       "id": "P001",
       "type": "participant",
       "label": "Participante 1",
-      "department": "investigaci_n",
+      "department": "farmacia",
       "department_name": "Farmacia",
       "profile": "True Believers",
       "comment_count": 10,
@@ -40,8 +40,8 @@
       "id": "P002",
       "type": "participant",
       "label": "Participante 2",
-      "department": "urgencias",
-      "department_name": "Farmacia",
+      "department": "ti_salud",
+      "department_name": "TI Salud",
       "profile": "True Believers",
       "comment_count": 10,
       "themes": [
@@ -73,8 +73,8 @@
       "id": "P003",
       "type": "participant",
       "label": "Participante 3",
-      "department": "ti_salud",
-      "department_name": "Farmacia",
+      "department": "investigacion",
+      "department_name": "Investigación",
       "profile": "Engaged Pragmáticos",
       "comment_count": 10,
       "themes": [
@@ -106,8 +106,8 @@
       "id": "P004",
       "type": "participant",
       "label": "Participante 4",
-      "department": "calidad",
-      "department_name": "Farmacia",
+      "department": "enfermeria",
+      "department_name": "Enfermería",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -135,8 +135,8 @@
       "id": "P005",
       "type": "participant",
       "label": "Participante 5",
-      "department": "ti_salud",
-      "department_name": "Enfermería",
+      "department": "recursos_humanos",
+      "department_name": "Recursos Humanos",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -165,8 +165,8 @@
       "id": "P006",
       "type": "participant",
       "label": "Participante 6",
-      "department": "farmacia",
-      "department_name": "Enfermería",
+      "department": "urgencias",
+      "department_name": "Urgencias",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -195,8 +195,8 @@
       "id": "P007",
       "type": "participant",
       "label": "Participante 7",
-      "department": "farmacia",
-      "department_name": "Enfermería",
+      "department": "laboratorio",
+      "department_name": "Laboratorio",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -225,8 +225,8 @@
       "id": "P008",
       "type": "participant",
       "label": "Participante 8",
-      "department": "medicina_general",
-      "department_name": "Enfermería",
+      "department": "urgencias",
+      "department_name": "Urgencias",
       "profile": "Neutrales",
       "comment_count": 7,
       "themes": [
@@ -255,8 +255,8 @@
       "id": "P009",
       "type": "participant",
       "label": "Participante 9",
-      "department": "investigaci_n",
-      "department_name": "Enfermería",
+      "department": "medicina_general",
+      "department_name": "Medicina General",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -279,14 +279,14 @@
         "c661",
         "c084"
       ],
-      "sample_comment": "No he sentido un cambio.  Llevo menos de un año en el banco y en este tiempo no he observado cambios importantes."
+      "sample_comment": "No he sentido un cambio.  Llevo menos de un año en la empresa y en este tiempo no he observado cambios importantes."
     },
     {
       "id": "P010",
       "type": "participant",
       "label": "Participante 10",
-      "department": "laboratorio",
-      "department_name": "Enfermería",
+      "department": "administracion",
+      "department_name": "Administración",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -315,8 +315,8 @@
       "id": "P011",
       "type": "participant",
       "label": "Participante 11",
-      "department": "urgencias",
-      "department_name": "Enfermería",
+      "department": "farmacia",
+      "department_name": "Farmacia",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -345,8 +345,8 @@
       "id": "P012",
       "type": "participant",
       "label": "Participante 12",
-      "department": "investigaci_n",
-      "department_name": "Enfermería",
+      "department": "farmacia",
+      "department_name": "Farmacia",
       "profile": "Neutrales",
       "comment_count": 7,
       "themes": [
@@ -375,8 +375,8 @@
       "id": "P013",
       "type": "participant",
       "label": "Participante 13",
-      "department": "calidad",
-      "department_name": "Enfermería",
+      "department": "medicina_general",
+      "department_name": "Medicina General",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -405,8 +405,8 @@
       "id": "P014",
       "type": "participant",
       "label": "Participante 14",
-      "department": "farmacia",
-      "department_name": "Enfermería",
+      "department": "calidad",
+      "department_name": "Calidad",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -435,8 +435,8 @@
       "id": "P015",
       "type": "participant",
       "label": "Participante 15",
-      "department": "laboratorio",
-      "department_name": "Enfermería",
+      "department": "recursos_humanos",
+      "department_name": "Recursos Humanos",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -465,8 +465,8 @@
       "id": "P016",
       "type": "participant",
       "label": "Participante 16",
-      "department": "investigaci_n",
-      "department_name": "Enfermería",
+      "department": "ti_salud",
+      "department_name": "TI Salud",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -495,8 +495,8 @@
       "id": "P017",
       "type": "participant",
       "label": "Participante 17",
-      "department": "medicina_general",
-      "department_name": "Enfermería",
+      "department": "recursos_humanos",
+      "department_name": "Recursos Humanos",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -526,7 +526,7 @@
       "type": "participant",
       "label": "Participante 18",
       "department": "urgencias",
-      "department_name": "Enfermería",
+      "department_name": "Urgencias",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -555,8 +555,8 @@
       "id": "P019",
       "type": "participant",
       "label": "Participante 19",
-      "department": "calidad",
-      "department_name": "Enfermería",
+      "department": "investigacion",
+      "department_name": "Investigación",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -585,8 +585,8 @@
       "id": "P020",
       "type": "participant",
       "label": "Participante 20",
-      "department": "enfermer_a",
-      "department_name": "Enfermería",
+      "department": "investigacion",
+      "department_name": "Investigación",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -615,8 +615,8 @@
       "id": "P021",
       "type": "participant",
       "label": "Participante 21",
-      "department": "ti_salud",
-      "department_name": "Enfermería",
+      "department": "administracion",
+      "department_name": "Administración",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -645,8 +645,8 @@
       "id": "P022",
       "type": "participant",
       "label": "Participante 22",
-      "department": "enfermer_a",
-      "department_name": "Enfermería",
+      "department": "investigacion",
+      "department_name": "Investigación",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -675,8 +675,8 @@
       "id": "P023",
       "type": "participant",
       "label": "Participante 23",
-      "department": "farmacia",
-      "department_name": "Enfermería",
+      "department": "calidad",
+      "department_name": "Calidad",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -705,7 +705,7 @@
       "id": "P024",
       "type": "participant",
       "label": "Participante 24",
-      "department": "investigaci_n",
+      "department": "enfermeria",
       "department_name": "Enfermería",
       "profile": "True Believers",
       "comment_count": 7,
@@ -735,8 +735,8 @@
       "id": "P025",
       "type": "participant",
       "label": "Participante 25",
-      "department": "recursos_humanos",
-      "department_name": "Enfermería",
+      "department": "calidad",
+      "department_name": "Calidad",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -765,7 +765,7 @@
       "id": "P026",
       "type": "participant",
       "label": "Participante 26",
-      "department": "medicina_general",
+      "department": "enfermeria",
       "department_name": "Enfermería",
       "profile": "True Believers",
       "comment_count": 7,
@@ -795,7 +795,7 @@
       "id": "P027",
       "type": "participant",
       "label": "Participante 27",
-      "department": "urgencias",
+      "department": "enfermeria",
       "department_name": "Enfermería",
       "profile": "True Believers",
       "comment_count": 7,
@@ -825,8 +825,8 @@
       "id": "P028",
       "type": "participant",
       "label": "Participante 28",
-      "department": "medicina_general",
-      "department_name": "Enfermería",
+      "department": "recursos_humanos",
+      "department_name": "Recursos Humanos",
       "profile": "Neutrales",
       "comment_count": 7,
       "themes": [
@@ -849,14 +849,14 @@
         "c129",
         "c786"
       ],
-      "sample_comment": "Cualquiera que el banco considere necesario para poder desarrollar mejores funciones."
+      "sample_comment": "Cualquiera que la empresa considere necesario para poder desarrollar mejores funciones."
     },
     {
       "id": "P029",
       "type": "participant",
       "label": "Participante 29",
-      "department": "medicina_general",
-      "department_name": "Enfermería",
+      "department": "farmacia",
+      "department_name": "Farmacia",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -885,8 +885,8 @@
       "id": "P030",
       "type": "participant",
       "label": "Participante 30",
-      "department": "laboratorio",
-      "department_name": "Enfermería",
+      "department": "recursos_humanos",
+      "department_name": "Recursos Humanos",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -916,7 +916,7 @@
       "type": "participant",
       "label": "Participante 31",
       "department": "laboratorio",
-      "department_name": "Enfermería",
+      "department_name": "Laboratorio",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -945,8 +945,8 @@
       "id": "P032",
       "type": "participant",
       "label": "Participante 32",
-      "department": "recursos_humanos",
-      "department_name": "Enfermería",
+      "department": "urgencias",
+      "department_name": "Urgencias",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -975,8 +975,8 @@
       "id": "P033",
       "type": "participant",
       "label": "Participante 33",
-      "department": "medicina_general",
-      "department_name": "Enfermería",
+      "department": "investigacion",
+      "department_name": "Investigación",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -1006,7 +1006,7 @@
       "type": "participant",
       "label": "Participante 34",
       "department": "recursos_humanos",
-      "department_name": "Enfermería",
+      "department_name": "Recursos Humanos",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -1029,14 +1029,14 @@
         "c330",
         "c339"
       ],
-      "sample_comment": "casos de usos con agentes que podamos usar e implementar de forma segura en el banco"
+      "sample_comment": "casos de usos con agentes que podamos usar e implementar de forma segura en la empresa"
     },
     {
       "id": "P035",
       "type": "participant",
       "label": "Participante 35",
-      "department": "laboratorio",
-      "department_name": "Enfermería",
+      "department": "farmacia",
+      "department_name": "Farmacia",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -1065,8 +1065,8 @@
       "id": "P036",
       "type": "participant",
       "label": "Participante 36",
-      "department": "urgencias",
-      "department_name": "Enfermería",
+      "department": "calidad",
+      "department_name": "Calidad",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -1095,8 +1095,8 @@
       "id": "P037",
       "type": "participant",
       "label": "Participante 37",
-      "department": "recursos_humanos",
-      "department_name": "Enfermería",
+      "department": "laboratorio",
+      "department_name": "Laboratorio",
       "profile": "Neutrales",
       "comment_count": 7,
       "themes": [
@@ -1125,8 +1125,8 @@
       "id": "P038",
       "type": "participant",
       "label": "Participante 38",
-      "department": "farmacia",
-      "department_name": "Enfermería",
+      "department": "urgencias",
+      "department_name": "Urgencias",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -1155,8 +1155,8 @@
       "id": "P039",
       "type": "participant",
       "label": "Participante 39",
-      "department": "administraci_n",
-      "department_name": "Enfermería",
+      "department": "investigacion",
+      "department_name": "Investigación",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -1185,8 +1185,8 @@
       "id": "P040",
       "type": "participant",
       "label": "Participante 40",
-      "department": "recursos_humanos",
-      "department_name": "Enfermería",
+      "department": "medicina_general",
+      "department_name": "Medicina General",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -1215,8 +1215,8 @@
       "id": "P041",
       "type": "participant",
       "label": "Participante 41",
-      "department": "recursos_humanos",
-      "department_name": "Investigación",
+      "department": "ti_salud",
+      "department_name": "TI Salud",
       "profile": "True Believers",
       "comment_count": 9,
       "themes": [
@@ -1247,8 +1247,8 @@
       "id": "P042",
       "type": "participant",
       "label": "Participante 42",
-      "department": "calidad",
-      "department_name": "Investigación",
+      "department": "enfermeria",
+      "department_name": "Enfermería",
       "profile": "Neutrales",
       "comment_count": 9,
       "themes": [
@@ -1279,8 +1279,8 @@
       "id": "P043",
       "type": "participant",
       "label": "Participante 43",
-      "department": "recursos_humanos",
-      "department_name": "Investigación",
+      "department": "enfermeria",
+      "department_name": "Enfermería",
       "profile": "Desengaged",
       "comment_count": 9,
       "themes": [
@@ -1311,8 +1311,8 @@
       "id": "P044",
       "type": "participant",
       "label": "Participante 44",
-      "department": "enfermer_a",
-      "department_name": "Investigación",
+      "department": "enfermeria",
+      "department_name": "Enfermería",
       "profile": "True Believers",
       "comment_count": 9,
       "themes": [
@@ -1343,8 +1343,8 @@
       "id": "P045",
       "type": "participant",
       "label": "Participante 45",
-      "department": "ti_salud",
-      "department_name": "Investigación",
+      "department": "enfermeria",
+      "department_name": "Enfermería",
       "profile": "True Believers",
       "comment_count": 9,
       "themes": [
@@ -1375,8 +1375,8 @@
       "id": "P046",
       "type": "participant",
       "label": "Participante 46",
-      "department": "administraci_n",
-      "department_name": "Investigación",
+      "department": "urgencias",
+      "department_name": "Urgencias",
       "profile": "Engaged Pragmáticos",
       "comment_count": 9,
       "themes": [
@@ -1407,8 +1407,8 @@
       "id": "P047",
       "type": "participant",
       "label": "Participante 47",
-      "department": "recursos_humanos",
-      "department_name": "Investigación",
+      "department": "medicina_general",
+      "department_name": "Medicina General",
       "profile": "True Believers",
       "comment_count": 9,
       "themes": [
@@ -1439,8 +1439,8 @@
       "id": "P048",
       "type": "participant",
       "label": "Participante 48",
-      "department": "recursos_humanos",
-      "department_name": "Investigación",
+      "department": "calidad",
+      "department_name": "Calidad",
       "profile": "True Believers",
       "comment_count": 9,
       "themes": [
@@ -1471,8 +1471,8 @@
       "id": "P049",
       "type": "participant",
       "label": "Participante 49",
-      "department": "administraci_n",
-      "department_name": "Investigación",
+      "department": "farmacia",
+      "department_name": "Farmacia",
       "profile": "True Believers",
       "comment_count": 9,
       "themes": [
@@ -1504,7 +1504,7 @@
       "type": "participant",
       "label": "Participante 50",
       "department": "ti_salud",
-      "department_name": "Investigación",
+      "department_name": "TI Salud",
       "profile": "Engaged Pragmáticos",
       "comment_count": 9,
       "themes": [
@@ -1535,8 +1535,8 @@
       "id": "P051",
       "type": "participant",
       "label": "Participante 51",
-      "department": "laboratorio",
-      "department_name": "Investigación",
+      "department": "medicina_general",
+      "department_name": "Medicina General",
       "profile": "Desengaged",
       "comment_count": 4,
       "themes": [
@@ -1562,8 +1562,8 @@
       "id": "P052",
       "type": "participant",
       "label": "Participante 52",
-      "department": "calidad",
-      "department_name": "Farmacia",
+      "department": "enfermeria",
+      "department_name": "Enfermería",
       "profile": "Neutrales",
       "comment_count": 11,
       "themes": [
@@ -1596,8 +1596,8 @@
       "id": "P053",
       "type": "participant",
       "label": "Participante 53",
-      "department": "calidad",
-      "department_name": "Farmacia",
+      "department": "medicina_general",
+      "department_name": "Medicina General",
       "profile": "True Believers",
       "comment_count": 11,
       "themes": [
@@ -1630,8 +1630,8 @@
       "id": "P054",
       "type": "participant",
       "label": "Participante 54",
-      "department": "urgencias",
-      "department_name": "Farmacia",
+      "department": "laboratorio",
+      "department_name": "Laboratorio",
       "profile": "True Believers",
       "comment_count": 11,
       "themes": [
@@ -1664,8 +1664,8 @@
       "id": "P055",
       "type": "participant",
       "label": "Participante 55",
-      "department": "calidad",
-      "department_name": "Farmacia",
+      "department": "enfermeria",
+      "department_name": "Enfermería",
       "profile": "True Believers",
       "comment_count": 11,
       "themes": [
@@ -1698,7 +1698,7 @@
       "id": "P056",
       "type": "participant",
       "label": "Participante 56",
-      "department": "recursos_humanos",
+      "department": "farmacia",
       "department_name": "Farmacia",
       "profile": "True Believers",
       "comment_count": 11,
@@ -1732,7 +1732,7 @@
       "id": "P057",
       "type": "participant",
       "label": "Participante 57",
-      "department": "investigaci_n",
+      "department": "farmacia",
       "department_name": "Farmacia",
       "profile": "Engaged Pragmáticos",
       "comment_count": 2,
@@ -1757,8 +1757,8 @@
       "id": "P058",
       "type": "participant",
       "label": "Participante 58",
-      "department": "medicina_general",
-      "department_name": "TI Salud",
+      "department": "investigacion",
+      "department_name": "Investigación",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -1786,8 +1786,8 @@
       "id": "P059",
       "type": "participant",
       "label": "Participante 59",
-      "department": "farmacia",
-      "department_name": "TI Salud",
+      "department": "administracion",
+      "department_name": "Administración",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -1815,8 +1815,8 @@
       "id": "P060",
       "type": "participant",
       "label": "Participante 60",
-      "department": "ti_salud",
-      "department_name": "TI Salud",
+      "department": "urgencias",
+      "department_name": "Urgencias",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -1844,8 +1844,8 @@
       "id": "P061",
       "type": "participant",
       "label": "Participante 61",
-      "department": "farmacia",
-      "department_name": "TI Salud",
+      "department": "investigacion",
+      "department_name": "Investigación",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -1873,8 +1873,8 @@
       "id": "P062",
       "type": "participant",
       "label": "Participante 62",
-      "department": "medicina_general",
-      "department_name": "TI Salud",
+      "department": "urgencias",
+      "department_name": "Urgencias",
       "profile": "Neutrales",
       "comment_count": 6,
       "themes": [
@@ -1896,14 +1896,14 @@
         "c366",
         "c207"
       ],
-      "sample_comment": "Fascinada, me encanta como el banco busca siempre estar como pionero en los temas, siempre de manera controlada de manera que se realicen las mejoras ..."
+      "sample_comment": "Fascinada, me encanta como la empresa busca siempre estar como pionero en los temas, siempre de manera controlada de manera que se realicen las mejoras ..."
     },
     {
       "id": "P063",
       "type": "participant",
       "label": "Participante 63",
-      "department": "medicina_general",
-      "department_name": "TI Salud",
+      "department": "enfermeria",
+      "department_name": "Enfermería",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -1931,7 +1931,7 @@
       "id": "P064",
       "type": "participant",
       "label": "Participante 64",
-      "department": "urgencias",
+      "department": "ti_salud",
       "department_name": "TI Salud",
       "profile": "True Believers",
       "comment_count": 6,
@@ -1960,8 +1960,8 @@
       "id": "P065",
       "type": "participant",
       "label": "Participante 65",
-      "department": "urgencias",
-      "department_name": "TI Salud",
+      "department": "investigacion",
+      "department_name": "Investigación",
       "profile": "Engaged Pragmáticos",
       "comment_count": 5,
       "themes": [
@@ -1982,14 +1982,14 @@
         "c738",
         "c788"
       ],
-      "sample_comment": "Capacitarnos en conocer más plataformas y herramientas de IA específicas que sean amigables con lo que se gestiona en el banco."
+      "sample_comment": "Capacitarnos en conocer más plataformas y herramientas de IA específicas que sean amigables con lo que se gestiona en la empresa."
     },
     {
       "id": "P066",
       "type": "participant",
       "label": "Participante 66",
       "department": "laboratorio",
-      "department_name": "Calidad",
+      "department_name": "Laboratorio",
       "profile": "True Believers",
       "comment_count": 10,
       "themes": [
@@ -2021,8 +2021,8 @@
       "id": "P067",
       "type": "participant",
       "label": "Participante 67",
-      "department": "ti_salud",
-      "department_name": "Calidad",
+      "department": "urgencias",
+      "department_name": "Urgencias",
       "profile": "True Believers",
       "comment_count": 10,
       "themes": [
@@ -2054,8 +2054,8 @@
       "id": "P068",
       "type": "participant",
       "label": "Participante 68",
-      "department": "laboratorio",
-      "department_name": "Calidad",
+      "department": "farmacia",
+      "department_name": "Farmacia",
       "profile": "Engaged Pragmáticos",
       "comment_count": 10,
       "themes": [
@@ -2088,7 +2088,7 @@
       "type": "participant",
       "label": "Participante 69",
       "department": "farmacia",
-      "department_name": "Calidad",
+      "department_name": "Farmacia",
       "profile": "Engaged Pragmáticos",
       "comment_count": 10,
       "themes": [
@@ -2120,8 +2120,8 @@
       "id": "P070",
       "type": "participant",
       "label": "Participante 70",
-      "department": "recursos_humanos",
-      "department_name": "Calidad",
+      "department": "administracion",
+      "department_name": "Administración",
       "profile": "True Believers",
       "comment_count": 10,
       "themes": [
@@ -2153,8 +2153,8 @@
       "id": "P071",
       "type": "participant",
       "label": "Participante 71",
-      "department": "urgencias",
-      "department_name": "Calidad",
+      "department": "medicina_general",
+      "department_name": "Medicina General",
       "profile": "Engaged Pragmáticos",
       "comment_count": 10,
       "themes": [
@@ -2186,8 +2186,8 @@
       "id": "P072",
       "type": "participant",
       "label": "Participante 72",
-      "department": "urgencias",
-      "department_name": "Calidad",
+      "department": "recursos_humanos",
+      "department_name": "Recursos Humanos",
       "profile": "Engaged Pragmáticos",
       "comment_count": 10,
       "themes": [
@@ -2213,13 +2213,13 @@
         "c208",
         "c484"
       ],
-      "sample_comment": "Es un proceso novedoso. He trabajado en Bancos tradicionales.\nMe siento muy contenta de ser parte de la innovación de VitaCore y deseo de todo coraz..."
+      "sample_comment": "Es un proceso novedoso. He trabajado en Bancos tradicionales.\nMe siento muy contenta de ser parte de la innovación de VitaCore Health y deseo de todo coraz..."
     },
     {
       "id": "P073",
       "type": "participant",
       "label": "Participante 73",
-      "department": "enfermer_a",
+      "department": "calidad",
       "department_name": "Calidad",
       "profile": "Neutrales",
       "comment_count": 10,
@@ -2252,7 +2252,7 @@
       "id": "P074",
       "type": "participant",
       "label": "Participante 74",
-      "department": "enfermer_a",
+      "department": "calidad",
       "department_name": "Calidad",
       "profile": "True Believers",
       "comment_count": 8,
@@ -2283,8 +2283,8 @@
       "id": "P075",
       "type": "participant",
       "label": "Participante 75",
-      "department": "calidad",
-      "department_name": "Calidad",
+      "department": "farmacia",
+      "department_name": "Farmacia",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2318,8 +2318,8 @@
       "id": "P076",
       "type": "participant",
       "label": "Participante 76",
-      "department": "calidad",
-      "department_name": "Calidad",
+      "department": "investigacion",
+      "department_name": "Investigación",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2353,8 +2353,8 @@
       "id": "P077",
       "type": "participant",
       "label": "Participante 77",
-      "department": "calidad",
-      "department_name": "Calidad",
+      "department": "ti_salud",
+      "department_name": "TI Salud",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2382,14 +2382,14 @@
         "c428",
         "c331"
       ],
-      "sample_comment": "en lo poco que llevo en el banco me he sentido y adaptado bien."
+      "sample_comment": "en lo poco que llevo en la empresa me he sentido y adaptado bien."
     },
     {
       "id": "P078",
       "type": "participant",
       "label": "Participante 78",
-      "department": "enfermer_a",
-      "department_name": "Calidad",
+      "department": "investigacion",
+      "department_name": "Investigación",
       "profile": "Engaged Pragmáticos",
       "comment_count": 12,
       "themes": [
@@ -2423,8 +2423,8 @@
       "id": "P079",
       "type": "participant",
       "label": "Participante 79",
-      "department": "laboratorio",
-      "department_name": "Calidad",
+      "department": "urgencias",
+      "department_name": "Urgencias",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2452,14 +2452,14 @@
         "c667",
         "c771"
       ],
-      "sample_comment": "vitacore posee un ambiente agradable para trabajar, basado en el copo tiempo que mantengo  en la empresa, en el departamento que trabajo se respeta ..."
+      "sample_comment": "VitaCore Health posee un ambiente agradable para trabajar, basado en el copo tiempo que mantengo  en la empresa, en el departamento que trabajo se respeta ..."
     },
     {
       "id": "P080",
       "type": "participant",
       "label": "Participante 80",
-      "department": "laboratorio",
-      "department_name": "Calidad",
+      "department": "recursos_humanos",
+      "department_name": "Recursos Humanos",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2493,8 +2493,8 @@
       "id": "P081",
       "type": "participant",
       "label": "Participante 81",
-      "department": "administraci_n",
-      "department_name": "Calidad",
+      "department": "ti_salud",
+      "department_name": "TI Salud",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2522,14 +2522,14 @@
         "c770",
         "c405"
       ],
-      "sample_comment": "muy bueno el reto es maravilloso para todos estoy en el mejor lugar de trabajo Viva VitaCore."
+      "sample_comment": "muy bueno el reto es maravilloso para todos estoy en el mejor lugar de trabajo Viva VitaCore Health."
     },
     {
       "id": "P082",
       "type": "participant",
       "label": "Participante 82",
-      "department": "recursos_humanos",
-      "department_name": "Calidad",
+      "department": "urgencias",
+      "department_name": "Urgencias",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2563,8 +2563,8 @@
       "id": "P083",
       "type": "participant",
       "label": "Participante 83",
-      "department": "enfermer_a",
-      "department_name": "Calidad",
+      "department": "urgencias",
+      "department_name": "Urgencias",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2598,8 +2598,8 @@
       "id": "P084",
       "type": "participant",
       "label": "Participante 84",
-      "department": "farmacia",
-      "department_name": "Calidad",
+      "department": "recursos_humanos",
+      "department_name": "Recursos Humanos",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2627,14 +2627,14 @@
         "c550",
         "c499"
       ],
-      "sample_comment": "del poco tiempo de estar laborando en el banco siempre están realizando nuevos proyectos."
+      "sample_comment": "del poco tiempo de estar laborando en la empresa siempre están realizando nuevos proyectos."
     },
     {
       "id": "P085",
       "type": "participant",
       "label": "Participante 85",
-      "department": "calidad",
-      "department_name": "Calidad",
+      "department": "urgencias",
+      "department_name": "Urgencias",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2668,8 +2668,8 @@
       "id": "P086",
       "type": "participant",
       "label": "Participante 86",
-      "department": "urgencias",
-      "department_name": "Calidad",
+      "department": "administracion",
+      "department_name": "Administración",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2697,14 +2697,14 @@
         "c631",
         "c247"
       ],
-      "sample_comment": "La verdad me gusta desaprender para aprender ya que esto nos lleva a realizar cambios positivos para el banco y para vivir en el futuro"
+      "sample_comment": "La verdad me gusta desaprender para aprender ya que esto nos lleva a realizar cambios positivos para la empresa y para vivir en el futuro"
     },
     {
       "id": "P087",
       "type": "participant",
       "label": "Participante 87",
-      "department": "administraci_n",
-      "department_name": "Calidad",
+      "department": "enfermeria",
+      "department_name": "Enfermería",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -2733,8 +2733,8 @@
       "id": "P088",
       "type": "participant",
       "label": "Participante 88",
-      "department": "recursos_humanos",
-      "department_name": "Laboratorio",
+      "department": "calidad",
+      "department_name": "Calidad",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2768,8 +2768,8 @@
       "id": "P089",
       "type": "participant",
       "label": "Participante 89",
-      "department": "urgencias",
-      "department_name": "Laboratorio",
+      "department": "ti_salud",
+      "department_name": "TI Salud",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2803,8 +2803,8 @@
       "id": "P090",
       "type": "participant",
       "label": "Participante 90",
-      "department": "recursos_humanos",
-      "department_name": "Laboratorio",
+      "department": "medicina_general",
+      "department_name": "Medicina General",
       "profile": "Neutrales",
       "comment_count": 12,
       "themes": [
@@ -2838,8 +2838,8 @@
       "id": "P091",
       "type": "participant",
       "label": "Participante 91",
-      "department": "farmacia",
-      "department_name": "Laboratorio",
+      "department": "ti_salud",
+      "department_name": "TI Salud",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2873,8 +2873,8 @@
       "id": "P092",
       "type": "participant",
       "label": "Participante 92",
-      "department": "farmacia",
-      "department_name": "Calidad",
+      "department": "laboratorio",
+      "department_name": "Laboratorio",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -2896,14 +2896,14 @@
         "c063",
         "c313"
       ],
-      "sample_comment": "Me siento muy motivada y entusiasmada con el proceso de cambio. Ver cómo el banco evoluciona me llena de energía y ganas de seguir aportando. Siento q..."
+      "sample_comment": "Me siento muy motivada y entusiasmada con el proceso de cambio. Ver cómo la empresa evoluciona me llena de energía y ganas de seguir aportando. Siento q..."
     },
     {
       "id": "P093",
       "type": "participant",
       "label": "Participante 93",
-      "department": "recursos_humanos",
-      "department_name": "Calidad",
+      "department": "investigacion",
+      "department_name": "Investigación",
       "profile": "Neutrales",
       "comment_count": 6,
       "themes": [
@@ -2931,8 +2931,8 @@
       "id": "P094",
       "type": "participant",
       "label": "Participante 94",
-      "department": "recursos_humanos",
-      "department_name": "Calidad",
+      "department": "laboratorio",
+      "department_name": "Laboratorio",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -2959,8 +2959,8 @@
       "id": "P095",
       "type": "participant",
       "label": "Participante 95",
-      "department": "farmacia",
-      "department_name": "Calidad",
+      "department": "medicina_general",
+      "department_name": "Medicina General",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -2988,8 +2988,8 @@
       "id": "P096",
       "type": "participant",
       "label": "Participante 96",
-      "department": "urgencias",
-      "department_name": "Calidad",
+      "department": "farmacia",
+      "department_name": "Farmacia",
       "profile": "True Believers",
       "comment_count": 4,
       "themes": [
@@ -3016,7 +3016,7 @@
       "type": "participant",
       "label": "Participante 97",
       "department": "recursos_humanos",
-      "department_name": "Administración",
+      "department_name": "Recursos Humanos",
       "profile": "True Believers",
       "comment_count": 9,
       "themes": [
@@ -3047,8 +3047,8 @@
       "id": "P098",
       "type": "participant",
       "label": "Participante 98",
-      "department": "urgencias",
-      "department_name": "Administración",
+      "department": "calidad",
+      "department_name": "Calidad",
       "profile": "True Believers",
       "comment_count": 2,
       "themes": [
@@ -26860,48 +26860,48 @@
     ],
     "department_distribution": [
       {
-        "department": "Administración",
-        "count": 152
+        "department": "General",
+        "count": 36
       },
       {
-        "department": "Calidad",
-        "count": 55
+        "department": "Operaciones",
+        "count": 13
       },
       {
-        "department": "Investigación",
-        "count": 47
+        "department": "Banca de Personas",
+        "count": 11
       },
       {
-        "department": "Laboratorio",
-        "count": 38
+        "department": "Tecnología",
+        "count": 9
       },
       {
-        "department": "Investigación",
-        "count": 34
-      },
-      {
-        "department": "Calidad",
-        "count": 25
-      },
-      {
-        "department": "Administración",
-        "count": 17
-      },
-      {
-        "department": "Recursos Humanos",
-        "count": 17
-      },
-      {
-        "department": "Farmacia",
-        "count": 17
-      },
-      {
-        "department": "Enfermería",
+        "department": "Cumplimiento",
         "count": 8
       },
       {
-        "department": "Farmacia",
+        "department": "Banca Corporativa",
+        "count": 6
+      },
+      {
+        "department": "Recursos Humanos",
         "count": 4
+      },
+      {
+        "department": "Crédito",
+        "count": 4
+      },
+      {
+        "department": "Contabilidad/Finanzas",
+        "count": 4
+      },
+      {
+        "department": "Marketing",
+        "count": 2
+      },
+      {
+        "department": "Legal",
+        "count": 1
       }
     ],
     "profile_distribution": [
@@ -26925,8 +26925,7 @@
         "count": 2,
         "color": "#DC2626"
       }
-    ],
-    "total_participants": 800
+    ]
   },
   "clusters": [
     {
@@ -27071,22 +27070,22 @@
           "department": "Recursos Humanos"
         },
         {
-          "text": "VitaCore es coherente con su propuesta de valor, está innovando de manera permanente y nos involucra para poder entender estos cambios.",
+          "text": "VitaCore Health es coherente con su propuesta de valor, está innovando de manera permanente y nos involucra para poder entender estos cambios.",
           "sentiment": "neutral",
           "department": "Banca Corporativa"
         },
         {
-          "text": "Siempre es bueno adaptarse al cambio, es emocionante saber que el banco no se estanca sino que sigue evolucionando.",
+          "text": "Siempre es bueno adaptarse al cambio, es emocionante saber que la empresa no se estanca sino que sigue evolucionando.",
           "sentiment": "neutral",
           "department": "Cumplimiento"
         },
         {
-          "text": "Al ser del área de tecnología, bastante bien, aprendiendo sobre más tecnologías y apoyando a las demás áreas, siento que VitaCore esta yendo por el camino correcto en cuanto a adaptación a los cambio...",
+          "text": "Al ser del área de tecnología, bastante bien, aprendiendo sobre más tecnologías y apoyando a las demás áreas, siento que VitaCore Health esta yendo por el camino correcto en cuanto a adaptación a los cambio...",
           "sentiment": "positive",
           "department": "Tecnología"
         },
         {
-          "text": "No he sentido un cambio.  Llevo menos de un año en el banco y en este tiempo no he observado cambios importantes.",
+          "text": "No he sentido un cambio.  Llevo menos de un año en la empresa y en este tiempo no he observado cambios importantes.",
           "sentiment": "neutral",
           "department": "General"
         }
@@ -27166,8 +27165,7 @@
         "Comunicar claramente el propósito y beneficios de los cambios",
         "Reconocer y celebrar los early adopters del cambio",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 85
+      ]
     },
     {
       "id": "T_ia_tecnologia",
@@ -27306,12 +27304,12 @@
       ],
       "representative_comments": [
         {
-          "text": "Al ser del área de tecnología, bastante bien, aprendiendo sobre más tecnologías y apoyando a las demás áreas, siento que VitaCore esta yendo por el camino correcto en cuanto a adaptación a los cambio...",
+          "text": "Al ser del área de tecnología, bastante bien, aprendiendo sobre más tecnologías y apoyando a las demás áreas, siento que VitaCore Health esta yendo por el camino correcto en cuanto a adaptación a los cambio...",
           "sentiment": "positive",
           "department": "Tecnología"
         },
         {
-          "text": "Me gusta, me siento bien.  Sería bueno que los cambios sean transmitidos de forma más detallada a todos los colaboradores del banco.",
+          "text": "Me gusta, me siento bien.  Sería bueno que los cambios sean transmitidos de forma más detallada a todos los colaboradores de la empresa.",
           "sentiment": "positive",
           "department": "Banca Corporativa"
         },
@@ -27407,8 +27405,7 @@
         "Ampliar programas de capacitación en IA para todas las áreas",
         "Crear comunidades de práctica para compartir casos de éxito",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 85
+      ]
     },
     {
       "id": "T_procesos",
@@ -27547,7 +27544,7 @@
       ],
       "representative_comments": [
         {
-          "text": "No he sentido un cambio.  Llevo menos de un año en el banco y en este tiempo no he observado cambios importantes.",
+          "text": "No he sentido un cambio.  Llevo menos de un año en la empresa y en este tiempo no he observado cambios importantes.",
           "sentiment": "neutral",
           "department": "General"
         },
@@ -27648,8 +27645,7 @@
         "Mapear y optimizar procesos críticos identificados",
         "Involucrar a usuarios finales en el rediseño de procesos",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 85
+      ]
     },
     {
       "id": "T_capacitacion",
@@ -27798,7 +27794,7 @@
           "department": "General"
         },
         {
-          "text": "Un mercado nuevo para el banco, el cual le ha hecho reconocimiento internacionalmente, lo que me permite mas aprendizaje",
+          "text": "Un mercado nuevo para la empresa, el cual le ha hecho reconocimiento internacionalmente, lo que me permite mas aprendizaje",
           "sentiment": "neutral",
           "department": "Banca de Personas"
         },
@@ -27889,8 +27885,7 @@
         "Crear paths de desarrollo personalizados por rol",
         "Aprovechar embajadores internos para programas de mentoría",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 85
+      ]
     },
     {
       "id": "T_clientes",
@@ -28117,8 +28112,7 @@
         "Alinear expectativas internas con la experiencia del cliente",
         "Compartir feedback de clientes con equipos internos regularmente",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 85
+      ]
     },
     {
       "id": "T_equipo",
@@ -28257,7 +28251,7 @@
       ],
       "representative_comments": [
         {
-          "text": "Al ser del área de tecnología, bastante bien, aprendiendo sobre más tecnologías y apoyando a las demás áreas, siento que VitaCore esta yendo por el camino correcto en cuanto a adaptación a los cambio...",
+          "text": "Al ser del área de tecnología, bastante bien, aprendiendo sobre más tecnologías y apoyando a las demás áreas, siento que VitaCore Health esta yendo por el camino correcto en cuanto a adaptación a los cambio...",
           "sentiment": "positive",
           "department": "Tecnología"
         },
@@ -28267,7 +28261,7 @@
           "department": "Tecnología"
         },
         {
-          "text": "Veo que el Banco esta creciendo a pasos agigantados, y percibo que las áreas se centran en ese mismo objetivo, pero considero que a las áreas de control como Riesgos no se les involucra lo suficiente ...",
+          "text": "Veo que la empresa esta creciendo a pasos agigantados, y percibo que las áreas se centran en ese mismo objetivo, pero considero que a las áreas de control como Riesgos no se les involucra lo suficiente ...",
           "sentiment": "positive",
           "department": "General"
         },
@@ -28345,8 +28339,7 @@
         "Fortalecer espacios de colaboración entre áreas",
         "Implementar actividades de team building cross-funcional",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 85
+      ]
     },
     {
       "id": "T_liderazgo",
@@ -28482,7 +28475,7 @@
           "department": "Banca de Personas"
         },
         {
-          "text": "En personal, me siento halagada por la muestra de atención que recibe del Gerente del Banco felicitándome por mi labor.\nDefinitivamente esto en mis 17 años aquí no lo había visto.",
+          "text": "En personal, me siento halagada por la muestra de atención que recibe del Gerente de la empresa felicitándome por mi labor.\nDefinitivamente esto en mis 17 años aquí no lo había visto.",
           "sentiment": "neutral",
           "department": "Tecnología"
         },
@@ -28492,7 +28485,7 @@
           "department": "Operaciones"
         },
         {
-          "text": "Me siento muy contenta por los cambios porque son necesarios. VitaCore es un buen lugar para trabajar. Pero considero que se debe llevar un mayor orden en los proyectos, mayor control, mejores lineam...",
+          "text": "Me siento muy contenta por los cambios porque son necesarios. VitaCore Health es un buen lugar para trabajar. Pero considero que se debe llevar un mayor orden en los proyectos, mayor control, mejores lineam...",
           "sentiment": "positive",
           "department": "General"
         },
@@ -28550,8 +28543,7 @@
       "recommendations": [
         "Desarrollar habilidades de gestión del cambio en líderes",
         "Crear espacios de feedback bidireccional líder-equipo"
-      ],
-      "size": 85
+      ]
     },
     {
       "id": "T_comunicacion",
@@ -28762,8 +28754,7 @@
         "Monitorear evolución de este tema en próximas mediciones",
         "Profundizar análisis cualitativo con focus groups",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 85
+      ]
     },
     {
       "id": "T_bienestar",
@@ -28920,8 +28911,7 @@
         "Monitorear evolución de este tema en próximas mediciones",
         "Profundizar análisis cualitativo con focus groups",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 85
+      ]
     },
     {
       "id": "T_reconocimiento",
@@ -28996,7 +28986,7 @@
       ],
       "representative_comments": [
         {
-          "text": "Un mercado nuevo para el banco, el cual le ha hecho reconocimiento internacionalmente, lo que me permite mas aprendizaje",
+          "text": "Un mercado nuevo para la empresa, el cual le ha hecho reconocimiento internacionalmente, lo que me permite mas aprendizaje",
           "sentiment": "neutral",
           "department": "Banca de Personas"
         },
@@ -29006,12 +28996,12 @@
           "department": "General"
         },
         {
-          "text": "Soy creyente que hay retos que uno debe asumir y es ahí donde se debe demostrar tu disciplina, tu pasión y tu compromiso. VitaCore ofrece un ambiente de crecimiento profesional y de reconocimiento a ...",
+          "text": "Soy creyente que hay retos que uno debe asumir y es ahí donde se debe demostrar tu disciplina, tu pasión y tu compromiso. VitaCore Health ofrece un ambiente de crecimiento profesional y de reconocimiento a ...",
           "sentiment": "positive",
           "department": "General"
         },
         {
-          "text": "Me siento contento por pertenecer a la gran familia VitaCore por los logros que ha obtenido y con ganas de seguir aportando al logro de los retos futuros.",
+          "text": "Me siento contento por pertenecer a la gran familia VitaCore Health por los logros que ha obtenido y con ganas de seguir aportando al logro de los retos futuros.",
           "sentiment": "positive",
           "department": "Tecnología"
         },
@@ -29064,51 +29054,54 @@
         "Profundizar análisis cualitativo con focus groups",
         "⚠️ Alta concentración de perfiles desengaged - requiere intervención prioritaria",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 85
+      ]
     }
   ],
   "filters": {
     "departments": [
       {
-        "id": "medicina_general",
-        "name": "Medicina General"
+        "id": "tecnologia",
+        "name": "Tecnología"
       },
       {
-        "id": "enfermer_a",
-        "name": "Enfermería"
+        "id": "operaciones",
+        "name": "Operaciones"
       },
       {
-        "id": "farmacia",
-        "name": "Farmacia"
+        "id": "banca_de_personas_y_comercial",
+        "name": "Banca de Personas"
       },
       {
-        "id": "laboratorio",
-        "name": "Laboratorio"
+        "id": "banca_corporativa",
+        "name": "Banca Corporativa"
       },
       {
-        "id": "administraci_n",
-        "name": "Administración"
+        "id": "credito",
+        "name": "Crédito"
       },
       {
-        "id": "ti_salud",
-        "name": "TI Salud"
+        "id": "cumplimiento",
+        "name": "Cumplimiento"
       },
       {
         "id": "recursos_humanos",
         "name": "Recursos Humanos"
       },
       {
-        "id": "calidad",
-        "name": "Calidad"
+        "id": "contabilidad_finanzas",
+        "name": "Contabilidad/Finanzas"
       },
       {
-        "id": "urgencias",
-        "name": "Urgencias"
+        "id": "marketing",
+        "name": "Marketing"
       },
       {
-        "id": "investigaci_n",
-        "name": "Investigación"
+        "id": "legal",
+        "name": "Legal"
+      },
+      {
+        "id": "general",
+        "name": "General"
       }
     ],
     "profiles": [

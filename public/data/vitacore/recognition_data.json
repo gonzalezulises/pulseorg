@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-01-21T01:14:57.432797",
+  "generated_at": "2026-02-10T02:31:09.776112",
   "rankings": [
     {
-      "area": "TI Salud",
-      "engagement": 4.73,
-      "respondents": 11,
+      "area": "Urgencias",
+      "engagement": 4.67,
+      "respondents": 86,
       "dimensions": {
-        "orgullo_institucional": 4.82,
-        "engagement": 4.73,
-        "liderazgo": 4.82,
-        "comunicacion": 4.82,
-        "desarrollo": 4.68,
-        "compensacion": 4.36,
-        "reconocimiento": 4.68,
-        "balance": 4.59,
-        "cohesion": 4.67
+        "orgullo_institucional": 4.72,
+        "engagement": 4.67,
+        "liderazgo": 4.65,
+        "comunicacion": 4.72,
+        "desarrollo": 4.52,
+        "compensacion": 4.57,
+        "reconocimiento": 4.66,
+        "balance": 4.64,
+        "cohesion": 4.76
       },
       "medal": "gold",
       "rank": 1,
-      "change": 0.11,
+      "change": -0.06,
       "trend": "up",
       "badges": [
         {
@@ -49,136 +49,27 @@
           "icon": "award",
           "color": "purple"
         }
-      ],
-      "id": "ti_salud",
-      "score": 81.8,
-      "respondent_count": 81
-    },
-    {
-      "area": "Farmacia",
-      "engagement": 4.9,
-      "respondents": 7,
-      "dimensions": {
-        "orgullo_institucional": 5.0,
-        "engagement": 4.9,
-        "liderazgo": 4.89,
-        "comunicacion": 4.95,
-        "desarrollo": 4.07,
-        "compensacion": 4.21,
-        "reconocimiento": 4.71,
-        "balance": 4.93,
-        "cohesion": 4.95
-      },
-      "medal": "silver",
-      "rank": 2,
-      "change": 0.34,
-      "trend": "up",
-      "badges": [
-        {
-          "id": "rising_star",
-          "name": "Estrella en Ascenso",
-          "description": "Mejoró 0.34 puntos vs año anterior",
-          "icon": "star",
-          "color": "yellow"
-        },
-        {
-          "id": "consistency",
-          "name": "Consistencia",
-          "description": "Mantiene engagement superior a 4.3",
-          "icon": "check-circle",
-          "color": "green"
-        },
-        {
-          "id": "wellness_leader",
-          "name": "Líder en Bienestar",
-          "description": "Top en Balance Vida-Trabajo",
-          "icon": "heart",
-          "color": "pink"
-        },
-        {
-          "id": "team_spirit",
-          "name": "Espíritu de Equipo",
-          "description": "Excelente cohesión de equipo",
-          "icon": "users",
-          "color": "blue"
-        },
-        {
-          "id": "leadership_excellence",
-          "name": "Excelencia en Liderazgo",
-          "description": "Liderazgo destacado",
-          "icon": "award",
-          "color": "purple"
-        }
-      ],
-      "id": "farmacia",
-      "score": 80.6,
-      "respondent_count": 81
-    },
-    {
-      "area": "Administración",
-      "engagement": 4.78,
-      "respondents": 6,
-      "dimensions": {
-        "orgullo_institucional": 4.92,
-        "engagement": 4.78,
-        "liderazgo": 4.29,
-        "comunicacion": 4.5,
-        "desarrollo": 4.08,
-        "compensacion": 4.0,
-        "reconocimiento": 4.58,
-        "balance": 4.75,
-        "cohesion": 4.67
-      },
-      "medal": "bronze",
-      "rank": 3,
-      "change": 0,
-      "trend": "new",
-      "badges": [
-        {
-          "id": "consistency",
-          "name": "Consistencia",
-          "description": "Mantiene engagement superior a 4.3",
-          "icon": "check-circle",
-          "color": "green"
-        },
-        {
-          "id": "wellness_leader",
-          "name": "Líder en Bienestar",
-          "description": "Top en Balance Vida-Trabajo",
-          "icon": "heart",
-          "color": "pink"
-        },
-        {
-          "id": "team_spirit",
-          "name": "Espíritu de Equipo",
-          "description": "Excelente cohesión de equipo",
-          "icon": "users",
-          "color": "blue"
-        }
-      ],
-      "id": "administraci_n",
-      "score": 80.3,
-      "respondent_count": 85
+      ]
     },
     {
       "area": "Investigación",
-      "engagement": 4.67,
-      "respondents": 3,
+      "engagement": 4.6,
+      "respondents": 56,
       "dimensions": {
-        "orgullo_institucional": 5.0,
-        "engagement": 4.67,
-        "liderazgo": 4.67,
-        "comunicacion": 4.56,
-        "desarrollo": 4.33,
-        "compensacion": 4.17,
-        "reconocimiento": 4.5,
-        "balance": 4.17,
-        "cohesion": 4.0
+        "orgullo_institucional": 4.68,
+        "engagement": 4.6,
+        "liderazgo": 4.64,
+        "comunicacion": 4.7,
+        "desarrollo": 4.39,
+        "compensacion": 4.58,
+        "reconocimiento": 4.66,
+        "balance": 4.43,
+        "cohesion": 4.59
       },
-      "medal": "none",
-      "rank": 4,
-      "change": 0,
-      "trend": "new",
+      "medal": "gold",
+      "rank": 2,
+      "change": 0.05,
+      "trend": "up",
       "badges": [
         {
           "id": "consistency",
@@ -188,35 +79,46 @@
           "color": "green"
         },
         {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        },
+        {
           "id": "leadership_excellence",
           "name": "Excelencia en Liderazgo",
           "description": "Liderazgo destacado",
           "icon": "award",
           "color": "purple"
         }
-      ],
-      "id": "investigaci_n",
-      "score": 80.3,
-      "respondent_count": 80
+      ]
     },
     {
-      "area": "Laboratorio",
-      "engagement": 4.78,
-      "respondents": 20,
+      "area": "Administración",
+      "engagement": 4.51,
+      "respondents": 91,
       "dimensions": {
-        "orgullo_institucional": 4.95,
-        "engagement": 4.78,
-        "liderazgo": 4.7,
-        "comunicacion": 4.82,
+        "orgullo_institucional": 4.49,
+        "engagement": 4.51,
+        "liderazgo": 4.45,
+        "comunicacion": 4.5,
         "desarrollo": 4.32,
-        "compensacion": 4.38,
-        "reconocimiento": 4.65,
-        "balance": 4.62,
-        "cohesion": 4.55
+        "compensacion": 4.5,
+        "reconocimiento": 4.49,
+        "balance": 4.45,
+        "cohesion": 4.57
       },
-      "medal": "none",
-      "rank": 5,
-      "change": 0.03,
+      "medal": "silver",
+      "rank": 3,
+      "change": -0.1,
       "trend": "stable",
       "badges": [
         {
@@ -239,6 +141,243 @@
           "description": "Excelente cohesión de equipo",
           "icon": "users",
           "color": "blue"
+        }
+      ]
+    },
+    {
+      "area": "Enfermería",
+      "engagement": 4.48,
+      "respondents": 103,
+      "dimensions": {
+        "orgullo_institucional": 4.58,
+        "engagement": 4.48,
+        "liderazgo": 4.45,
+        "comunicacion": 4.55,
+        "desarrollo": 4.34,
+        "compensacion": 4.29,
+        "reconocimiento": 4.39,
+        "balance": 4.33,
+        "cohesion": 4.58
+      },
+      "medal": "silver",
+      "rank": 4,
+      "change": 0.01,
+      "trend": "up",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "area": "Calidad",
+      "engagement": 4.37,
+      "respondents": 77,
+      "dimensions": {
+        "orgullo_institucional": 4.5,
+        "engagement": 4.37,
+        "liderazgo": 4.37,
+        "comunicacion": 4.52,
+        "desarrollo": 4.2,
+        "compensacion": 4.34,
+        "reconocimiento": 4.39,
+        "balance": 4.3,
+        "cohesion": 4.47
+      },
+      "medal": "silver",
+      "rank": 5,
+      "change": -0.08,
+      "trend": "down",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "area": "Recursos Humanos",
+      "engagement": 4.31,
+      "respondents": 97,
+      "dimensions": {
+        "orgullo_institucional": 4.44,
+        "engagement": 4.31,
+        "liderazgo": 4.29,
+        "comunicacion": 4.46,
+        "desarrollo": 4.17,
+        "compensacion": 4.22,
+        "reconocimiento": 4.34,
+        "balance": 4.14,
+        "cohesion": 4.42
+      },
+      "medal": "bronze",
+      "rank": 6,
+      "change": -0.07,
+      "trend": "up",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "area": "Laboratorio",
+      "engagement": 4.25,
+      "respondents": 83,
+      "dimensions": {
+        "orgullo_institucional": 4.26,
+        "engagement": 4.25,
+        "liderazgo": 4.37,
+        "comunicacion": 4.3,
+        "desarrollo": 4.06,
+        "compensacion": 4.17,
+        "reconocimiento": 4.22,
+        "balance": 4.17,
+        "cohesion": 4.24
+      },
+      "medal": "bronze",
+      "rank": 7,
+      "change": -0.11,
+      "trend": "up",
+      "badges": []
+    },
+    {
+      "area": "TI Salud",
+      "engagement": 4.25,
+      "respondents": 62,
+      "dimensions": {
+        "orgullo_institucional": 4.28,
+        "engagement": 4.25,
+        "liderazgo": 4.25,
+        "comunicacion": 4.38,
+        "desarrollo": 4.18,
+        "compensacion": 4.22,
+        "reconocimiento": 4.23,
+        "balance": 4.07,
+        "cohesion": 4.29
+      },
+      "medal": "bronze",
+      "rank": 8,
+      "change": 0.13,
+      "trend": "down",
+      "badges": []
+    },
+    {
+      "area": "Farmacia",
+      "engagement": 4.08,
+      "respondents": 96,
+      "dimensions": {
+        "orgullo_institucional": 4.2,
+        "engagement": 4.08,
+        "liderazgo": 4.07,
+        "comunicacion": 4.12,
+        "desarrollo": 3.93,
+        "compensacion": 4.01,
+        "reconocimiento": 4.11,
+        "balance": 3.99,
+        "cohesion": 4.18
+      },
+      "medal": null,
+      "rank": 9,
+      "change": -0.09,
+      "trend": "down",
+      "badges": []
+    },
+    {
+      "area": "Medicina General",
+      "engagement": 3.93,
+      "respondents": 72,
+      "dimensions": {
+        "orgullo_institucional": 4.05,
+        "engagement": 3.93,
+        "liderazgo": 3.86,
+        "comunicacion": 4.06,
+        "desarrollo": 3.82,
+        "compensacion": 3.78,
+        "reconocimiento": 3.88,
+        "balance": 3.88,
+        "cohesion": 3.98
+      },
+      "medal": null,
+      "rank": 10,
+      "change": 0.06,
+      "trend": "down",
+      "badges": []
+    }
+  ],
+  "podium": [
+    {
+      "area": "Seguridad de la información y ciberseguridad",
+      "engagement": 5.0,
+      "respondents": 6,
+      "dimensions": {
+        "orgullo_institucional": 5.0,
+        "engagement": 5.0,
+        "liderazgo": 4.96,
+        "comunicacion": 4.94,
+        "desarrollo": 4.92,
+        "compensacion": 4.67,
+        "reconocimiento": 4.92,
+        "balance": 4.83,
+        "cohesion": 4.94
+      },
+      "medal": "gold",
+      "rank": 1,
+      "change": 0,
+      "trend": "new",
+      "badges": [
+        {
+          "id": "consistency",
+          "name": "Consistencia",
+          "description": "Mantiene engagement superior a 4.3",
+          "icon": "check-circle",
+          "color": "green"
+        },
+        {
+          "id": "wellness_leader",
+          "name": "Líder en Bienestar",
+          "description": "Top en Balance Vida-Trabajo",
+          "icon": "heart",
+          "color": "pink"
+        },
+        {
+          "id": "team_spirit",
+          "name": "Espíritu de Equipo",
+          "description": "Excelente cohesión de equipo",
+          "icon": "users",
+          "color": "blue"
         },
         {
           "id": "leadership_excellence",
@@ -247,13 +386,10 @@
           "icon": "award",
           "color": "purple"
         }
-      ],
-      "id": "laboratorio",
-      "score": 79.9,
-      "respondent_count": 79
+      ]
     },
     {
-      "area": "Enfermería",
+      "area": "Dominio de Automatización",
       "engagement": 4.95,
       "respondents": 7,
       "dimensions": {
@@ -267,8 +403,8 @@
         "balance": 4.79,
         "cohesion": 4.9
       },
-      "medal": "none",
-      "rank": 6,
+      "medal": "gold",
+      "rank": 2,
       "change": 0.12,
       "trend": "up",
       "badges": [
@@ -300,266 +436,10 @@
           "icon": "award",
           "color": "purple"
         }
-      ],
-      "id": "enfermer_a",
-      "score": 78.9,
-      "respondent_count": 81
+      ]
     },
     {
-      "area": "Calidad",
-      "engagement": 4.67,
-      "respondents": 3,
-      "dimensions": {
-        "orgullo_institucional": 4.83,
-        "engagement": 4.67,
-        "liderazgo": 4.75,
-        "comunicacion": 4.78,
-        "desarrollo": 4.0,
-        "compensacion": 4.0,
-        "reconocimiento": 4.33,
-        "balance": 4.17,
-        "cohesion": 4.44
-      },
-      "medal": "none",
-      "rank": 7,
-      "change": -0.16,
-      "trend": "down",
-      "badges": [
-        {
-          "id": "consistency",
-          "name": "Consistencia",
-          "description": "Mantiene engagement superior a 4.3",
-          "icon": "check-circle",
-          "color": "green"
-        },
-        {
-          "id": "leadership_excellence",
-          "name": "Excelencia en Liderazgo",
-          "description": "Liderazgo destacado",
-          "icon": "award",
-          "color": "purple"
-        }
-      ],
-      "id": "calidad",
-      "score": 77.5,
-      "respondent_count": 85
-    },
-    {
-      "area": "Urgencias",
-      "engagement": 4.67,
-      "respondents": 7,
-      "dimensions": {
-        "orgullo_institucional": 4.93,
-        "engagement": 4.67,
-        "liderazgo": 4.64,
-        "comunicacion": 4.81,
-        "desarrollo": 4.5,
-        "compensacion": 4.43,
-        "reconocimiento": 4.64,
-        "balance": 4.57,
-        "cohesion": 4.52
-      },
-      "medal": "none",
-      "rank": 8,
-      "change": 0,
-      "trend": "new",
-      "badges": [
-        {
-          "id": "consistency",
-          "name": "Consistencia",
-          "description": "Mantiene engagement superior a 4.3",
-          "icon": "check-circle",
-          "color": "green"
-        },
-        {
-          "id": "wellness_leader",
-          "name": "Líder en Bienestar",
-          "description": "Top en Balance Vida-Trabajo",
-          "icon": "heart",
-          "color": "pink"
-        },
-        {
-          "id": "team_spirit",
-          "name": "Espíritu de Equipo",
-          "description": "Excelente cohesión de equipo",
-          "icon": "users",
-          "color": "blue"
-        },
-        {
-          "id": "leadership_excellence",
-          "name": "Excelencia en Liderazgo",
-          "description": "Liderazgo destacado",
-          "icon": "award",
-          "color": "purple"
-        }
-      ],
-      "id": "urgencias",
-      "score": 77.1,
-      "respondent_count": 77
-    },
-    {
-      "area": "Medicina General",
-      "engagement": 5.0,
-      "respondents": 6,
-      "dimensions": {
-        "orgullo_institucional": 5.0,
-        "engagement": 5.0,
-        "liderazgo": 4.96,
-        "comunicacion": 4.94,
-        "desarrollo": 4.92,
-        "compensacion": 4.67,
-        "reconocimiento": 4.92,
-        "balance": 4.83,
-        "cohesion": 4.94
-      },
-      "medal": "none",
-      "rank": 9,
-      "change": 0,
-      "trend": "new",
-      "badges": [
-        {
-          "id": "consistency",
-          "name": "Consistencia",
-          "description": "Mantiene engagement superior a 4.3",
-          "icon": "check-circle",
-          "color": "green"
-        },
-        {
-          "id": "wellness_leader",
-          "name": "Líder en Bienestar",
-          "description": "Top en Balance Vida-Trabajo",
-          "icon": "heart",
-          "color": "pink"
-        },
-        {
-          "id": "team_spirit",
-          "name": "Espíritu de Equipo",
-          "description": "Excelente cohesión de equipo",
-          "icon": "users",
-          "color": "blue"
-        },
-        {
-          "id": "leadership_excellence",
-          "name": "Excelencia en Liderazgo",
-          "description": "Liderazgo destacado",
-          "icon": "award",
-          "color": "purple"
-        }
-      ],
-      "id": "medicina_general",
-      "score": 76.6,
-      "respondent_count": 81
-    },
-    {
-      "area": "Recursos Humanos",
-      "engagement": 4.72,
-      "respondents": 12,
-      "dimensions": {
-        "orgullo_institucional": 4.92,
-        "engagement": 4.72,
-        "liderazgo": 4.73,
-        "comunicacion": 4.69,
-        "desarrollo": 4.67,
-        "compensacion": 4.04,
-        "reconocimiento": 4.58,
-        "balance": 4.67,
-        "cohesion": 4.64
-      },
-      "medal": "none",
-      "rank": 10,
-      "change": 0,
-      "trend": "new",
-      "badges": [
-        {
-          "id": "consistency",
-          "name": "Consistencia",
-          "description": "Mantiene engagement superior a 4.3",
-          "icon": "check-circle",
-          "color": "green"
-        },
-        {
-          "id": "wellness_leader",
-          "name": "Líder en Bienestar",
-          "description": "Top en Balance Vida-Trabajo",
-          "icon": "heart",
-          "color": "pink"
-        },
-        {
-          "id": "team_spirit",
-          "name": "Espíritu de Equipo",
-          "description": "Excelente cohesión de equipo",
-          "icon": "users",
-          "color": "blue"
-        },
-        {
-          "id": "leadership_excellence",
-          "name": "Excelencia en Liderazgo",
-          "description": "Liderazgo destacado",
-          "icon": "award",
-          "color": "purple"
-        }
-      ],
-      "id": "recursos_humanos",
-      "score": 75.2,
-      "respondent_count": 82
-    }
-  ],
-  "podium": [
-    {
-      "area": "TI Salud",
-      "engagement": 4.73,
-      "respondents": 11,
-      "dimensions": {
-        "orgullo_institucional": 4.82,
-        "engagement": 4.73,
-        "liderazgo": 4.82,
-        "comunicacion": 4.82,
-        "desarrollo": 4.68,
-        "compensacion": 4.36,
-        "reconocimiento": 4.68,
-        "balance": 4.59,
-        "cohesion": 4.67
-      },
-      "medal": "gold",
-      "rank": 1,
-      "change": 0.11,
-      "trend": "up",
-      "badges": [
-        {
-          "id": "consistency",
-          "name": "Consistencia",
-          "description": "Mantiene engagement superior a 4.3",
-          "icon": "check-circle",
-          "color": "green"
-        },
-        {
-          "id": "wellness_leader",
-          "name": "Líder en Bienestar",
-          "description": "Top en Balance Vida-Trabajo",
-          "icon": "heart",
-          "color": "pink"
-        },
-        {
-          "id": "team_spirit",
-          "name": "Espíritu de Equipo",
-          "description": "Excelente cohesión de equipo",
-          "icon": "users",
-          "color": "blue"
-        },
-        {
-          "id": "leadership_excellence",
-          "name": "Excelencia en Liderazgo",
-          "description": "Liderazgo destacado",
-          "icon": "award",
-          "color": "purple"
-        }
-      ],
-      "id": "ti_salud",
-      "score": 81.8,
-      "respondent_count": 81
-    },
-    {
-      "area": "Farmacia",
+      "area": "Gente Tower y Administración",
       "engagement": 4.9,
       "respondents": 7,
       "dimensions": {
@@ -573,8 +453,8 @@
         "balance": 4.93,
         "cohesion": 4.95
       },
-      "medal": "silver",
-      "rank": 2,
+      "medal": "gold",
+      "rank": 3,
       "change": 0.34,
       "trend": "up",
       "badges": [
@@ -613,61 +493,12 @@
           "icon": "award",
           "color": "purple"
         }
-      ],
-      "id": "farmacia",
-      "score": 80.6,
-      "respondent_count": 81
-    },
-    {
-      "area": "Administración",
-      "engagement": 4.78,
-      "respondents": 6,
-      "dimensions": {
-        "orgullo_institucional": 4.92,
-        "engagement": 4.78,
-        "liderazgo": 4.29,
-        "comunicacion": 4.5,
-        "desarrollo": 4.08,
-        "compensacion": 4.0,
-        "reconocimiento": 4.58,
-        "balance": 4.75,
-        "cohesion": 4.67
-      },
-      "medal": "bronze",
-      "rank": 3,
-      "change": 0,
-      "trend": "new",
-      "badges": [
-        {
-          "id": "consistency",
-          "name": "Consistencia",
-          "description": "Mantiene engagement superior a 4.3",
-          "icon": "check-circle",
-          "color": "green"
-        },
-        {
-          "id": "wellness_leader",
-          "name": "Líder en Bienestar",
-          "description": "Top en Balance Vida-Trabajo",
-          "icon": "heart",
-          "color": "pink"
-        },
-        {
-          "id": "team_spirit",
-          "name": "Espíritu de Equipo",
-          "description": "Excelente cohesión de equipo",
-          "icon": "users",
-          "color": "blue"
-        }
-      ],
-      "id": "administraci_n",
-      "score": 80.3,
-      "respondent_count": 85
+      ]
     }
   ],
   "area_of_month": {
     "current": {
-      "area": "Gestión de Personas",
+      "area": "Gente Tower y Administración",
       "improvement": 0.34,
       "previous_score": 4.56,
       "current_score": 4.9,
@@ -706,15 +537,13 @@
         "area": "Cumplimiento",
         "improvement": 0.11
       }
-    ],
-    "area": "TI Salud",
-    "score": 81.8
+    ]
   },
   "goals_progress": [
     {
       "dimension": "engagement",
       "name": "Engagement Global",
-      "current": 4.7,
+      "current": 4.66,
       "target": 4.5,
       "progress": 100,
       "status": "achieved",
@@ -723,7 +552,7 @@
     {
       "dimension": "comunicacion",
       "name": "Comunicación Interna",
-      "current": 6.1,
+      "current": 4.72,
       "target": 4.3,
       "progress": 100,
       "status": "achieved",
@@ -732,7 +561,7 @@
     {
       "dimension": "desarrollo",
       "name": "Desarrollo Profesional",
-      "current": 2.1,
+      "current": 4.3,
       "target": 4.4,
       "progress": 97.8,
       "status": "on_track",
@@ -741,7 +570,7 @@
     {
       "dimension": "reconocimiento",
       "name": "Reconocimiento",
-      "current": 7.9,
+      "current": 4.47,
       "target": 4.2,
       "progress": 100,
       "status": "achieved",
@@ -750,7 +579,7 @@
     {
       "dimension": "balance",
       "name": "Balance Vida-Trabajo",
-      "current": 3.2,
+      "current": 4.46,
       "target": 4.3,
       "progress": 100,
       "status": "achieved",
@@ -759,7 +588,7 @@
     {
       "dimension": "compensacion",
       "name": "Compensación",
-      "current": 0.0,
+      "current": 4.06,
       "target": 4.0,
       "progress": 100,
       "status": "achieved",
@@ -772,171 +601,155 @@
       "type": "dimension",
       "icon": "star",
       "message": "Seguridad de la información y ciberseguridad alcanzó 5.00 en Engagement Global",
-      "area": "Recursos Humanos",
+      "area": "Seguridad de la información y ciberseguridad",
       "dimension": "engagement",
       "value": 5.0,
-      "date": "2026-01-20T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-20T01:14:57.432510"
     },
     {
       "id": "engagement_Dominio de Automatización",
       "type": "milestone",
       "icon": "trophy",
       "message": "Dominio de Automatización superó 4.5 en Engagement",
-      "area": "Medicina General",
+      "area": "Dominio de Automatización",
       "value": 4.95,
-      "date": "2026-01-18T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-18T01:14:57.432510"
     },
     {
       "id": "engagement_Seguridad de la información y ciberseguridad",
       "type": "milestone",
       "icon": "trophy",
       "message": "Seguridad de la información y ciberseguridad superó 4.5 en Engagement",
-      "area": "Laboratorio",
+      "area": "Seguridad de la información y ciberseguridad",
       "value": 5.0,
-      "date": "2026-01-14T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-14T01:14:57.432510"
     },
     {
       "id": "dim_balance_Seguridad de la información y ciberseguridad",
       "type": "dimension",
       "icon": "star",
       "message": "Seguridad de la información y ciberseguridad alcanzó 4.83 en Balance Vida-Trabajo",
-      "area": "Medicina General",
+      "area": "Seguridad de la información y ciberseguridad",
       "dimension": "balance",
       "value": 4.83,
-      "date": "2026-01-14T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-14T01:14:57.432510"
     },
     {
       "id": "dim_balance_Dominio de Automatización",
       "type": "dimension",
       "icon": "star",
       "message": "Dominio de Automatización alcanzó 4.79 en Balance Vida-Trabajo",
-      "area": "Administración",
+      "area": "Dominio de Automatización",
       "dimension": "balance",
       "value": 4.79,
-      "date": "2026-01-11T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-11T01:14:57.432510"
     },
     {
       "id": "dim_liderazgo_Dominio de Automatización",
       "type": "dimension",
       "icon": "star",
       "message": "Dominio de Automatización alcanzó 4.93 en Liderazgo Efectivo",
-      "area": "Enfermería",
+      "area": "Dominio de Automatización",
       "dimension": "liderazgo",
       "value": 4.93,
-      "date": "2026-01-09T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-09T01:14:57.432510"
     },
     {
       "id": "dim_reconocimiento_Seguridad de la información y ciberseguridad",
       "type": "dimension",
       "icon": "star",
       "message": "Seguridad de la información y ciberseguridad alcanzó 4.92 en Reconocimiento",
-      "area": "Urgencias",
+      "area": "Seguridad de la información y ciberseguridad",
       "dimension": "reconocimiento",
       "value": 4.92,
-      "date": "2026-01-08T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-08T01:14:57.432510"
     },
     {
-      "id": "dim_liderazgo_Gestión de Personas",
+      "id": "dim_liderazgo_Gente Tower y Administración",
       "type": "dimension",
       "icon": "star",
-      "message": "Gestión de Personas alcanzó 4.89 en Liderazgo Efectivo",
-      "area": "TI Salud",
+      "message": "Gente Tower y Administración alcanzó 4.89 en Liderazgo Efectivo",
+      "area": "Gente Tower y Administración",
       "dimension": "liderazgo",
       "value": 4.89,
-      "date": "2026-01-08T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-08T01:14:57.432510"
     },
     {
-      "id": "engagement_Gestión de Personas",
+      "id": "engagement_Gente Tower y Administración",
       "type": "milestone",
       "icon": "trophy",
-      "message": "Gestión de Personas superó 4.5 en Engagement",
-      "area": "Medicina General",
+      "message": "Gente Tower y Administración superó 4.5 en Engagement",
+      "area": "Gente Tower y Administración",
       "value": 4.9,
-      "date": "2026-01-06T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-06T01:14:57.432510"
     },
     {
       "id": "dim_compensacion_Seguridad de la información y ciberseguridad",
       "type": "dimension",
       "icon": "star",
       "message": "Seguridad de la información y ciberseguridad alcanzó 4.67 en Compensación",
-      "area": "Laboratorio",
+      "area": "Seguridad de la información y ciberseguridad",
       "dimension": "compensacion",
       "value": 4.67,
-      "date": "2026-01-06T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-06T01:14:57.432510"
     },
     {
       "id": "engagement_Dominio IA & Data",
       "type": "milestone",
       "icon": "trophy",
       "message": "Dominio IA & Data superó 4.5 en Engagement",
-      "area": "Investigación",
+      "area": "Dominio IA & Data",
       "value": 4.78,
-      "date": "2026-01-03T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-03T01:14:57.432510"
     },
     {
-      "id": "dim_reconocimiento_Gestión de Personas",
+      "id": "dim_reconocimiento_Gente Tower y Administración",
       "type": "dimension",
       "icon": "star",
-      "message": "Gestión de Personas alcanzó 4.71 en Reconocimiento",
-      "area": "Farmacia",
+      "message": "Gente Tower y Administración alcanzó 4.71 en Reconocimiento",
+      "area": "Gente Tower y Administración",
       "dimension": "reconocimiento",
       "value": 4.71,
-      "date": "2026-01-03T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-03T01:14:57.432510"
     },
     {
-      "id": "dim_balance_Gestión de Personas",
+      "id": "dim_balance_Gente Tower y Administración",
       "type": "dimension",
       "icon": "star",
-      "message": "Gestión de Personas alcanzó 4.93 en Balance Vida-Trabajo",
-      "area": "Farmacia",
+      "message": "Gente Tower y Administración alcanzó 4.93 en Balance Vida-Trabajo",
+      "area": "Gente Tower y Administración",
       "dimension": "balance",
       "value": 4.93,
-      "date": "2026-01-02T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-02T01:14:57.432510"
     },
     {
       "id": "dim_liderazgo_Seguridad de la información y ciberseguridad",
       "type": "dimension",
       "icon": "star",
       "message": "Seguridad de la información y ciberseguridad alcanzó 4.96 en Liderazgo Efectivo",
-      "area": "Farmacia",
+      "area": "Seguridad de la información y ciberseguridad",
       "dimension": "liderazgo",
       "value": 4.96,
-      "date": "2026-01-01T01:14:57.432510",
-      "description": ""
+      "date": "2026-01-01T01:14:57.432510"
     },
     {
       "id": "dim_orgullo_institucional_Dominio de Automatización",
       "type": "dimension",
       "icon": "star",
       "message": "Dominio de Automatización alcanzó 5.00 en Orgullo Institucional",
-      "area": "Laboratorio",
+      "area": "Dominio de Automatización",
       "dimension": "orgullo_institucional",
       "value": 5.0,
-      "date": "2025-12-31T01:14:57.432510",
-      "description": ""
+      "date": "2025-12-31T01:14:57.432510"
     }
   ],
   "summary": {
-    "total_areas": 10,
+    "total_areas": 20,
     "gold_medals": 17,
     "silver_medals": 3,
     "bronze_medals": 0,
     "average_engagement": 4.66,
     "goals_on_track": 6,
-    "goals_at_risk": 0,
-    "total_respondents": 800
+    "goals_at_risk": 0
   }
 }

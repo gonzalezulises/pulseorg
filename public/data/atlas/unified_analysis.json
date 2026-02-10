@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-20T21:56:16.034349",
+  "generated_at": "2026-02-10T02:31:09.697542",
   "model_version": "unified_v1",
   "years_analyzed": [
     2024,
@@ -10,259 +10,259 @@
     "2024": {
       "future_suggestions": {
         "column_name": "De cara al futuro, para una mejor gestión de la experiencia de los usuario, el banco debiera trabajar en:",
-        "response_count": 175,
+        "response_count": 306,
         "keywords": [
           {
             "word": "cliente",
-            "count": 36,
-            "frequency": 1.66
+            "count": 68,
+            "frequency": 22.22
           },
           {
             "word": "clientes",
-            "count": 39,
-            "frequency": 1.66
+            "count": 73,
+            "frequency": 23.86
           },
           {
             "word": "procesos",
-            "count": 35,
-            "frequency": 1.57
+            "count": 78,
+            "frequency": 25.49
           },
           {
             "word": "experiencia",
-            "count": 32,
-            "frequency": 1.43
+            "count": 67,
+            "frequency": 21.9
           },
           {
             "word": "colaboradores",
-            "count": 23,
-            "frequency": 1.12
+            "count": 32,
+            "frequency": 10.46
           },
           {
             "word": "mejorar",
-            "count": 22,
-            "frequency": 1.12
+            "count": 41,
+            "frequency": 13.4
           },
           {
             "word": "gestión",
-            "count": 23,
-            "frequency": 0.81
+            "count": 22,
+            "frequency": 7.19
           },
           {
             "word": "seguir",
-            "count": 14,
-            "frequency": 0.81
+            "count": 31,
+            "frequency": 10.13
           },
           {
             "word": "banca",
-            "count": 21,
-            "frequency": 0.72
+            "count": 31,
+            "frequency": 10.13
           },
           {
             "word": "siempre",
-            "count": 20,
-            "frequency": 0.67
+            "count": 29,
+            "frequency": 9.48
           },
           {
             "word": "usuario",
-            "count": 19,
-            "frequency": 0.67
+            "count": 32,
+            "frequency": 10.46
           },
           {
             "word": "atención",
-            "count": 14,
-            "frequency": 0.63
+            "count": 27,
+            "frequency": 8.82
           },
           {
             "word": "capacitaciones",
-            "count": 11,
-            "frequency": 0.58
+            "count": 23,
+            "frequency": 7.52
           },
           {
             "word": "áreas",
-            "count": 13,
-            "frequency": 0.58
+            "count": 17,
+            "frequency": 5.56
           },
           {
             "word": "servicios",
-            "count": 12,
-            "frequency": 0.58
+            "count": 24,
+            "frequency": 7.84
           },
           {
             "word": "personal",
-            "count": 17,
-            "frequency": 0.58
+            "count": 19,
+            "frequency": 6.21
           },
           {
             "word": "continuar",
-            "count": 9,
-            "frequency": 0.54
+            "count": 21,
+            "frequency": 6.86
           },
           {
             "word": "nuevas",
             "count": 15,
-            "frequency": 0.54
+            "frequency": 4.9
           },
           {
             "word": "manera",
-            "count": 17,
-            "frequency": 0.54
+            "count": 21,
+            "frequency": 6.86
           },
           {
             "word": "usuarios",
-            "count": 14,
-            "frequency": 0.54
+            "count": 22,
+            "frequency": 7.19
           },
           {
             "word": "realizar",
-            "count": 8,
-            "frequency": 0.49
+            "count": 18,
+            "frequency": 5.88
           },
           {
             "word": "productos",
-            "count": 6,
-            "frequency": 0.49
+            "count": 17,
+            "frequency": 5.56
           },
           {
             "word": "tecnologías",
-            "count": 15,
-            "frequency": 0.45
+            "count": 18,
+            "frequency": 5.88
           },
           {
             "word": "herramientas",
-            "count": 8,
-            "frequency": 0.45
+            "count": 18,
+            "frequency": 5.88
           },
           {
             "word": "considero",
-            "count": 10,
-            "frequency": 0.4
+            "count": 19,
+            "frequency": 6.21
           },
           {
             "word": "automatización",
-            "count": 5,
-            "frequency": 0.36
+            "count": 10,
+            "frequency": 3.27
           },
           {
             "word": "todas",
-            "count": 8,
-            "frequency": 0.36
+            "count": 17,
+            "frequency": 5.56
           },
           {
             "word": "actividades",
-            "count": 13,
-            "frequency": 0.36
+            "count": 10,
+            "frequency": 3.27
           },
           {
             "word": "línea",
-            "count": 3,
-            "frequency": 0.36
+            "count": 12,
+            "frequency": 3.92
           },
           {
             "word": "mantener",
-            "count": 12,
-            "frequency": 0.31
+            "count": 9,
+            "frequency": 2.94
           }
         ],
         "bigrams": [
           {
             "phrase": "experiencia cliente",
-            "count": 8,
-            "frequency": 0.36
+            "count": 14,
+            "frequency": 4.58
           },
           {
             "phrase": "banca línea",
-            "count": 7,
-            "frequency": 0.31
+            "count": 10,
+            "frequency": 3.27
           },
           {
             "phrase": "experiencia usuarios",
-            "count": 7,
-            "frequency": 0.31
+            "count": 8,
+            "frequency": 2.61
           },
           {
             "phrase": "nuevas tecnologías",
-            "count": 6,
-            "frequency": 0.27
+            "count": 11,
+            "frequency": 3.59
           },
           {
             "phrase": "gestión experiencia",
-            "count": 6,
-            "frequency": 0.27
+            "count": 12,
+            "frequency": 3.92
           },
           {
             "phrase": "atención cliente",
-            "count": 5,
-            "frequency": 0.22
+            "count": 7,
+            "frequency": 2.29
           },
           {
             "phrase": "experiencia usuario",
-            "count": 4,
-            "frequency": 0.18
+            "count": 7,
+            "frequency": 2.29
           },
           {
             "phrase": "todas áreas",
-            "count": 4,
-            "frequency": 0.18
+            "count": 8,
+            "frequency": 2.61
           },
           {
             "phrase": "mejorar experiencia",
-            "count": 4,
-            "frequency": 0.18
+            "count": 7,
+            "frequency": 2.29
           },
           {
             "phrase": "productos servicios",
-            "count": 4,
-            "frequency": 0.18
+            "count": 6,
+            "frequency": 1.96
           },
           {
             "phrase": "inteligencia artificial",
-            "count": 4,
-            "frequency": 0.18
+            "count": 5,
+            "frequency": 1.63
           },
           {
             "phrase": "optimización procesos",
-            "count": 3,
-            "frequency": 0.13
+            "count": 4,
+            "frequency": 1.31
           },
           {
             "phrase": "centrada cliente",
-            "count": 3,
-            "frequency": 0.13
+            "count": 4,
+            "frequency": 1.31
           },
           {
             "phrase": "clientes realizar",
-            "count": 3,
-            "frequency": 0.13
+            "count": 6,
+            "frequency": 1.96
           },
           {
             "phrase": "procesos seguir",
-            "count": 3,
-            "frequency": 0.13
+            "count": 6,
+            "frequency": 1.96
           },
           {
             "phrase": "seguir trabajando",
-            "count": 3,
-            "frequency": 0.13
+            "count": 4,
+            "frequency": 1.31
           },
           {
             "phrase": "atención clientes",
-            "count": 3,
-            "frequency": 0.13
+            "count": 4,
+            "frequency": 1.31
           },
           {
             "phrase": "banca linea",
-            "count": 3,
-            "frequency": 0.13
+            "count": 4,
+            "frequency": 1.31
           },
           {
             "phrase": "necesidades clientes",
-            "count": 3,
-            "frequency": 0.13
+            "count": 5,
+            "frequency": 1.63
           },
           {
             "phrase": "capacitar personal",
-            "count": 3,
-            "frequency": 0.13
+            "count": 6,
+            "frequency": 1.96
           }
         ],
         "sentiment": {
@@ -344,259 +344,259 @@
       },
       "change_synthesis": {
         "column_name": "A modo de síntesis, cuéntanos por favor cómo te has sentido con el proceso de cambio que se viene llevando adelante:",
-        "response_count": 161,
+        "response_count": 281,
         "keywords": [
           {
             "word": "cambio",
-            "count": 46,
-            "frequency": 2.7
+            "count": 100,
+            "frequency": 35.59
           },
           {
             "word": "cambios",
-            "count": 36,
-            "frequency": 2.23
+            "count": 79,
+            "frequency": 28.11
           },
           {
             "word": "proceso",
-            "count": 30,
-            "frequency": 1.76
+            "count": 54,
+            "frequency": 19.22
           },
           {
             "word": "parte",
-            "count": 26,
-            "frequency": 1.76
+            "count": 51,
+            "frequency": 18.15
           },
           {
             "word": "sentido",
-            "count": 22,
-            "frequency": 1.53
+            "count": 41,
+            "frequency": 14.59
           },
           {
             "word": "sido",
-            "count": 14,
-            "frequency": 1.0
+            "count": 28,
+            "frequency": 9.96
           },
           {
             "word": "nuevas",
-            "count": 19,
-            "frequency": 0.88
+            "count": 26,
+            "frequency": 9.25
           },
           {
             "word": "aprender",
-            "count": 11,
-            "frequency": 0.71
+            "count": 16,
+            "frequency": 5.69
           },
           {
             "word": "procesos",
-            "count": 16,
-            "frequency": 0.71
+            "count": 21,
+            "frequency": 7.47
           },
           {
             "word": "experiencia",
-            "count": 9,
-            "frequency": 0.71
+            "count": 17,
+            "frequency": 6.05
           },
           {
             "word": "siempre",
-            "count": 8,
-            "frequency": 0.59
+            "count": 18,
+            "frequency": 6.41
           },
           {
             "word": "transformación",
-            "count": 12,
-            "frequency": 0.59
+            "count": 19,
+            "frequency": 6.76
           },
           {
             "word": "cliente",
-            "count": 7,
-            "frequency": 0.53
+            "count": 19,
+            "frequency": 6.76
           },
           {
             "word": "tiempo",
-            "count": 6,
-            "frequency": 0.53
+            "count": 11,
+            "frequency": 3.91
           },
           {
             "word": "mejorar",
-            "count": 8,
-            "frequency": 0.53
+            "count": 15,
+            "frequency": 5.34
           },
           {
             "word": "nuevos",
-            "count": 8,
-            "frequency": 0.53
+            "count": 19,
+            "frequency": 6.76
           },
           {
             "word": "excelente",
-            "count": 9,
-            "frequency": 0.53
+            "count": 19,
+            "frequency": 6.76
           },
           {
             "word": "cosas",
-            "count": 5,
-            "frequency": 0.53
+            "count": 14,
+            "frequency": 4.98
           },
           {
             "word": "clientes",
             "count": 11,
-            "frequency": 0.53
+            "frequency": 3.91
           },
           {
             "word": "manera",
-            "count": 6,
-            "frequency": 0.47
+            "count": 16,
+            "frequency": 5.69
           },
           {
             "word": "nuevo",
-            "count": 4,
-            "frequency": 0.47
+            "count": 15,
+            "frequency": 5.34
           },
           {
             "word": "formar",
-            "count": 12,
-            "frequency": 0.47
+            "count": 15,
+            "frequency": 5.34
           },
           {
             "word": "considero",
-            "count": 9,
-            "frequency": 0.47
+            "count": 15,
+            "frequency": 5.34
           },
           {
             "word": "personal",
-            "count": 6,
-            "frequency": 0.47
+            "count": 15,
+            "frequency": 5.34
           },
           {
             "word": "gran",
-            "count": 12,
-            "frequency": 0.41
+            "count": 14,
+            "frequency": 4.98
           },
           {
             "word": "bueno",
-            "count": 2,
-            "frequency": 0.41
+            "count": 10,
+            "frequency": 3.56
           },
           {
             "word": "gusta",
-            "count": 10,
-            "frequency": 0.41
+            "count": 15,
+            "frequency": 5.34
           },
           {
             "word": "oportunidad",
-            "count": 4,
-            "frequency": 0.41
+            "count": 10,
+            "frequency": 3.56
           },
           {
             "word": "productos",
-            "count": 2,
-            "frequency": 0.41
+            "count": 15,
+            "frequency": 5.34
           },
           {
             "word": "futuro",
-            "count": 3,
-            "frequency": 0.41
+            "count": 10,
+            "frequency": 3.56
           }
         ],
         "bigrams": [
           {
             "phrase": "proceso cambio",
-            "count": 10,
-            "frequency": 0.59
+            "count": 15,
+            "frequency": 5.34
           },
           {
             "phrase": "formar parte",
-            "count": 8,
-            "frequency": 0.47
+            "count": 10,
+            "frequency": 3.56
           },
           {
             "phrase": "parte cambio",
-            "count": 8,
-            "frequency": 0.47
+            "count": 15,
+            "frequency": 5.34
           },
           {
             "phrase": "cambios siempre",
-            "count": 4,
-            "frequency": 0.24
+            "count": 6,
+            "frequency": 2.14
           },
           {
             "phrase": "atención cliente",
-            "count": 3,
-            "frequency": 0.18
+            "count": 5,
+            "frequency": 1.78
           },
           {
             "phrase": "cambios necesarios",
-            "count": 3,
-            "frequency": 0.18
+            "count": 4,
+            "frequency": 1.42
           },
           {
             "phrase": "sido proceso",
-            "count": 3,
-            "frequency": 0.18
+            "count": 5,
+            "frequency": 1.78
           },
           {
             "phrase": "proceso transformación",
-            "count": 3,
-            "frequency": 0.18
+            "count": 4,
+            "frequency": 1.42
           },
           {
             "phrase": "cambio viviendo",
-            "count": 3,
-            "frequency": 0.18
+            "count": 5,
+            "frequency": 1.78
           },
           {
             "phrase": "aprender cosas",
-            "count": 3,
-            "frequency": 0.18
+            "count": 6,
+            "frequency": 2.14
           },
           {
             "phrase": "cosas nuevas",
             "count": 3,
-            "frequency": 0.18
+            "frequency": 1.07
           },
           {
             "phrase": "cambios positivos",
-            "count": 2,
-            "frequency": 0.12
+            "count": 3,
+            "frequency": 1.07
           },
           {
             "phrase": "bueno adaptarse",
-            "count": 2,
-            "frequency": 0.12
+            "count": 4,
+            "frequency": 1.42
           },
           {
             "phrase": "yendo camino",
-            "count": 2,
-            "frequency": 0.12
+            "count": 3,
+            "frequency": 1.07
           },
           {
             "phrase": "camino correcto",
-            "count": 2,
-            "frequency": 0.12
+            "count": 4,
+            "frequency": 1.42
           },
           {
             "phrase": "constante aprendizaje",
-            "count": 2,
-            "frequency": 0.12
+            "count": 3,
+            "frequency": 1.07
           },
           {
             "phrase": "nuevos conocimientos",
-            "count": 2,
-            "frequency": 0.12
+            "count": 4,
+            "frequency": 1.42
           },
           {
             "phrase": "sentido cómodo",
             "count": 2,
-            "frequency": 0.12
+            "frequency": 0.71
           },
           {
             "phrase": "nuevos retos",
-            "count": 2,
-            "frequency": 0.12
+            "count": 3,
+            "frequency": 1.07
           },
           {
             "phrase": "sentido motivado",
-            "count": 2,
-            "frequency": 0.12
+            "count": 3,
+            "frequency": 1.07
           }
         ],
         "sentiment": {
@@ -680,259 +680,259 @@
     "2025": {
       "change_synthesis": {
         "column_name": "A modo de síntesis, cuéntanos por favor cómo te has sentido con el proceso de cambio llevado adelante:",
-        "response_count": 110,
+        "response_count": 192,
         "keywords": [
           {
             "word": "cambios",
-            "count": 40,
-            "frequency": 2.48
+            "count": 80,
+            "frequency": 41.67
           },
           {
             "word": "cambio",
-            "count": 43,
-            "frequency": 2.15
+            "count": 80,
+            "frequency": 41.67
           },
           {
             "word": "proceso",
-            "count": 28,
-            "frequency": 1.38
+            "count": 33,
+            "frequency": 17.19
           },
           {
             "word": "sido",
-            "count": 26,
-            "frequency": 1.27
+            "count": 38,
+            "frequency": 19.79
           },
           {
             "word": "nuevos",
-            "count": 21,
-            "frequency": 1.05
+            "count": 27,
+            "frequency": 14.06
           },
           {
             "word": "parte",
-            "count": 19,
-            "frequency": 0.88
+            "count": 23,
+            "frequency": 11.98
           },
           {
             "word": "organización",
-            "count": 16,
-            "frequency": 0.83
+            "count": 26,
+            "frequency": 13.54
           },
           {
             "word": "considero",
-            "count": 12,
-            "frequency": 0.72
+            "count": 21,
+            "frequency": 10.94
           },
           {
             "word": "sentido",
-            "count": 16,
-            "frequency": 0.66
+            "count": 19,
+            "frequency": 9.9
           },
           {
             "word": "día",
-            "count": 17,
-            "frequency": 0.66
+            "count": 25,
+            "frequency": 13.02
           },
           {
             "word": "siempre",
-            "count": 10,
-            "frequency": 0.66
+            "count": 27,
+            "frequency": 14.06
           },
           {
             "word": "procesos",
-            "count": 17,
-            "frequency": 0.66
+            "count": 22,
+            "frequency": 11.46
           },
           {
             "word": "proyectos",
-            "count": 11,
-            "frequency": 0.61
+            "count": 18,
+            "frequency": 9.38
           },
           {
             "word": "embargo",
-            "count": 11,
-            "frequency": 0.61
+            "count": 15,
+            "frequency": 7.81
           },
           {
             "word": "aprender",
-            "count": 14,
-            "frequency": 0.61
+            "count": 22,
+            "frequency": 11.46
           },
           {
             "word": "trabajar",
-            "count": 6,
-            "frequency": 0.55
+            "count": 20,
+            "frequency": 10.42
           },
           {
             "word": "seguir",
-            "count": 11,
-            "frequency": 0.55
+            "count": 16,
+            "frequency": 8.33
           },
           {
             "word": "ver",
-            "count": 12,
-            "frequency": 0.5
+            "count": 14,
+            "frequency": 7.29
           },
           {
             "word": "personal",
-            "count": 12,
-            "frequency": 0.5
+            "count": 13,
+            "frequency": 6.77
           },
           {
             "word": "gran",
-            "count": 8,
-            "frequency": 0.5
+            "count": 13,
+            "frequency": 6.77
           },
           {
             "word": "tiempo",
-            "count": 3,
-            "frequency": 0.44
+            "count": 17,
+            "frequency": 8.85
           },
           {
             "word": "conocimientos",
-            "count": 5,
-            "frequency": 0.44
+            "count": 14,
+            "frequency": 7.29
           },
           {
             "word": "muchas",
-            "count": 9,
-            "frequency": 0.39
+            "count": 15,
+            "frequency": 7.81
           },
           {
             "word": "cosas",
-            "count": 10,
-            "frequency": 0.39
+            "count": 15,
+            "frequency": 7.81
           },
           {
             "word": "mejorar",
-            "count": 7,
-            "frequency": 0.39
+            "count": 15,
+            "frequency": 7.81
           },
           {
             "word": "nivel",
-            "count": 3,
-            "frequency": 0.39
+            "count": 14,
+            "frequency": 7.29
           },
           {
             "word": "tengo",
-            "count": 11,
-            "frequency": 0.39
+            "count": 13,
+            "frequency": 6.77
           },
           {
             "word": "personas",
-            "count": 10,
-            "frequency": 0.39
+            "count": 15,
+            "frequency": 7.81
           },
           {
             "word": "falta",
-            "count": 9,
-            "frequency": 0.39
+            "count": 12,
+            "frequency": 6.25
           },
           {
             "word": "importante",
-            "count": 7,
-            "frequency": 0.39
+            "count": 9,
+            "frequency": 4.69
           }
         ],
         "bigrams": [
           {
             "phrase": "proceso cambio",
-            "count": 8,
-            "frequency": 0.44
+            "count": 14,
+            "frequency": 7.29
           },
           {
             "phrase": "día día",
-            "count": 6,
-            "frequency": 0.33
+            "count": 8,
+            "frequency": 4.17
           },
           {
             "phrase": "lugar trabajar",
-            "count": 4,
-            "frequency": 0.22
+            "count": 7,
+            "frequency": 3.65
           },
           {
             "phrase": "cambios sido",
-            "count": 4,
-            "frequency": 0.22
+            "count": 8,
+            "frequency": 4.17
           },
           {
             "phrase": "nuevos retos",
-            "count": 4,
-            "frequency": 0.22
+            "count": 8,
+            "frequency": 4.17
           },
           {
             "phrase": "buen lugar",
-            "count": 3,
-            "frequency": 0.17
+            "count": 5,
+            "frequency": 2.6
           },
           {
             "phrase": "muchas cosas",
-            "count": 3,
-            "frequency": 0.17
+            "count": 5,
+            "frequency": 2.6
           },
           {
             "phrase": "nuevos proyectos",
-            "count": 3,
-            "frequency": 0.17
+            "count": 5,
+            "frequency": 2.6
           },
           {
             "phrase": "considero debe",
-            "count": 3,
-            "frequency": 0.17
+            "count": 5,
+            "frequency": 2.6
           },
           {
             "phrase": "desaprender aprender",
             "count": 3,
-            "frequency": 0.17
+            "frequency": 1.56
           },
           {
             "phrase": "sido proceso",
-            "count": 3,
-            "frequency": 0.17
+            "count": 5,
+            "frequency": 2.6
           },
           {
             "phrase": "nuevos conocimientos",
-            "count": 3,
-            "frequency": 0.17
+            "count": 6,
+            "frequency": 3.12
           },
           {
             "phrase": "cambios positivos",
-            "count": 3,
-            "frequency": 0.17
+            "count": 5,
+            "frequency": 2.6
           },
           {
             "phrase": "cambio siempre",
-            "count": 3,
-            "frequency": 0.17
+            "count": 5,
+            "frequency": 2.6
           },
           {
             "phrase": "participar proceso",
-            "count": 2,
-            "frequency": 0.11
+            "count": 3,
+            "frequency": 1.56
           },
           {
             "phrase": "mejorar proceso",
-            "count": 2,
-            "frequency": 0.11
+            "count": 3,
+            "frequency": 1.56
           },
           {
             "phrase": "cambios realizando",
-            "count": 2,
-            "frequency": 0.11
+            "count": 4,
+            "frequency": 2.08
           },
           {
             "phrase": "cambio tengo",
-            "count": 2,
-            "frequency": 0.11
+            "count": 3,
+            "frequency": 1.56
           },
           {
             "phrase": "hacia vamos",
-            "count": 2,
-            "frequency": 0.11
+            "count": 3,
+            "frequency": 1.56
           },
           {
             "phrase": "últimos años",
             "count": 2,
-            "frequency": 0.11
+            "frequency": 1.04
           }
         ],
         "sentiment": {
@@ -1040,259 +1040,259 @@
     "2026": {
       "future_suggestions": {
         "column_name": "De cara al futuro, para una mejor gestión de la experiencia de los usuario, el banco debiera trabajar en:",
-        "response_count": 179,
+        "response_count": 313,
         "keywords": [
           {
             "word": "cliente",
-            "count": 55,
-            "frequency": 2.46
+            "count": 111,
+            "frequency": 35.46
           },
           {
             "word": "procesos",
-            "count": 52,
-            "frequency": 2.22
+            "count": 78,
+            "frequency": 24.92
           },
           {
             "word": "atención",
-            "count": 39,
-            "frequency": 1.61
+            "count": 70,
+            "frequency": 22.36
           },
           {
             "word": "clientes",
-            "count": 30,
-            "frequency": 1.61
+            "count": 63,
+            "frequency": 20.13
           },
           {
             "word": "experiencia",
-            "count": 25,
-            "frequency": 1.33
+            "count": 61,
+            "frequency": 19.49
           },
           {
             "word": "mejorar",
-            "count": 22,
-            "frequency": 1.09
+            "count": 35,
+            "frequency": 11.18
           },
           {
             "word": "seguir",
-            "count": 21,
-            "frequency": 0.9
+            "count": 39,
+            "frequency": 12.46
           },
           {
             "word": "áreas",
-            "count": 18,
-            "frequency": 0.76
+            "count": 26,
+            "frequency": 8.31
           },
           {
             "word": "personal",
-            "count": 13,
-            "frequency": 0.76
+            "count": 22,
+            "frequency": 7.03
           },
           {
             "word": "colaboradores",
-            "count": 11,
-            "frequency": 0.66
+            "count": 18,
+            "frequency": 5.75
           },
           {
             "word": "usuario",
             "count": 17,
-            "frequency": 0.66
+            "frequency": 5.43
           },
           {
             "word": "servicio",
-            "count": 11,
-            "frequency": 0.62
+            "count": 28,
+            "frequency": 8.95
           },
           {
             "word": "cara",
-            "count": 14,
-            "frequency": 0.62
+            "count": 24,
+            "frequency": 7.67
           },
           {
             "word": "necesidades",
-            "count": 12,
-            "frequency": 0.62
+            "count": 18,
+            "frequency": 5.75
           },
           {
             "word": "trabajar",
-            "count": 16,
-            "frequency": 0.57
+            "count": 17,
+            "frequency": 5.43
           },
           {
             "word": "mayor",
-            "count": 8,
-            "frequency": 0.52
+            "count": 17,
+            "frequency": 5.43
           },
           {
             "word": "capacitaciones",
-            "count": 9,
-            "frequency": 0.52
+            "count": 15,
+            "frequency": 4.79
           },
           {
             "word": "capacitación",
-            "count": 14,
-            "frequency": 0.52
+            "count": 23,
+            "frequency": 7.35
           },
           {
             "word": "fortalecer",
-            "count": 10,
-            "frequency": 0.52
+            "count": 18,
+            "frequency": 5.75
           },
           {
             "word": "herramientas",
-            "count": 11,
-            "frequency": 0.52
+            "count": 17,
+            "frequency": 5.43
           },
           {
             "word": "considero",
-            "count": 16,
-            "frequency": 0.52
+            "count": 19,
+            "frequency": 6.07
           },
           {
             "word": "automatización",
-            "count": 10,
-            "frequency": 0.47
+            "count": 17,
+            "frequency": 5.43
           },
           {
             "word": "comunicación",
-            "count": 15,
-            "frequency": 0.47
+            "count": 14,
+            "frequency": 4.47
           },
           {
             "word": "banca",
-            "count": 5,
-            "frequency": 0.43
+            "count": 16,
+            "frequency": 5.11
           },
           {
             "word": "tiempos",
-            "count": 6,
-            "frequency": 0.43
+            "count": 15,
+            "frequency": 4.79
           },
           {
             "word": "forma",
-            "count": 10,
-            "frequency": 0.43
+            "count": 18,
+            "frequency": 5.75
           },
           {
             "word": "tiempo",
-            "count": 6,
-            "frequency": 0.43
+            "count": 17,
+            "frequency": 5.43
           },
           {
             "word": "siempre",
-            "count": 14,
-            "frequency": 0.43
+            "count": 19,
+            "frequency": 6.07
           },
           {
             "word": "usuarios",
-            "count": 11,
-            "frequency": 0.43
+            "count": 17,
+            "frequency": 5.43
           },
           {
             "word": "gestión",
-            "count": 12,
-            "frequency": 0.38
+            "count": 13,
+            "frequency": 4.15
           }
         ],
         "bigrams": [
           {
             "phrase": "atención cliente",
-            "count": 8,
-            "frequency": 0.38
+            "count": 12,
+            "frequency": 3.83
           },
           {
             "phrase": "experiencia cliente",
-            "count": 6,
-            "frequency": 0.28
+            "count": 9,
+            "frequency": 2.88
           },
           {
             "phrase": "inteligencia artificial",
-            "count": 6,
-            "frequency": 0.28
+            "count": 12,
+            "frequency": 3.83
           },
           {
             "phrase": "experiencia usuario",
-            "count": 6,
-            "frequency": 0.28
+            "count": 7,
+            "frequency": 2.24
           },
           {
             "phrase": "automatización procesos",
-            "count": 5,
-            "frequency": 0.24
+            "count": 7,
+            "frequency": 2.24
           },
           {
             "phrase": "necesidades cliente",
-            "count": 5,
-            "frequency": 0.24
+            "count": 9,
+            "frequency": 2.88
           },
           {
             "phrase": "cara futuro",
-            "count": 5,
-            "frequency": 0.24
+            "count": 10,
+            "frequency": 3.19
           },
           {
             "phrase": "debería trabajar",
-            "count": 5,
-            "frequency": 0.24
+            "count": 11,
+            "frequency": 3.51
           },
           {
             "phrase": "experiencia usuarios",
-            "count": 5,
-            "frequency": 0.24
+            "count": 7,
+            "frequency": 2.24
           },
           {
             "phrase": "cara cliente",
-            "count": 4,
-            "frequency": 0.19
+            "count": 8,
+            "frequency": 2.56
           },
           {
             "phrase": "automatizar procesos",
-            "count": 4,
-            "frequency": 0.19
+            "count": 6,
+            "frequency": 1.92
           },
           {
             "phrase": "nuevas tecnologías",
-            "count": 4,
-            "frequency": 0.19
+            "count": 8,
+            "frequency": 2.56
           },
           {
             "phrase": "mejorar experiencia",
-            "count": 4,
-            "frequency": 0.19
+            "count": 7,
+            "frequency": 2.24
           },
           {
             "phrase": "todas áreas",
-            "count": 4,
-            "frequency": 0.19
+            "count": 8,
+            "frequency": 2.56
           },
           {
             "phrase": "atención personalizada",
-            "count": 4,
-            "frequency": 0.19
+            "count": 5,
+            "frequency": 1.6
           },
           {
             "phrase": "cliente seguir",
-            "count": 3,
-            "frequency": 0.14
+            "count": 5,
+            "frequency": 1.6
           },
           {
             "phrase": "seguir trabajando",
-            "count": 3,
-            "frequency": 0.14
+            "count": 6,
+            "frequency": 1.92
           },
           {
             "phrase": "capacitación personal",
-            "count": 3,
-            "frequency": 0.14
+            "count": 6,
+            "frequency": 1.92
           },
           {
             "phrase": "procesos internos",
-            "count": 3,
-            "frequency": 0.14
+            "count": 4,
+            "frequency": 1.28
           },
           {
             "phrase": "tiempos respuesta",
-            "count": 3,
-            "frequency": 0.14
+            "count": 5,
+            "frequency": 1.6
           }
         ],
         "sentiment": {
@@ -1378,259 +1378,259 @@
       },
       "ia_processes": {
         "column_name": "¿En qué procesos o tareas de tu trabajo diario consideras que la inteligencia artificial podría ayudarte a ser más eficiente o agregar más valor a nuestros clientes?\n",
-        "response_count": 185,
+        "response_count": 323,
         "keywords": [
           {
             "word": "procesos",
-            "count": 50,
-            "frequency": 2.44
+            "count": 74,
+            "frequency": 22.91
           },
           {
             "word": "clientes",
-            "count": 43,
-            "frequency": 2.05
+            "count": 77,
+            "frequency": 23.84
           },
           {
             "word": "cliente",
-            "count": 39,
-            "frequency": 1.66
+            "count": 58,
+            "frequency": 17.96
           },
           {
             "word": "información",
-            "count": 28,
-            "frequency": 1.56
+            "count": 59,
+            "frequency": 18.27
           },
           {
             "word": "análisis",
-            "count": 27,
-            "frequency": 1.56
+            "count": 58,
+            "frequency": 17.96
           },
           {
             "word": "tareas",
-            "count": 31,
-            "frequency": 1.42
+            "count": 55,
+            "frequency": 17.03
           },
           {
             "word": "datos",
-            "count": 24,
-            "frequency": 1.22
+            "count": 45,
+            "frequency": 13.93
           },
           {
             "word": "automatización",
-            "count": 20,
-            "frequency": 0.88
+            "count": 35,
+            "frequency": 10.84
           },
           {
             "word": "inteligencia",
-            "count": 22,
-            "frequency": 0.83
+            "count": 37,
+            "frequency": 11.46
           },
           {
             "word": "artificial",
-            "count": 19,
-            "frequency": 0.83
+            "count": 24,
+            "frequency": 7.43
           },
           {
             "word": "respuestas",
-            "count": 12,
-            "frequency": 0.73
+            "count": 29,
+            "frequency": 8.98
           },
           {
             "word": "tiempo",
-            "count": 17,
-            "frequency": 0.73
+            "count": 25,
+            "frequency": 7.74
           },
           {
             "word": "productos",
-            "count": 9,
-            "frequency": 0.63
+            "count": 22,
+            "frequency": 6.81
           },
           {
             "word": "manera",
-            "count": 12,
-            "frequency": 0.63
+            "count": 21,
+            "frequency": 6.5
           },
           {
             "word": "revisión",
-            "count": 16,
-            "frequency": 0.59
+            "count": 26,
+            "frequency": 8.05
           },
           {
             "word": "automatizar",
-            "count": 11,
-            "frequency": 0.59
+            "count": 26,
+            "frequency": 8.05
           },
           {
             "word": "reportes",
-            "count": 15,
-            "frequency": 0.59
+            "count": 25,
+            "frequency": 7.74
           },
           {
             "word": "generación",
             "count": 16,
-            "frequency": 0.59
+            "frequency": 4.95
           },
           {
             "word": "documentos",
-            "count": 6,
-            "frequency": 0.54
+            "count": 23,
+            "frequency": 7.12
           },
           {
             "word": "ayudar",
-            "count": 15,
-            "frequency": 0.54
+            "count": 16,
+            "frequency": 4.95
           },
           {
             "word": "riesgos",
-            "count": 9,
-            "frequency": 0.54
+            "count": 18,
+            "frequency": 5.57
           },
           {
             "word": "mejorar",
-            "count": 15,
-            "frequency": 0.54
+            "count": 24,
+            "frequency": 7.43
           },
           {
             "word": "atención",
-            "count": 10,
-            "frequency": 0.49
+            "count": 14,
+            "frequency": 4.33
           },
           {
             "word": "repetitivas",
-            "count": 13,
-            "frequency": 0.49
+            "count": 20,
+            "frequency": 6.19
           },
           {
             "word": "rápidas",
-            "count": 11,
-            "frequency": 0.49
+            "count": 14,
+            "frequency": 4.33
           },
           {
             "word": "toma",
-            "count": 13,
-            "frequency": 0.49
+            "count": 17,
+            "frequency": 5.26
           },
           {
             "word": "decisiones",
-            "count": 7,
-            "frequency": 0.49
+            "count": 19,
+            "frequency": 5.88
           },
           {
             "word": "valor",
-            "count": 15,
-            "frequency": 0.49
+            "count": 16,
+            "frequency": 4.95
           },
           {
             "word": "agilizar",
-            "count": 12,
-            "frequency": 0.44
+            "count": 13,
+            "frequency": 4.02
           },
           {
             "word": "experiencia",
-            "count": 7,
-            "frequency": 0.44
+            "count": 14,
+            "frequency": 4.33
           }
         ],
         "bigrams": [
           {
             "phrase": "inteligencia artificial",
-            "count": 17,
-            "frequency": 0.83
+            "count": 34,
+            "frequency": 10.53
           },
           {
             "phrase": "tareas repetitivas",
-            "count": 10,
-            "frequency": 0.49
+            "count": 21,
+            "frequency": 6.5
           },
           {
             "phrase": "toma decisiones",
-            "count": 9,
-            "frequency": 0.44
+            "count": 13,
+            "frequency": 4.02
           },
           {
             "phrase": "automatización procesos",
-            "count": 8,
-            "frequency": 0.39
+            "count": 15,
+            "frequency": 4.64
           },
           {
             "phrase": "experiencia cliente",
-            "count": 6,
-            "frequency": 0.29
+            "count": 11,
+            "frequency": 3.41
           },
           {
             "phrase": "respuestas rápidas",
-            "count": 5,
-            "frequency": 0.24
+            "count": 8,
+            "frequency": 2.48
           },
           {
             "phrase": "análisis datos",
-            "count": 5,
-            "frequency": 0.24
+            "count": 9,
+            "frequency": 2.79
           },
           {
             "phrase": "clientes inteligencia",
-            "count": 4,
-            "frequency": 0.2
+            "count": 7,
+            "frequency": 2.17
           },
           {
             "phrase": "artificial ayudarme",
-            "count": 4,
-            "frequency": 0.2
+            "count": 5,
+            "frequency": 1.55
           },
           {
             "phrase": "automatizar procesos",
-            "count": 4,
-            "frequency": 0.2
+            "count": 7,
+            "frequency": 2.17
           },
           {
             "phrase": "revisión documentos",
-            "count": 4,
-            "frequency": 0.2
+            "count": 5,
+            "frequency": 1.55
           },
           {
             "phrase": "identificar patrones",
-            "count": 4,
-            "frequency": 0.2
+            "count": 6,
+            "frequency": 1.86
           },
           {
             "phrase": "políticas procedimientos",
-            "count": 4,
-            "frequency": 0.2
+            "count": 7,
+            "frequency": 2.17
           },
           {
             "phrase": "generación reportes",
-            "count": 4,
-            "frequency": 0.2
+            "count": 8,
+            "frequency": 2.48
           },
           {
             "phrase": "respuestas automáticas",
-            "count": 3,
-            "frequency": 0.15
+            "count": 5,
+            "frequency": 1.55
           },
           {
             "phrase": "respuesta clientes",
-            "count": 3,
-            "frequency": 0.15
+            "count": 6,
+            "frequency": 1.86
           },
           {
             "phrase": "cuentas jurídicas",
-            "count": 3,
-            "frequency": 0.15
+            "count": 5,
+            "frequency": 1.55
           },
           {
             "phrase": "atención cliente",
-            "count": 3,
-            "frequency": 0.15
+            "count": 4,
+            "frequency": 1.24
           },
           {
             "phrase": "ayudarme automatizar",
-            "count": 3,
-            "frequency": 0.15
+            "count": 4,
+            "frequency": 1.24
           },
           {
             "phrase": "comportamiento cliente",
-            "count": 3,
-            "frequency": 0.15
+            "count": 6,
+            "frequency": 1.86
           }
         ],
         "sentiment": {
@@ -1683,260 +1683,260 @@
         }
       },
       "ia_training": {
-        "column_name": "¿Qué conocimientos, habilidades o capacitaciones sobre inteligencia artificial consideras que necesitarías para aprovechar mejor estas tecnologías en tu rol dentro de Atlas Capital?\n",
-        "response_count": 177,
+        "column_name": "¿Qué conocimientos, habilidades o capacitaciones sobre inteligencia artificial consideras que necesitarías para aprovechar mejor estas tecnologías en tu rol dentro de Atlas Capital Group?\n",
+        "response_count": 309,
         "keywords": [
           {
             "word": "uso",
-            "count": 42,
-            "frequency": 2.14
+            "count": 55,
+            "frequency": 17.8
           },
           {
             "word": "herramientas",
-            "count": 40,
-            "frequency": 2.03
+            "count": 61,
+            "frequency": 19.74
           },
           {
             "word": "capacitaciones",
-            "count": 36,
-            "frequency": 1.91
+            "count": 54,
+            "frequency": 17.48
           },
           {
             "word": "datos",
-            "count": 32,
-            "frequency": 1.68
+            "count": 43,
+            "frequency": 13.92
           },
           {
             "word": "procesos",
-            "count": 21,
-            "frequency": 1.51
+            "count": 39,
+            "frequency": 12.62
           },
           {
             "word": "inteligencia",
-            "count": 30,
-            "frequency": 1.45
+            "count": 41,
+            "frequency": 13.27
           },
           {
             "word": "artificial",
-            "count": 24,
-            "frequency": 1.39
+            "count": 32,
+            "frequency": 10.36
           },
           {
             "word": "capacitación",
-            "count": 20,
-            "frequency": 1.27
+            "count": 48,
+            "frequency": 15.53
           },
           {
             "word": "análisis",
-            "count": 19,
-            "frequency": 1.27
+            "count": 43,
+            "frequency": 13.92
           },
           {
             "word": "considero",
-            "count": 12,
-            "frequency": 0.98
+            "count": 31,
+            "frequency": 10.03
           },
           {
             "word": "conocimientos",
-            "count": 18,
-            "frequency": 0.87
+            "count": 25,
+            "frequency": 8.09
           },
           {
             "word": "automatización",
-            "count": 15,
-            "frequency": 0.81
+            "count": 28,
+            "frequency": 9.06
           },
           {
             "word": "habilidades",
-            "count": 8,
-            "frequency": 0.75
+            "count": 26,
+            "frequency": 8.41
           },
           {
             "word": "prácticas",
-            "count": 8,
-            "frequency": 0.69
+            "count": 19,
+            "frequency": 6.15
           },
           {
             "word": "cómo",
-            "count": 15,
-            "frequency": 0.69
+            "count": 18,
+            "frequency": 5.83
           },
           {
             "word": "tareas",
-            "count": 17,
-            "frequency": 0.69
+            "count": 20,
+            "frequency": 6.47
           },
           {
             "word": "conocimiento",
-            "count": 11,
-            "frequency": 0.69
+            "count": 22,
+            "frequency": 7.12
           },
           {
             "word": "cliente",
-            "count": 15,
-            "frequency": 0.64
+            "count": 19,
+            "frequency": 6.15
           },
           {
             "word": "mejorar",
-            "count": 7,
-            "frequency": 0.64
+            "count": 24,
+            "frequency": 7.77
           },
           {
             "word": "rol",
-            "count": 10,
-            "frequency": 0.58
+            "count": 20,
+            "frequency": 6.47
           },
           {
             "word": "cursos",
-            "count": 9,
-            "frequency": 0.46
+            "count": 17,
+            "frequency": 5.5
           },
           {
             "word": "día",
-            "count": 12,
-            "frequency": 0.46
+            "count": 9,
+            "frequency": 2.91
           },
           {
             "word": "saber",
-            "count": 9,
-            "frequency": 0.46
+            "count": 13,
+            "frequency": 4.21
           },
           {
             "word": "integrar",
-            "count": 10,
-            "frequency": 0.46
+            "count": 17,
+            "frequency": 5.5
           },
           {
             "word": "desarrollar",
-            "count": 4,
-            "frequency": 0.46
+            "count": 13,
+            "frequency": 4.21
           },
           {
             "word": "recibir",
-            "count": 13,
-            "frequency": 0.46
+            "count": 16,
+            "frequency": 5.18
           },
           {
             "word": "utilizar",
-            "count": 8,
-            "frequency": 0.46
+            "count": 13,
+            "frequency": 4.21
           },
           {
             "word": "modelos",
-            "count": 8,
-            "frequency": 0.46
+            "count": 10,
+            "frequency": 3.24
           },
           {
             "word": "aws",
-            "count": 12,
-            "frequency": 0.46
+            "count": 13,
+            "frequency": 4.21
           },
           {
             "word": "aprender",
-            "count": 10,
-            "frequency": 0.46
+            "count": 11,
+            "frequency": 3.56
           }
         ],
         "bigrams": [
           {
             "phrase": "inteligencia artificial",
-            "count": 24,
-            "frequency": 1.39
+            "count": 45,
+            "frequency": 14.56
           },
           {
             "phrase": "análisis datos",
-            "count": 13,
-            "frequency": 0.75
+            "count": 19,
+            "frequency": 6.15
           },
           {
             "phrase": "uso herramientas",
-            "count": 10,
-            "frequency": 0.58
+            "count": 13,
+            "frequency": 4.21
           },
           {
             "phrase": "buenas prácticas",
-            "count": 7,
-            "frequency": 0.41
+            "count": 9,
+            "frequency": 2.91
           },
           {
             "phrase": "capacitación uso",
-            "count": 5,
-            "frequency": 0.29
+            "count": 9,
+            "frequency": 2.91
           },
           {
             "phrase": "fortalecer conocimientos",
-            "count": 5,
-            "frequency": 0.29
+            "count": 9,
+            "frequency": 2.91
           },
           {
             "phrase": "machine learning",
-            "count": 5,
-            "frequency": 0.29
+            "count": 8,
+            "frequency": 2.59
           },
           {
             "phrase": "manejo datos",
-            "count": 4,
-            "frequency": 0.23
+            "count": 5,
+            "frequency": 1.62
           },
           {
             "phrase": "automatización procesos",
-            "count": 4,
-            "frequency": 0.23
+            "count": 7,
+            "frequency": 2.27
           },
           {
             "phrase": "capacitaciones uso",
-            "count": 4,
-            "frequency": 0.23
+            "count": 5,
+            "frequency": 1.62
           },
           {
             "phrase": "herramientas inteligencia",
-            "count": 4,
-            "frequency": 0.23
+            "count": 8,
+            "frequency": 2.59
           },
           {
             "phrase": "uso responsable",
-            "count": 4,
-            "frequency": 0.23
+            "count": 6,
+            "frequency": 1.94
           },
           {
             "phrase": "considero necesario",
-            "count": 4,
-            "frequency": 0.23
+            "count": 8,
+            "frequency": 2.59
           },
           {
             "phrase": "necesario fortalecer",
-            "count": 4,
-            "frequency": 0.23
+            "count": 7,
+            "frequency": 2.27
           },
           {
             "phrase": "uso inteligencia",
-            "count": 3,
-            "frequency": 0.17
+            "count": 4,
+            "frequency": 1.29
           },
           {
             "phrase": "desarrollar habilidades",
-            "count": 3,
-            "frequency": 0.17
+            "count": 5,
+            "frequency": 1.62
           },
           {
             "phrase": "cliente capacitación",
-            "count": 3,
-            "frequency": 0.17
+            "count": 4,
+            "frequency": 1.29
           },
           {
             "phrase": "herramientas aplicadas",
             "count": 3,
-            "frequency": 0.17
+            "frequency": 0.97
           },
           {
             "phrase": "atención cliente",
-            "count": 3,
-            "frequency": 0.17
+            "count": 4,
+            "frequency": 1.29
           },
           {
             "phrase": "aprovechar tecnologías",
-            "count": 3,
-            "frequency": 0.17
+            "count": 4,
+            "frequency": 1.29
           }
         ],
         "sentiment": {
@@ -2006,259 +2006,259 @@
       },
       "change_synthesis": {
         "column_name": "A modo de síntesis, cuéntanos por favor cómo te has sentido con el proceso de cambio que se viene llevando adelante:\n",
-        "response_count": 171,
+        "response_count": 299,
         "keywords": [
           {
             "word": "cambios",
-            "count": 43,
-            "frequency": 2.75
+            "count": 94,
+            "frequency": 31.44
           },
           {
             "word": "cambio",
-            "count": 40,
-            "frequency": 2.63
+            "count": 89,
+            "frequency": 29.77
           },
           {
             "word": "proceso",
-            "count": 28,
-            "frequency": 1.93
+            "count": 54,
+            "frequency": 18.06
           },
           {
             "word": "sentido",
-            "count": 26,
-            "frequency": 1.52
+            "count": 52,
+            "frequency": 17.39
           },
           {
             "word": "procesos",
-            "count": 21,
-            "frequency": 1.11
+            "count": 28,
+            "frequency": 9.36
           },
           {
             "word": "parte",
-            "count": 16,
-            "frequency": 1.05
+            "count": 30,
+            "frequency": 10.03
           },
           {
             "word": "sido",
-            "count": 17,
-            "frequency": 1.05
+            "count": 28,
+            "frequency": 9.36
           },
           {
             "word": "nuevas",
-            "count": 15,
-            "frequency": 1.0
+            "count": 37,
+            "frequency": 12.37
           },
           {
             "word": "mejorar",
-            "count": 21,
-            "frequency": 0.94
+            "count": 29,
+            "frequency": 9.7
           },
           {
             "word": "siempre",
-            "count": 11,
-            "frequency": 0.88
+            "count": 26,
+            "frequency": 8.7
           },
           {
             "word": "adaptación",
-            "count": 13,
-            "frequency": 0.76
+            "count": 20,
+            "frequency": 6.69
           },
           {
             "word": "oportunidad",
-            "count": 10,
-            "frequency": 0.76
+            "count": 22,
+            "frequency": 7.36
           },
           {
             "word": "clientes",
-            "count": 12,
-            "frequency": 0.76
+            "count": 23,
+            "frequency": 7.69
           },
           {
             "word": "considero",
-            "count": 11,
-            "frequency": 0.7
+            "count": 21,
+            "frequency": 7.02
           },
           {
             "word": "bastante",
-            "count": 7,
-            "frequency": 0.64
+            "count": 23,
+            "frequency": 7.69
           },
           {
             "word": "aprender",
-            "count": 7,
-            "frequency": 0.59
+            "count": 21,
+            "frequency": 7.02
           },
           {
             "word": "nuevos",
-            "count": 12,
-            "frequency": 0.59
+            "count": 21,
+            "frequency": 7.02
           },
           {
             "word": "experiencia",
-            "count": 11,
-            "frequency": 0.59
+            "count": 16,
+            "frequency": 5.35
           },
           {
             "word": "aunque",
-            "count": 5,
-            "frequency": 0.59
+            "count": 18,
+            "frequency": 6.02
           },
           {
             "word": "organización",
-            "count": 13,
-            "frequency": 0.59
+            "count": 19,
+            "frequency": 6.35
           },
           {
             "word": "futuro",
-            "count": 8,
-            "frequency": 0.59
+            "count": 21,
+            "frequency": 7.02
           },
           {
             "word": "positivo",
-            "count": 13,
-            "frequency": 0.53
+            "count": 15,
+            "frequency": 5.02
           },
           {
             "word": "llevando",
-            "count": 8,
-            "frequency": 0.53
+            "count": 20,
+            "frequency": 6.69
           },
           {
             "word": "manera",
-            "count": 14,
-            "frequency": 0.53
+            "count": 13,
+            "frequency": 4.35
           },
           {
             "word": "oportunidades",
-            "count": 12,
-            "frequency": 0.53
+            "count": 16,
+            "frequency": 5.35
           },
           {
             "word": "crecimiento",
-            "count": 4,
-            "frequency": 0.53
+            "count": 17,
+            "frequency": 5.69
           },
           {
             "word": "retos",
-            "count": 7,
-            "frequency": 0.47
+            "count": 16,
+            "frequency": 5.35
           },
           {
             "word": "viene",
-            "count": 5,
-            "frequency": 0.47
+            "count": 15,
+            "frequency": 5.02
           },
           {
             "word": "tecnologías",
-            "count": 7,
-            "frequency": 0.47
+            "count": 14,
+            "frequency": 4.68
           },
           {
             "word": "trabajar",
-            "count": 11,
-            "frequency": 0.47
+            "count": 12,
+            "frequency": 4.01
           }
         ],
         "bigrams": [
           {
             "phrase": "proceso cambio",
-            "count": 22,
-            "frequency": 1.29
+            "count": 44,
+            "frequency": 14.72
           },
           {
             "phrase": "parte cambio",
-            "count": 7,
-            "frequency": 0.41
+            "count": 8,
+            "frequency": 2.68
           },
           {
             "phrase": "formar parte",
-            "count": 6,
-            "frequency": 0.35
+            "count": 9,
+            "frequency": 3.01
           },
           {
             "phrase": "cambio viene",
-            "count": 5,
-            "frequency": 0.29
+            "count": 7,
+            "frequency": 2.34
           },
           {
             "phrase": "aunque implica",
-            "count": 5,
-            "frequency": 0.29
+            "count": 10,
+            "frequency": 3.34
           },
           {
             "phrase": "nuevas tecnologías",
-            "count": 5,
-            "frequency": 0.29
+            "count": 7,
+            "frequency": 2.34
           },
           {
             "phrase": "llevando adelante",
-            "count": 4,
-            "frequency": 0.23
+            "count": 6,
+            "frequency": 2.01
           },
           {
             "phrase": "general sentido",
-            "count": 4,
-            "frequency": 0.23
+            "count": 6,
+            "frequency": 2.01
           },
           {
             "phrase": "mejorar procesos",
-            "count": 4,
-            "frequency": 0.23
+            "count": 8,
+            "frequency": 2.68
           },
           {
             "phrase": "sentido proceso",
             "count": 4,
-            "frequency": 0.23
+            "frequency": 1.34
           },
           {
             "phrase": "nuevos cambios",
-            "count": 4,
-            "frequency": 0.23
+            "count": 5,
+            "frequency": 1.67
           },
           {
             "phrase": "nuevos retos",
             "count": 3,
-            "frequency": 0.18
+            "frequency": 1.0
           },
           {
             "phrase": "viene llevando",
-            "count": 3,
-            "frequency": 0.18
+            "count": 4,
+            "frequency": 1.34
           },
           {
             "phrase": "adelante aunque",
-            "count": 3,
-            "frequency": 0.18
+            "count": 5,
+            "frequency": 1.67
           },
           {
             "phrase": "nuevas formas",
-            "count": 3,
-            "frequency": 0.18
+            "count": 6,
+            "frequency": 2.01
           },
           {
             "phrase": "oportunidad aprender",
-            "count": 3,
-            "frequency": 0.18
+            "count": 4,
+            "frequency": 1.34
           },
           {
             "phrase": "ofrecer experiencia",
-            "count": 3,
-            "frequency": 0.18
+            "count": 6,
+            "frequency": 2.01
           },
           {
             "phrase": "sido proceso",
-            "count": 3,
-            "frequency": 0.18
+            "count": 5,
+            "frequency": 1.67
           },
           {
             "phrase": "implica adaptación",
             "count": 3,
-            "frequency": 0.18
+            "frequency": 1.0
           },
           {
             "phrase": "cambios sentido",
-            "count": 3,
-            "frequency": 0.18
+            "count": 5,
+            "frequency": 1.67
           }
         ],
         "sentiment": {
@@ -2344,26 +2344,26 @@
     "global_engagement": [
       {
         "year": 2023,
-        "engagement_score": 3.71,
-        "engagement_pct": 74.5,
+        "engagement_score": 3.68,
+        "engagement_pct": 73.5,
         "respondent_count": 105
       },
       {
         "year": 2024,
-        "engagement_score": 4.53,
-        "engagement_pct": 86.9,
+        "engagement_score": 4.34,
+        "engagement_pct": 86.7,
         "respondent_count": 183
       },
       {
         "year": 2025,
-        "engagement_score": 4.33,
-        "engagement_pct": 88.1,
+        "engagement_score": 4.22,
+        "engagement_pct": 84.4,
         "respondent_count": 155
       },
       {
         "year": 2026,
-        "engagement_score": 4.58,
-        "engagement_pct": 87.3,
+        "engagement_score": 4.45,
+        "engagement_pct": 89.0,
         "respondent_count": 189
       }
     ],
@@ -2373,25 +2373,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 4.09,
+            "score": 3.95,
             "favorability": 38.1,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.77,
+            "score": 4.63,
             "favorability": 92.9,
             "segment": "fortaleza_solida"
           },
           {
             "year": 2025,
-            "score": 4.6,
+            "score": 4.51,
             "favorability": 87.1,
             "segment": "fortaleza_solida"
           },
           {
             "year": 2026,
-            "score": 4.84,
+            "score": 4.72,
             "favorability": 96.8,
             "segment": "fortaleza_excepcional"
           }
@@ -2402,7 +2402,7 @@
         "data": [
           {
             "year": 2023,
-            "score": 4.11,
+            "score": 3.93,
             "favorability": 27.6,
             "segment": "crisis"
           },
@@ -2414,13 +2414,13 @@
           },
           {
             "year": 2025,
-            "score": 4.46,
+            "score": 4.35,
             "favorability": 80.6,
             "segment": "aceptable"
           },
           {
             "year": 2026,
-            "score": 4.67,
+            "score": 4.59,
             "favorability": 89.4,
             "segment": "fortaleza_solida"
           }
@@ -2431,25 +2431,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 4.07,
+            "score": 3.93,
             "favorability": 27.6,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.6,
+            "score": 4.55,
             "favorability": 87.4,
             "segment": "fortaleza_solida"
           },
           {
             "year": 2025,
-            "score": 4.46,
+            "score": 4.34,
             "favorability": 79.4,
             "segment": "aceptable"
           },
           {
             "year": 2026,
-            "score": 4.6,
+            "score": 4.59,
             "favorability": 88.9,
             "segment": "fortaleza_solida"
           }
@@ -2460,25 +2460,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 3.93,
+            "score": 3.92,
             "favorability": 21.9,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.71,
+            "score": 4.62,
             "favorability": 92.9,
             "segment": "fortaleza_solida"
           },
           {
             "year": 2025,
-            "score": 4.72,
+            "score": 4.53,
             "favorability": 90.3,
             "segment": "fortaleza_solida"
           },
           {
             "year": 2026,
-            "score": 4.73,
+            "score": 4.67,
             "favorability": 95.8,
             "segment": "fortaleza_solida"
           }
@@ -2489,25 +2489,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 4.0,
+            "score": 3.9,
             "favorability": 38.1,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.74,
+            "score": 4.59,
             "favorability": 94.0,
             "segment": "fortaleza_solida"
           },
           {
             "year": 2025,
-            "score": 4.73,
+            "score": 4.54,
             "favorability": 91.0,
             "segment": "fortaleza_solida"
           },
           {
             "year": 2026,
-            "score": 4.76,
+            "score": 4.57,
             "favorability": 95.2,
             "segment": "fortaleza_solida"
           }
@@ -2518,25 +2518,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 3.91,
+            "score": 3.88,
             "favorability": 53.3,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.65,
+            "score": 4.59,
             "favorability": 90.7,
             "segment": "fortaleza_solida"
           },
           {
             "year": 2025,
-            "score": 4.51,
+            "score": 4.49,
             "favorability": 82.6,
             "segment": "aceptable"
           },
           {
             "year": 2026,
-            "score": 4.89,
+            "score": 4.76,
             "favorability": 97.4,
             "segment": "fortaleza_excepcional"
           }
@@ -2547,25 +2547,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 4.04,
+            "score": 3.88,
             "favorability": 43.8,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.7,
+            "score": 4.65,
             "favorability": 92.3,
             "segment": "fortaleza_solida"
           },
           {
             "year": 2025,
-            "score": 4.7,
+            "score": 4.52,
             "favorability": 87.7,
             "segment": "fortaleza_solida"
           },
           {
             "year": 2026,
-            "score": 4.75,
+            "score": 4.66,
             "favorability": 93.7,
             "segment": "fortaleza_solida"
           }
@@ -2576,25 +2576,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 3.95,
+            "score": 3.81,
             "favorability": 46.7,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.46,
+            "score": 4.3,
             "favorability": 81.4,
             "segment": "aceptable"
           },
           {
             "year": 2025,
-            "score": 4.21,
+            "score": 4.18,
             "favorability": 78.7,
             "segment": "atencion"
           },
           {
             "year": 2026,
-            "score": 4.53,
+            "score": 4.4,
             "favorability": 83.1,
             "segment": "aceptable"
           }
@@ -2605,25 +2605,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 3.82,
+            "score": 3.79,
             "favorability": 61.9,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.44,
+            "score": 4.31,
             "favorability": 78.1,
             "segment": "aceptable"
           },
           {
             "year": 2025,
-            "score": 4.33,
+            "score": 4.16,
             "favorability": 73.5,
             "segment": "atencion"
           },
           {
             "year": 2026,
-            "score": 4.47,
+            "score": 4.44,
             "favorability": 82.5,
             "segment": "aceptable"
           }
@@ -2634,25 +2634,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 3.76,
+            "score": 3.62,
             "favorability": 54.3,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.37,
+            "score": 4.21,
             "favorability": 77.0,
             "segment": "aceptable"
           },
           {
             "year": 2025,
-            "score": 4.16,
+            "score": 4.1,
             "favorability": 69.0,
             "segment": "atencion"
           },
           {
             "year": 2026,
-            "score": 4.38,
+            "score": 4.36,
             "favorability": 81.0,
             "segment": "aceptable"
           }
@@ -2663,25 +2663,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 3.64,
+            "score": 3.6,
             "favorability": 54.3,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.12,
+            "score": 4.07,
             "favorability": 72.7,
             "segment": "atencion"
           },
           {
             "year": 2025,
-            "score": 4.07,
+            "score": 3.87,
             "favorability": 57.4,
             "segment": "crisis"
           },
           {
             "year": 2026,
-            "score": 4.22,
+            "score": 4.2,
             "favorability": 73.5,
             "segment": "atencion"
           }
@@ -2692,25 +2692,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 3.61,
+            "score": 3.41,
             "favorability": 29.5,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 3.46,
+            "score": 3.4,
             "favorability": 48.6,
             "segment": "crisis"
           },
           {
             "year": 2025,
-            "score": 3.54,
+            "score": 3.5,
             "favorability": 54.8,
             "segment": "crisis"
           },
           {
             "year": 2026,
-            "score": 3.62,
+            "score": 3.57,
             "favorability": 57.7,
             "segment": "crisis"
           }
@@ -2721,25 +2721,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 3.56,
+            "score": 3.4,
             "favorability": 33.3,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.11,
+            "score": 3.99,
             "favorability": 73.2,
             "segment": "crisis"
           },
           {
             "year": 2025,
-            "score": 3.76,
+            "score": 3.75,
             "favorability": 65.2,
             "segment": "crisis"
           },
           {
             "year": 2026,
-            "score": 4.28,
+            "score": 4.13,
             "favorability": 81.5,
             "segment": "atencion"
           }
@@ -2750,25 +2750,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 3.51,
+            "score": 3.39,
             "favorability": 32.4,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.48,
+            "score": 4.33,
             "favorability": 80.9,
             "segment": "aceptable"
           },
           {
             "year": 2025,
-            "score": 4.26,
+            "score": 4.12,
             "favorability": 71.6,
             "segment": "atencion"
           },
           {
             "year": 2026,
-            "score": 4.67,
+            "score": 4.51,
             "favorability": 87.8,
             "segment": "fortaleza_solida"
           }
@@ -2779,25 +2779,25 @@
         "data": [
           {
             "year": 2023,
-            "score": 3.41,
+            "score": 3.36,
             "favorability": 30.5,
             "segment": "crisis"
           },
           {
             "year": 2024,
-            "score": 4.25,
+            "score": 4.21,
             "favorability": 76.0,
             "segment": "aceptable"
           },
           {
             "year": 2025,
-            "score": 4.0,
+            "score": 3.94,
             "favorability": 63.2,
             "segment": "crisis"
           },
           {
             "year": 2026,
-            "score": 4.48,
+            "score": 4.38,
             "favorability": 82.5,
             "segment": "aceptable"
           }
@@ -2808,19 +2808,19 @@
         "data": [
           {
             "year": 2024,
-            "score": 4.31,
+            "score": 4.15,
             "favorability": 60.1,
             "segment": "atencion"
           },
           {
             "year": 2025,
-            "score": 4.22,
+            "score": 4.13,
             "favorability": 62.6,
             "segment": "atencion"
           },
           {
             "year": 2026,
-            "score": 4.36,
+            "score": 4.28,
             "favorability": 70.9,
             "segment": "aceptable"
           }
@@ -2831,19 +2831,19 @@
         "data": [
           {
             "year": 2024,
-            "score": 3.93,
+            "score": 3.86,
             "favorability": 62.8,
             "segment": "crisis"
           },
           {
             "year": 2025,
-            "score": 3.8,
+            "score": 3.67,
             "favorability": 56.1,
             "segment": "crisis"
           },
           {
             "year": 2026,
-            "score": 4.16,
+            "score": 4.09,
             "favorability": 72.5,
             "segment": "atencion"
           }
@@ -2857,83 +2857,83 @@
       "dimension_name": "Propósito del Trabajo",
       "score_2023": 3.95,
       "favorability_2023": 38.1,
-      "score_2024": 4.7,
+      "score_2024": 4.63,
       "favorability_2024": 92.9,
-      "score_2025": 4.55,
+      "score_2025": 4.51,
       "favorability_2025": 87.1,
-      "score_2026": 4.89,
+      "score_2026": 4.72,
       "favorability_2026": 96.8
     },
     {
       "dimension_code": "liderazgo_efectivo",
       "dimension_name": "Liderazgo Efectivo",
-      "score_2023": 3.96,
+      "score_2023": 3.93,
       "favorability_2023": 27.6,
-      "score_2024": 4.7,
+      "score_2024": 4.5,
       "favorability_2024": 85.8,
-      "score_2025": 4.48,
+      "score_2025": 4.35,
       "favorability_2025": 80.6,
-      "score_2026": 4.77,
+      "score_2026": 4.59,
       "favorability_2026": 89.4
     },
     {
       "dimension_code": "comunicacion_interna",
       "dimension_name": "Comunicación Interna",
-      "score_2023": 3.99,
+      "score_2023": 3.93,
       "favorability_2023": 27.6,
-      "score_2024": 4.74,
+      "score_2024": 4.55,
       "favorability_2024": 87.4,
-      "score_2025": 4.35,
+      "score_2025": 4.34,
       "favorability_2025": 79.4,
-      "score_2026": 4.77,
+      "score_2026": 4.59,
       "favorability_2026": 88.9
     },
     {
       "dimension_code": "resultados_logros",
       "dimension_name": "Resultados y Logros",
-      "score_2023": 3.93,
+      "score_2023": 3.92,
       "favorability_2023": 21.9,
-      "score_2024": 4.66,
+      "score_2024": 4.62,
       "favorability_2024": 92.9,
-      "score_2025": 4.65,
+      "score_2025": 4.53,
       "favorability_2025": 90.3,
-      "score_2026": 4.83,
+      "score_2026": 4.67,
       "favorability_2026": 95.8
     },
     {
       "dimension_code": "autonomia",
       "dimension_name": "Autonomía",
-      "score_2023": 4.04,
+      "score_2023": 3.9,
       "favorability_2023": 38.1,
-      "score_2024": 4.68,
+      "score_2024": 4.59,
       "favorability_2024": 94.0,
-      "score_2025": 4.69,
+      "score_2025": 4.54,
       "favorability_2025": 91.0,
-      "score_2026": 4.61,
+      "score_2026": 4.57,
       "favorability_2026": 95.2
     },
     {
       "dimension_code": "orgullo_institucional",
       "dimension_name": "Orgullo Institucional",
-      "score_2023": 3.98,
+      "score_2023": 3.88,
       "favorability_2023": 53.3,
-      "score_2024": 4.62,
+      "score_2024": 4.59,
       "favorability_2024": 90.7,
-      "score_2025": 4.59,
+      "score_2025": 4.49,
       "favorability_2025": 82.6,
-      "score_2026": 4.95,
+      "score_2026": 4.76,
       "favorability_2026": 97.4
     },
     {
       "dimension_code": "seguridad_fisica",
       "dimension_name": "Seguridad Física",
-      "score_2023": 4.06,
+      "score_2023": 3.88,
       "favorability_2023": 43.8,
-      "score_2024": 4.79,
+      "score_2024": 4.65,
       "favorability_2024": 92.3,
-      "score_2025": 4.66,
+      "score_2025": 4.52,
       "favorability_2025": 87.7,
-      "score_2026": 4.7,
+      "score_2026": 4.66,
       "favorability_2026": 93.7
     },
     {
@@ -2941,115 +2941,115 @@
       "dimension_name": "Cuidado Mutuo",
       "score_2023": 3.81,
       "favorability_2023": 46.7,
-      "score_2024": 4.36,
+      "score_2024": 4.3,
       "favorability_2024": 81.4,
-      "score_2025": 4.25,
+      "score_2025": 4.18,
       "favorability_2025": 78.7,
-      "score_2026": 4.52,
+      "score_2026": 4.4,
       "favorability_2026": 83.1
     },
     {
       "dimension_code": "cohesion_equipo",
       "dimension_name": "Cohesión de Equipo",
-      "score_2023": 3.96,
+      "score_2023": 3.79,
       "favorability_2023": 61.9,
-      "score_2024": 4.38,
+      "score_2024": 4.31,
       "favorability_2024": 78.1,
-      "score_2025": 4.26,
+      "score_2025": 4.16,
       "favorability_2025": 73.5,
-      "score_2026": 4.48,
+      "score_2026": 4.44,
       "favorability_2026": 82.5
     },
     {
       "dimension_code": "balance_vida_trabajo",
       "dimension_name": "Balance Vida-Trabajo",
-      "score_2023": 3.65,
+      "score_2023": 3.62,
       "favorability_2023": 54.3,
-      "score_2024": 4.34,
+      "score_2024": 4.21,
       "favorability_2024": 77.0,
-      "score_2025": 4.21,
+      "score_2025": 4.1,
       "favorability_2025": 69.0,
-      "score_2026": 4.38,
+      "score_2026": 4.36,
       "favorability_2026": 81.0
     },
     {
       "dimension_code": "equidad_ascensos",
       "dimension_name": "Equidad en Ascensos",
-      "score_2023": 3.75,
+      "score_2023": 3.6,
       "favorability_2023": 54.3,
-      "score_2024": 4.23,
+      "score_2024": 4.07,
       "favorability_2024": 72.7,
-      "score_2025": 3.94,
+      "score_2025": 3.87,
       "favorability_2025": 57.4,
-      "score_2026": 4.31,
+      "score_2026": 4.2,
       "favorability_2026": 73.5
     },
     {
       "dimension_code": "confianza_institucional",
       "dimension_name": "Confianza Institucional",
-      "score_2023": 3.56,
+      "score_2023": 3.41,
       "favorability_2023": 29.5,
-      "score_2024": 3.5,
+      "score_2024": 3.4,
       "favorability_2024": 48.6,
-      "score_2025": 3.55,
+      "score_2025": 3.5,
       "favorability_2025": 54.8,
-      "score_2026": 3.6,
+      "score_2026": 3.57,
       "favorability_2026": 57.7
     },
     {
       "dimension_code": "beneficios_exclusivos",
       "dimension_name": "Beneficios Exclusivos",
-      "score_2023": 3.58,
+      "score_2023": 3.4,
       "favorability_2023": 33.3,
-      "score_2024": 4.12,
+      "score_2024": 3.99,
       "favorability_2024": 73.2,
-      "score_2025": 3.8,
+      "score_2025": 3.75,
       "favorability_2025": 65.2,
-      "score_2026": 4.29,
+      "score_2026": 4.13,
       "favorability_2026": 81.5
     },
     {
       "dimension_code": "desarrollo_profesional",
       "dimension_name": "Desarrollo Profesional",
-      "score_2023": 3.45,
+      "score_2023": 3.39,
       "favorability_2023": 32.4,
-      "score_2024": 4.5,
+      "score_2024": 4.33,
       "favorability_2024": 80.9,
-      "score_2025": 4.3,
+      "score_2025": 4.12,
       "favorability_2025": 71.6,
-      "score_2026": 4.6,
+      "score_2026": 4.51,
       "favorability_2026": 87.8
     },
     {
       "dimension_code": "reconocimiento",
       "dimension_name": "Reconocimiento",
-      "score_2023": 3.46,
+      "score_2023": 3.36,
       "favorability_2023": 30.5,
-      "score_2024": 4.27,
+      "score_2024": 4.21,
       "favorability_2024": 76.0,
-      "score_2025": 4.12,
+      "score_2025": 3.94,
       "favorability_2025": 63.2,
-      "score_2026": 4.45,
+      "score_2026": 4.38,
       "favorability_2026": 82.5
     },
     {
       "dimension_code": "innovacion_cambio",
       "dimension_name": "Innovación y Cambio",
-      "score_2024": 4.25,
+      "score_2024": 4.15,
       "favorability_2024": 60.1,
-      "score_2025": 4.14,
+      "score_2025": 4.13,
       "favorability_2025": 62.6,
-      "score_2026": 4.42,
+      "score_2026": 4.28,
       "favorability_2026": 70.9
     },
     {
       "dimension_code": "compensacion",
       "dimension_name": "Compensación",
-      "score_2024": 3.91,
+      "score_2024": 3.86,
       "favorability_2024": 62.8,
-      "score_2025": 3.82,
+      "score_2025": 3.67,
       "favorability_2025": 56.1,
-      "score_2026": 4.14,
+      "score_2026": 4.09,
       "favorability_2026": 72.5
     }
   ]

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-01-21T01:34:59.181732",
+  "generated_at": "2026-02-10T02:31:09.636893",
   "source": "text_analysis_data.json",
-  "total_comments_processed": 812,
+  "total_comments_processed": 1421,
   "nodes": [
     {
       "id": "P001",
       "type": "participant",
       "label": "Participante 1",
-      "department": "operaciones",
-      "department_name": "Riesgos",
+      "department": "auditoria",
+      "department_name": "Auditoría",
       "profile": "True Believers",
       "comment_count": 10,
       "themes": [
@@ -40,8 +40,8 @@
       "id": "P002",
       "type": "participant",
       "label": "Participante 2",
-      "department": "auditor_a",
-      "department_name": "Riesgos",
+      "department": "legal",
+      "department_name": "Legal",
       "profile": "True Believers",
       "comment_count": 10,
       "themes": [
@@ -73,8 +73,8 @@
       "id": "P003",
       "type": "participant",
       "label": "Participante 3",
-      "department": "operaciones",
-      "department_name": "Riesgos",
+      "department": "rrhh",
+      "department_name": "RRHH",
       "profile": "Engaged Pragmáticos",
       "comment_count": 10,
       "themes": [
@@ -106,8 +106,8 @@
       "id": "P004",
       "type": "participant",
       "label": "Participante 4",
-      "department": "rrhh",
-      "department_name": "Riesgos",
+      "department": "legal",
+      "department_name": "Legal",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -135,8 +135,8 @@
       "id": "P005",
       "type": "participant",
       "label": "Participante 5",
-      "department": "tecnolog_a",
-      "department_name": "Cumplimiento",
+      "department": "banca_privada",
+      "department_name": "Banca Privada",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -165,8 +165,8 @@
       "id": "P006",
       "type": "participant",
       "label": "Participante 6",
-      "department": "cumplimiento",
-      "department_name": "Cumplimiento",
+      "department": "auditoria",
+      "department_name": "Auditoría",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -195,8 +195,8 @@
       "id": "P007",
       "type": "participant",
       "label": "Participante 7",
-      "department": "operaciones",
-      "department_name": "Cumplimiento",
+      "department": "rrhh",
+      "department_name": "RRHH",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -225,8 +225,8 @@
       "id": "P008",
       "type": "participant",
       "label": "Participante 8",
-      "department": "cumplimiento",
-      "department_name": "Cumplimiento",
+      "department": "riesgos",
+      "department_name": "Riesgos",
       "profile": "Neutrales",
       "comment_count": 7,
       "themes": [
@@ -255,8 +255,8 @@
       "id": "P009",
       "type": "participant",
       "label": "Participante 9",
-      "department": "auditor_a",
-      "department_name": "Cumplimiento",
+      "department": "riesgos",
+      "department_name": "Riesgos",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -285,8 +285,8 @@
       "id": "P010",
       "type": "participant",
       "label": "Participante 10",
-      "department": "riesgos",
-      "department_name": "Cumplimiento",
+      "department": "auditoria",
+      "department_name": "Auditoría",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -315,7 +315,7 @@
       "id": "P011",
       "type": "participant",
       "label": "Participante 11",
-      "department": "operaciones",
+      "department": "cumplimiento",
       "department_name": "Cumplimiento",
       "profile": "True Believers",
       "comment_count": 7,
@@ -345,8 +345,8 @@
       "id": "P012",
       "type": "participant",
       "label": "Participante 12",
-      "department": "tecnolog_a",
-      "department_name": "Cumplimiento",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "Neutrales",
       "comment_count": 7,
       "themes": [
@@ -375,8 +375,8 @@
       "id": "P013",
       "type": "participant",
       "label": "Participante 13",
-      "department": "rrhh",
-      "department_name": "Cumplimiento",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -405,8 +405,8 @@
       "id": "P014",
       "type": "participant",
       "label": "Participante 14",
-      "department": "tecnolog_a",
-      "department_name": "Cumplimiento",
+      "department": "tesoreria",
+      "department_name": "Tesorería",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -436,7 +436,7 @@
       "type": "participant",
       "label": "Participante 15",
       "department": "operaciones",
-      "department_name": "Cumplimiento",
+      "department_name": "Operaciones",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -465,8 +465,8 @@
       "id": "P016",
       "type": "participant",
       "label": "Participante 16",
-      "department": "marketing",
-      "department_name": "Cumplimiento",
+      "department": "legal",
+      "department_name": "Legal",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -495,8 +495,8 @@
       "id": "P017",
       "type": "participant",
       "label": "Participante 17",
-      "department": "banca_privada",
-      "department_name": "Cumplimiento",
+      "department": "legal",
+      "department_name": "Legal",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -525,8 +525,8 @@
       "id": "P018",
       "type": "participant",
       "label": "Participante 18",
-      "department": "marketing",
-      "department_name": "Cumplimiento",
+      "department": "legal",
+      "department_name": "Legal",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -555,8 +555,8 @@
       "id": "P019",
       "type": "participant",
       "label": "Participante 19",
-      "department": "rrhh",
-      "department_name": "Cumplimiento",
+      "department": "tesoreria",
+      "department_name": "Tesorería",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -585,8 +585,8 @@
       "id": "P020",
       "type": "participant",
       "label": "Participante 20",
-      "department": "banca_privada",
-      "department_name": "Cumplimiento",
+      "department": "legal",
+      "department_name": "Legal",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -615,8 +615,8 @@
       "id": "P021",
       "type": "participant",
       "label": "Participante 21",
-      "department": "marketing",
-      "department_name": "Cumplimiento",
+      "department": "banca_privada",
+      "department_name": "Banca Privada",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -645,8 +645,8 @@
       "id": "P022",
       "type": "participant",
       "label": "Participante 22",
-      "department": "marketing",
-      "department_name": "Cumplimiento",
+      "department": "auditoria",
+      "department_name": "Auditoría",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -675,8 +675,8 @@
       "id": "P023",
       "type": "participant",
       "label": "Participante 23",
-      "department": "banca_privada",
-      "department_name": "Cumplimiento",
+      "department": "operaciones",
+      "department_name": "Operaciones",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -705,7 +705,7 @@
       "id": "P024",
       "type": "participant",
       "label": "Participante 24",
-      "department": "riesgos",
+      "department": "cumplimiento",
       "department_name": "Cumplimiento",
       "profile": "True Believers",
       "comment_count": 7,
@@ -735,7 +735,7 @@
       "id": "P025",
       "type": "participant",
       "label": "Participante 25",
-      "department": "marketing",
+      "department": "cumplimiento",
       "department_name": "Cumplimiento",
       "profile": "True Believers",
       "comment_count": 7,
@@ -765,8 +765,8 @@
       "id": "P026",
       "type": "participant",
       "label": "Participante 26",
-      "department": "tecnolog_a",
-      "department_name": "Cumplimiento",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -795,8 +795,8 @@
       "id": "P027",
       "type": "participant",
       "label": "Participante 27",
-      "department": "banca_privada",
-      "department_name": "Cumplimiento",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -825,8 +825,8 @@
       "id": "P028",
       "type": "participant",
       "label": "Participante 28",
-      "department": "cumplimiento",
-      "department_name": "Cumplimiento",
+      "department": "auditoria",
+      "department_name": "Auditoría",
       "profile": "Neutrales",
       "comment_count": 7,
       "themes": [
@@ -855,8 +855,8 @@
       "id": "P029",
       "type": "participant",
       "label": "Participante 29",
-      "department": "legal",
-      "department_name": "Cumplimiento",
+      "department": "riesgos",
+      "department_name": "Riesgos",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -885,8 +885,8 @@
       "id": "P030",
       "type": "participant",
       "label": "Participante 30",
-      "department": "legal",
-      "department_name": "Cumplimiento",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -915,8 +915,8 @@
       "id": "P031",
       "type": "participant",
       "label": "Participante 31",
-      "department": "cumplimiento",
-      "department_name": "Cumplimiento",
+      "department": "rrhh",
+      "department_name": "RRHH",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -945,8 +945,8 @@
       "id": "P032",
       "type": "participant",
       "label": "Participante 32",
-      "department": "rrhh",
-      "department_name": "Cumplimiento",
+      "department": "marketing",
+      "department_name": "Marketing",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -975,8 +975,8 @@
       "id": "P033",
       "type": "participant",
       "label": "Participante 33",
-      "department": "riesgos",
-      "department_name": "Cumplimiento",
+      "department": "auditoria",
+      "department_name": "Auditoría",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -1005,8 +1005,8 @@
       "id": "P034",
       "type": "participant",
       "label": "Participante 34",
-      "department": "rrhh",
-      "department_name": "Cumplimiento",
+      "department": "tesoreria",
+      "department_name": "Tesorería",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -1035,8 +1035,8 @@
       "id": "P035",
       "type": "participant",
       "label": "Participante 35",
-      "department": "riesgos",
-      "department_name": "Cumplimiento",
+      "department": "marketing",
+      "department_name": "Marketing",
       "profile": "Engaged Pragmáticos",
       "comment_count": 7,
       "themes": [
@@ -1065,8 +1065,8 @@
       "id": "P036",
       "type": "participant",
       "label": "Participante 36",
-      "department": "marketing",
-      "department_name": "Cumplimiento",
+      "department": "riesgos",
+      "department_name": "Riesgos",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -1095,7 +1095,7 @@
       "id": "P037",
       "type": "participant",
       "label": "Participante 37",
-      "department": "tecnolog_a",
+      "department": "cumplimiento",
       "department_name": "Cumplimiento",
       "profile": "Neutrales",
       "comment_count": 7,
@@ -1125,8 +1125,8 @@
       "id": "P038",
       "type": "participant",
       "label": "Participante 38",
-      "department": "auditor_a",
-      "department_name": "Cumplimiento",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -1155,8 +1155,8 @@
       "id": "P039",
       "type": "participant",
       "label": "Participante 39",
-      "department": "banca_privada",
-      "department_name": "Cumplimiento",
+      "department": "rrhh",
+      "department_name": "RRHH",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -1185,8 +1185,8 @@
       "id": "P040",
       "type": "participant",
       "label": "Participante 40",
-      "department": "banca_privada",
-      "department_name": "Cumplimiento",
+      "department": "marketing",
+      "department_name": "Marketing",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -1215,8 +1215,8 @@
       "id": "P041",
       "type": "participant",
       "label": "Participante 41",
-      "department": "banca_privada",
-      "department_name": "Marketing",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "True Believers",
       "comment_count": 9,
       "themes": [
@@ -1247,8 +1247,8 @@
       "id": "P042",
       "type": "participant",
       "label": "Participante 42",
-      "department": "legal",
-      "department_name": "Marketing",
+      "department": "auditoria",
+      "department_name": "Auditoría",
       "profile": "Neutrales",
       "comment_count": 9,
       "themes": [
@@ -1279,7 +1279,7 @@
       "id": "P043",
       "type": "participant",
       "label": "Participante 43",
-      "department": "operaciones",
+      "department": "marketing",
       "department_name": "Marketing",
       "profile": "Desengaged",
       "comment_count": 9,
@@ -1311,8 +1311,8 @@
       "id": "P044",
       "type": "participant",
       "label": "Participante 44",
-      "department": "operaciones",
-      "department_name": "Marketing",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "True Believers",
       "comment_count": 9,
       "themes": [
@@ -1343,7 +1343,7 @@
       "id": "P045",
       "type": "participant",
       "label": "Participante 45",
-      "department": "riesgos",
+      "department": "marketing",
       "department_name": "Marketing",
       "profile": "True Believers",
       "comment_count": 9,
@@ -1375,7 +1375,7 @@
       "id": "P046",
       "type": "participant",
       "label": "Participante 46",
-      "department": "riesgos",
+      "department": "marketing",
       "department_name": "Marketing",
       "profile": "Engaged Pragmáticos",
       "comment_count": 9,
@@ -1408,7 +1408,7 @@
       "type": "participant",
       "label": "Participante 47",
       "department": "riesgos",
-      "department_name": "Marketing",
+      "department_name": "Riesgos",
       "profile": "True Believers",
       "comment_count": 9,
       "themes": [
@@ -1439,7 +1439,7 @@
       "id": "P048",
       "type": "participant",
       "label": "Participante 48",
-      "department": "operaciones",
+      "department": "marketing",
       "department_name": "Marketing",
       "profile": "True Believers",
       "comment_count": 9,
@@ -1471,8 +1471,8 @@
       "id": "P049",
       "type": "participant",
       "label": "Participante 49",
-      "department": "tesorer_a",
-      "department_name": "Marketing",
+      "department": "cumplimiento",
+      "department_name": "Cumplimiento",
       "profile": "True Believers",
       "comment_count": 9,
       "themes": [
@@ -1503,8 +1503,8 @@
       "id": "P050",
       "type": "participant",
       "label": "Participante 50",
-      "department": "marketing",
-      "department_name": "Marketing",
+      "department": "riesgos",
+      "department_name": "Riesgos",
       "profile": "Engaged Pragmáticos",
       "comment_count": 9,
       "themes": [
@@ -1535,8 +1535,8 @@
       "id": "P051",
       "type": "participant",
       "label": "Participante 51",
-      "department": "auditor_a",
-      "department_name": "Marketing",
+      "department": "banca_privada",
+      "department_name": "Banca Privada",
       "profile": "Desengaged",
       "comment_count": 4,
       "themes": [
@@ -1562,8 +1562,8 @@
       "id": "P052",
       "type": "participant",
       "label": "Participante 52",
-      "department": "legal",
-      "department_name": "Riesgos",
+      "department": "marketing",
+      "department_name": "Marketing",
       "profile": "Neutrales",
       "comment_count": 11,
       "themes": [
@@ -1596,8 +1596,8 @@
       "id": "P053",
       "type": "participant",
       "label": "Participante 53",
-      "department": "auditor_a",
-      "department_name": "Riesgos",
+      "department": "rrhh",
+      "department_name": "RRHH",
       "profile": "True Believers",
       "comment_count": 11,
       "themes": [
@@ -1630,7 +1630,7 @@
       "id": "P054",
       "type": "participant",
       "label": "Participante 54",
-      "department": "banca_privada",
+      "department": "riesgos",
       "department_name": "Riesgos",
       "profile": "True Believers",
       "comment_count": 11,
@@ -1664,8 +1664,8 @@
       "id": "P055",
       "type": "participant",
       "label": "Participante 55",
-      "department": "marketing",
-      "department_name": "Riesgos",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "True Believers",
       "comment_count": 11,
       "themes": [
@@ -1698,7 +1698,7 @@
       "id": "P056",
       "type": "participant",
       "label": "Participante 56",
-      "department": "tecnolog_a",
+      "department": "riesgos",
       "department_name": "Riesgos",
       "profile": "True Believers",
       "comment_count": 11,
@@ -1732,8 +1732,8 @@
       "id": "P057",
       "type": "participant",
       "label": "Participante 57",
-      "department": "rrhh",
-      "department_name": "Riesgos",
+      "department": "auditoria",
+      "department_name": "Auditoría",
       "profile": "Engaged Pragmáticos",
       "comment_count": 2,
       "themes": [
@@ -1757,8 +1757,8 @@
       "id": "P058",
       "type": "participant",
       "label": "Participante 58",
-      "department": "tecnolog_a",
-      "department_name": "Tecnología",
+      "department": "tesoreria",
+      "department_name": "Tesorería",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -1786,8 +1786,8 @@
       "id": "P059",
       "type": "participant",
       "label": "Participante 59",
-      "department": "rrhh",
-      "department_name": "Tecnología",
+      "department": "riesgos",
+      "department_name": "Riesgos",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -1816,7 +1816,7 @@
       "type": "participant",
       "label": "Participante 60",
       "department": "rrhh",
-      "department_name": "Tecnología",
+      "department_name": "RRHH",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -1845,7 +1845,7 @@
       "type": "participant",
       "label": "Participante 61",
       "department": "riesgos",
-      "department_name": "Tecnología",
+      "department_name": "Riesgos",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -1874,7 +1874,7 @@
       "type": "participant",
       "label": "Participante 62",
       "department": "operaciones",
-      "department_name": "Tecnología",
+      "department_name": "Operaciones",
       "profile": "Neutrales",
       "comment_count": 6,
       "themes": [
@@ -1902,8 +1902,8 @@
       "id": "P063",
       "type": "participant",
       "label": "Participante 63",
-      "department": "banca_privada",
-      "department_name": "Tecnología",
+      "department": "auditoria",
+      "department_name": "Auditoría",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -1931,8 +1931,8 @@
       "id": "P064",
       "type": "participant",
       "label": "Participante 64",
-      "department": "tecnolog_a",
-      "department_name": "Tecnología",
+      "department": "marketing",
+      "department_name": "Marketing",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -1960,8 +1960,8 @@
       "id": "P065",
       "type": "participant",
       "label": "Participante 65",
-      "department": "riesgos",
-      "department_name": "Tecnología",
+      "department": "operaciones",
+      "department_name": "Operaciones",
       "profile": "Engaged Pragmáticos",
       "comment_count": 5,
       "themes": [
@@ -1988,8 +1988,8 @@
       "id": "P066",
       "type": "participant",
       "label": "Participante 66",
-      "department": "legal",
-      "department_name": "Auditoría",
+      "department": "riesgos",
+      "department_name": "Riesgos",
       "profile": "True Believers",
       "comment_count": 10,
       "themes": [
@@ -2021,8 +2021,8 @@
       "id": "P067",
       "type": "participant",
       "label": "Participante 67",
-      "department": "operaciones",
-      "department_name": "Auditoría",
+      "department": "rrhh",
+      "department_name": "RRHH",
       "profile": "True Believers",
       "comment_count": 10,
       "themes": [
@@ -2054,8 +2054,8 @@
       "id": "P068",
       "type": "participant",
       "label": "Participante 68",
-      "department": "tesorer_a",
-      "department_name": "Auditoría",
+      "department": "riesgos",
+      "department_name": "Riesgos",
       "profile": "Engaged Pragmáticos",
       "comment_count": 10,
       "themes": [
@@ -2087,8 +2087,8 @@
       "id": "P069",
       "type": "participant",
       "label": "Participante 69",
-      "department": "riesgos",
-      "department_name": "Auditoría",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "Engaged Pragmáticos",
       "comment_count": 10,
       "themes": [
@@ -2120,8 +2120,8 @@
       "id": "P070",
       "type": "participant",
       "label": "Participante 70",
-      "department": "tesorer_a",
-      "department_name": "Auditoría",
+      "department": "cumplimiento",
+      "department_name": "Cumplimiento",
       "profile": "True Believers",
       "comment_count": 10,
       "themes": [
@@ -2154,7 +2154,7 @@
       "type": "participant",
       "label": "Participante 71",
       "department": "rrhh",
-      "department_name": "Auditoría",
+      "department_name": "RRHH",
       "profile": "Engaged Pragmáticos",
       "comment_count": 10,
       "themes": [
@@ -2186,8 +2186,8 @@
       "id": "P072",
       "type": "participant",
       "label": "Participante 72",
-      "department": "banca_privada",
-      "department_name": "Auditoría",
+      "department": "riesgos",
+      "department_name": "Riesgos",
       "profile": "Engaged Pragmáticos",
       "comment_count": 10,
       "themes": [
@@ -2213,14 +2213,14 @@
         "c208",
         "c484"
       ],
-      "sample_comment": "Es un proceso novedoso. He trabajado en Bancos tradicionales.\nMe siento muy contenta de ser parte de la innovación de Atlas Capital y deseo de todo coraz..."
+      "sample_comment": "Es un proceso novedoso. He trabajado en Bancos tradicionales.\nMe siento muy contenta de ser parte de la innovación de Atlas Capital Group y deseo de todo coraz..."
     },
     {
       "id": "P073",
       "type": "participant",
       "label": "Participante 73",
-      "department": "operaciones",
-      "department_name": "Auditoría",
+      "department": "rrhh",
+      "department_name": "RRHH",
       "profile": "Neutrales",
       "comment_count": 10,
       "themes": [
@@ -2252,8 +2252,8 @@
       "id": "P074",
       "type": "participant",
       "label": "Participante 74",
-      "department": "operaciones",
-      "department_name": "Auditoría",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "True Believers",
       "comment_count": 8,
       "themes": [
@@ -2284,7 +2284,7 @@
       "type": "participant",
       "label": "Participante 75",
       "department": "riesgos",
-      "department_name": "Auditoría",
+      "department_name": "Riesgos",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2319,7 +2319,7 @@
       "type": "participant",
       "label": "Participante 76",
       "department": "riesgos",
-      "department_name": "Auditoría",
+      "department_name": "Riesgos",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2353,8 +2353,8 @@
       "id": "P077",
       "type": "participant",
       "label": "Participante 77",
-      "department": "banca_privada",
-      "department_name": "Auditoría",
+      "department": "riesgos",
+      "department_name": "Riesgos",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2388,8 +2388,8 @@
       "id": "P078",
       "type": "participant",
       "label": "Participante 78",
-      "department": "cumplimiento",
-      "department_name": "Auditoría",
+      "department": "riesgos",
+      "department_name": "Riesgos",
       "profile": "Engaged Pragmáticos",
       "comment_count": 12,
       "themes": [
@@ -2423,8 +2423,8 @@
       "id": "P079",
       "type": "participant",
       "label": "Participante 79",
-      "department": "marketing",
-      "department_name": "Auditoría",
+      "department": "banca_privada",
+      "department_name": "Banca Privada",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2452,14 +2452,14 @@
         "c667",
         "c771"
       ],
-      "sample_comment": "atlas posee un ambiente agradable para trabajar, basado en el copo tiempo que mantengo  en la empresa, en el departamento que trabajo se respeta ..."
+      "sample_comment": "Atlas Capital Group posee un ambiente agradable para trabajar, basado en el copo tiempo que mantengo  en la empresa, en el departamento que trabajo se respeta ..."
     },
     {
       "id": "P080",
       "type": "participant",
       "label": "Participante 80",
-      "department": "cumplimiento",
-      "department_name": "Auditoría",
+      "department": "marketing",
+      "department_name": "Marketing",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2493,8 +2493,8 @@
       "id": "P081",
       "type": "participant",
       "label": "Participante 81",
-      "department": "tecnolog_a",
-      "department_name": "Auditoría",
+      "department": "tesoreria",
+      "department_name": "Tesorería",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2522,13 +2522,13 @@
         "c770",
         "c405"
       ],
-      "sample_comment": "muy bueno el reto es maravilloso para todos estoy en el mejor lugar de trabajo Viva Atlas Capital."
+      "sample_comment": "muy bueno el reto es maravilloso para todos estoy en el mejor lugar de trabajo Viva Atlas Capital Group."
     },
     {
       "id": "P082",
       "type": "participant",
       "label": "Participante 82",
-      "department": "cumplimiento",
+      "department": "auditoria",
       "department_name": "Auditoría",
       "profile": "True Believers",
       "comment_count": 12,
@@ -2563,8 +2563,8 @@
       "id": "P083",
       "type": "participant",
       "label": "Participante 83",
-      "department": "marketing",
-      "department_name": "Auditoría",
+      "department": "rrhh",
+      "department_name": "RRHH",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2598,7 +2598,7 @@
       "id": "P084",
       "type": "participant",
       "label": "Participante 84",
-      "department": "auditor_a",
+      "department": "auditoria",
       "department_name": "Auditoría",
       "profile": "True Believers",
       "comment_count": 12,
@@ -2633,8 +2633,8 @@
       "id": "P085",
       "type": "participant",
       "label": "Participante 85",
-      "department": "riesgos",
-      "department_name": "Auditoría",
+      "department": "rrhh",
+      "department_name": "RRHH",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2668,7 +2668,7 @@
       "id": "P086",
       "type": "participant",
       "label": "Participante 86",
-      "department": "riesgos",
+      "department": "auditoria",
       "department_name": "Auditoría",
       "profile": "True Believers",
       "comment_count": 12,
@@ -2703,8 +2703,8 @@
       "id": "P087",
       "type": "participant",
       "label": "Participante 87",
-      "department": "rrhh",
-      "department_name": "Auditoría",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "True Believers",
       "comment_count": 7,
       "themes": [
@@ -2733,8 +2733,8 @@
       "id": "P088",
       "type": "participant",
       "label": "Participante 88",
-      "department": "tesorer_a",
-      "department_name": "Tesorería",
+      "department": "tecnologia",
+      "department_name": "Tecnología",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2768,8 +2768,8 @@
       "id": "P089",
       "type": "participant",
       "label": "Participante 89",
-      "department": "tesorer_a",
-      "department_name": "Tesorería",
+      "department": "banca_privada",
+      "department_name": "Banca Privada",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2803,8 +2803,8 @@
       "id": "P090",
       "type": "participant",
       "label": "Participante 90",
-      "department": "tecnolog_a",
-      "department_name": "Tesorería",
+      "department": "operaciones",
+      "department_name": "Operaciones",
       "profile": "Neutrales",
       "comment_count": 12,
       "themes": [
@@ -2838,8 +2838,8 @@
       "id": "P091",
       "type": "participant",
       "label": "Participante 91",
-      "department": "cumplimiento",
-      "department_name": "Tesorería",
+      "department": "riesgos",
+      "department_name": "Riesgos",
       "profile": "True Believers",
       "comment_count": 12,
       "themes": [
@@ -2873,8 +2873,8 @@
       "id": "P092",
       "type": "participant",
       "label": "Participante 92",
-      "department": "operaciones",
-      "department_name": "Auditoría",
+      "department": "tesoreria",
+      "department_name": "Tesorería",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -2902,8 +2902,8 @@
       "id": "P093",
       "type": "participant",
       "label": "Participante 93",
-      "department": "tecnolog_a",
-      "department_name": "Auditoría",
+      "department": "operaciones",
+      "department_name": "Operaciones",
       "profile": "Neutrales",
       "comment_count": 6,
       "themes": [
@@ -2931,8 +2931,8 @@
       "id": "P094",
       "type": "participant",
       "label": "Participante 94",
-      "department": "tesorer_a",
-      "department_name": "Auditoría",
+      "department": "operaciones",
+      "department_name": "Operaciones",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -2959,8 +2959,8 @@
       "id": "P095",
       "type": "participant",
       "label": "Participante 95",
-      "department": "operaciones",
-      "department_name": "Auditoría",
+      "department": "tesoreria",
+      "department_name": "Tesorería",
       "profile": "True Believers",
       "comment_count": 6,
       "themes": [
@@ -2988,7 +2988,7 @@
       "id": "P096",
       "type": "participant",
       "label": "Participante 96",
-      "department": "marketing",
+      "department": "auditoria",
       "department_name": "Auditoría",
       "profile": "True Believers",
       "comment_count": 4,
@@ -3015,8 +3015,8 @@
       "id": "P097",
       "type": "participant",
       "label": "Participante 97",
-      "department": "auditor_a",
-      "department_name": "Operaciones",
+      "department": "tesoreria",
+      "department_name": "Tesorería",
       "profile": "True Believers",
       "comment_count": 9,
       "themes": [
@@ -3047,8 +3047,8 @@
       "id": "P098",
       "type": "participant",
       "label": "Participante 98",
-      "department": "riesgos",
-      "department_name": "Operaciones",
+      "department": "cumplimiento",
+      "department_name": "Cumplimiento",
       "profile": "True Believers",
       "comment_count": 2,
       "themes": [
@@ -26860,48 +26860,48 @@
     ],
     "department_distribution": [
       {
-        "department": "RRHH",
-        "count": 67
+        "department": "General",
+        "count": 36
       },
       {
-        "department": "Auditoría",
-        "count": 24
+        "department": "Operaciones",
+        "count": 13
       },
       {
-        "department": "Tecnología",
-        "count": 20
-      },
-      {
-        "department": "Auditoría",
-        "count": 17
-      },
-      {
-        "department": "Tecnología",
-        "count": 15
-      },
-      {
-        "department": "Tesorería",
+        "department": "Banca de Personas",
         "count": 11
       },
       {
         "department": "Tecnología",
-        "count": 7
+        "count": 9
       },
       {
         "department": "Cumplimiento",
-        "count": 7
+        "count": 8
       },
       {
-        "department": "RRHH",
-        "count": 7
+        "department": "Banca Corporativa",
+        "count": 6
       },
       {
-        "department": "Cumplimiento",
+        "department": "Recursos Humanos",
         "count": 4
       },
       {
-        "department": "Operaciones",
+        "department": "Crédito",
+        "count": 4
+      },
+      {
+        "department": "Contabilidad/Finanzas",
+        "count": 4
+      },
+      {
+        "department": "Marketing",
         "count": 2
+      },
+      {
+        "department": "Legal",
+        "count": 1
       }
     ],
     "profile_distribution": [
@@ -26925,8 +26925,7 @@
         "count": 2,
         "color": "#DC2626"
       }
-    ],
-    "total_participants": 350
+    ]
   },
   "clusters": [
     {
@@ -27071,7 +27070,7 @@
           "department": "Recursos Humanos"
         },
         {
-          "text": "Atlas Capital es coherente con su propuesta de valor, está innovando de manera permanente y nos involucra para poder entender estos cambios.",
+          "text": "Atlas Capital Group es coherente con su propuesta de valor, está innovando de manera permanente y nos involucra para poder entender estos cambios.",
           "sentiment": "neutral",
           "department": "Banca Corporativa"
         },
@@ -27081,7 +27080,7 @@
           "department": "Cumplimiento"
         },
         {
-          "text": "Al ser del área de tecnología, bastante bien, aprendiendo sobre más tecnologías y apoyando a las demás áreas, siento que Atlas Capital esta yendo por el camino correcto en cuanto a adaptación a los cambio...",
+          "text": "Al ser del área de tecnología, bastante bien, aprendiendo sobre más tecnologías y apoyando a las demás áreas, siento que Atlas Capital Group esta yendo por el camino correcto en cuanto a adaptación a los cambio...",
           "sentiment": "positive",
           "department": "Tecnología"
         },
@@ -27166,8 +27165,7 @@
         "Comunicar claramente el propósito y beneficios de los cambios",
         "Reconocer y celebrar los early adopters del cambio",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 37
+      ]
     },
     {
       "id": "T_ia_tecnologia",
@@ -27306,7 +27304,7 @@
       ],
       "representative_comments": [
         {
-          "text": "Al ser del área de tecnología, bastante bien, aprendiendo sobre más tecnologías y apoyando a las demás áreas, siento que Atlas Capital esta yendo por el camino correcto en cuanto a adaptación a los cambio...",
+          "text": "Al ser del área de tecnología, bastante bien, aprendiendo sobre más tecnologías y apoyando a las demás áreas, siento que Atlas Capital Group esta yendo por el camino correcto en cuanto a adaptación a los cambio...",
           "sentiment": "positive",
           "department": "Tecnología"
         },
@@ -27407,8 +27405,7 @@
         "Ampliar programas de capacitación en IA para todas las áreas",
         "Crear comunidades de práctica para compartir casos de éxito",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 37
+      ]
     },
     {
       "id": "T_procesos",
@@ -27648,8 +27645,7 @@
         "Mapear y optimizar procesos críticos identificados",
         "Involucrar a usuarios finales en el rediseño de procesos",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 37
+      ]
     },
     {
       "id": "T_capacitacion",
@@ -27889,8 +27885,7 @@
         "Crear paths de desarrollo personalizados por rol",
         "Aprovechar embajadores internos para programas de mentoría",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 37
+      ]
     },
     {
       "id": "T_clientes",
@@ -28117,8 +28112,7 @@
         "Alinear expectativas internas con la experiencia del cliente",
         "Compartir feedback de clientes con equipos internos regularmente",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 37
+      ]
     },
     {
       "id": "T_equipo",
@@ -28257,7 +28251,7 @@
       ],
       "representative_comments": [
         {
-          "text": "Al ser del área de tecnología, bastante bien, aprendiendo sobre más tecnologías y apoyando a las demás áreas, siento que Atlas Capital esta yendo por el camino correcto en cuanto a adaptación a los cambio...",
+          "text": "Al ser del área de tecnología, bastante bien, aprendiendo sobre más tecnologías y apoyando a las demás áreas, siento que Atlas Capital Group esta yendo por el camino correcto en cuanto a adaptación a los cambio...",
           "sentiment": "positive",
           "department": "Tecnología"
         },
@@ -28345,8 +28339,7 @@
         "Fortalecer espacios de colaboración entre áreas",
         "Implementar actividades de team building cross-funcional",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 37
+      ]
     },
     {
       "id": "T_liderazgo",
@@ -28492,7 +28485,7 @@
           "department": "Operaciones"
         },
         {
-          "text": "Me siento muy contenta por los cambios porque son necesarios. Atlas Capital es un buen lugar para trabajar. Pero considero que se debe llevar un mayor orden en los proyectos, mayor control, mejores lineam...",
+          "text": "Me siento muy contenta por los cambios porque son necesarios. Atlas Capital Group es un buen lugar para trabajar. Pero considero que se debe llevar un mayor orden en los proyectos, mayor control, mejores lineam...",
           "sentiment": "positive",
           "department": "General"
         },
@@ -28550,8 +28543,7 @@
       "recommendations": [
         "Desarrollar habilidades de gestión del cambio en líderes",
         "Crear espacios de feedback bidireccional líder-equipo"
-      ],
-      "size": 37
+      ]
     },
     {
       "id": "T_comunicacion",
@@ -28762,8 +28754,7 @@
         "Monitorear evolución de este tema en próximas mediciones",
         "Profundizar análisis cualitativo con focus groups",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 37
+      ]
     },
     {
       "id": "T_bienestar",
@@ -28920,8 +28911,7 @@
         "Monitorear evolución de este tema en próximas mediciones",
         "Profundizar análisis cualitativo con focus groups",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 37
+      ]
     },
     {
       "id": "T_reconocimiento",
@@ -29006,12 +28996,12 @@
           "department": "General"
         },
         {
-          "text": "Soy creyente que hay retos que uno debe asumir y es ahí donde se debe demostrar tu disciplina, tu pasión y tu compromiso. Atlas Capital ofrece un ambiente de crecimiento profesional y de reconocimiento a ...",
+          "text": "Soy creyente que hay retos que uno debe asumir y es ahí donde se debe demostrar tu disciplina, tu pasión y tu compromiso. Atlas Capital Group ofrece un ambiente de crecimiento profesional y de reconocimiento a ...",
           "sentiment": "positive",
           "department": "General"
         },
         {
-          "text": "Me siento contento por pertenecer a la gran familia Atlas Capital por los logros que ha obtenido y con ganas de seguir aportando al logro de los retos futuros.",
+          "text": "Me siento contento por pertenecer a la gran familia Atlas Capital Group por los logros que ha obtenido y con ganas de seguir aportando al logro de los retos futuros.",
           "sentiment": "positive",
           "department": "Tecnología"
         },
@@ -29064,51 +29054,54 @@
         "Profundizar análisis cualitativo con focus groups",
         "⚠️ Alta concentración de perfiles desengaged - requiere intervención prioritaria",
         "✅ Aprovechar alta proporción de True Believers como embajadores"
-      ],
-      "size": 37
+      ]
     }
   ],
   "filters": {
     "departments": [
       {
-        "id": "banca_privada",
-        "name": "Banca Privada"
-      },
-      {
-        "id": "cumplimiento",
-        "name": "Cumplimiento"
-      },
-      {
-        "id": "riesgos",
-        "name": "Riesgos"
-      },
-      {
-        "id": "tesorer_a",
-        "name": "Tesorería"
+        "id": "tecnologia",
+        "name": "Tecnología"
       },
       {
         "id": "operaciones",
         "name": "Operaciones"
       },
       {
-        "id": "tecnolog_a",
-        "name": "Tecnología"
+        "id": "banca_de_personas_y_comercial",
+        "name": "Banca de Personas"
+      },
+      {
+        "id": "banca_corporativa",
+        "name": "Banca Corporativa"
+      },
+      {
+        "id": "credito",
+        "name": "Crédito"
+      },
+      {
+        "id": "cumplimiento",
+        "name": "Cumplimiento"
+      },
+      {
+        "id": "recursos_humanos",
+        "name": "Recursos Humanos"
+      },
+      {
+        "id": "contabilidad_finanzas",
+        "name": "Contabilidad/Finanzas"
+      },
+      {
+        "id": "marketing",
+        "name": "Marketing"
       },
       {
         "id": "legal",
         "name": "Legal"
       },
       {
-        "id": "auditor_a",
-        "name": "Auditoría"
-      },
-      {
-        "id": "rrhh",
-        "name": "RRHH"
-      },
-      {
-        "id": "marketing",
-        "name": "Marketing"
+        "id": "general",
+        "name": "General"
       }
     ],
     "profiles": [

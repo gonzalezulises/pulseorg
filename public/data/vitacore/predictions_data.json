@@ -1,123 +1,98 @@
 {
-  "generated_at": "2026-01-21T00:54:03.108235",
-  "data_source": "Generated data for VitaCore Health",
+  "generated_at": "2026-02-10T02:31:09.706440",
+  "data_source": "Real survey data from CSV files (2023-2026)",
   "total_respondents": 800,
   "rotation_risk": {
-    "overall_index": 13.1,
+    "overall_index": 13,
     "trend": "improving",
     "risk_factors": [
       {
-        "id": "rf_compensacion",
-        "factor": "Satisfacción con compensación baja",
-        "impact_score": 0.26,
-        "affected_percentage": 24,
-        "dimension": "compensacion",
-        "avg_score": 3.8
-      },
-      {
-        "id": "rf_reconocimiento",
-        "factor": "Falta de reconocimiento",
-        "impact_score": 0.13,
-        "affected_percentage": 32,
-        "dimension": "reconocimiento",
-        "avg_score": 3.88
+        "id": "rf_desarrollo",
+        "factor": "Pocas oportunidades de crecimiento",
+        "impact_score": 0.25,
+        "affected_percentage": 25,
+        "dimension": "desarrollo_profesional",
+        "avg_score": 3.45
       },
       {
         "id": "rf_balance",
-        "factor": "Carga de trabajo excesiva",
-        "impact_score": 0.1,
-        "affected_percentage": 12,
-        "dimension": "balance",
-        "avg_score": 4.41
+        "factor": "Carga asistencial excesiva",
+        "impact_score": 0.19,
+        "affected_percentage": 18,
+        "dimension": "balance_vida_trabajo",
+        "avg_score": 3.72
       },
       {
-        "id": "rf_desarrollo",
-        "factor": "Oportunidades de desarrollo limitadas",
-        "impact_score": 0.08,
-        "affected_percentage": 9,
-        "dimension": "desarrollo",
-        "avg_score": 4.54
-      },
-      {
-        "id": "rf_comunicacion",
-        "factor": "Comunicación deficiente con liderazgo",
-        "impact_score": 0.08,
-        "affected_percentage": 11,
-        "dimension": "comunicacion",
-        "avg_score": 4.45
+        "id": "rf_compensacion",
+        "factor": "Compensación debajo del sector salud",
+        "impact_score": 0.17,
+        "affected_percentage": 14,
+        "dimension": "compensacion",
+        "avg_score": 4.04
       }
     ],
     "high_risk_areas": [
       {
-        "area": "Gestión de Propósitos Estratégicos y Portafolio",
-        "risk_level": 15,
-        "engagement_score": 3.7,
-        "headcount": 5,
+        "area": "Urgencias",
+        "risk_level": 16,
+        "engagement_score": 3.8,
+        "headcount": 101,
         "key_issues": [
-          "Compensación",
-          "Reconocimiento"
-        ],
-        "department": "Enfermería",
-        "risk_score": 42.7
+          "Comunicación",
+          "Liderazgo"
+        ]
       },
       {
-        "area": "Negocios",
-        "risk_level": 12,
-        "engagement_score": 4.0,
-        "headcount": 12,
+        "area": "TI Salud",
+        "risk_level": 17,
+        "engagement_score": 3.84,
+        "headcount": 111,
         "key_issues": [
           "Reconocimiento"
-        ],
-        "department": "Administración",
-        "risk_score": 53.7
+        ]
       },
       {
-        "area": "Banca de Personas y Global Payments",
-        "risk_level": 11,
-        "engagement_score": 4.1,
-        "headcount": 19,
+        "area": "Administración",
+        "risk_level": 14,
+        "engagement_score": 4.03,
+        "headcount": 94,
         "key_issues": [
-          "Compensación",
-          "Reconocimiento"
-        ],
-        "department": "Calidad",
-        "risk_score": 44.1
+          "Pocas",
+          "Carga"
+        ]
       },
       {
-        "area": "Banca de Personas y Comercial",
-        "risk_level": 9,
-        "engagement_score": 4.3,
-        "headcount": 46,
+        "area": "Medicina General",
+        "risk_level": 10,
+        "engagement_score": 4.16,
+        "headcount": 45,
         "key_issues": [
-          "General"
-        ],
-        "department": "Investigación",
-        "risk_score": 46.8
+          "Comunicación"
+        ]
       },
       {
-        "area": "Tesorería e inversiones",
-        "risk_level": 8,
-        "engagement_score": 4.3,
-        "headcount": 6,
+        "area": "Calidad",
+        "risk_level": 7,
+        "engagement_score": 4.25,
+        "headcount": 112,
         "key_issues": [
-          "Compensación"
-        ],
-        "department": "TI Salud",
-        "risk_score": 41.5
+          "Pocas",
+          "Comunicación"
+        ]
       }
     ],
     "engagement_rotation_correlation": [
       {
         "engagement": 2.5,
-        "rotation": 53
+        "rotation": 50
       },
       {
         "engagement": 3.0,
-        "rotation": 44
+        "rotation": 45
       },
       {
         "engagement": 3.5,
-        "rotation": 36
+        "rotation": 37
       },
       {
         "engagement": 4.0,
@@ -135,15 +110,15 @@
   },
   "projections": {
     "overall": {
-      "current_score": 4.7,
+      "current_score": 4.72,
       "historical": [
         {
           "month": "2026-07",
-          "score": 4.66
+          "score": 4.67
         },
         {
           "month": "2026-08",
-          "score": 4.76
+          "score": 4.68
         },
         {
           "month": "2026-09",
@@ -151,53 +126,53 @@
         },
         {
           "month": "2026-10",
-          "score": 4.78
+          "score": 4.7
         },
         {
           "month": "2026-11",
-          "score": 4.68
+          "score": 4.77
         },
         {
           "month": "2026-12",
-          "score": 4.85
+          "score": 4.74
         }
       ],
       "forecast": [
         {
           "month": "2026-01",
-          "optimistic": 4.73,
-          "expected": 4.65,
-          "pessimistic": 4.57
+          "optimistic": 4.84,
+          "expected": 4.77,
+          "pessimistic": 4.64
         },
         {
           "month": "2026-02",
-          "optimistic": 4.84,
-          "expected": 4.77,
-          "pessimistic": 4.69
+          "optimistic": 4.86,
+          "expected": 4.79,
+          "pessimistic": 4.72
         },
         {
           "month": "2026-03",
-          "optimistic": 4.91,
-          "expected": 4.83,
+          "optimistic": 4.86,
+          "expected": 4.81,
           "pessimistic": 4.75
         },
         {
           "month": "2026-04",
-          "optimistic": 4.89,
-          "expected": 4.81,
-          "pessimistic": 4.73
+          "optimistic": 4.91,
+          "expected": 4.85,
+          "pessimistic": 4.78
         },
         {
           "month": "2026-05",
-          "optimistic": 5.0,
-          "expected": 4.95,
-          "pessimistic": 4.87
+          "optimistic": 4.98,
+          "expected": 4.88,
+          "pessimistic": 4.82
         },
         {
           "month": "2026-06",
           "optimistic": 5.0,
-          "expected": 5.0,
-          "pessimistic": 4.93
+          "expected": 4.93,
+          "pessimistic": 4.85
         }
       ]
     },
@@ -205,37 +180,37 @@
       {
         "dimension": "Orgullo Institucional",
         "label": "Orgullo Institucional",
-        "current_score": 4.62,
+        "current_score": 4.67,
         "trend": "up",
-        "projected_6m": 4.74,
-        "projected_12m": 4.86,
+        "projected_6m": 4.72,
+        "projected_12m": 4.84,
         "change_rate": 0.02,
         "confidence": 0.84
       },
       {
         "dimension": "Desarrollo Profesional",
         "label": "Desarrollo Profesional",
-        "current_score": 4.55,
+        "current_score": 4.27,
         "trend": "up",
-        "projected_6m": 4.67,
-        "projected_12m": 4.79,
+        "projected_6m": 4.66,
+        "projected_12m": 4.78,
         "change_rate": 0.02,
         "confidence": 0.81
       },
       {
         "dimension": "Compensación",
         "label": "Compensación",
-        "current_score": 3.87,
+        "current_score": 3.57,
         "trend": "up",
-        "projected_6m": 3.99,
-        "projected_12m": 4.11,
+        "projected_6m": 3.92,
+        "projected_12m": 4.04,
         "change_rate": 0.02,
         "confidence": 0.76
       },
       {
         "dimension": "Balance Vida-Trabajo",
         "label": "Balance Vida-Trabajo",
-        "current_score": 4.41,
+        "current_score": 4.15,
         "trend": "up",
         "projected_6m": 4.53,
         "projected_12m": 4.65,
@@ -245,20 +220,20 @@
       {
         "dimension": "Liderazgo",
         "label": "Liderazgo",
-        "current_score": 4.52,
+        "current_score": 4.41,
         "trend": "up",
-        "projected_6m": 4.64,
-        "projected_12m": 4.76,
+        "projected_6m": 4.56,
+        "projected_12m": 4.68,
         "change_rate": 0.02,
         "confidence": 0.82
       },
       {
         "dimension": "Reconocimiento",
         "label": "Reconocimiento",
-        "current_score": 3.87,
+        "current_score": 3.82,
         "trend": "up",
-        "projected_6m": 3.99,
-        "projected_12m": 4.11,
+        "projected_6m": 4.0,
+        "projected_12m": 4.12,
         "change_rate": 0.02,
         "confidence": 0.73
       }
@@ -303,61 +278,5 @@
     "confidence_level": 0.85,
     "model": "Linear regression with variance estimation",
     "last_updated": "2026-01-21"
-  },
-  "early_alerts": [
-    {
-      "id": "alert_balance_vida_trabajo",
-      "dimension": "balance_vida_trabajo",
-      "dimension_name": "Balance Vida-Trabajo",
-      "area": "Urgencias",
-      "severity": "high",
-      "change": -0.44,
-      "months_declining": 6,
-      "current_score": 3.04,
-      "previous_score": 4.07,
-      "description": "Balance Vida-Trabajo muestra deterioro continuo"
-    },
-    {
-      "id": "alert_liderazgo",
-      "dimension": "liderazgo",
-      "dimension_name": "Liderazgo",
-      "area": "Farmacia",
-      "severity": "low",
-      "change": -0.18,
-      "months_declining": 3,
-      "current_score": 3.64,
-      "previous_score": 3.58,
-      "description": "Liderazgo muestra deterioro continuo"
-    },
-    {
-      "id": "alert_comunicacion",
-      "dimension": "comunicacion",
-      "dimension_name": "Comunicación",
-      "area": "Investigación",
-      "severity": "high",
-      "change": -0.33,
-      "months_declining": 6,
-      "current_score": 3.36,
-      "previous_score": 3.87,
-      "description": "Comunicación muestra deterioro continuo"
-    },
-    {
-      "id": "alert_compensacion",
-      "dimension": "compensacion",
-      "dimension_name": "Compensación y Beneficios",
-      "area": "Farmacia",
-      "severity": "medium",
-      "change": -0.16,
-      "months_declining": 3,
-      "current_score": 3.72,
-      "previous_score": 4.06,
-      "description": "Compensación y Beneficios muestra deterioro continuo"
-    }
-  ],
-  "summary": {
-    "total_alerts": 4,
-    "new_alerts": 3,
-    "high_severity_alerts": 1,
-    "risk_index": 13.1
   }
 }

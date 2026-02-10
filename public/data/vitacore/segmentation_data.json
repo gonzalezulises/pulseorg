@@ -1,98 +1,1298 @@
 {
-  "generated_at": "2026-01-21T02:07:00.718465",
+  "generated_at": "2026-02-10T02:31:09.702514",
   "global_engagement": 88.6,
-  "global_score": 4.41,
+  "global_score": 4.42,
   "total_respondents": 800,
   "by_department": [
     {
       "segment_id": "medicina_general",
       "segment_name": "Medicina General",
       "segment_type": "department",
-      "respondent_count": 77,
-      "engagement_score": 4.84,
-      "engagement_pct": 96.8,
-      "dimensions": []
+      "respondent_count": 58,
+      "engagement_score": 4.73,
+      "engagement_pct": 94.6,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.06,
+          "favorability_pct": 77.0,
+          "gap_vs_global": -0.1
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.63,
+          "favorability_pct": 89.7,
+          "gap_vs_global": 0.07
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.11,
+          "favorability_pct": 77.4,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 4.94,
+          "favorability_pct": 99.6,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 4.89,
+          "favorability_pct": 96.0,
+          "gap_vs_global": -0.03
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.6,
+          "favorability_pct": 93.0,
+          "gap_vs_global": 0.11
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.55,
+          "favorability_pct": 88.8,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.8,
+          "favorability_pct": 95.3,
+          "gap_vs_global": 0.16
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.35,
+          "favorability_pct": 81.5,
+          "gap_vs_global": 0.1
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.88,
+          "favorability_pct": 74.8,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 3.99,
+          "favorability_pct": 74.8,
+          "gap_vs_global": -0.03
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 3.92,
+          "favorability_pct": 73.0,
+          "gap_vs_global": -0.09
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.8,
+          "favorability_pct": 94.5,
+          "gap_vs_global": 0.12
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.34,
+          "favorability_pct": 81.0,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.79,
+          "favorability_pct": 96.0,
+          "gap_vs_global": -0.12
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.76,
+          "favorability_pct": 91.2,
+          "gap_vs_global": 0.14
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.57,
+          "favorability_pct": 66.8,
+          "gap_vs_global": -0.06
+        }
+      ]
     },
     {
-      "segment_id": "enfermer_a",
+      "segment_id": "enfermeria",
       "segment_name": "Enfermería",
       "segment_type": "department",
-      "respondent_count": 90,
-      "engagement_score": 4.73,
-      "engagement_pct": 95.3,
-      "dimensions": []
+      "respondent_count": 77,
+      "engagement_score": 4.72,
+      "engagement_pct": 94.4,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.34,
+          "favorability_pct": 85.8,
+          "gap_vs_global": 0.18
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.45,
+          "favorability_pct": 87.7,
+          "gap_vs_global": -0.11
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.15,
+          "favorability_pct": 78.1,
+          "gap_vs_global": -0.01
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 5.0,
+          "favorability_pct": 98.0,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 4.99,
+          "favorability_pct": 99.2,
+          "gap_vs_global": 0.07
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.36,
+          "favorability_pct": 84.6,
+          "gap_vs_global": -0.13
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.62,
+          "favorability_pct": 91.7,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.68,
+          "favorability_pct": 91.4,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.4,
+          "favorability_pct": 86.9,
+          "gap_vs_global": 0.15
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.75,
+          "favorability_pct": 70.9,
+          "gap_vs_global": -0.12
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 3.95,
+          "favorability_pct": 72.8,
+          "gap_vs_global": -0.07
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 3.93,
+          "favorability_pct": 70.5,
+          "gap_vs_global": -0.08
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.71,
+          "favorability_pct": 90.2,
+          "gap_vs_global": 0.03
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.39,
+          "favorability_pct": 84.0,
+          "gap_vs_global": 0.07
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.85,
+          "favorability_pct": 95.8,
+          "gap_vs_global": -0.06
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.54,
+          "favorability_pct": 91.4,
+          "gap_vs_global": -0.08
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.7,
+          "favorability_pct": 70.2,
+          "gap_vs_global": 0.07
+        }
+      ]
     },
     {
       "segment_id": "farmacia",
       "segment_name": "Farmacia",
       "segment_type": "department",
-      "respondent_count": 87,
-      "engagement_score": 4.55,
-      "engagement_pct": 92.0,
-      "dimensions": []
+      "respondent_count": 74,
+      "engagement_score": 4.47,
+      "engagement_pct": 89.4,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.1,
+          "favorability_pct": 76.3,
+          "gap_vs_global": -0.06
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.49,
+          "favorability_pct": 87.9,
+          "gap_vs_global": -0.07
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.2,
+          "favorability_pct": 81.0,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 4.96,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.47,
+          "favorability_pct": 84.2,
+          "gap_vs_global": -0.02
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.47,
+          "favorability_pct": 87.8,
+          "gap_vs_global": -0.13
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.53,
+          "favorability_pct": 85.4,
+          "gap_vs_global": -0.11
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.4,
+          "favorability_pct": 83.4,
+          "gap_vs_global": 0.15
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.88,
+          "favorability_pct": 72.9,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.11,
+          "favorability_pct": 80.6,
+          "gap_vs_global": 0.09
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 4.09,
+          "favorability_pct": 74.5,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.57,
+          "favorability_pct": 86.4,
+          "gap_vs_global": -0.11
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.37,
+          "favorability_pct": 81.8,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.77,
+          "favorability_pct": 96.4,
+          "gap_vs_global": -0.14
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.63,
+          "favorability_pct": 90.7,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.53,
+          "favorability_pct": 60.5,
+          "gap_vs_global": -0.1
+        }
+      ]
     },
     {
       "segment_id": "laboratorio",
       "segment_name": "Laboratorio",
       "segment_type": "department",
-      "respondent_count": 77,
-      "engagement_score": 4.72,
-      "engagement_pct": 93.7,
-      "dimensions": []
+      "respondent_count": 78,
+      "engagement_score": 4.26,
+      "engagement_pct": 85.2,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.14,
+          "favorability_pct": 75.8,
+          "gap_vs_global": -0.02
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.61,
+          "favorability_pct": 89.7,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.26,
+          "favorability_pct": 82.2,
+          "gap_vs_global": 0.1
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 4.94,
+          "favorability_pct": 97.4,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 5.0,
+          "favorability_pct": 98.2,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.47,
+          "favorability_pct": 83.8,
+          "gap_vs_global": -0.02
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.72,
+          "favorability_pct": 94.0,
+          "gap_vs_global": 0.12
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.6,
+          "favorability_pct": 92.2,
+          "gap_vs_global": -0.04
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.21,
+          "favorability_pct": 79.8,
+          "gap_vs_global": -0.04
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.9,
+          "favorability_pct": 74.4,
+          "gap_vs_global": 0.03
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 3.92,
+          "favorability_pct": 71.9,
+          "gap_vs_global": -0.1
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 4.03,
+          "favorability_pct": 78.5,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.71,
+          "favorability_pct": 90.9,
+          "gap_vs_global": 0.03
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.38,
+          "favorability_pct": 84.5,
+          "gap_vs_global": 0.06
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.81,
+          "favorability_pct": 97.0,
+          "gap_vs_global": -0.1
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.58,
+          "favorability_pct": 91.3,
+          "gap_vs_global": -0.04
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.6,
+          "favorability_pct": 66.5,
+          "gap_vs_global": -0.03
+        }
+      ]
     },
     {
-      "segment_id": "administraci_n",
+      "segment_id": "administracion",
       "segment_name": "Administración",
       "segment_type": "department",
-      "respondent_count": 73,
-      "engagement_score": 4.76,
-      "engagement_pct": 93.9,
-      "dimensions": []
+      "respondent_count": 75,
+      "engagement_score": 4.56,
+      "engagement_pct": 91.2,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.11,
+          "favorability_pct": 76.3,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.55,
+          "favorability_pct": 86.9,
+          "gap_vs_global": -0.01
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 3.99,
+          "favorability_pct": 74.9,
+          "gap_vs_global": -0.17
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 5.0,
+          "favorability_pct": 98.1,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.63,
+          "favorability_pct": 91.8,
+          "gap_vs_global": 0.14
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.53,
+          "favorability_pct": 89.4,
+          "gap_vs_global": -0.07
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.68,
+          "favorability_pct": 90.2,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.15,
+          "favorability_pct": 76.3,
+          "gap_vs_global": -0.1
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.79,
+          "favorability_pct": 68.7,
+          "gap_vs_global": -0.08
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.14,
+          "favorability_pct": 78.0,
+          "gap_vs_global": 0.12
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 3.81,
+          "favorability_pct": 70.0,
+          "gap_vs_global": -0.2
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.74,
+          "favorability_pct": 94.6,
+          "gap_vs_global": 0.06
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.28,
+          "favorability_pct": 84.2,
+          "gap_vs_global": -0.04
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.74,
+          "favorability_pct": 90.8,
+          "gap_vs_global": -0.17
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.67,
+          "favorability_pct": 89.7,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.63,
+          "favorability_pct": 67.0,
+          "gap_vs_global": 0.0
+        }
+      ]
     },
     {
       "segment_id": "ti_salud",
       "segment_name": "TI Salud",
       "segment_type": "department",
-      "respondent_count": 74,
-      "engagement_score": 4.6,
-      "engagement_pct": 91.8,
-      "dimensions": []
+      "respondent_count": 57,
+      "engagement_score": 4.18,
+      "engagement_pct": 83.6,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.18,
+          "favorability_pct": 79.4,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.57,
+          "favorability_pct": 88.9,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.31,
+          "favorability_pct": 85.6,
+          "gap_vs_global": 0.15
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 4.74,
+          "favorability_pct": 93.5,
+          "gap_vs_global": -0.18
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.41,
+          "favorability_pct": 83.1,
+          "gap_vs_global": -0.08
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.66,
+          "favorability_pct": 91.8,
+          "gap_vs_global": 0.06
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.81,
+          "favorability_pct": 96.9,
+          "gap_vs_global": 0.17
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.24,
+          "favorability_pct": 81.9,
+          "gap_vs_global": -0.01
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 4.07,
+          "favorability_pct": 76.6,
+          "gap_vs_global": 0.2
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.11,
+          "favorability_pct": 80.3,
+          "gap_vs_global": 0.09
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 3.83,
+          "favorability_pct": 69.2,
+          "gap_vs_global": -0.18
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.51,
+          "favorability_pct": 86.0,
+          "gap_vs_global": -0.17
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.23,
+          "favorability_pct": 79.2,
+          "gap_vs_global": -0.09
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.09
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.64,
+          "favorability_pct": 89.8,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.74,
+          "favorability_pct": 67.5,
+          "gap_vs_global": 0.11
+        }
+      ]
     },
     {
       "segment_id": "recursos_humanos",
       "segment_name": "Recursos Humanos",
       "segment_type": "department",
-      "respondent_count": 88,
-      "engagement_score": 4.65,
-      "engagement_pct": 92.3,
-      "dimensions": []
+      "respondent_count": 73,
+      "engagement_score": 4.7,
+      "engagement_pct": 94.0,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.14,
+          "favorability_pct": 80.1,
+          "gap_vs_global": -0.02
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.45,
+          "favorability_pct": 83.3,
+          "gap_vs_global": -0.11
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.1,
+          "favorability_pct": 77.3,
+          "gap_vs_global": -0.06
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 4.83,
+          "favorability_pct": 96.0,
+          "gap_vs_global": -0.16
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 4.93,
+          "favorability_pct": 99.0,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.6,
+          "favorability_pct": 90.1,
+          "gap_vs_global": 0.11
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.46,
+          "favorability_pct": 86.3,
+          "gap_vs_global": -0.14
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.77,
+          "favorability_pct": 93.3,
+          "gap_vs_global": 0.13
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.1,
+          "favorability_pct": 74.8,
+          "gap_vs_global": -0.15
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.92,
+          "favorability_pct": 75.4,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.03,
+          "favorability_pct": 74.7,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 4.03,
+          "favorability_pct": 78.5,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.58,
+          "favorability_pct": 91.6,
+          "gap_vs_global": -0.1
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.24,
+          "favorability_pct": 83.0,
+          "gap_vs_global": -0.08
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.09
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.67,
+          "favorability_pct": 89.3,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.79,
+          "favorability_pct": 72.5,
+          "gap_vs_global": 0.16
+        }
+      ]
     },
     {
       "segment_id": "calidad",
       "segment_name": "Calidad",
       "segment_type": "department",
-      "respondent_count": 90,
-      "engagement_score": 4.7,
-      "engagement_pct": 92.7,
-      "dimensions": []
+      "respondent_count": 66,
+      "engagement_score": 4.57,
+      "engagement_pct": 91.4,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.2,
+          "favorability_pct": 77.2,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.6,
+          "favorability_pct": 91.2,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.02,
+          "favorability_pct": 76.8,
+          "gap_vs_global": -0.14
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 5.0,
+          "favorability_pct": 97.2,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.35,
+          "favorability_pct": 86.7,
+          "gap_vs_global": -0.14
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.51,
+          "favorability_pct": 85.4,
+          "gap_vs_global": -0.09
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.56,
+          "favorability_pct": 89.2,
+          "gap_vs_global": -0.08
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.2,
+          "favorability_pct": 78.2,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.76,
+          "favorability_pct": 70.1,
+          "gap_vs_global": -0.11
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.13,
+          "favorability_pct": 78.3,
+          "gap_vs_global": 0.11
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 4.01,
+          "favorability_pct": 72.3,
+          "gap_vs_global": 0.0
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.79,
+          "favorability_pct": 97.6,
+          "gap_vs_global": 0.11
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.34,
+          "favorability_pct": 83.7,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.88,
+          "favorability_pct": 98.8,
+          "gap_vs_global": -0.03
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.48,
+          "favorability_pct": 90.0,
+          "gap_vs_global": -0.14
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.66,
+          "favorability_pct": 68.7,
+          "gap_vs_global": 0.03
+        }
+      ]
     },
     {
       "segment_id": "urgencias",
       "segment_name": "Urgencias",
       "segment_type": "department",
-      "respondent_count": 78,
-      "engagement_score": 4.68,
-      "engagement_pct": 92.6,
-      "dimensions": []
+      "respondent_count": 61,
+      "engagement_score": 4.6,
+      "engagement_pct": 92.0,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.04,
+          "favorability_pct": 77.6,
+          "gap_vs_global": -0.12
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.45,
+          "favorability_pct": 86.6,
+          "gap_vs_global": -0.11
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.0,
+          "favorability_pct": 75.5,
+          "gap_vs_global": -0.16
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 5.0,
+          "favorability_pct": 97.2,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 5.0,
+          "favorability_pct": 99.5,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.52,
+          "favorability_pct": 86.8,
+          "gap_vs_global": 0.03
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.49,
+          "favorability_pct": 86.1,
+          "gap_vs_global": -0.11
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.69,
+          "favorability_pct": 90.8,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.1,
+          "favorability_pct": 78.3,
+          "gap_vs_global": -0.15
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.91,
+          "favorability_pct": 75.7,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.22,
+          "favorability_pct": 78.8,
+          "gap_vs_global": 0.2
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 3.96,
+          "favorability_pct": 72.6,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.71,
+          "favorability_pct": 94.5,
+          "gap_vs_global": 0.03
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.33,
+          "favorability_pct": 81.2,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.76,
+          "favorability_pct": 95.2,
+          "gap_vs_global": -0.15
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.79,
+          "favorability_pct": 95.2,
+          "gap_vs_global": 0.17
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.79,
+          "favorability_pct": 67.6,
+          "gap_vs_global": 0.16
+        }
+      ]
     },
     {
-      "segment_id": "investigaci_n",
+      "segment_id": "investigacion",
       "segment_name": "Investigación",
       "segment_type": "department",
-      "respondent_count": 84,
-      "engagement_score": 4.65,
-      "engagement_pct": 92.1,
-      "dimensions": []
+      "respondent_count": 61,
+      "engagement_score": 4.18,
+      "engagement_pct": 83.6,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.14,
+          "favorability_pct": 76.1,
+          "gap_vs_global": -0.02
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.51,
+          "favorability_pct": 85.8,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.29,
+          "favorability_pct": 84.5,
+          "gap_vs_global": 0.13
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 4.93,
+          "favorability_pct": 98.6,
+          "gap_vs_global": -0.06
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 4.84,
+          "favorability_pct": 96.9,
+          "gap_vs_global": -0.08
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.41,
+          "favorability_pct": 86.6,
+          "gap_vs_global": -0.08
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.57,
+          "favorability_pct": 88.3,
+          "gap_vs_global": -0.03
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.68,
+          "favorability_pct": 91.5,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.07,
+          "favorability_pct": 78.3,
+          "gap_vs_global": -0.18
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.99,
+          "favorability_pct": 76.2,
+          "gap_vs_global": 0.12
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.0,
+          "favorability_pct": 77.1,
+          "gap_vs_global": -0.02
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 4.13,
+          "favorability_pct": 77.0,
+          "gap_vs_global": 0.12
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.68,
+          "favorability_pct": 89.5,
+          "gap_vs_global": 0.0
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.2,
+          "favorability_pct": 77.5,
+          "gap_vs_global": -0.12
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.97,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.06
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.71,
+          "favorability_pct": 91.5,
+          "gap_vs_global": 0.09
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.73,
+          "favorability_pct": 68.4,
+          "gap_vs_global": 0.1
+        }
+      ]
     }
   ],
   "by_tenure": [
@@ -100,46 +1300,646 @@
       "segment_id": "menos_de_1_año",
       "segment_name": "Menos de 1 año",
       "segment_type": "tenure",
-      "respondent_count": 190,
-      "engagement_score": 4.56,
-      "engagement_pct": 90.7,
-      "dimensions": []
+      "respondent_count": 166,
+      "engagement_score": 4.52,
+      "engagement_pct": 90.4,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.18,
+          "favorability_pct": 82.2,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.6,
+          "favorability_pct": 89.5,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.1,
+          "favorability_pct": 74.8,
+          "gap_vs_global": -0.06
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 4.93,
+          "favorability_pct": 98.2,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.55,
+          "favorability_pct": 91.0,
+          "gap_vs_global": 0.06
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.68,
+          "favorability_pct": 93.8,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.7,
+          "favorability_pct": 92.4,
+          "gap_vs_global": 0.06
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.29,
+          "favorability_pct": 83.7,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.97,
+          "favorability_pct": 75.7,
+          "gap_vs_global": 0.1
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.05,
+          "favorability_pct": 78.0,
+          "gap_vs_global": 0.03
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 4.01,
+          "favorability_pct": 76.4,
+          "gap_vs_global": 0.0
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.56,
+          "favorability_pct": 88.0,
+          "gap_vs_global": -0.12
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.25,
+          "favorability_pct": 82.8,
+          "gap_vs_global": -0.07
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.98,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.07
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.51,
+          "favorability_pct": 90.4,
+          "gap_vs_global": -0.11
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.61,
+          "favorability_pct": 62.9,
+          "gap_vs_global": -0.02
+        }
+      ]
     },
     {
       "segment_id": "entre_1_y_3_años",
       "segment_name": "1-3 años",
       "segment_type": "tenure",
-      "respondent_count": 317,
-      "engagement_score": 4.58,
-      "engagement_pct": 90.7,
-      "dimensions": []
+      "respondent_count": 269,
+      "engagement_score": 4.23,
+      "engagement_pct": 84.6,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.08,
+          "favorability_pct": 76.3,
+          "gap_vs_global": -0.08
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.55,
+          "favorability_pct": 91.5,
+          "gap_vs_global": -0.01
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.12,
+          "favorability_pct": 75.2,
+          "gap_vs_global": -0.04
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 4.92,
+          "favorability_pct": 96.2,
+          "gap_vs_global": 0.0
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.39,
+          "favorability_pct": 85.7,
+          "gap_vs_global": -0.1
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.63,
+          "favorability_pct": 92.0,
+          "gap_vs_global": 0.03
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.59,
+          "favorability_pct": 87.5,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.38,
+          "favorability_pct": 83.4,
+          "gap_vs_global": 0.13
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.98,
+          "favorability_pct": 76.5,
+          "gap_vs_global": 0.11
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.04,
+          "favorability_pct": 76.4,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 4.01,
+          "favorability_pct": 77.0,
+          "gap_vs_global": 0.0
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.73,
+          "favorability_pct": 92.1,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.42,
+          "favorability_pct": 88.3,
+          "gap_vs_global": 0.1
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.09
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.48,
+          "favorability_pct": 84.2,
+          "gap_vs_global": -0.14
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.75,
+          "favorability_pct": 70.9,
+          "gap_vs_global": 0.12
+        }
+      ]
     },
     {
       "segment_id": "entre_3_y_5_años",
       "segment_name": "3-5 años",
       "segment_type": "tenure",
-      "respondent_count": 72,
-      "engagement_score": 4.54,
-      "engagement_pct": 89.7,
-      "dimensions": []
-    },
-    {
-      "segment_id": "más_de_7_años",
-      "segment_name": "Más de 7 años",
-      "segment_type": "tenure",
-      "respondent_count": 182,
-      "engagement_score": 4.28,
-      "engagement_pct": 86.9,
-      "dimensions": []
+      "respondent_count": 145,
+      "engagement_score": 4.56,
+      "engagement_pct": 91.2,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.08,
+          "favorability_pct": 79.8,
+          "gap_vs_global": -0.08
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.56,
+          "favorability_pct": 86.7,
+          "gap_vs_global": 0.0
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.13,
+          "favorability_pct": 80.7,
+          "gap_vs_global": -0.03
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 5.0,
+          "favorability_pct": 97.5,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.52,
+          "favorability_pct": 85.8,
+          "gap_vs_global": 0.03
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.62,
+          "favorability_pct": 88.1,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.66,
+          "favorability_pct": 93.1,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.13,
+          "favorability_pct": 76.1,
+          "gap_vs_global": -0.12
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.78,
+          "favorability_pct": 71.5,
+          "gap_vs_global": -0.09
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.08,
+          "favorability_pct": 79.1,
+          "gap_vs_global": 0.06
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 4.11,
+          "favorability_pct": 77.8,
+          "gap_vs_global": 0.1
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.72,
+          "favorability_pct": 92.2,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.36,
+          "favorability_pct": 81.1,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 5.0,
+          "favorability_pct": 99.5,
+          "gap_vs_global": 0.09
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.63,
+          "favorability_pct": 89.8,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.68,
+          "favorability_pct": 66.0,
+          "gap_vs_global": 0.05
+        }
+      ]
     },
     {
       "segment_id": "entre_5_y_7_años",
       "segment_name": "5-7 años",
       "segment_type": "tenure",
-      "respondent_count": 38,
-      "engagement_score": 4.22,
-      "engagement_pct": 84.6,
-      "dimensions": []
+      "respondent_count": 85,
+      "engagement_score": 4.2,
+      "engagement_pct": 84.0,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.17,
+          "favorability_pct": 78.9,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.6,
+          "favorability_pct": 89.6,
+          "gap_vs_global": 0.04
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.1,
+          "favorability_pct": 79.6,
+          "gap_vs_global": -0.06
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 4.98,
+          "favorability_pct": 98.5,
+          "gap_vs_global": -0.01
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.6,
+          "favorability_pct": 87.5,
+          "gap_vs_global": 0.11
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.7,
+          "favorability_pct": 89.9,
+          "gap_vs_global": 0.1
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.7,
+          "favorability_pct": 94.8,
+          "gap_vs_global": 0.06
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.3,
+          "favorability_pct": 83.2,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.95,
+          "favorability_pct": 71.0,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 3.98,
+          "favorability_pct": 76.7,
+          "gap_vs_global": -0.04
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 3.98,
+          "favorability_pct": 72.3,
+          "gap_vs_global": -0.03
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.75,
+          "favorability_pct": 91.1,
+          "gap_vs_global": 0.07
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.46,
+          "favorability_pct": 84.2,
+          "gap_vs_global": 0.14
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.76,
+          "favorability_pct": 93.5,
+          "gap_vs_global": -0.15
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.57,
+          "favorability_pct": 90.0,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.53,
+          "favorability_pct": 65.4,
+          "gap_vs_global": -0.1
+        }
+      ]
+    },
+    {
+      "segment_id": "mas_de_7_años",
+      "segment_name": "Más de 7 años",
+      "segment_type": "tenure",
+      "respondent_count": 127,
+      "engagement_score": 4.6,
+      "engagement_pct": 92.0,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.11,
+          "favorability_pct": 75.0,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.66,
+          "favorability_pct": 92.3,
+          "gap_vs_global": 0.1
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.04,
+          "favorability_pct": 74.5,
+          "gap_vs_global": -0.12
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 4.88,
+          "favorability_pct": 95.0,
+          "gap_vs_global": -0.11
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 4.77,
+          "favorability_pct": 96.8,
+          "gap_vs_global": -0.15
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.43,
+          "favorability_pct": 88.3,
+          "gap_vs_global": -0.06
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.7,
+          "favorability_pct": 93.2,
+          "gap_vs_global": 0.1
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.59,
+          "favorability_pct": 89.0,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.22,
+          "favorability_pct": 78.1,
+          "gap_vs_global": -0.03
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 4.03,
+          "favorability_pct": 74.9,
+          "gap_vs_global": 0.16
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.0,
+          "favorability_pct": 75.7,
+          "gap_vs_global": -0.02
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 4.03,
+          "favorability_pct": 73.8,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.65,
+          "favorability_pct": 92.3,
+          "gap_vs_global": -0.03
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.2,
+          "favorability_pct": 79.5,
+          "gap_vs_global": -0.12
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.88,
+          "favorability_pct": 94.1,
+          "gap_vs_global": -0.03
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.67,
+          "favorability_pct": 92.9,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.55,
+          "favorability_pct": 62.6,
+          "gap_vs_global": -0.08
+        }
+      ]
     }
   ],
   "by_gender": [
@@ -147,26 +1947,434 @@
       "segment_id": "masculino",
       "segment_name": "Masculino",
       "segment_type": "gender",
-      "respondent_count": 317,
-      "engagement_score": 4.61,
-      "engagement_pct": 91.2,
-      "dimensions": []
+      "respondent_count": 371,
+      "engagement_score": 4.48,
+      "engagement_pct": 89.6,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.16,
+          "favorability_pct": 79.9,
+          "gap_vs_global": 0.0
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.59,
+          "favorability_pct": 87.4,
+          "gap_vs_global": 0.03
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.13,
+          "favorability_pct": 76.4,
+          "gap_vs_global": -0.03
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 4.88,
+          "favorability_pct": 99.7,
+          "gap_vs_global": -0.04
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.42,
+          "favorability_pct": 87.3,
+          "gap_vs_global": -0.07
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.55,
+          "favorability_pct": 89.7,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.65,
+          "favorability_pct": 89.2,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.13,
+          "favorability_pct": 80.0,
+          "gap_vs_global": -0.12
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.83,
+          "favorability_pct": 73.3,
+          "gap_vs_global": -0.04
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.05,
+          "favorability_pct": 76.7,
+          "gap_vs_global": 0.03
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 3.94,
+          "favorability_pct": 72.5,
+          "gap_vs_global": -0.07
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.76,
+          "favorability_pct": 93.8,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.3,
+          "favorability_pct": 84.5,
+          "gap_vs_global": -0.02
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.89,
+          "favorability_pct": 96.3,
+          "gap_vs_global": -0.02
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.64,
+          "favorability_pct": 91.7,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.64,
+          "favorability_pct": 67.2,
+          "gap_vs_global": 0.01
+        }
+      ]
     },
     {
       "segment_id": "femenino",
       "segment_name": "Femenino",
       "segment_type": "gender",
-      "respondent_count": 461,
-      "engagement_score": 4.45,
-      "engagement_pct": 88.6,
-      "dimensions": []
+      "respondent_count": 429,
+      "engagement_score": 4.28,
+      "engagement_pct": 85.6,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.21,
+          "favorability_pct": 82.8,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.64,
+          "favorability_pct": 90.6,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.26,
+          "favorability_pct": 81.7,
+          "gap_vs_global": 0.1
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 4.95,
+          "favorability_pct": 100,
+          "gap_vs_global": -0.04
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 4.86,
+          "favorability_pct": 99.1,
+          "gap_vs_global": -0.06
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.54,
+          "favorability_pct": 86.8,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.62,
+          "favorability_pct": 92.3,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.75,
+          "favorability_pct": 95.7,
+          "gap_vs_global": 0.11
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.32,
+          "favorability_pct": 84.2,
+          "gap_vs_global": 0.07
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.83,
+          "favorability_pct": 71.1,
+          "gap_vs_global": -0.04
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.02,
+          "favorability_pct": 74.0,
+          "gap_vs_global": 0.0
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 4.0,
+          "favorability_pct": 72.0,
+          "gap_vs_global": -0.01
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.71,
+          "favorability_pct": 89.8,
+          "gap_vs_global": 0.03
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.4,
+          "favorability_pct": 87.9,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.96,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.58,
+          "favorability_pct": 89.1,
+          "gap_vs_global": -0.04
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.64,
+          "favorability_pct": 66.1,
+          "gap_vs_global": 0.01
+        }
+      ]
+    },
+    {
+      "segment_id": "otro",
+      "segment_name": "Otro",
+      "segment_type": "gender",
+      "respondent_count": 38,
+      "engagement_score": 4.44,
+      "engagement_pct": 88.8,
+      "dimensions": [
+        {
+          "dimension_code": "innovacion_cambio",
+          "dimension_name": "Innovación y Cambio",
+          "avg_score": 4.09,
+          "favorability_pct": 77.5,
+          "gap_vs_global": -0.07
+        },
+        {
+          "dimension_code": "autonomia",
+          "dimension_name": "Autonomía",
+          "avg_score": 4.49,
+          "favorability_pct": 86.6,
+          "gap_vs_global": -0.07
+        },
+        {
+          "dimension_code": "balance_vida_trabajo",
+          "dimension_name": "Balance Vida-Trabajo",
+          "avg_score": 4.08,
+          "favorability_pct": 78.4,
+          "gap_vs_global": -0.08
+        },
+        {
+          "dimension_code": "proposito_trabajo",
+          "dimension_name": "Propósito del Trabajo",
+          "avg_score": 5.0,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "seguridad_fisica",
+          "dimension_name": "Seguridad Física",
+          "avg_score": 5.0,
+          "favorability_pct": 98.4,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "cohesion_equipo",
+          "dimension_name": "Cohesión de Equipo",
+          "avg_score": 4.57,
+          "favorability_pct": 91.7,
+          "gap_vs_global": 0.08
+        },
+        {
+          "dimension_code": "cuidado_mutuo",
+          "dimension_name": "Cuidado Mutuo",
+          "avg_score": 4.57,
+          "favorability_pct": 91.7,
+          "gap_vs_global": -0.03
+        },
+        {
+          "dimension_code": "liderazgo_efectivo",
+          "dimension_name": "Liderazgo Efectivo",
+          "avg_score": 4.65,
+          "favorability_pct": 88.4,
+          "gap_vs_global": 0.01
+        },
+        {
+          "dimension_code": "desarrollo_profesional",
+          "dimension_name": "Desarrollo Profesional",
+          "avg_score": 4.2,
+          "favorability_pct": 81.2,
+          "gap_vs_global": -0.05
+        },
+        {
+          "dimension_code": "compensacion",
+          "dimension_name": "Compensación",
+          "avg_score": 3.92,
+          "favorability_pct": 72.6,
+          "gap_vs_global": 0.05
+        },
+        {
+          "dimension_code": "equidad_ascensos",
+          "dimension_name": "Equidad en Ascensos",
+          "avg_score": 4.09,
+          "favorability_pct": 78.7,
+          "gap_vs_global": 0.07
+        },
+        {
+          "dimension_code": "beneficios_exclusivos",
+          "dimension_name": "Beneficios Exclusivos",
+          "avg_score": 3.98,
+          "favorability_pct": 72.8,
+          "gap_vs_global": -0.03
+        },
+        {
+          "dimension_code": "comunicacion_interna",
+          "dimension_name": "Comunicación Interna",
+          "avg_score": 4.77,
+          "favorability_pct": 94.0,
+          "gap_vs_global": 0.09
+        },
+        {
+          "dimension_code": "reconocimiento",
+          "dimension_name": "Reconocimiento",
+          "avg_score": 4.34,
+          "favorability_pct": 81.9,
+          "gap_vs_global": 0.02
+        },
+        {
+          "dimension_code": "orgullo_institucional",
+          "dimension_name": "Orgullo Institucional",
+          "avg_score": 4.97,
+          "favorability_pct": 100,
+          "gap_vs_global": 0.06
+        },
+        {
+          "dimension_code": "resultados_logros",
+          "dimension_name": "Resultados y Logros",
+          "avg_score": 4.6,
+          "favorability_pct": 88.2,
+          "gap_vs_global": -0.02
+        },
+        {
+          "dimension_code": "confianza_institucional",
+          "dimension_name": "Confianza Institucional",
+          "avg_score": 3.65,
+          "favorability_pct": 66.3,
+          "gap_vs_global": 0.02
+        }
+      ]
     }
   ],
   "by_hierarchy": [],
   "by_location": [],
-  "risk_groups": [],
+  "risk_groups": [
+    {
+      "group_name": "Alto Riesgo",
+      "description": "Colaboradores con indicadores críticos en pocas oportunidades de crecimiento",
+      "count": 64,
+      "percentage": 8.0,
+      "avg_engagement": 3.55,
+      "key_factors": [
+        "desarrollo_profesional",
+        "balance_vida_trabajo"
+      ]
+    },
+    {
+      "group_name": "Riesgo Moderado",
+      "description": "Colaboradores con señales de alerta en satisfacción general",
+      "count": 120,
+      "percentage": 15.0,
+      "avg_engagement": 4.07,
+      "key_factors": [
+        "balance_vida_trabajo",
+        "compensacion"
+      ]
+    },
+    {
+      "group_name": "Bajo Riesgo",
+      "description": "Colaboradores con buena satisfacción general",
+      "count": 616,
+      "percentage": 77.0,
+      "avg_engagement": 4.58,
+      "key_factors": []
+    }
+  ],
   "heatmap": {
-    "segments": [
+    "dimensions": [
+      "Innovación y Cambio",
+      "Balance Vida-Trabajo",
+      "Liderazgo Efectivo",
+      "Compensación",
+      "Desarrollo Profesional",
+      "Cohesión de Equipo"
+    ],
+    "departments": [
       "Medicina General",
       "Enfermería",
       "Farmacia",
@@ -178,34 +2386,367 @@
       "Urgencias",
       "Investigación"
     ],
-    "segment_keys": [
-      "medicina_general",
-      "enfermer_a",
-      "farmacia",
-      "laboratorio",
-      "administraci_n",
-      "ti_salud",
-      "recursos_humanos",
-      "calidad",
-      "urgencias",
-      "investigaci_n"
-    ],
-    "dimensions": [
-      "Orgullo Institucional",
-      "Liderazgo Efectivo",
-      "Comunicación Interna",
-      "Desarrollo Profesional",
-      "Balance Vida-Trabajo",
-      "Compensación"
-    ],
-    "dimension_keys": [
-      "orgullo_institucional",
-      "liderazgo_efectivo",
-      "comunicacion_interna",
-      "desarrollo_profesional",
-      "balance_vida_trabajo",
-      "compensacion"
-    ],
-    "cells": []
+    "cells": [
+      {
+        "department": "Medicina General",
+        "dimension": "Innovación y Cambio",
+        "score": 4.09,
+        "segment": "aceptable"
+      },
+      {
+        "department": "Medicina General",
+        "dimension": "Balance Vida-Trabajo",
+        "score": 4.14,
+        "segment": "aceptable"
+      },
+      {
+        "department": "Medicina General",
+        "dimension": "Liderazgo Efectivo",
+        "score": 4.34,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Medicina General",
+        "dimension": "Compensación",
+        "score": 3.88,
+        "segment": "atencion"
+      },
+      {
+        "department": "Medicina General",
+        "dimension": "Desarrollo Profesional",
+        "score": 3.99,
+        "segment": "atencion"
+      },
+      {
+        "department": "Medicina General",
+        "dimension": "Cohesión de Equipo",
+        "score": 4.67,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "Enfermería",
+        "dimension": "Innovación y Cambio",
+        "score": 3.98,
+        "segment": "atencion"
+      },
+      {
+        "department": "Enfermería",
+        "dimension": "Balance Vida-Trabajo",
+        "score": 3.78,
+        "segment": "atencion"
+      },
+      {
+        "department": "Enfermería",
+        "dimension": "Liderazgo Efectivo",
+        "score": 4.94,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "Enfermería",
+        "dimension": "Compensación",
+        "score": 3.73,
+        "segment": "atencion"
+      },
+      {
+        "department": "Enfermería",
+        "dimension": "Desarrollo Profesional",
+        "score": 3.9,
+        "segment": "atencion"
+      },
+      {
+        "department": "Enfermería",
+        "dimension": "Cohesión de Equipo",
+        "score": 4.81,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "Farmacia",
+        "dimension": "Innovación y Cambio",
+        "score": 4.41,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Farmacia",
+        "dimension": "Balance Vida-Trabajo",
+        "score": 4.1,
+        "segment": "aceptable"
+      },
+      {
+        "department": "Farmacia",
+        "dimension": "Liderazgo Efectivo",
+        "score": 4.53,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "Farmacia",
+        "dimension": "Compensación",
+        "score": 3.73,
+        "segment": "atencion"
+      },
+      {
+        "department": "Farmacia",
+        "dimension": "Desarrollo Profesional",
+        "score": 4.11,
+        "segment": "aceptable"
+      },
+      {
+        "department": "Farmacia",
+        "dimension": "Cohesión de Equipo",
+        "score": 4.38,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Laboratorio",
+        "dimension": "Innovación y Cambio",
+        "score": 4.13,
+        "segment": "aceptable"
+      },
+      {
+        "department": "Laboratorio",
+        "dimension": "Balance Vida-Trabajo",
+        "score": 4.42,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Laboratorio",
+        "dimension": "Liderazgo Efectivo",
+        "score": 4.8,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "Laboratorio",
+        "dimension": "Compensación",
+        "score": 4.07,
+        "segment": "aceptable"
+      },
+      {
+        "department": "Laboratorio",
+        "dimension": "Desarrollo Profesional",
+        "score": 4.27,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Laboratorio",
+        "dimension": "Cohesión de Equipo",
+        "score": 4.38,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Administración",
+        "dimension": "Innovación y Cambio",
+        "score": 3.89,
+        "segment": "atencion"
+      },
+      {
+        "department": "Administración",
+        "dimension": "Balance Vida-Trabajo",
+        "score": 4.0,
+        "segment": "aceptable"
+      },
+      {
+        "department": "Administración",
+        "dimension": "Liderazgo Efectivo",
+        "score": 4.73,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "Administración",
+        "dimension": "Compensación",
+        "score": 3.69,
+        "segment": "atencion"
+      },
+      {
+        "department": "Administración",
+        "dimension": "Desarrollo Profesional",
+        "score": 4.45,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Administración",
+        "dimension": "Cohesión de Equipo",
+        "score": 4.93,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "TI Salud",
+        "dimension": "Innovación y Cambio",
+        "score": 4.57,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "TI Salud",
+        "dimension": "Balance Vida-Trabajo",
+        "score": 3.73,
+        "segment": "atencion"
+      },
+      {
+        "department": "TI Salud",
+        "dimension": "Liderazgo Efectivo",
+        "score": 4.65,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "TI Salud",
+        "dimension": "Compensación",
+        "score": 3.74,
+        "segment": "atencion"
+      },
+      {
+        "department": "TI Salud",
+        "dimension": "Desarrollo Profesional",
+        "score": 3.94,
+        "segment": "atencion"
+      },
+      {
+        "department": "TI Salud",
+        "dimension": "Cohesión de Equipo",
+        "score": 4.76,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "Recursos Humanos",
+        "dimension": "Innovación y Cambio",
+        "score": 4.53,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "Recursos Humanos",
+        "dimension": "Balance Vida-Trabajo",
+        "score": 4.04,
+        "segment": "aceptable"
+      },
+      {
+        "department": "Recursos Humanos",
+        "dimension": "Liderazgo Efectivo",
+        "score": 4.84,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "Recursos Humanos",
+        "dimension": "Compensación",
+        "score": 3.68,
+        "segment": "atencion"
+      },
+      {
+        "department": "Recursos Humanos",
+        "dimension": "Desarrollo Profesional",
+        "score": 4.34,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Recursos Humanos",
+        "dimension": "Cohesión de Equipo",
+        "score": 4.32,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Calidad",
+        "dimension": "Innovación y Cambio",
+        "score": 4.49,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Calidad",
+        "dimension": "Balance Vida-Trabajo",
+        "score": 4.44,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Calidad",
+        "dimension": "Liderazgo Efectivo",
+        "score": 4.29,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Calidad",
+        "dimension": "Compensación",
+        "score": 3.81,
+        "segment": "atencion"
+      },
+      {
+        "department": "Calidad",
+        "dimension": "Desarrollo Profesional",
+        "score": 4.17,
+        "segment": "aceptable"
+      },
+      {
+        "department": "Calidad",
+        "dimension": "Cohesión de Equipo",
+        "score": 4.47,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Urgencias",
+        "dimension": "Innovación y Cambio",
+        "score": 4.11,
+        "segment": "aceptable"
+      },
+      {
+        "department": "Urgencias",
+        "dimension": "Balance Vida-Trabajo",
+        "score": 4.39,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Urgencias",
+        "dimension": "Liderazgo Efectivo",
+        "score": 4.47,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Urgencias",
+        "dimension": "Compensación",
+        "score": 3.53,
+        "segment": "atencion"
+      },
+      {
+        "department": "Urgencias",
+        "dimension": "Desarrollo Profesional",
+        "score": 4.33,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Urgencias",
+        "dimension": "Cohesión de Equipo",
+        "score": 4.53,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "Investigación",
+        "dimension": "Innovación y Cambio",
+        "score": 4.33,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Investigación",
+        "dimension": "Balance Vida-Trabajo",
+        "score": 4.38,
+        "segment": "fortaleza_solida"
+      },
+      {
+        "department": "Investigación",
+        "dimension": "Liderazgo Efectivo",
+        "score": 4.55,
+        "segment": "fortaleza_excepcional"
+      },
+      {
+        "department": "Investigación",
+        "dimension": "Compensación",
+        "score": 3.7,
+        "segment": "atencion"
+      },
+      {
+        "department": "Investigación",
+        "dimension": "Desarrollo Profesional",
+        "score": 4.0,
+        "segment": "aceptable"
+      },
+      {
+        "department": "Investigación",
+        "dimension": "Cohesión de Equipo",
+        "score": 4.18,
+        "segment": "aceptable"
+      }
+    ]
   }
 }
