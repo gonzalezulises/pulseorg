@@ -1,12 +1,9 @@
 "use client";
 
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
-import { Slider } from "@/components/ui/slider";
-import { Progress } from "@/components/ui/progress";
-import { Input } from "@/components/ui/input";
 import { CheckCircle2 } from "lucide-react";
 
-// ─── Inline Data ────────────────────────────────────────────────────────────
+// ─── Data ───────────────────────────────────────────────────────────────────
 
 interface BaseTier {
   id: string;
@@ -65,7 +62,11 @@ const ROI_BOOSTS = {
   productivity: { "addon-taller": 0.1, "addon-transformacion": 0.2 } as Record<string, number>,
 };
 
-// ─── Hooks & Helpers ────────────────────────────────────────────────────────
+// Fixed assumptions for ROI (industry averages, LATAM)
+const ROTATION_PCT = 0.18;
+const AVG_SALARY = 1200;
+
+// ─── Helpers ────────────────────────────────────────────────────────────────
 
 function useAnimatedValue(target: number, duration = 600): number {
   const [display, setDisplay] = useState(target);
@@ -103,18 +104,10 @@ function fmt(v: number): string {
   return `$${v.toLocaleString("en-US")}`;
 }
 
-function fmtCompact(v: number): string {
-  if (v >= 1_000_000) return `$${(v / 1_000_000).toFixed(1)}M`;
-  if (v >= 1_000) return `$${Math.round(v / 1_000)}K`;
-  return fmt(v);
-}
-
 function tierMidpoint(tier: BaseTier): number {
   if (tier.maxSize === 999) return 750;
   return Math.round((tier.minSize + tier.maxSize) / 2 / 10) * 10;
 }
-
-// ─── Sub-components ─────────────────────────────────────────────────────────
 
 function AnimatedPrice({ value, className }: { value: number; className?: string }) {
   const animated = useAnimatedValue(value);
@@ -122,109 +115,6 @@ function AnimatedPrice({ value, className }: { value: number; className?: string
     <span className={className} style={{ fontVariantNumeric: "tabular-nums" }}>
       {fmt(animated)}
     </span>
-  );
-}
-
-function SliderRow({
-  label,
-  value,
-  onChange,
-  min,
-  max,
-  step,
-  prefix,
-  suffix,
-  scale,
-}: {
-  label: string;
-  value: number;
-  onChange: (v: number) => void;
-  min: number;
-  max: number;
-  step: number;
-  prefix?: string;
-  suffix?: string;
-  scale?: string;
-}) {
-  const [localStr, setLocalStr] = useState(String(value));
-  useEffect(() => setLocalStr(String(value)), [value]);
-
-  const commitLocal = () => {
-    const v = Number(localStr);
-    if (!isNaN(v)) {
-      const clamped = Math.max(min, Math.min(max, Math.round(v / step) * step));
-      onChange(clamped);
-      setLocalStr(String(clamped));
-    } else {
-      setLocalStr(String(value));
-    }
-  };
-
-  return (
-    <div className="space-y-2">
-      <label className="text-sm font-medium">{label}</label>
-      <div className="flex items-center gap-3">
-        <Slider
-          value={[value]}
-          onValueChange={(vals) => onChange(vals[0])}
-          min={min}
-          max={max}
-          step={step}
-          className="flex-1"
-        />
-        <div className="flex items-center gap-1 shrink-0">
-          {prefix && <span className="text-xs text-muted-foreground">{prefix}</span>}
-          <Input
-            type="text"
-            inputMode="numeric"
-            value={localStr}
-            onChange={(e) => setLocalStr(e.target.value)}
-            onBlur={commitLocal}
-            onKeyDown={(e) => e.key === "Enter" && commitLocal()}
-            className="w-20 text-right text-sm"
-            style={{ fontVariantNumeric: "tabular-nums" }}
-          />
-          {suffix && <span className="text-xs text-muted-foreground">{suffix}</span>}
-        </div>
-      </div>
-      {scale && <p className="text-[11px] text-muted-foreground">{scale}</p>}
-    </div>
-  );
-}
-
-function BenefitRow({
-  emoji,
-  label,
-  value,
-  pct,
-  sublabel,
-  boosted,
-}: {
-  emoji: string;
-  label: string;
-  value: number;
-  pct: number;
-  sublabel: string;
-  boosted: boolean;
-}) {
-  const animatedVal = useAnimatedValue(value);
-  return (
-    <div
-      className={`rounded-xl p-4 transition-colors duration-300 ${
-        boosted ? "bg-primary/5 ring-1 ring-primary/20" : "bg-muted"
-      }`}
-    >
-      <div className="flex items-baseline justify-between mb-2">
-        <span className="text-sm font-medium">
-          {emoji} {label}
-        </span>
-        <span className="text-lg font-bold" style={{ fontVariantNumeric: "tabular-nums" }}>
-          {fmt(animatedVal)}
-        </span>
-      </div>
-      <Progress value={Math.max(pct, 2)} className="h-2" />
-      <p className="text-xs text-muted-foreground mt-1.5">{sublabel}</p>
-    </div>
   );
 }
 
@@ -237,15 +127,8 @@ interface Props {
 export default function MRIPricingCalculator({ ctaUrl }: Props) {
   const [selectedTierId, setSelectedTierId] = useState(BASE_TIERS[0].id);
   const [selectedAddons, setSelectedAddons] = useState<Set<string>>(new Set());
-  const [rotation, setRotation] = useState(18);
-  const [salary, setSalary] = useState(1200);
-  const [headcount, setHeadcount] = useState(() => tierMidpoint(BASE_TIERS[0]));
 
   const selectedTier = BASE_TIERS.find((t) => t.id === selectedTierId) ?? BASE_TIERS[0];
-
-  useEffect(() => {
-    setHeadcount(tierMidpoint(selectedTier));
-  }, [selectedTierId]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const toggleAddon = useCallback((id: string) => {
     setSelectedAddons((prev) => {
@@ -263,32 +146,29 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
   );
   const inversionMRI = selectedTier.price + addonsTotal;
 
-  // ── ROI ──
+  // ── ROI (fixed assumptions, updates with tier + addons) ──
   const roi = useMemo(() => {
-    const rotPct = rotation / 100;
-    const salAnual = salary * 12;
+    const headcount = tierMidpoint(selectedTier);
+    const salAnual = AVG_SALARY * 12;
     const payroll = headcount * salAnual;
 
-    const salidasAnuales = headcount * rotPct;
-    const costoPorSalida = salary * 6;
-    const costoRotTotal = salidasAnuales * costoPorSalida;
+    // Rotation savings
+    const salidasAnuales = headcount * ROTATION_PCT;
+    const costoPorSalida = AVG_SALARY * 6;
     let redRotation = 0.2;
     for (const [id, boost] of Object.entries(ROI_BOOSTS.rotation)) {
       if (selectedAddons.has(id)) redRotation += boost;
     }
-    const ahorroRotacion = costoRotTotal * redRotation;
-    const salidasEvitadas = salidasAnuales * redRotation;
+    const ahorroRotacion = salidasAnuales * costoPorSalida * redRotation;
 
-    const diasAusencia = 8;
-    const costoDiario = salary / 22;
-    const costoAusentTotal = headcount * diasAusencia * costoDiario;
+    // Absenteeism savings
     let redAusentismo = 0.15;
     for (const [id, boost] of Object.entries(ROI_BOOSTS.absenteeism)) {
       if (selectedAddons.has(id)) redAusentismo += boost;
     }
-    const ahorroAusentismo = costoAusentTotal * redAusentismo;
-    const diasRecuperados = Math.round(headcount * diasAusencia * redAusentismo);
+    const ahorroAusentismo = headcount * 8 * (AVG_SALARY / 22) * redAusentismo;
 
+    // Productivity gains
     let incProductividad = 0.05;
     for (const [id, boost] of Object.entries(ROI_BOOSTS.productivity)) {
       if (selectedAddons.has(id)) incProductividad += boost;
@@ -301,33 +181,14 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
     const retornoNeto = retornoBruto - inversionTotal;
     const roiMultiple = inversionTotal > 0 ? retornoBruto / inversionTotal : 0;
 
-    const rotBoosted = Object.keys(ROI_BOOSTS.rotation).some((id) => selectedAddons.has(id));
-    const absBoosted = Object.keys(ROI_BOOSTS.absenteeism).some((id) => selectedAddons.has(id));
-    const prodBoosted = Object.keys(ROI_BOOSTS.productivity).some((id) => selectedAddons.has(id));
+    return { retornoBruto, retornoNeto, roiMultiple };
+  }, [selectedTier, selectedAddons, inversionMRI]);
 
-    return {
-      ahorroRotacion, salidasEvitadas, ahorroAusentismo, diasRecuperados,
-      gananciaProductividad, payroll, inversionTotal,
-      retornoBruto, retornoNeto, roiMultiple,
-      rotBoosted, absBoosted, prodBoosted,
-    };
-  }, [headcount, rotation, salary, selectedAddons, inversionMRI]);
-
-  const benefits = useMemo(() => {
-    const items = [
-      { emoji: "\uD83D\uDCC9", label: "Reducción de rotación", value: roi.ahorroRotacion, sublabel: `~${roi.salidasEvitadas.toFixed(1)} salidas evitadas al año`, boosted: roi.rotBoosted },
-      { emoji: "\uD83D\uDCCA", label: "Reducción de ausentismo", value: roi.ahorroAusentismo, sublabel: `~${roi.diasRecuperados} días productivos recuperados`, boosted: roi.absBoosted },
-      { emoji: "\uD83D\uDCC8", label: "Ganancia por productividad", value: roi.gananciaProductividad, sublabel: `Sobre nómina anual de ${fmtCompact(roi.payroll)}`, boosted: roi.prodBoosted },
-    ];
-    const maxVal = Math.max(...items.map((i) => i.value), 1);
-    return items.map((i) => ({ ...i, pct: (i.value / maxVal) * 100 }));
-  }, [roi]);
-
-  const roiColor = roi.roiMultiple > 5 ? "text-primary" : roi.roiMultiple >= 2 ? "text-yellow-500" : "text-muted-foreground";
+  const roiColor =
+    roi.roiMultiple >= 1.5 ? "text-primary" : roi.roiMultiple >= 1 ? "text-yellow-500" : "text-muted-foreground";
 
   return (
     <div className="w-full">
-      {/* Two-column layout */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* ═══ LEFT: Investment configurator ═══ */}
         <div className="space-y-6">
@@ -415,129 +276,54 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
               })}
             </div>
           </div>
+        </div>
 
-          {/* Total investment */}
+        {/* ═══ RIGHT: Summary + CTA ═══ */}
+        <div className="space-y-6 lg:sticky lg:top-12 lg:self-start">
+          {/* Investment card */}
           <div className="rounded-2xl p-6 text-white" style={{ backgroundColor: "#1a3a2a" }}>
-            <div className="flex items-baseline justify-between mb-1">
-              <span className="text-base font-semibold opacity-90">Inversión estimada</span>
-              <AnimatedPrice value={inversionMRI} className="text-3xl font-bold" />
-            </div>
-            <div className="flex items-baseline justify-between">
-              <span />
-              <span className="text-sm opacity-70">USD</span>
+            <p className="text-sm opacity-60 mb-1">Inversión estimada</p>
+            <div className="flex items-baseline gap-2">
+              <AnimatedPrice value={inversionMRI} className="text-4xl font-bold" />
+              <span className="text-sm opacity-60">USD</span>
             </div>
             {addonsTotal > 0 && (
-              <p className="text-sm opacity-60 mt-2">
+              <p className="text-sm opacity-50 mt-2">
                 Base {fmt(selectedTier.price)} + Add-ons {fmt(addonsTotal)}
               </p>
             )}
           </div>
-        </div>
 
-        {/* ═══ RIGHT: ROI Calculator ═══ */}
-        <div className="space-y-6">
-          {/* Sliders */}
-          <div className="space-y-5">
-            <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide">
-              Retorno esperado
-            </h3>
-            <SliderRow
-              label="Rotación anual (%)"
-              value={rotation}
-              onChange={setRotation}
-              min={5}
-              max={40}
-              step={1}
-              suffix="%"
-              scale="5% — Baja | 15% — Promedio | 25% — Alta | 40% — Crítica"
-            />
-            <SliderRow
-              label="Salario mensual promedio (USD)"
-              value={salary}
-              onChange={setSalary}
-              min={600}
-              max={5000}
-              step={50}
-              prefix="$"
-              scale="$800 — Operativo | $1,500 — Profesional | $3,000 — Gerencial"
-            />
-            <SliderRow
-              label="Colaboradores en la organización"
-              value={headcount}
-              onChange={setHeadcount}
-              min={50}
-              max={1000}
-              step={10}
-            />
-          </div>
-
-          {/* Benefit bars */}
-          <div className="space-y-3">
-            <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide">
-              Beneficios proyectados
-            </h3>
-            {benefits.map((b) => (
-              <BenefitRow key={b.label} {...b} />
-            ))}
-          </div>
-
-          {/* ROI result */}
-          <div className="rounded-2xl overflow-hidden" style={{ backgroundColor: "#1a3a2a" }}>
-            <div className="p-6 text-white">
-              <div className="grid grid-cols-3 gap-4 text-center">
-                <div>
-                  <p className="text-[11px] uppercase tracking-wide opacity-60 mb-1">Retorno proyectado</p>
-                  <AnimatedPrice value={roi.retornoBruto} className="text-lg font-bold" />
-                </div>
-                <div>
-                  <p className="text-[11px] uppercase tracking-wide opacity-60 mb-1">Inversión total</p>
-                  <AnimatedPrice value={roi.inversionTotal} className="text-lg font-bold opacity-80" />
-                  <p className="text-[10px] opacity-50 mt-0.5">Diagnóstico + implementación</p>
-                </div>
-                <div>
-                  <p className="text-[11px] uppercase tracking-wide opacity-60 mb-1">ROI</p>
-                  <p className={`text-lg font-bold ${roiColor}`} style={{ fontVariantNumeric: "tabular-nums" }}>
-                    {roi.roiMultiple.toFixed(1)}x
-                  </p>
-                </div>
-              </div>
+          {/* ROI card */}
+          <div className="rounded-2xl border p-6 space-y-4">
+            <div className="flex items-baseline justify-between">
+              <span className="text-sm font-medium text-muted-foreground">ROI proyectado</span>
+              <span className={`text-3xl font-bold ${roiColor}`} style={{ fontVariantNumeric: "tabular-nums" }}>
+                {roi.roiMultiple.toFixed(1)}x
+              </span>
             </div>
-
-            <div className="px-6 pb-6">
-              <div className="rounded-xl p-4" style={{ backgroundColor: "#142e22" }}>
-                <div className="flex items-baseline justify-between">
-                  <span className="text-sm text-white/70">Retorno neto</span>
-                  <AnimatedPrice value={roi.retornoNeto} className="text-xl font-bold text-[#34A856]" />
-                </div>
-              </div>
+            <div className="flex items-baseline justify-between">
+              <span className="text-sm text-muted-foreground">Retorno neto estimado</span>
+              <AnimatedPrice value={roi.retornoNeto} className="text-lg font-bold text-primary" />
             </div>
+            <p className="text-[11px] text-muted-foreground leading-relaxed pt-2 border-t">
+              Basado en promedios de industria (SHRM, Gallup, OIT). Incluye costos de implementación.
+              Resultados reales dependen de las intervenciones ejecutadas.
+            </p>
           </div>
 
           {/* CTA */}
-          <div className="text-center space-y-2">
-            <a
-              href={ctaUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full py-3.5 px-6 rounded-lg font-semibold bg-primary text-primary-foreground hover:bg-primary/90 transition-colors text-center"
-            >
-              Agendar sesión diagnóstica (30 min)
-            </a>
-            <p className="text-xs text-muted-foreground">
-              Sin compromiso · Conversación exploratoria gratuita
-            </p>
-          </div>
-
-          {/* Disclaimer */}
-          <div className="bg-muted rounded-xl p-4">
-            <p className="text-[11px] text-muted-foreground leading-relaxed">
-              <strong className="text-foreground/70">Nota metodológica:</strong>{" "}
-              Proyecciones basadas en promedios de industria (SHRM 2022, Gallup 2023, OIT Latinoamérica).
-              Supuestos conservadores: reducción de rotación 20%, ausentismo 15%, productividad 5% —
-              incrementados por add-ons seleccionados. Los resultados reales dependen de la implementación
-              de las intervenciones recomendadas.
-            </p>
-          </div>
+          <a
+            href={ctaUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full py-3.5 px-6 rounded-lg font-semibold bg-primary text-primary-foreground hover:bg-primary/90 transition-colors text-center"
+          >
+            Agendar sesión diagnóstica (30 min)
+          </a>
+          <p className="text-xs text-muted-foreground text-center">
+            Sin compromiso · Conversación exploratoria gratuita
+          </p>
         </div>
       </div>
     </div>
