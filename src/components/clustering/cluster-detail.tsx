@@ -229,9 +229,9 @@ export function ClusterDetailView({ cluster, onClose }: ClusterDetailViewProps) 
                       className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-medium text-white"
                       style={{
                         backgroundColor:
-                          participant.profile === "True Believers"
+                          participant.profile === "Embajadores"
                             ? "#1dc47c"
-                            : participant.profile === "Engaged Pragmáticos"
+                            : participant.profile === "Comprometidos Pragmáticos"
                             ? "#00B4D8"
                             : participant.profile === "Neutrales"
                             ? "#F59E0B"
@@ -284,7 +284,7 @@ export function ClusterDetailView({ cluster, onClose }: ClusterDetailViewProps) 
             <>
               <Separator />
               <div>
-                <h4 className="font-medium mb-2">Dimensiones Asociadas</h4>
+                <h4 className="font-medium mb-2">Indicadores Asociados</h4>
                 <div className="flex flex-wrap gap-1">
                   {cluster.dimensions.map((dim) => (
                     <Badge key={dim} variant="outline">

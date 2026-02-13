@@ -303,7 +303,7 @@
       "banca_corporativa_panamá_y_zona_libre"
     ],
     "dimensions": [
-      "Orgullo Institucional",
+      "Sentimiento de Pertenencia",
       "Liderazgo Efectivo",
       "Comunicación Interna",
       "Desarrollo Profesional",
@@ -323,7 +323,7 @@
         "segment": "dominio_de_automatización",
         "segment_name": "Dominio de Automatización",
         "dimension": "orgullo_institucional",
-        "dimension_name": "Orgullo Institucional",
+        "dimension_name": "Sentimiento de Pertenencia",
         "score": 4.96,
         "favorability": 99.2,
         "color": "#1dc47c"
@@ -377,7 +377,7 @@
         "segment": "_seguridad_de_la_información_y_ciberseguridad",
         "segment_name": "Seguridad de la información y ciberseguridad",
         "dimension": "orgullo_institucional",
-        "dimension_name": "Orgullo Institucional",
+        "dimension_name": "Sentimiento de Pertenencia",
         "score": 5.0,
         "favorability": 100.0,
         "color": "#1dc47c"
@@ -431,7 +431,7 @@
         "segment": "gestión_de_propósitos_estratégicos_y_portafolio",
         "segment_name": "Gestión de Propósitos estratégicos y portafolio",
         "dimension": "orgullo_institucional",
-        "dimension_name": "Orgullo Institucional",
+        "dimension_name": "Sentimiento de Pertenencia",
         "score": 4.61,
         "favorability": 92.2,
         "color": "#1dc47c"
@@ -485,7 +485,7 @@
         "segment": "gente_tower_y_administración",
         "segment_name": "Gente Tower y Administración",
         "dimension": "orgullo_institucional",
-        "dimension_name": "Orgullo Institucional",
+        "dimension_name": "Sentimiento de Pertenencia",
         "score": 4.76,
         "favorability": 95.1,
         "color": "#1dc47c"
@@ -539,7 +539,7 @@
         "segment": "cumplimiento",
         "segment_name": "Cumplimiento",
         "dimension": "orgullo_institucional",
-        "dimension_name": "Orgullo Institucional",
+        "dimension_name": "Sentimiento de Pertenencia",
         "score": 4.48,
         "favorability": 89.5,
         "color": "#00B4D8"
@@ -593,7 +593,7 @@
         "segment": "dominio_activos_digitales",
         "segment_name": "Dominio Activos Digitales",
         "dimension": "orgullo_institucional",
-        "dimension_name": "Orgullo Institucional",
+        "dimension_name": "Sentimiento de Pertenencia",
         "score": 4.56,
         "favorability": 91.3,
         "color": "#1dc47c"
@@ -647,7 +647,7 @@
         "segment": "tecnología",
         "segment_name": "Tecnología",
         "dimension": "orgullo_institucional",
-        "dimension_name": "Orgullo Institucional",
+        "dimension_name": "Sentimiento de Pertenencia",
         "score": 4.83,
         "favorability": 96.6,
         "color": "#1dc47c"
@@ -701,7 +701,7 @@
         "segment": "global_payments_solution",
         "segment_name": "Global Payments Solution",
         "dimension": "orgullo_institucional",
-        "dimension_name": "Orgullo Institucional",
+        "dimension_name": "Sentimiento de Pertenencia",
         "score": 4.33,
         "favorability": 86.7,
         "color": "#00B4D8"
@@ -755,7 +755,7 @@
         "segment": "legal_y_gobierno_corporativo",
         "segment_name": "Legal y Gobierno Corporativo",
         "dimension": "orgullo_institucional",
-        "dimension_name": "Orgullo Institucional",
+        "dimension_name": "Sentimiento de Pertenencia",
         "score": 4.3,
         "favorability": 86.0,
         "color": "#00B4D8"
@@ -809,7 +809,7 @@
         "segment": "contabilidad___finanzas",
         "segment_name": "Contabilidad / Finanzas",
         "dimension": "orgullo_institucional",
-        "dimension_name": "Orgullo Institucional",
+        "dimension_name": "Sentimiento de Pertenencia",
         "score": 4.64,
         "favorability": 92.8,
         "color": "#1dc47c"
@@ -863,7 +863,7 @@
         "segment": "tesorería_e_inversiones",
         "segment_name": "Tesorería e inversiones",
         "dimension": "orgullo_institucional",
-        "dimension_name": "Orgullo Institucional",
+        "dimension_name": "Sentimiento de Pertenencia",
         "score": 4.36,
         "favorability": 87.2,
         "color": "#00B4D8"
@@ -917,7 +917,7 @@
         "segment": "banca_corporativa_panamá_y_zona_libre",
         "segment_name": "Banca Corporativa Panamá y Zona Libre",
         "dimension": "orgullo_institucional",
-        "dimension_name": "Orgullo Institucional",
+        "dimension_name": "Sentimiento de Pertenencia",
         "score": 4.51,
         "favorability": 90.1,
         "color": "#1dc47c"

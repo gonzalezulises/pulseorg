@@ -99,7 +99,7 @@ export default function AnalyticsPage() {
                 {/* Global Engagement Evolution */}
                 <section>
                   <h2 className="text-lg font-semibold mb-4">
-                    Evolución del Engagement Global
+                    Evolución del Compromiso Global
                   </h2>
                   {engagementTrend && engagementTrend.length > 0 && (
                     <EngagementTrendChart data={engagementTrend} />
@@ -109,7 +109,7 @@ export default function AnalyticsPage() {
                 {/* Top/Bottom Dimensions */}
                 <section>
                   <h2 className="text-lg font-semibold mb-4">
-                    Dimensiones: Mejores vs Peores
+                    Indicadores: Mejores vs Peores
                   </h2>
                   {dimensionTrends && dimensionTrends.length > 0 && (
                     <TopBottomTrendChart data={dimensionTrends} dimensions={dimensions} />
@@ -119,7 +119,7 @@ export default function AnalyticsPage() {
                 {/* Multi-line dimension trends */}
                 <section>
                   <h2 className="text-lg font-semibold mb-4">
-                    Evolución de Todas las Dimensiones
+                    Evolución de Todos los Indicadores
                   </h2>
                   {dimensionTrends && dimensionTrends.length > 0 && (
                     <DimensionTrendChart
@@ -132,7 +132,7 @@ export default function AnalyticsPage() {
                         "compensacion",
                         "confianza_institucional",
                       ]}
-                      title="5 Dimensiones Clave - Evolución Histórica"
+                      title="5 Indicadores Clave - Evolución Histórica"
                     />
                   )}
                 </section>

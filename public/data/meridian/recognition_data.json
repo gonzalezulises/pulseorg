@@ -714,7 +714,7 @@
       "id": "dim_orgullo_institucional_Transformación Digital",
       "type": "dimension",
       "icon": "star",
-      "message": "Transformación Digital alcanzó 5.00 en Orgullo Institucional",
+      "message": "Transformación Digital alcanzó 5.00 en Sentimiento de Pertenencia",
       "area": "Transformación Digital",
       "dimension": "orgullo_institucional",
       "value": 5.0,

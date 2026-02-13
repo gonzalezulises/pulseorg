@@ -121,7 +121,7 @@ export default function TrendsPage() {
           if (selectedDimension === "all") {
             // Mostrar engagement
             if (yearData?.engagement) {
-              point["Engagement"] = yearData.engagement.engagement_score;
+              point["Compromiso"] = yearData.engagement.engagement_score;
             }
           } else {
             // Mostrar dimensión seleccionada
@@ -155,7 +155,7 @@ export default function TrendsPage() {
         {/* Filtros */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">Filtrar por Dimensión</CardTitle>
+            <CardTitle className="text-base">Filtrar por Indicador</CardTitle>
           </CardHeader>
           <CardContent>
             <Select
@@ -168,7 +168,7 @@ export default function TrendsPage() {
                 <SelectValue placeholder="Seleccionar" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="all">Engagement Global</SelectItem>
+                <SelectItem value="all">Compromiso Global</SelectItem>
                 {Object.entries(DIMENSION_LABELS_V2).map(([key, label]) => (
                   <SelectItem key={key} value={key}>
                     {label}
@@ -202,7 +202,7 @@ export default function TrendsPage() {
                     {selectedDimension === "all" ? (
                       <Line
                         type="monotone"
-                        dataKey="Engagement"
+                        dataKey="Compromiso"
                         stroke="#3b82f6"
                         strokeWidth={2}
                         dot={{ r: 4 }}
@@ -226,7 +226,7 @@ export default function TrendsPage() {
         {/* Tabla de tendencias */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">Resumen de Tendencias por Dimensión</CardTitle>
+            <CardTitle className="text-base">Resumen de Tendencias por Indicador</CardTitle>
           </CardHeader>
           <CardContent>
             {isLoading ? (
@@ -239,7 +239,7 @@ export default function TrendsPage() {
               <Table>
                 <TableHeader>
                   <TableRow>
-                    <TableHead>Dimensión</TableHead>
+                    <TableHead>Indicador</TableHead>
                     <TableHead className="text-center">Años</TableHead>
                     <TableHead className="text-right">2023</TableHead>
                     <TableHead className="text-right">2026</TableHead>

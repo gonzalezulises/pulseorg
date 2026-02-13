@@ -4,10 +4,10 @@ export type NodeType = "participant" | "theme";
 export type EdgeType = "participant_theme" | "participant_participant";
 export type SentimentType = "positive" | "neutral" | "negative" | "mixed";
 export type EngagementProfile =
-  | "True Believers"
-  | "Engaged Pragmáticos"
+  | "Embajadores"
+  | "Comprometidos Pragmáticos"
   | "Neutrales"
-  | "Desengaged";
+  | "Desvinculados";
 
 // Base node interface
 export interface BaseNode {

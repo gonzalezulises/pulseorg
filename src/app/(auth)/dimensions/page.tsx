@@ -57,8 +57,8 @@ export default function DimensionsPage() {
   return (
     <>
       <Header
-        title="Análisis por Dimensión"
-        description="Detalle de las 17 dimensiones del clima organizacional"
+        title="Análisis por Indicador"
+        description="Detalle de los 17 indicadores del clima organizacional"
         selectedYear={selectedYear}
         onYearChange={setSelectedYear}
       />
@@ -76,7 +76,7 @@ export default function DimensionsPage() {
         {/* Selector de dimensión */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">Filtrar por Dimensión</CardTitle>
+            <CardTitle className="text-base">Filtrar por Indicador</CardTitle>
           </CardHeader>
           <CardContent>
             <Select
@@ -86,10 +86,10 @@ export default function DimensionsPage() {
               }
             >
               <SelectTrigger className="w-[320px]">
-                <SelectValue placeholder="Seleccionar dimensión" />
+                <SelectValue placeholder="Seleccionar indicador" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="all">Todas las dimensiones (17)</SelectItem>
+                <SelectItem value="all">Todos los indicadores (17)</SelectItem>
                 {Object.entries(DIMENSION_LABELS_V2).map(([key, label]) => (
                   <SelectItem key={key} value={key}>
                     {label}
@@ -112,7 +112,7 @@ export default function DimensionsPage() {
             <CardContent>
               <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
                 <div>
-                  <p className="text-sm text-muted-foreground">Score</p>
+                  <p className="text-sm text-muted-foreground">Puntuación</p>
                   <p className="text-2xl font-bold" style={{ color: SEGMENT_COLORS[selectedDimensionData.segment] }}>
                     {selectedDimensionData.avg_score.toFixed(2)}
                   </p>
@@ -124,7 +124,7 @@ export default function DimensionsPage() {
                   </p>
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Items</p>
+                  <p className="text-sm text-muted-foreground">Ítems</p>
                   <p className="text-2xl font-bold">
                     {selectedDimensionData.item_count}
                   </p>
@@ -149,7 +149,7 @@ export default function DimensionsPage() {
               </div>
               <div className="mt-4">
                 <p className="text-sm text-muted-foreground mb-2">
-                  Gap vs Benchmark ({selectedDimensionData.benchmark}%)
+                  Brecha vs Ref. sector ({selectedDimensionData.benchmark}%)
                 </p>
                 <div className="flex items-center gap-2">
                   <Progress
@@ -177,7 +177,7 @@ export default function DimensionsPage() {
           <CardHeader>
             <CardTitle className="text-base">
               {selectedDimension === "all"
-                ? "Todas las Dimensiones"
+                ? "Todos los Indicadores"
                 : `Detalle: ${DIMENSION_LABELS_V2[selectedDimension]}`}
             </CardTitle>
           </CardHeader>
@@ -193,11 +193,11 @@ export default function DimensionsPage() {
                 <TableHeader>
                   <TableRow>
                     <TableHead className="w-[60px]">Rank</TableHead>
-                    <TableHead>Dimensión</TableHead>
-                    <TableHead className="text-right">Score</TableHead>
+                    <TableHead>Indicador</TableHead>
+                    <TableHead className="text-right">Puntuación</TableHead>
                     <TableHead className="text-right">Favorabilidad</TableHead>
-                    <TableHead className="text-right">Items</TableHead>
-                    <TableHead className="text-right">Gap vs Bench</TableHead>
+                    <TableHead className="text-right">Ítems</TableHead>
+                    <TableHead className="text-right">Brecha vs Ref.</TableHead>
                     <TableHead>Segmento</TableHead>
                   </TableRow>
                 </TableHeader>
@@ -264,7 +264,7 @@ export default function DimensionsPage() {
               </Table>
             ) : (
               <p className="text-center text-muted-foreground py-8">
-                No hay dimensiones disponibles para los filtros seleccionados.
+                No hay indicadores disponibles para los filtros seleccionados.
               </p>
             )}
           </CardContent>

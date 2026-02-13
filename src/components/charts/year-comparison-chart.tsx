@@ -36,7 +36,7 @@ interface YearComparisonBarChartProps {
 export function YearComparisonBarChart({
   data,
   selectedYears = ["2024", "2025", "2026"],
-  title = "Comparación de Dimensiones por Año",
+  title = "Comparación de Indicadores por Año",
   maxItems = 17,
   sortBy = "latest",
 }: YearComparisonBarChartProps) {
@@ -108,7 +108,7 @@ export function YearComparisonBarChart({
       <CardHeader>
         <CardTitle className="text-base">{title}</CardTitle>
         <CardDescription>
-          Score promedio por dimensión (escala 1-5)
+          Puntuación promedio por indicador (escala 1-5)
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -279,7 +279,7 @@ interface HorizontalComparisonProps {
  */
 export function HorizontalYearComparison({
   data,
-  title = "Top 5 Dimensiones - Evolución",
+  title = "Top 5 Indicadores - Evolución",
 }: HorizontalComparisonProps) {
   // Get top 5 by 2026 score
   const top5 = [...data]

@@ -113,7 +113,7 @@ const badgeDefinitions = [
   {
     id: "consistency",
     name: "Consistencia",
-    description: "Mantiene engagement superior a 4.3",
+    description: "Mantiene compromiso superior a 4.3",
     icon: "check-circle",
     color: "green",
   },

@@ -53,7 +53,7 @@ export default function AlertsPage() {
     <>
       <Header
         title="Panel de Alertas"
-        description="Dimensiones que requieren atención"
+        description="Indicadores que requieren atención"
         showYearSelector={false}
       />
 
@@ -143,7 +143,7 @@ export default function AlertsPage() {
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm text-muted-foreground">Dimensión</label>
+              <label className="text-sm text-muted-foreground">Indicador</label>
               <Select
                 value={selectedDimension}
                 onValueChange={(value) =>
@@ -154,7 +154,7 @@ export default function AlertsPage() {
                   <SelectValue placeholder="Seleccionar" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="all">Todas las dimensiones</SelectItem>
+                  <SelectItem value="all">Todos los indicadores</SelectItem>
                   {Object.entries(DIMENSION_LABELS_V2).map(([key, label]) => (
                     <SelectItem key={key} value={key}>
                       {label}

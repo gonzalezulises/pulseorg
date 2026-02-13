@@ -47,7 +47,7 @@ interface SegmentBarChartProps {
 export function SegmentBarChart({
   data,
   globalScore,
-  title = "Engagement por Segmento",
+  title = "Compromiso por Segmento",
   description,
 }: SegmentBarChartProps) {
   const CustomTooltip = ({ active, payload }: any) => {
@@ -58,11 +58,11 @@ export function SegmentBarChart({
           <p className="font-bold text-sm mb-2">{d.segment_name}</p>
           <div className="space-y-1 text-sm">
             <div className="flex justify-between gap-4">
-              <span className="text-muted-foreground">Score:</span>
+              <span className="text-muted-foreground">Puntuación:</span>
               <span className="font-bold">{(d.engagement_score ?? 0).toFixed(2)}</span>
             </div>
             <div className="flex justify-between gap-4">
-              <span className="text-muted-foreground">Engagement:</span>
+              <span className="text-muted-foreground">Compromiso:</span>
               <span>{(d.engagement_pct ?? 0).toFixed(1)}%</span>
             </div>
             <div className="flex justify-between gap-4">
@@ -170,7 +170,7 @@ export function RiskGroupsTable({
           {title}
         </CardTitle>
         <CardDescription>
-          Combinaciones demográficas con engagement menor al 70%
+          Combinaciones demográficas con compromiso menor al 70%
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -179,8 +179,8 @@ export function RiskGroupsTable({
             <TableRow>
               <TableHead>Segmento</TableHead>
               <TableHead className="text-center">N</TableHead>
-              <TableHead className="text-center">Engagement</TableHead>
-              <TableHead>Dimensiones Críticas</TableHead>
+              <TableHead className="text-center">Compromiso</TableHead>
+              <TableHead>Indicadores Críticos</TableHead>
               <TableHead className="text-center">Riesgo</TableHead>
             </TableRow>
           </TableHeader>
@@ -243,7 +243,7 @@ interface HeatmapChartProps {
  */
 export function HeatmapChart({
   data,
-  title = "Mapa de Calor: Dimensiones por Segmento",
+  title = "Mapa de Calor: Indicadores por Segmento",
 }: HeatmapChartProps) {
   if (!data) return null;
 
@@ -333,7 +333,7 @@ export function HeatmapChart({
                         <p className="font-medium">{cell.dimension_name}</p>
                         <p className="text-muted-foreground">{cell.segment_name}</p>
                         <p className="mt-1">
-                          Score: <strong>{(cell.score ?? 0).toFixed(2)}</strong>
+                          Puntuación: <strong>{(cell.score ?? 0).toFixed(2)}</strong>
                         </p>
                         <p>Favorabilidad: {(cell.favorability ?? 0).toFixed(1)}%</p>
                       </div>

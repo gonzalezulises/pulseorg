@@ -53,16 +53,16 @@ export const DASHBOARD_CONFIG = {
 // Navegación del sidebar
 export const NAVIGATION_ITEMS = [
   {
-    title: "Dashboard",
+    title: "Panel General",
     href: "/dashboard",
     icon: "LayoutDashboard",
     description: "Vista general de métricas",
   },
   {
-    title: "Dimensiones",
+    title: "Indicadores",
     href: "/dimensions",
     icon: "Layers",
-    description: "Análisis por dimensión",
+    description: "Análisis por indicador",
   },
   {
     title: "Tendencias",

@@ -27,7 +27,7 @@ interface ProfileDataPoint {
 
 export function EngagementProfiles({
   data,
-  title = "Perfiles de Engagement",
+  title = "Perfiles de Compromiso",
 }: EngagementProfilesProps) {
   // Preparar datos para el pie chart
   const chartData: ProfileDataPoint[] = (
@@ -128,11 +128,11 @@ export function EngagementProfiles({
           <p className="font-medium mb-1">Interpretación:</p>
           <ul className="text-muted-foreground space-y-1">
             <li>
-              <span className="font-medium text-green-600">True Believers:</span>{" "}
+              <span className="font-medium text-green-600">Embajadores:</span>{" "}
               Máximo compromiso, embajadores naturales
             </li>
             <li>
-              <span className="font-medium text-blue-600">Engaged Pragmáticos:</span>{" "}
+              <span className="font-medium text-blue-600">Comprometidos Pragmáticos:</span>{" "}
               Comprometidos con enfoque práctico
             </li>
             <li>
@@ -140,7 +140,7 @@ export function EngagementProfiles({
               Riesgo de desenganche, requieren atención
             </li>
             <li>
-              <span className="font-medium text-red-600">Desengaged:</span>{" "}
+              <span className="font-medium text-red-600">Desvinculados:</span>{" "}
               Críticos, prioridad de intervención
             </li>
           </ul>

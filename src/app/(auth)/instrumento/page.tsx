@@ -22,9 +22,9 @@ const DIMENSIONS = [
     category: "Bienestar",
     color: "bg-emerald-100 text-emerald-800",
     items: [
-      { name: "Orgullo Institucional", description: "Sentido de pertenencia y orgullo de formar parte de la organización." },
+      { name: "Sentimiento de Pertenencia", description: "Sentimiento de pertenencia hacia la organización y orgullo de formar parte de ella." },
       { name: "Propósito del Trabajo", description: "Conexión entre las tareas diarias y un propósito significativo." },
-      { name: "Seguridad Física", description: "Percepción de un entorno laboral seguro y protegido." },
+      { name: "Seguridad Laboral", description: "Percepción de un entorno laboral seguro y protegido." },
       { name: "Balance Vida-Trabajo", description: "Equilibrio entre las demandas laborales y la vida personal." },
       { name: "Cuidado Mutuo", description: "Grado de preocupación y apoyo entre compañeros de trabajo." },
     ],
@@ -53,8 +53,8 @@ const DIMENSIONS = [
     category: "Cultura",
     color: "bg-purple-100 text-purple-800",
     items: [
-      { name: "Cohesión de Equipo", description: "Trabajo colaborativo, confianza y sentido de unidad en los equipos." },
-      { name: "Innovación y Cambio", description: "Apertura a nuevas ideas y capacidad de adaptación organizacional." },
+      { name: "Trabajo en Equipo", description: "Colaboración, confianza y sentido de unidad en los equipos de trabajo." },
+      { name: "Innovación y Gestión del Cambio", description: "Apertura a nuevas ideas y capacidad de adaptación organizacional." },
       { name: "Resultados y Logros", description: "Orientación hacia metas claras y celebración de los resultados." },
       { name: "Desarrollo Profesional", description: "Oportunidades de crecimiento, capacitación y plan de carrera." },
     ],
@@ -73,9 +73,9 @@ const CLASSIFICATION_SCALE: { segment: SegmentType; range: string }[] = [
 const CAPABILITIES = [
   "Segmentación demográfica por género, antigüedad y departamento",
   "Análisis predictivo con proyección a 12 meses",
-  "Correlaciones entre las 17 dimensiones de clima",
+  "Correlaciones entre los 17 indicadores de clima",
   "Text mining sobre comentarios abiertos de colaboradores",
-  "Heatmaps de dimensiones por departamento",
+  "Heatmaps de indicadores por departamento",
   "Módulo de reconocimiento con red de interacciones",
   "Exportación de reportes en PDF y Excel",
 ];
@@ -110,7 +110,7 @@ export default function InstrumentoPage() {
               </div>
               <div>
                 <p className="text-2xl font-bold">17</p>
-                <p className="text-sm text-muted-foreground">Dimensiones de clima</p>
+                <p className="text-sm text-muted-foreground">Indicadores de clima</p>
               </div>
             </CardContent>
           </Card>
@@ -132,7 +132,7 @@ export default function InstrumentoPage() {
               </div>
               <div>
                 <p className="text-2xl font-bold">4</p>
-                <p className="text-sm text-muted-foreground">Perfiles de engagement</p>
+                <p className="text-sm text-muted-foreground">Perfiles de compromiso</p>
               </div>
             </CardContent>
           </Card>
@@ -141,7 +141,7 @@ export default function InstrumentoPage() {
         {/* Section 2: Las 17 Dimensiones */}
         <Card>
           <CardHeader>
-            <CardTitle>Las 17 Dimensiones</CardTitle>
+            <CardTitle>Los 17 Indicadores</CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
             {DIMENSIONS.map((group) => (

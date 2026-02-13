@@ -80,7 +80,7 @@ export function RankingsTable({ rankings }: RankingsTableProps) {
           Ranking Completo de Areas
         </CardTitle>
         <CardDescription>
-          Todas las areas ordenadas por engagement
+          Todas las áreas ordenadas por compromiso
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -89,7 +89,7 @@ export function RankingsTable({ rankings }: RankingsTableProps) {
             <TableRow>
               <TableHead className="w-16">Pos</TableHead>
               <TableHead>Area</TableHead>
-              <TableHead className="text-center">Engagement</TableHead>
+              <TableHead className="text-center">Compromiso</TableHead>
               <TableHead className="text-center">Medalla</TableHead>
               <TableHead className="text-center">Tendencia</TableHead>
               <TableHead className="text-center">

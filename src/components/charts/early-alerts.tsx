@@ -52,7 +52,7 @@ export function EarlyAlertsList({
               )}
             </CardTitle>
             <CardDescription>
-              Dimensiones con deterioro significativo detectado
+              Indicadores con deterioro significativo detectado
             </CardDescription>
           </div>
         </div>
@@ -62,7 +62,7 @@ export function EarlyAlertsList({
           <div className="h-[200px] flex flex-col items-center justify-center text-muted-foreground">
             <Sparkles className="h-12 w-12 mb-3 text-green-500" />
             <p>No hay alertas activas</p>
-            <p className="text-sm">Todas las dimensiones estan estables</p>
+            <p className="text-sm">Todos los indicadores están estables</p>
           </div>
         ) : (
           <div className="space-y-4">
@@ -101,7 +101,7 @@ export function EarlyAlertCard({ alert }: EarlyAlertCardProps) {
   const getVelocityLabel = (velocity: ChangeVelocity) => {
     switch (velocity) {
       case "rapid":
-        return "Rapida";
+        return "Rápida";
       case "moderate":
         return "Moderada";
       case "slow":
@@ -203,7 +203,7 @@ export function EarlyAlertCard({ alert }: EarlyAlertCardProps) {
 
           {/* Affected areas */}
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-xs text-muted-foreground">Areas afectadas:</span>
+            <span className="text-xs text-muted-foreground">Áreas afectadas:</span>
             <div className="flex flex-wrap gap-1">
               {alert.affected_areas.map((area) => (
                 <Badge key={area} variant="secondary" className="text-xs">
@@ -219,7 +219,7 @@ export function EarlyAlertCard({ alert }: EarlyAlertCardProps) {
               <Lightbulb className="h-4 w-4 text-amber-600 flex-shrink-0 mt-0.5" />
               <div>
                 <p className="text-xs font-medium text-amber-800 dark:text-amber-200">
-                  Recomendacion
+                  Recomendación
                 </p>
                 <p className="text-xs text-amber-700 dark:text-amber-300">
                   {alert.recommendation}

@@ -51,7 +51,7 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "year": 2023,
           "avg_score": 3.89,
           "std_score": 0.48,
@@ -93,7 +93,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "year": 2023,
           "avg_score": 3.87,
           "std_score": 0.45,
@@ -121,7 +121,7 @@
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "year": 2023,
           "avg_score": 3.84,
           "std_score": 0.57,
@@ -223,11 +223,11 @@
         "engagement_pct": 73.96,
         "respondent_count": 630,
         "profiles": {
-          "True Believers": {
+          "Embajadores": {
             "n": 112,
             "pct": 17.8
           },
-          "Engaged Pragmáticos": {
+          "Comprometidos Pragmáticos": {
             "n": 203,
             "pct": 32.2
           },
@@ -235,7 +235,7 @@
             "n": 220,
             "pct": 34.9
           },
-          "Desengaged": {
+          "Desvinculados": {
             "n": 95,
             "pct": 15.1
           }
@@ -248,7 +248,7 @@
       "dimensions": [
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "year": 2024,
           "avg_score": 4.69,
           "std_score": 0.55,
@@ -276,7 +276,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "year": 2024,
           "avg_score": 4.63,
           "std_score": 0.62,
@@ -360,7 +360,7 @@
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "year": 2024,
           "avg_score": 4.41,
           "std_score": 0.69,
@@ -416,7 +416,7 @@
         },
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "year": 2024,
           "avg_score": 4.02,
           "std_score": 0.63,
@@ -490,11 +490,11 @@
         "engagement_pct": 86.65,
         "respondent_count": 1098,
         "profiles": {
-          "True Believers": {
+          "Embajadores": {
             "n": 240,
             "pct": 21.9
           },
-          "Engaged Pragmáticos": {
+          "Comprometidos Pragmáticos": {
             "n": 360,
             "pct": 32.8
           },
@@ -502,7 +502,7 @@
             "n": 354,
             "pct": 32.2
           },
-          "Desengaged": {
+          "Desvinculados": {
             "n": 144,
             "pct": 13.1
           }
@@ -529,7 +529,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "year": 2025,
           "avg_score": 4.57,
           "std_score": 0.67,
@@ -543,7 +543,7 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "year": 2025,
           "avg_score": 4.56,
           "std_score": 0.66,
@@ -599,7 +599,7 @@
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "year": 2025,
           "avg_score": 4.34,
           "std_score": 0.84,
@@ -641,7 +641,7 @@
         },
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "year": 2025,
           "avg_score": 4.01,
           "std_score": 0.59,
@@ -757,11 +757,11 @@
         "engagement_pct": 83.1,
         "respondent_count": 930,
         "profiles": {
-          "True Believers": {
+          "Embajadores": {
             "n": 182,
             "pct": 19.6
           },
-          "Engaged Pragmáticos": {
+          "Comprometidos Pragmáticos": {
             "n": 282,
             "pct": 30.3
           },
@@ -769,7 +769,7 @@
             "n": 318,
             "pct": 34.2
           },
-          "Desengaged": {
+          "Desvinculados": {
             "n": 148,
             "pct": 15.9
           }
@@ -782,7 +782,7 @@
       "dimensions": [
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "year": 2026,
           "avg_score": 4.81,
           "std_score": 0.5,
@@ -810,7 +810,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "year": 2026,
           "avg_score": 4.77,
           "std_score": 0.38,
@@ -852,7 +852,7 @@
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "year": 2026,
           "avg_score": 4.61,
           "std_score": 0.61,
@@ -950,7 +950,7 @@
         },
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "year": 2026,
           "avg_score": 4.16,
           "std_score": 0.57,
@@ -1024,11 +1024,11 @@
         "engagement_pct": 89.05,
         "respondent_count": 1134,
         "profiles": {
-          "True Believers": {
+          "Embajadores": {
             "n": 225,
             "pct": 19.8
           },
-          "Engaged Pragmáticos": {
+          "Comprometidos Pragmáticos": {
             "n": 315,
             "pct": 27.8
           },
@@ -1036,7 +1036,7 @@
             "n": 411,
             "pct": 36.2
           },
-          "Desengaged": {
+          "Desvinculados": {
             "n": 183,
             "pct": 16.1
           }

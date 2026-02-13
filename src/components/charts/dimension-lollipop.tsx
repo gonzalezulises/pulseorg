@@ -11,7 +11,7 @@ interface DimensionLollipopProps {
 
 export function DimensionLollipop({
   data,
-  title = "Score por Dimensión",
+  title = "Puntuación por Indicador",
   maxItems = 10,
 }: DimensionLollipopProps) {
   // Ordenar por score descendente y limitar
@@ -27,7 +27,7 @@ export function DimensionLollipop({
       <CardHeader className="pb-2">
         <CardTitle className="text-base">{title}</CardTitle>
         <p className="text-sm text-muted-foreground">
-          Top {maxItems} dimensiones ordenadas por score
+          Top {maxItems} indicadores ordenados por puntuación
         </p>
       </CardHeader>
       <CardContent>

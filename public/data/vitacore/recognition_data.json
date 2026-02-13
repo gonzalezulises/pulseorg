@@ -736,7 +736,7 @@
       "id": "dim_orgullo_institucional_Procesos Clínicos",
       "type": "dimension",
       "icon": "star",
-      "message": "Procesos Clínicos alcanzó 5.00 en Orgullo Institucional",
+      "message": "Procesos Clínicos alcanzó 5.00 en Sentimiento de Pertenencia",
       "area": "Procesos Clínicos",
       "dimension": "orgullo_institucional",
       "value": 5.0,

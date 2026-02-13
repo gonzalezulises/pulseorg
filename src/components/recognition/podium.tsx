@@ -67,7 +67,7 @@ export function Podium({ podium }: PodiumProps) {
           Podio de Excelencia
         </CardTitle>
         <CardDescription>
-          Las 3 areas con mejor engagement del periodo
+          Las 3 áreas con mejor compromiso del período
         </CardDescription>
       </CardHeader>
       <CardContent>

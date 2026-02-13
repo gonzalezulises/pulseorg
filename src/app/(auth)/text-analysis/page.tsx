@@ -184,7 +184,7 @@ export default function TextAnalysisPage() {
               {/* Dimension filter */}
               <div className="space-y-1.5">
                 <label className="text-sm font-medium text-muted-foreground">
-                  Dimensión
+                  Indicador
                 </label>
                 <Select
                   value={filters.dimension || "all"}
@@ -193,10 +193,10 @@ export default function TextAnalysisPage() {
                   }
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder="Todas las dimensiones" />
+                    <SelectValue placeholder="Todos los indicadores" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="all">Todas las dimensiones</SelectItem>
+                    <SelectItem value="all">Todos los indicadores</SelectItem>
                     {dimensionOptions.map((opt) => (
                       <SelectItem key={opt.value} value={opt.value}>
                         {opt.label}

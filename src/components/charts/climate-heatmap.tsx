@@ -28,7 +28,7 @@ function getTextColor(score: number): string {
 
 export function ClimateHeatmap({
   dimensions,
-  title = "Mapa de Calor - Dimensiones del Clima",
+  title = "Mapa de Calor - Indicadores del Clima",
 }: ClimateHeatmapProps) {
   // Ordenar dimensiones por score descendente
   const sortedDimensions = [...dimensions].sort((a, b) => b.avg_score - a.avg_score);
@@ -92,11 +92,11 @@ export function ClimateHeatmap({
                     <TooltipContent side="top" className="max-w-xs">
                       <div className="space-y-1">
                         <p className="font-medium">{dim.dimension_name}</p>
-                        <p className="text-sm">Score: {dim.avg_score.toFixed(2)}/5.00</p>
+                        <p className="text-sm">Puntuación: {dim.avg_score.toFixed(2)}/5.00</p>
                         <p className="text-sm">Favorabilidad: {dim.favorability_pct.toFixed(1)}%</p>
                         <p className="text-sm">Ranking: #{dim.rank}/17</p>
                         <p className="text-sm">
-                          Gap vs Benchmark:{" "}
+                          Brecha vs Ref.:{" "}
                           <span className={dim.gap_vs_benchmark >= 0 ? "text-green-600" : "text-red-600"}>
                             {dim.gap_vs_benchmark >= 0 ? "+" : ""}{dim.gap_vs_benchmark.toFixed(1)}pp
                           </span>

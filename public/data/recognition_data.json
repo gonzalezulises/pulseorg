@@ -1247,7 +1247,7 @@
       "id": "dim_orgullo_institucional_Dominio de Automatización",
       "type": "dimension",
       "icon": "star",
-      "message": "Dominio de Automatización alcanzó 5.00 en Orgullo Institucional",
+      "message": "Dominio de Automatización alcanzó 5.00 en Sentimiento de Pertenencia",
       "area": "Dominio de Automatización",
       "dimension": "orgullo_institucional",
       "value": 5.0,

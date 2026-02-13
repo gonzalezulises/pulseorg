@@ -31,10 +31,10 @@ export type SegmentType =
 
 // Perfiles de engagement
 export type EngagementProfile =
-  | "True Believers"
-  | "Engaged Pragmáticos"
+  | "Embajadores"
+  | "Comprometidos Pragmáticos"
   | "Neutrales"
-  | "Desengaged";
+  | "Desvinculados";
 
 // Estadísticas de dimensión V2
 export interface DimensionStatV2 {
@@ -84,12 +84,12 @@ export interface ClimaDataV2 {
 
 // Labels de dimensiones V2
 export const DIMENSION_LABELS_V2: Record<DimensionCodeV2, string> = {
-  orgullo_institucional: "Orgullo Institucional",
+  orgullo_institucional: "Sentimiento de Pertenencia",
   resultados_logros: "Resultados y Logros",
-  innovacion_cambio: "Innovación y Cambio",
+  innovacion_cambio: "Innovación y Gestión del Cambio",
   proposito_trabajo: "Propósito del Trabajo",
-  seguridad_fisica: "Seguridad Física",
-  cohesion_equipo: "Cohesión de Equipo",
+  seguridad_fisica: "Seguridad Laboral",
+  cohesion_equipo: "Trabajo en Equipo",
   cuidado_mutuo: "Cuidado Mutuo",
   autonomia: "Autonomía",
   liderazgo_efectivo: "Liderazgo Efectivo",
@@ -114,10 +114,10 @@ export const SEGMENT_COLORS: Record<SegmentType, string> = {
 
 // Colores para perfiles de engagement
 export const PROFILE_COLORS: Record<EngagementProfile, string> = {
-  "True Believers": "#1dc47c",
-  "Engaged Pragmáticos": "#00B4D8",
+  "Embajadores": "#1dc47c",
+  "Comprometidos Pragmáticos": "#00B4D8",
   "Neutrales": "#F59E0B",
-  "Desengaged": "#DC2626",
+  "Desvinculados": "#DC2626",
 };
 
 // Helper para obtener color de segmento

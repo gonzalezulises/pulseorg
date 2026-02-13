@@ -228,7 +228,7 @@ export default function CorrelationsPage() {
     <>
       <Header
         title="Análisis de Correlaciones"
-        description="Explora las relaciones entre dimensiones del clima y su impacto en indicadores de negocio"
+        description="Explora las relaciones entre indicadores del clima y su impacto en métricas de negocio"
         showYearSelector={false}
         showFilters={false}
       />
@@ -365,7 +365,7 @@ export default function CorrelationsPage() {
       >
         <DialogContent className="max-w-3xl">
           <DialogHeader>
-            <DialogTitle>Correlación entre Dimensiones</DialogTitle>
+            <DialogTitle>Correlación entre Indicadores</DialogTitle>
             <DialogDescription>
               Análisis de dispersión y regresión lineal
             </DialogDescription>

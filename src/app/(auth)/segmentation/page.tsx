@@ -94,7 +94,7 @@ export default function SegmentationPage() {
                 </div>
                 <div>
                   <p className="text-2xl font-bold">{(globalStats?.globalScore ?? 0).toFixed(2)}</p>
-                  <p className="text-xs text-muted-foreground">Score Global</p>
+                  <p className="text-xs text-muted-foreground">Puntuación Global</p>
                 </div>
               </div>
             </CardContent>
@@ -162,8 +162,8 @@ export default function SegmentationPage() {
                 <SegmentBarChart
                   data={departmentComparison}
                   globalScore={globalScore}
-                  title="Engagement por Área"
-                  description="Comparación de scores entre las 20 áreas organizacionales"
+                  title="Compromiso por Área"
+                  description="Comparación de puntuaciones entre las 20 áreas organizacionales"
                 />
 
                 <SegmentComparisonCards
@@ -176,7 +176,7 @@ export default function SegmentationPage() {
                 {heatmapData && (
                   <HeatmapChart
                     data={heatmapData}
-                    title="Mapa de Calor: Dimensiones por Área"
+                    title="Mapa de Calor: Indicadores por Área"
                   />
                 )}
               </>
@@ -195,8 +195,8 @@ export default function SegmentationPage() {
                 <SegmentBarChart
                   data={tenureComparison}
                   globalScore={globalScore}
-                  title="Engagement por Antigüedad"
-                  description="Evolución del engagement según tiempo en la organización"
+                  title="Compromiso por Antigüedad"
+                  description="Evolución del compromiso según tiempo en la organización"
                 />
 
                 <SegmentComparisonCards
@@ -219,7 +219,7 @@ export default function SegmentationPage() {
                             <p>
                               Los colaboradores con{" "}
                               <strong>{tenureComparison[0].segment_name}</strong> muestran el mayor
-                              engagement ({(tenureComparison[0].engagement_score ?? 0).toFixed(2)})
+                              compromiso ({(tenureComparison[0].engagement_score ?? 0).toFixed(2)})
                             </p>
                           </div>
                           <div className="flex items-start gap-2">
@@ -227,7 +227,7 @@ export default function SegmentationPage() {
                             <p>
                               El grupo con{" "}
                               <strong>{tenureComparison[tenureComparison.length - 1].segment_name}</strong>{" "}
-                              presenta menor engagement ({(tenureComparison[tenureComparison.length - 1].engagement_score ?? 0).toFixed(2)})
+                              presenta menor compromiso ({(tenureComparison[tenureComparison.length - 1].engagement_score ?? 0).toFixed(2)})
                             </p>
                           </div>
                         </>
@@ -251,7 +251,7 @@ export default function SegmentationPage() {
                 <SegmentBarChart
                   data={genderComparison}
                   globalScore={globalScore}
-                  title="Engagement por Género"
+                  title="Compromiso por Género"
                   description="Comparación entre grupos de género"
                 />
 
@@ -373,7 +373,7 @@ export default function SegmentationPage() {
                             <p className="text-sm text-muted-foreground">
                               {group.critical_dimensions.length > 0
                                 ? `Priorizar intervenciones en: ${group.critical_dimensions.join(", ")}`
-                                : "Requiere análisis detallado de dimensiones específicas"}
+                                : "Requiere análisis detallado de indicadores específicos"}
                             </p>
                           </div>
                         ))}

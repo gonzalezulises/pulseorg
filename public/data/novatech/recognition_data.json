@@ -706,7 +706,7 @@
       "id": "dim_orgullo_institucional_Automation",
       "type": "dimension",
       "icon": "star",
-      "message": "Automation alcanzó 5.00 en Orgullo Institucional",
+      "message": "Automation alcanzó 5.00 en Sentimiento de Pertenencia",
       "area": "Automation",
       "dimension": "orgullo_institucional",
       "value": 5.0,

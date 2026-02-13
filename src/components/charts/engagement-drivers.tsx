@@ -25,7 +25,7 @@ interface EngagementDriversChartProps {
 
 export function EngagementDriversChart({
   data,
-  title = "Drivers del Engagement",
+  title = "Impulsores del Compromiso",
   onBarClick,
 }: EngagementDriversChartProps) {
   // Sort by correlation descending and prepare chart data
@@ -46,7 +46,7 @@ export function EngagementDriversChart({
           {title}
         </CardTitle>
         <CardDescription>
-          ¿Qué dimensiones impactan más el Engagement Global?
+          ¿Qué indicadores impactan más el Compromiso Global?
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -130,7 +130,7 @@ export function EngagementDriversChart({
                 <p className="font-medium text-primary">Insight Principal</p>
                 <p className="text-sm text-muted-foreground">
                   Mejorar <strong>{topDriver.name}</strong> tendría el mayor impacto en
-                  Engagement (r = {topDriver.correlation.toFixed(2)})
+                  Compromiso (r = {topDriver.correlation.toFixed(2)})
                 </p>
               </div>
             </div>
@@ -157,7 +157,7 @@ export function EngagementDriversList({ data, limit = 5 }: EngagementDriversList
       <CardHeader>
         <CardTitle className="text-base flex items-center gap-2">
           <TrendingUp className="h-5 w-5" />
-          Top {limit} Drivers del Engagement
+          Top {limit} Impulsores del Compromiso
         </CardTitle>
       </CardHeader>
       <CardContent>
@@ -220,19 +220,19 @@ export function DriversSummary({ drivers }: DriversSummaryProps) {
       <Card>
         <CardContent className="p-4">
           <p className="text-2xl font-bold text-green-600">{strongDrivers}</p>
-          <p className="text-xs text-muted-foreground">Drivers Fuertes (≥0.7)</p>
+          <p className="text-xs text-muted-foreground">Impulsores Fuertes (≥0.7)</p>
         </CardContent>
       </Card>
       <Card>
         <CardContent className="p-4">
           <p className="text-2xl font-bold text-yellow-600">{moderateDrivers}</p>
-          <p className="text-xs text-muted-foreground">Drivers Moderados</p>
+          <p className="text-xs text-muted-foreground">Impulsores Moderados</p>
         </CardContent>
       </Card>
       <Card>
         <CardContent className="p-4">
           <p className="text-2xl font-bold text-slate-600">{weakDrivers}</p>
-          <p className="text-xs text-muted-foreground">Drivers Débiles (&lt;0.5)</p>
+          <p className="text-xs text-muted-foreground">Impulsores Débiles (&lt;0.5)</p>
         </CardContent>
       </Card>
       <Card>

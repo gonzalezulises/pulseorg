@@ -138,7 +138,7 @@ export function BusinessCorrelationsTable({
           {title}
         </CardTitle>
         <CardDescription>
-          Correlación de cada dimensión con indicadores clave del negocio. Haz clic en un valor para ver el scatter plot.
+          Correlación de cada indicador con métricas clave del negocio. Haz clic en un valor para ver el scatter plot.
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -165,7 +165,7 @@ export function BusinessCorrelationsTable({
                     className="h-8 px-2 -ml-2"
                     onClick={() => handleSort("dimensionName")}
                   >
-                    Dimensión
+                    Indicador
                     <SortIcon field="dimensionName" />
                   </Button>
                 </TableHead>

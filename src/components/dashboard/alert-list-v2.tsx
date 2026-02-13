@@ -37,7 +37,7 @@ const severityConfig = {
 
 export function AlertListV2({
   alerts,
-  title = "Dimensiones que Requieren Atención",
+  title = "Indicadores que Requieren Atención",
 }: AlertListV2Props) {
   if (alerts.length === 0) {
     return (
@@ -50,7 +50,7 @@ export function AlertListV2({
             <div className="rounded-full bg-green-100 dark:bg-green-950/30 p-3 mb-3">
               <Info className="h-6 w-6 text-green-600" />
             </div>
-            <p className="font-medium">Todas las dimensiones en zona positiva</p>
+            <p className="font-medium">Todos los indicadores en zona positiva</p>
             <p className="text-sm text-muted-foreground">
               No hay alertas críticas en este momento
             </p>
@@ -96,9 +96,9 @@ export function AlertListV2({
                   </p>
                   <div className="flex items-center justify-between text-xs">
                     <span className="text-muted-foreground">
-                      Score: <strong className={config.color}>{alert.score.toFixed(2)}</strong>
+                      Puntuación: <strong className={config.color}>{alert.score.toFixed(2)}</strong>
                       {" / "}
-                      Benchmark: {alert.benchmark}%
+                      Ref. sector: {alert.benchmark}%
                     </span>
                     <span
                       className={

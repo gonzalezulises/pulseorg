@@ -140,7 +140,7 @@ function ThemeCard({ theme }: { theme: Theme }) {
 
             {/* Dimensions */}
             <div className="flex items-center gap-1 mt-2 text-xs text-muted-foreground">
-              <span>Dimensiones:</span>
+              <span>Indicadores:</span>
               {theme.dimensions.slice(0, 2).map((dim) => (
                 <span key={dim} className="capitalize">
                   {dim.replace(/_/g, " ")}

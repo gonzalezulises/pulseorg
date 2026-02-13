@@ -54,12 +54,12 @@ const navigationItems: NavigationItem[] = [
     icon: FileText,
   },
   {
-    title: "Dashboard",
+    title: "Panel General",
     href: "/dashboard",
     icon: LayoutDashboard,
   },
   {
-    title: "Dimensiones",
+    title: "Indicadores",
     href: "/dimensions",
     icon: Layers,
   },
@@ -95,7 +95,7 @@ const navigationItems: NavigationItem[] = [
     icon: Network,
   },
   {
-    title: "Clusters",
+    title: "Agrupaciones",
     href: "/clusters",
     icon: Waypoints,
   },

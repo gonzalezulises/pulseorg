@@ -9,7 +9,7 @@
       "label": "Participante 1",
       "department": "auditoria",
       "department_name": "Auditoría",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 10,
       "themes": [
         "ia_tecnologia",
@@ -42,7 +42,7 @@
       "label": "Participante 2",
       "department": "legal",
       "department_name": "Legal",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 10,
       "themes": [
         "cambio",
@@ -75,7 +75,7 @@
       "label": "Participante 3",
       "department": "rrhh",
       "department_name": "RRHH",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 10,
       "themes": [
         "cambio",
@@ -108,7 +108,7 @@
       "label": "Participante 4",
       "department": "legal",
       "department_name": "Legal",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 6,
       "themes": [
         "cambio",
@@ -137,7 +137,7 @@
       "label": "Participante 5",
       "department": "banca_privada",
       "department_name": "Banca Privada",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "cambio",
@@ -167,7 +167,7 @@
       "label": "Participante 6",
       "department": "auditoria",
       "department_name": "Auditoría",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "cambio",
@@ -197,7 +197,7 @@
       "label": "Participante 7",
       "department": "rrhh",
       "department_name": "RRHH",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -257,7 +257,7 @@
       "label": "Participante 9",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -287,7 +287,7 @@
       "label": "Participante 10",
       "department": "auditoria",
       "department_name": "Auditoría",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -317,7 +317,7 @@
       "label": "Participante 11",
       "department": "cumplimiento",
       "department_name": "Cumplimiento",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -377,7 +377,7 @@
       "label": "Participante 13",
       "department": "tecnologia",
       "department_name": "Tecnología",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 7,
       "themes": [
         "procesos",
@@ -407,7 +407,7 @@
       "label": "Participante 14",
       "department": "tesoreria",
       "department_name": "Tesorería",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -437,7 +437,7 @@
       "label": "Participante 15",
       "department": "operaciones",
       "department_name": "Operaciones",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 7,
       "themes": [
         "cambio",
@@ -467,7 +467,7 @@
       "label": "Participante 16",
       "department": "legal",
       "department_name": "Legal",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 7,
       "themes": [
         "cambio",
@@ -497,7 +497,7 @@
       "label": "Participante 17",
       "department": "legal",
       "department_name": "Legal",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -527,7 +527,7 @@
       "label": "Participante 18",
       "department": "legal",
       "department_name": "Legal",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "cambio",
@@ -557,7 +557,7 @@
       "label": "Participante 19",
       "department": "tesoreria",
       "department_name": "Tesorería",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -587,7 +587,7 @@
       "label": "Participante 20",
       "department": "legal",
       "department_name": "Legal",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -617,7 +617,7 @@
       "label": "Participante 21",
       "department": "banca_privada",
       "department_name": "Banca Privada",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "capacitacion",
@@ -647,7 +647,7 @@
       "label": "Participante 22",
       "department": "auditoria",
       "department_name": "Auditoría",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -677,7 +677,7 @@
       "label": "Participante 23",
       "department": "operaciones",
       "department_name": "Operaciones",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 7,
       "themes": [
         "cambio",
@@ -707,7 +707,7 @@
       "label": "Participante 24",
       "department": "cumplimiento",
       "department_name": "Cumplimiento",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -737,7 +737,7 @@
       "label": "Participante 25",
       "department": "cumplimiento",
       "department_name": "Cumplimiento",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -767,7 +767,7 @@
       "label": "Participante 26",
       "department": "tecnologia",
       "department_name": "Tecnología",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "general",
@@ -797,7 +797,7 @@
       "label": "Participante 27",
       "department": "tecnologia",
       "department_name": "Tecnología",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -857,7 +857,7 @@
       "label": "Participante 29",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -887,7 +887,7 @@
       "label": "Participante 30",
       "department": "tecnologia",
       "department_name": "Tecnología",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -917,7 +917,7 @@
       "label": "Participante 31",
       "department": "rrhh",
       "department_name": "RRHH",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -947,7 +947,7 @@
       "label": "Participante 32",
       "department": "marketing",
       "department_name": "Marketing",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -977,7 +977,7 @@
       "label": "Participante 33",
       "department": "auditoria",
       "department_name": "Auditoría",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "capacitacion",
@@ -1007,7 +1007,7 @@
       "label": "Participante 34",
       "department": "tesoreria",
       "department_name": "Tesorería",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "general",
@@ -1037,7 +1037,7 @@
       "label": "Participante 35",
       "department": "marketing",
       "department_name": "Marketing",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 7,
       "themes": [
         "cambio",
@@ -1067,7 +1067,7 @@
       "label": "Participante 36",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -1127,7 +1127,7 @@
       "label": "Participante 38",
       "department": "tecnologia",
       "department_name": "Tecnología",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -1157,7 +1157,7 @@
       "label": "Participante 39",
       "department": "rrhh",
       "department_name": "RRHH",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "cambio",
@@ -1187,7 +1187,7 @@
       "label": "Participante 40",
       "department": "marketing",
       "department_name": "Marketing",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "cambio",
@@ -1217,7 +1217,7 @@
       "label": "Participante 41",
       "department": "tecnologia",
       "department_name": "Tecnología",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 9,
       "themes": [
         "ia_tecnologia",
@@ -1281,7 +1281,7 @@
       "label": "Participante 43",
       "department": "marketing",
       "department_name": "Marketing",
-      "profile": "Desengaged",
+      "profile": "Desvinculados",
       "comment_count": 9,
       "themes": [
         "cambio",
@@ -1313,7 +1313,7 @@
       "label": "Participante 44",
       "department": "tecnologia",
       "department_name": "Tecnología",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 9,
       "themes": [
         "ia_tecnologia",
@@ -1345,7 +1345,7 @@
       "label": "Participante 45",
       "department": "marketing",
       "department_name": "Marketing",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 9,
       "themes": [
         "ia_tecnologia",
@@ -1377,7 +1377,7 @@
       "label": "Participante 46",
       "department": "marketing",
       "department_name": "Marketing",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 9,
       "themes": [
         "ia_tecnologia",
@@ -1409,7 +1409,7 @@
       "label": "Participante 47",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 9,
       "themes": [
         "ia_tecnologia",
@@ -1441,7 +1441,7 @@
       "label": "Participante 48",
       "department": "marketing",
       "department_name": "Marketing",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 9,
       "themes": [
         "ia_tecnologia",
@@ -1473,7 +1473,7 @@
       "label": "Participante 49",
       "department": "cumplimiento",
       "department_name": "Cumplimiento",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 9,
       "themes": [
         "cambio",
@@ -1505,7 +1505,7 @@
       "label": "Participante 50",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 9,
       "themes": [
         "procesos",
@@ -1537,7 +1537,7 @@
       "label": "Participante 51",
       "department": "banca_privada",
       "department_name": "Banca Privada",
-      "profile": "Desengaged",
+      "profile": "Desvinculados",
       "comment_count": 4,
       "themes": [
         "ia_tecnologia",
@@ -1598,7 +1598,7 @@
       "label": "Participante 53",
       "department": "rrhh",
       "department_name": "RRHH",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 11,
       "themes": [
         "ia_tecnologia",
@@ -1632,7 +1632,7 @@
       "label": "Participante 54",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 11,
       "themes": [
         "ia_tecnologia",
@@ -1666,7 +1666,7 @@
       "label": "Participante 55",
       "department": "tecnologia",
       "department_name": "Tecnología",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 11,
       "themes": [
         "ia_tecnologia",
@@ -1700,7 +1700,7 @@
       "label": "Participante 56",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 11,
       "themes": [
         "general",
@@ -1734,7 +1734,7 @@
       "label": "Participante 57",
       "department": "auditoria",
       "department_name": "Auditoría",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 2,
       "themes": [
         "ia_tecnologia",
@@ -1759,7 +1759,7 @@
       "label": "Participante 58",
       "department": "tesoreria",
       "department_name": "Tesorería",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 6,
       "themes": [
         "ia_tecnologia",
@@ -1788,7 +1788,7 @@
       "label": "Participante 59",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 6,
       "themes": [
         "ia_tecnologia",
@@ -1817,7 +1817,7 @@
       "label": "Participante 60",
       "department": "rrhh",
       "department_name": "RRHH",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 6,
       "themes": [
         "cambio",
@@ -1846,7 +1846,7 @@
       "label": "Participante 61",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 6,
       "themes": [
         "ia_tecnologia",
@@ -1904,7 +1904,7 @@
       "label": "Participante 63",
       "department": "auditoria",
       "department_name": "Auditoría",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 6,
       "themes": [
         "cambio",
@@ -1933,7 +1933,7 @@
       "label": "Participante 64",
       "department": "marketing",
       "department_name": "Marketing",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 6,
       "themes": [
         "ia_tecnologia",
@@ -1962,7 +1962,7 @@
       "label": "Participante 65",
       "department": "operaciones",
       "department_name": "Operaciones",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 5,
       "themes": [
         "ia_tecnologia",
@@ -1990,7 +1990,7 @@
       "label": "Participante 66",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 10,
       "themes": [
         "ia_tecnologia",
@@ -2023,7 +2023,7 @@
       "label": "Participante 67",
       "department": "rrhh",
       "department_name": "RRHH",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 10,
       "themes": [
         "ia_tecnologia",
@@ -2056,7 +2056,7 @@
       "label": "Participante 68",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 10,
       "themes": [
         "ia_tecnologia",
@@ -2089,7 +2089,7 @@
       "label": "Participante 69",
       "department": "tecnologia",
       "department_name": "Tecnología",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 10,
       "themes": [
         "ia_tecnologia",
@@ -2122,7 +2122,7 @@
       "label": "Participante 70",
       "department": "cumplimiento",
       "department_name": "Cumplimiento",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 10,
       "themes": [
         "ia_tecnologia",
@@ -2155,7 +2155,7 @@
       "label": "Participante 71",
       "department": "rrhh",
       "department_name": "RRHH",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 10,
       "themes": [
         "ia_tecnologia",
@@ -2188,7 +2188,7 @@
       "label": "Participante 72",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 10,
       "themes": [
         "ia_tecnologia",
@@ -2254,7 +2254,7 @@
       "label": "Participante 74",
       "department": "tecnologia",
       "department_name": "Tecnología",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 8,
       "themes": [
         "ia_tecnologia",
@@ -2285,7 +2285,7 @@
       "label": "Participante 75",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "cambio",
@@ -2320,7 +2320,7 @@
       "label": "Participante 76",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "ia_tecnologia",
@@ -2355,7 +2355,7 @@
       "label": "Participante 77",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "ia_tecnologia",
@@ -2390,7 +2390,7 @@
       "label": "Participante 78",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "Engaged Pragmáticos",
+      "profile": "Comprometidos Pragmáticos",
       "comment_count": 12,
       "themes": [
         "ia_tecnologia",
@@ -2425,7 +2425,7 @@
       "label": "Participante 79",
       "department": "banca_privada",
       "department_name": "Banca Privada",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "general",
@@ -2460,7 +2460,7 @@
       "label": "Participante 80",
       "department": "marketing",
       "department_name": "Marketing",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "general",
@@ -2495,7 +2495,7 @@
       "label": "Participante 81",
       "department": "tesoreria",
       "department_name": "Tesorería",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "general",
@@ -2530,7 +2530,7 @@
       "label": "Participante 82",
       "department": "auditoria",
       "department_name": "Auditoría",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "cambio",
@@ -2565,7 +2565,7 @@
       "label": "Participante 83",
       "department": "rrhh",
       "department_name": "RRHH",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "cambio",
@@ -2600,7 +2600,7 @@
       "label": "Participante 84",
       "department": "auditoria",
       "department_name": "Auditoría",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "cambio",
@@ -2635,7 +2635,7 @@
       "label": "Participante 85",
       "department": "rrhh",
       "department_name": "RRHH",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "cambio",
@@ -2670,7 +2670,7 @@
       "label": "Participante 86",
       "department": "auditoria",
       "department_name": "Auditoría",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "cambio",
@@ -2705,7 +2705,7 @@
       "label": "Participante 87",
       "department": "tecnologia",
       "department_name": "Tecnología",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 7,
       "themes": [
         "ia_tecnologia",
@@ -2735,7 +2735,7 @@
       "label": "Participante 88",
       "department": "tecnologia",
       "department_name": "Tecnología",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "cambio",
@@ -2770,7 +2770,7 @@
       "label": "Participante 89",
       "department": "banca_privada",
       "department_name": "Banca Privada",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "cambio",
@@ -2840,7 +2840,7 @@
       "label": "Participante 91",
       "department": "riesgos",
       "department_name": "Riesgos",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 12,
       "themes": [
         "ia_tecnologia",
@@ -2875,7 +2875,7 @@
       "label": "Participante 92",
       "department": "tesoreria",
       "department_name": "Tesorería",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 6,
       "themes": [
         "ia_tecnologia",
@@ -2933,7 +2933,7 @@
       "label": "Participante 94",
       "department": "operaciones",
       "department_name": "Operaciones",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 6,
       "themes": [
         "cambio",
@@ -2961,7 +2961,7 @@
       "label": "Participante 95",
       "department": "tesoreria",
       "department_name": "Tesorería",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 6,
       "themes": [
         "cambio",
@@ -2990,7 +2990,7 @@
       "label": "Participante 96",
       "department": "auditoria",
       "department_name": "Auditoría",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 4,
       "themes": [
         "cambio",
@@ -3017,7 +3017,7 @@
       "label": "Participante 97",
       "department": "tesoreria",
       "department_name": "Tesorería",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 9,
       "themes": [
         "ia_tecnologia",
@@ -3049,7 +3049,7 @@
       "label": "Participante 98",
       "department": "cumplimiento",
       "department_name": "Cumplimiento",
-      "profile": "True Believers",
+      "profile": "Embajadores",
       "comment_count": 2,
       "themes": [
         "ia_tecnologia",
@@ -26594,7 +26594,7 @@
         "id": "P071",
         "label": "Participante 71",
         "department": "Tecnología",
-        "profile": "Engaged Pragmáticos",
+        "profile": "Comprometidos Pragmáticos",
         "connections": 66,
         "themes": [
           "ia_tecnologia",
@@ -26606,7 +26606,7 @@
         "id": "P075",
         "label": "Participante 75",
         "department": "Operaciones",
-        "profile": "True Believers",
+        "profile": "Embajadores",
         "connections": 66,
         "themes": [
           "cambio",
@@ -26618,7 +26618,7 @@
         "id": "P078",
         "label": "Participante 78",
         "department": "Operaciones",
-        "profile": "Engaged Pragmáticos",
+        "profile": "Comprometidos Pragmáticos",
         "connections": 66,
         "themes": [
           "ia_tecnologia",
@@ -26630,7 +26630,7 @@
         "id": "P083",
         "label": "Participante 83",
         "department": "Operaciones",
-        "profile": "True Believers",
+        "profile": "Embajadores",
         "connections": 66,
         "themes": [
           "cambio",
@@ -26642,7 +26642,7 @@
         "id": "P006",
         "label": "Participante 6",
         "department": "General",
-        "profile": "True Believers",
+        "profile": "Embajadores",
         "connections": 60,
         "themes": [
           "cambio",
@@ -26654,7 +26654,7 @@
         "id": "P085",
         "label": "Participante 85",
         "department": "Operaciones",
-        "profile": "True Believers",
+        "profile": "Embajadores",
         "connections": 60,
         "themes": [
           "cambio",
@@ -26666,7 +26666,7 @@
         "id": "P023",
         "label": "Participante 23",
         "department": "General",
-        "profile": "Engaged Pragmáticos",
+        "profile": "Comprometidos Pragmáticos",
         "connections": 57,
         "themes": [
           "cambio",
@@ -26678,7 +26678,7 @@
         "id": "P066",
         "label": "Participante 66",
         "department": "Tecnología",
-        "profile": "True Believers",
+        "profile": "Embajadores",
         "connections": 57,
         "themes": [
           "ia_tecnologia",
@@ -26690,7 +26690,7 @@
         "id": "P084",
         "label": "Participante 84",
         "department": "Operaciones",
-        "profile": "True Believers",
+        "profile": "Embajadores",
         "connections": 57,
         "themes": [
           "cambio",
@@ -26702,7 +26702,7 @@
         "id": "P017",
         "label": "Participante 17",
         "department": "General",
-        "profile": "Engaged Pragmáticos",
+        "profile": "Comprometidos Pragmáticos",
         "connections": 56,
         "themes": [
           "ia_tecnologia",
@@ -26716,7 +26716,7 @@
         "id": "P083",
         "label": "Participante 83",
         "department": "Operaciones",
-        "profile": "True Believers",
+        "profile": "Embajadores",
         "theme_diversity": 9,
         "themes": [
           "T_equipo",
@@ -26734,7 +26734,7 @@
         "id": "P006",
         "label": "Participante 6",
         "department": "General",
-        "profile": "True Believers",
+        "profile": "Embajadores",
         "theme_diversity": 8,
         "themes": [
           "T_equipo",
@@ -26751,7 +26751,7 @@
         "id": "P023",
         "label": "Participante 23",
         "department": "General",
-        "profile": "Engaged Pragmáticos",
+        "profile": "Comprometidos Pragmáticos",
         "theme_diversity": 8,
         "themes": [
           "T_reconocimiento",
@@ -26768,7 +26768,7 @@
         "id": "P025",
         "label": "Participante 25",
         "department": "General",
-        "profile": "True Believers",
+        "profile": "Embajadores",
         "theme_diversity": 8,
         "themes": [
           "T_ia_tecnologia",
@@ -26802,7 +26802,7 @@
         "id": "P066",
         "label": "Participante 66",
         "department": "Tecnología",
-        "profile": "True Believers",
+        "profile": "Embajadores",
         "theme_diversity": 8,
         "themes": [
           "T_reconocimiento",
@@ -26819,7 +26819,7 @@
         "id": "P071",
         "label": "Participante 71",
         "department": "Tecnología",
-        "profile": "Engaged Pragmáticos",
+        "profile": "Comprometidos Pragmáticos",
         "theme_diversity": 8,
         "themes": [
           "T_equipo",
@@ -26836,7 +26836,7 @@
         "id": "P075",
         "label": "Participante 75",
         "department": "Operaciones",
-        "profile": "True Believers",
+        "profile": "Embajadores",
         "theme_diversity": 8,
         "themes": [
           "T_equipo",
@@ -26906,12 +26906,12 @@
     ],
     "profile_distribution": [
       {
-        "profile": "True Believers",
+        "profile": "Embajadores",
         "count": 67,
         "color": "#00FF7F"
       },
       {
-        "profile": "Engaged Pragmáticos",
+        "profile": "Comprometidos Pragmáticos",
         "count": 19,
         "color": "#00B4D8"
       },
@@ -26921,7 +26921,7 @@
         "color": "#F59E0B"
       },
       {
-        "profile": "Desengaged",
+        "profile": "Desvinculados",
         "count": 2,
         "color": "#DC2626"
       }
@@ -26946,7 +26946,7 @@
           "id": "P089",
           "label": "Participante 89",
           "department": "Crédito",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 8
         },
@@ -26954,7 +26954,7 @@
           "id": "P085",
           "label": "Participante 85",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 8
         },
@@ -26962,7 +26962,7 @@
           "id": "P002",
           "label": "Participante 2",
           "department": "Recursos Humanos",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 8
         },
@@ -26970,7 +26970,7 @@
           "id": "P003",
           "label": "Participante 3",
           "department": "Recursos Humanos",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 7
         },
@@ -26978,7 +26978,7 @@
           "id": "P049",
           "label": "Participante 49",
           "department": "Banca de Personas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 6
         },
@@ -26986,7 +26986,7 @@
           "id": "P086",
           "label": "Participante 86",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 6
         },
@@ -27002,7 +27002,7 @@
           "id": "P088",
           "label": "Participante 88",
           "department": "Crédito",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 6
         },
@@ -27018,7 +27018,7 @@
           "id": "P091",
           "label": "Participante 91",
           "department": "Crédito",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 6
         },
@@ -27026,7 +27026,7 @@
           "id": "P094",
           "label": "Participante 94",
           "department": "Contabilidad/Finanzas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 6
         },
@@ -27042,7 +27042,7 @@
           "id": "P068",
           "label": "Participante 68",
           "department": "Tecnología",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 5
         },
@@ -27050,7 +27050,7 @@
           "id": "P075",
           "label": "Participante 75",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 5
         },
@@ -27058,7 +27058,7 @@
           "id": "P043",
           "label": "Participante 43",
           "department": "Banca de Personas",
-          "profile": "Desengaged",
+          "profile": "Desvinculados",
           "sentiment": "neutral",
           "connection_weight": 5
         }
@@ -27138,12 +27138,12 @@
       ],
       "profile_distribution": [
         {
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "count": 67,
           "color": "#00FF7F"
         },
         {
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "count": 19,
           "color": "#00B4D8"
         },
@@ -27153,7 +27153,7 @@
           "color": "#F59E0B"
         },
         {
-          "profile": "Desengaged",
+          "profile": "Desvinculados",
           "count": 2,
           "color": "#DC2626"
         }
@@ -27164,7 +27164,7 @@
       "recommendations": [
         "Comunicar claramente el propósito y beneficios de los cambios",
         "Reconocer y celebrar los early adopters del cambio",
-        "✅ Aprovechar alta proporción de True Believers como embajadores"
+        "✅ Aprovechar alta proporción de Embajadores como embajadores"
       ]
     },
     {
@@ -27185,7 +27185,7 @@
           "id": "P076",
           "label": "Participante 76",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 9
         },
@@ -27193,7 +27193,7 @@
           "id": "P055",
           "label": "Participante 55",
           "department": "Banca Corporativa",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 8
         },
@@ -27201,7 +27201,7 @@
           "id": "P002",
           "label": "Participante 2",
           "department": "Recursos Humanos",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 8
         },
@@ -27209,7 +27209,7 @@
           "id": "P068",
           "label": "Participante 68",
           "department": "Tecnología",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 7
         },
@@ -27217,7 +27217,7 @@
           "id": "P041",
           "label": "Participante 41",
           "department": "Banca de Personas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 7
         },
@@ -27225,7 +27225,7 @@
           "id": "P072",
           "label": "Participante 72",
           "department": "Tecnología",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 7
         },
@@ -27233,7 +27233,7 @@
           "id": "P078",
           "label": "Participante 78",
           "department": "Operaciones",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "neutral",
           "connection_weight": 7
         },
@@ -27241,7 +27241,7 @@
           "id": "P085",
           "label": "Participante 85",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 7
         },
@@ -27249,7 +27249,7 @@
           "id": "P036",
           "label": "Participante 36",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 7
         },
@@ -27257,7 +27257,7 @@
           "id": "P014",
           "label": "Participante 14",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 7
         },
@@ -27273,7 +27273,7 @@
           "id": "P066",
           "label": "Participante 66",
           "department": "Tecnología",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 6
         },
@@ -27281,7 +27281,7 @@
           "id": "P080",
           "label": "Participante 80",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 6
         },
@@ -27289,7 +27289,7 @@
           "id": "P089",
           "label": "Participante 89",
           "department": "Crédito",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 6
         },
@@ -27297,7 +27297,7 @@
           "id": "P069",
           "label": "Participante 69",
           "department": "Tecnología",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "neutral",
           "connection_weight": 6
         }
@@ -27377,12 +27377,12 @@
       ],
       "profile_distribution": [
         {
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "count": 66,
           "color": "#00FF7F"
         },
         {
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "count": 19,
           "color": "#00B4D8"
         },
@@ -27392,7 +27392,7 @@
           "color": "#F59E0B"
         },
         {
-          "profile": "Desengaged",
+          "profile": "Desvinculados",
           "count": 2,
           "color": "#DC2626"
         }
@@ -27404,7 +27404,7 @@
       "recommendations": [
         "Ampliar programas de capacitación en IA para todas las áreas",
         "Crear comunidades de práctica para compartir casos de éxito",
-        "✅ Aprovechar alta proporción de True Believers como embajadores"
+        "✅ Aprovechar alta proporción de Embajadores como embajadores"
       ]
     },
     {
@@ -27425,7 +27425,7 @@
           "id": "P069",
           "label": "Participante 69",
           "department": "Tecnología",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "neutral",
           "connection_weight": 5
         },
@@ -27433,7 +27433,7 @@
           "id": "P076",
           "label": "Participante 76",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 5
         },
@@ -27441,7 +27441,7 @@
           "id": "P091",
           "label": "Participante 91",
           "department": "Crédito",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 5
         },
@@ -27449,7 +27449,7 @@
           "id": "P075",
           "label": "Participante 75",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 4
         },
@@ -27457,7 +27457,7 @@
           "id": "P041",
           "label": "Participante 41",
           "department": "Banca de Personas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 4
         },
@@ -27465,7 +27465,7 @@
           "id": "P013",
           "label": "Participante 13",
           "department": "General",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 4
         },
@@ -27473,7 +27473,7 @@
           "id": "P089",
           "label": "Participante 89",
           "department": "Crédito",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 4
         },
@@ -27481,7 +27481,7 @@
           "id": "P086",
           "label": "Participante 86",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 4
         },
@@ -27489,7 +27489,7 @@
           "id": "P055",
           "label": "Participante 55",
           "department": "Banca Corporativa",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 4
         },
@@ -27497,7 +27497,7 @@
           "id": "P078",
           "label": "Participante 78",
           "department": "Operaciones",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "neutral",
           "connection_weight": 4
         },
@@ -27505,7 +27505,7 @@
           "id": "P077",
           "label": "Participante 77",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 4
         },
@@ -27513,7 +27513,7 @@
           "id": "P070",
           "label": "Participante 70",
           "department": "Tecnología",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 4
         },
@@ -27521,7 +27521,7 @@
           "id": "P094",
           "label": "Participante 94",
           "department": "Contabilidad/Finanzas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 4
         },
@@ -27529,7 +27529,7 @@
           "id": "P050",
           "label": "Participante 50",
           "department": "Banca de Personas",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 4
         },
@@ -27537,7 +27537,7 @@
           "id": "P058",
           "label": "Participante 58",
           "department": "Cumplimiento",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 3
         }
@@ -27617,12 +27617,12 @@
       ],
       "profile_distribution": [
         {
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "count": 60,
           "color": "#00FF7F"
         },
         {
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "count": 18,
           "color": "#00B4D8"
         },
@@ -27632,7 +27632,7 @@
           "color": "#F59E0B"
         },
         {
-          "profile": "Desengaged",
+          "profile": "Desvinculados",
           "count": 2,
           "color": "#DC2626"
         }
@@ -27644,7 +27644,7 @@
       "recommendations": [
         "Mapear y optimizar procesos críticos identificados",
         "Involucrar a usuarios finales en el rediseño de procesos",
-        "✅ Aprovechar alta proporción de True Believers como embajadores"
+        "✅ Aprovechar alta proporción de Embajadores como embajadores"
       ]
     },
     {
@@ -27665,7 +27665,7 @@
           "id": "P002",
           "label": "Participante 2",
           "department": "Recursos Humanos",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 7
         },
@@ -27673,7 +27673,7 @@
           "id": "P072",
           "label": "Participante 72",
           "department": "Tecnología",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 6
         },
@@ -27689,7 +27689,7 @@
           "id": "P086",
           "label": "Participante 86",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 5
         },
@@ -27697,7 +27697,7 @@
           "id": "P045",
           "label": "Participante 45",
           "department": "Banca de Personas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 5
         },
@@ -27705,7 +27705,7 @@
           "id": "P088",
           "label": "Participante 88",
           "department": "Crédito",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 5
         },
@@ -27721,7 +27721,7 @@
           "id": "P038",
           "label": "Participante 38",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 5
         },
@@ -27729,7 +27729,7 @@
           "id": "P027",
           "label": "Participante 27",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 5
         },
@@ -27737,7 +27737,7 @@
           "id": "P003",
           "label": "Participante 3",
           "department": "Recursos Humanos",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 4
         },
@@ -27745,7 +27745,7 @@
           "id": "P019",
           "label": "Participante 19",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 4
         },
@@ -27753,7 +27753,7 @@
           "id": "P033",
           "label": "Participante 33",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 4
         },
@@ -27761,7 +27761,7 @@
           "id": "P021",
           "label": "Participante 21",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 4
         },
@@ -27769,7 +27769,7 @@
           "id": "P097",
           "label": "Participante 97",
           "department": "Marketing",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 4
         },
@@ -27857,12 +27857,12 @@
       ],
       "profile_distribution": [
         {
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "count": 58,
           "color": "#00FF7F"
         },
         {
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "count": 17,
           "color": "#00B4D8"
         },
@@ -27872,7 +27872,7 @@
           "color": "#F59E0B"
         },
         {
-          "profile": "Desengaged",
+          "profile": "Desvinculados",
           "count": 2,
           "color": "#DC2626"
         }
@@ -27884,7 +27884,7 @@
         "Diversificar modalidades de capacitación (presencial, virtual, microlearning)",
         "Crear paths de desarrollo personalizados por rol",
         "Aprovechar embajadores internos para programas de mentoría",
-        "✅ Aprovechar alta proporción de True Believers como embajadores"
+        "✅ Aprovechar alta proporción de Embajadores como embajadores"
       ]
     },
     {
@@ -27905,7 +27905,7 @@
           "id": "P049",
           "label": "Participante 49",
           "department": "Banca de Personas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 4
         },
@@ -27913,7 +27913,7 @@
           "id": "P046",
           "label": "Participante 46",
           "department": "Banca de Personas",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "neutral",
           "connection_weight": 3
         },
@@ -27921,7 +27921,7 @@
           "id": "P056",
           "label": "Participante 56",
           "department": "Banca Corporativa",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 3
         },
@@ -27929,7 +27929,7 @@
           "id": "P079",
           "label": "Participante 79",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 3
         },
@@ -27937,7 +27937,7 @@
           "id": "P043",
           "label": "Participante 43",
           "department": "Banca de Personas",
-          "profile": "Desengaged",
+          "profile": "Desvinculados",
           "sentiment": "neutral",
           "connection_weight": 3
         },
@@ -27945,7 +27945,7 @@
           "id": "P041",
           "label": "Participante 41",
           "department": "Banca de Personas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 3
         },
@@ -27953,7 +27953,7 @@
           "id": "P045",
           "label": "Participante 45",
           "department": "Banca de Personas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 3
         },
@@ -27961,7 +27961,7 @@
           "id": "P053",
           "label": "Participante 53",
           "department": "Banca Corporativa",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 3
         },
@@ -27969,7 +27969,7 @@
           "id": "P047",
           "label": "Participante 47",
           "department": "Banca de Personas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 3
         },
@@ -27977,7 +27977,7 @@
           "id": "P060",
           "label": "Participante 60",
           "department": "Cumplimiento",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 2
         },
@@ -27985,7 +27985,7 @@
           "id": "P009",
           "label": "Participante 9",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 2
         },
@@ -27993,7 +27993,7 @@
           "id": "P058",
           "label": "Participante 58",
           "department": "Cumplimiento",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 2
         },
@@ -28001,7 +28001,7 @@
           "id": "P075",
           "label": "Participante 75",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 2
         },
@@ -28009,7 +28009,7 @@
           "id": "P084",
           "label": "Participante 84",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 2
         },
@@ -28017,7 +28017,7 @@
           "id": "P083",
           "label": "Participante 83",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 2
         }
@@ -28085,12 +28085,12 @@
       ],
       "profile_distribution": [
         {
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "count": 46,
           "color": "#00FF7F"
         },
         {
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "count": 11,
           "color": "#00B4D8"
         },
@@ -28100,7 +28100,7 @@
           "color": "#F59E0B"
         },
         {
-          "profile": "Desengaged",
+          "profile": "Desvinculados",
           "count": 2,
           "color": "#DC2626"
         }
@@ -28111,7 +28111,7 @@
       "recommendations": [
         "Alinear expectativas internas con la experiencia del cliente",
         "Compartir feedback de clientes con equipos internos regularmente",
-        "✅ Aprovechar alta proporción de True Believers como embajadores"
+        "✅ Aprovechar alta proporción de Embajadores como embajadores"
       ]
     },
     {
@@ -28132,7 +28132,7 @@
           "id": "P086",
           "label": "Participante 86",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 3
         },
@@ -28140,7 +28140,7 @@
           "id": "P032",
           "label": "Participante 32",
           "department": "General",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "neutral",
           "connection_weight": 3
         },
@@ -28148,7 +28148,7 @@
           "id": "P075",
           "label": "Participante 75",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 2
         },
@@ -28156,7 +28156,7 @@
           "id": "P078",
           "label": "Participante 78",
           "department": "Operaciones",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "neutral",
           "connection_weight": 2
         },
@@ -28164,7 +28164,7 @@
           "id": "P022",
           "label": "Participante 22",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 2
         },
@@ -28172,7 +28172,7 @@
           "id": "P070",
           "label": "Participante 70",
           "department": "Tecnología",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 2
         },
@@ -28180,7 +28180,7 @@
           "id": "P067",
           "label": "Participante 67",
           "department": "Tecnología",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 2
         },
@@ -28188,7 +28188,7 @@
           "id": "P044",
           "label": "Participante 44",
           "department": "Banca de Personas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 2
         },
@@ -28196,7 +28196,7 @@
           "id": "P050",
           "label": "Participante 50",
           "department": "Banca de Personas",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 2
         },
@@ -28204,7 +28204,7 @@
           "id": "P023",
           "label": "Participante 23",
           "department": "General",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28220,7 +28220,7 @@
           "id": "P058",
           "label": "Participante 58",
           "department": "Cumplimiento",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28228,7 +28228,7 @@
           "id": "P049",
           "label": "Participante 49",
           "department": "Banca de Personas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28236,7 +28236,7 @@
           "id": "P066",
           "label": "Participante 66",
           "department": "Tecnología",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28244,7 +28244,7 @@
           "id": "P068",
           "label": "Participante 68",
           "department": "Tecnología",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 1
         }
@@ -28312,12 +28312,12 @@
       ],
       "profile_distribution": [
         {
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "count": 29,
           "color": "#00FF7F"
         },
         {
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "count": 9,
           "color": "#00B4D8"
         },
@@ -28327,7 +28327,7 @@
           "color": "#F59E0B"
         },
         {
-          "profile": "Desengaged",
+          "profile": "Desvinculados",
           "count": 1,
           "color": "#DC2626"
         }
@@ -28338,7 +28338,7 @@
       "recommendations": [
         "Fortalecer espacios de colaboración entre áreas",
         "Implementar actividades de team building cross-funcional",
-        "✅ Aprovechar alta proporción de True Believers como embajadores"
+        "✅ Aprovechar alta proporción de Embajadores como embajadores"
       ]
     },
     {
@@ -28359,7 +28359,7 @@
           "id": "P025",
           "label": "Participante 25",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 2
         },
@@ -28367,7 +28367,7 @@
           "id": "P092",
           "label": "Participante 92",
           "department": "Legal",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 2
         },
@@ -28375,7 +28375,7 @@
           "id": "P046",
           "label": "Participante 46",
           "department": "Banca de Personas",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28383,7 +28383,7 @@
           "id": "P075",
           "label": "Participante 75",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28391,7 +28391,7 @@
           "id": "P013",
           "label": "Participante 13",
           "department": "General",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28399,7 +28399,7 @@
           "id": "P069",
           "label": "Participante 69",
           "department": "Tecnología",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28407,7 +28407,7 @@
           "id": "P072",
           "label": "Participante 72",
           "department": "Tecnología",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28415,7 +28415,7 @@
           "id": "P078",
           "label": "Participante 78",
           "department": "Operaciones",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28423,7 +28423,7 @@
           "id": "P071",
           "label": "Participante 71",
           "department": "Tecnología",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28431,7 +28431,7 @@
           "id": "P040",
           "label": "Participante 40",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28439,7 +28439,7 @@
           "id": "P076",
           "label": "Participante 76",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28447,7 +28447,7 @@
           "id": "P001",
           "label": "Participante 1",
           "department": "Recursos Humanos",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28455,7 +28455,7 @@
           "id": "P059",
           "label": "Participante 59",
           "department": "Cumplimiento",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28463,7 +28463,7 @@
           "id": "P065",
           "label": "Participante 65",
           "department": "Cumplimiento",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 1
         }
@@ -28527,12 +28527,12 @@
       ],
       "profile_distribution": [
         {
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "count": 7,
           "color": "#00FF7F"
         },
         {
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "count": 7,
           "color": "#00B4D8"
         }
@@ -28563,7 +28563,7 @@
           "id": "P097",
           "label": "Participante 97",
           "department": "Marketing",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 2
         },
@@ -28571,7 +28571,7 @@
           "id": "P003",
           "label": "Participante 3",
           "department": "Recursos Humanos",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28579,7 +28579,7 @@
           "id": "P046",
           "label": "Participante 46",
           "department": "Banca de Personas",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28587,7 +28587,7 @@
           "id": "P083",
           "label": "Participante 83",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28595,7 +28595,7 @@
           "id": "P045",
           "label": "Participante 45",
           "department": "Banca de Personas",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28603,7 +28603,7 @@
           "id": "P022",
           "label": "Participante 22",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28619,7 +28619,7 @@
           "id": "P082",
           "label": "Participante 82",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28627,7 +28627,7 @@
           "id": "P051",
           "label": "Participante 51",
           "department": "Banca de Personas",
-          "profile": "Desengaged",
+          "profile": "Desvinculados",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28635,7 +28635,7 @@
           "id": "P040",
           "label": "Participante 40",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28643,7 +28643,7 @@
           "id": "P001",
           "label": "Participante 1",
           "department": "Recursos Humanos",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28651,7 +28651,7 @@
           "id": "P091",
           "label": "Participante 91",
           "department": "Crédito",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28659,7 +28659,7 @@
           "id": "P061",
           "label": "Participante 61",
           "department": "Cumplimiento",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 1
         }
@@ -28727,12 +28727,12 @@
       ],
       "profile_distribution": [
         {
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "count": 9,
           "color": "#00FF7F"
         },
         {
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "count": 2,
           "color": "#00B4D8"
         },
@@ -28742,7 +28742,7 @@
           "color": "#F59E0B"
         },
         {
-          "profile": "Desengaged",
+          "profile": "Desvinculados",
           "count": 1,
           "color": "#DC2626"
         }
@@ -28753,7 +28753,7 @@
       "recommendations": [
         "Monitorear evolución de este tema en próximas mediciones",
         "Profundizar análisis cualitativo con focus groups",
-        "✅ Aprovechar alta proporción de True Believers como embajadores"
+        "✅ Aprovechar alta proporción de Embajadores como embajadores"
       ]
     },
     {
@@ -28774,7 +28774,7 @@
           "id": "P025",
           "label": "Participante 25",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28782,7 +28782,7 @@
           "id": "P083",
           "label": "Participante 83",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28790,7 +28790,7 @@
           "id": "P006",
           "label": "Participante 6",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28798,7 +28798,7 @@
           "id": "P085",
           "label": "Participante 85",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28814,7 +28814,7 @@
           "id": "P030",
           "label": "Participante 30",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28822,7 +28822,7 @@
           "id": "P033",
           "label": "Participante 33",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28830,7 +28830,7 @@
           "id": "P097",
           "label": "Participante 97",
           "department": "Marketing",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28838,7 +28838,7 @@
           "id": "P063",
           "label": "Participante 63",
           "department": "Cumplimiento",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 1
         }
@@ -28894,7 +28894,7 @@
       ],
       "profile_distribution": [
         {
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "count": 8,
           "color": "#00FF7F"
         },
@@ -28910,7 +28910,7 @@
       "recommendations": [
         "Monitorear evolución de este tema en próximas mediciones",
         "Profundizar análisis cualitativo con focus groups",
-        "✅ Aprovechar alta proporción de True Believers como embajadores"
+        "✅ Aprovechar alta proporción de Embajadores como embajadores"
       ]
     },
     {
@@ -28931,7 +28931,7 @@
           "id": "P023",
           "label": "Participante 23",
           "department": "General",
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28939,7 +28939,7 @@
           "id": "P066",
           "label": "Participante 66",
           "department": "Tecnología",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28947,7 +28947,7 @@
           "id": "P079",
           "label": "Participante 79",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28955,7 +28955,7 @@
           "id": "P043",
           "label": "Participante 43",
           "department": "Banca de Personas",
-          "profile": "Desengaged",
+          "profile": "Desvinculados",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28963,7 +28963,7 @@
           "id": "P084",
           "label": "Participante 84",
           "department": "Operaciones",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 1
         },
@@ -28971,7 +28971,7 @@
           "id": "P026",
           "label": "Participante 26",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "positive",
           "connection_weight": 1
         },
@@ -28979,7 +28979,7 @@
           "id": "P011",
           "label": "Participante 11",
           "department": "General",
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "sentiment": "neutral",
           "connection_weight": 1
         }
@@ -29031,17 +29031,17 @@
       ],
       "profile_distribution": [
         {
-          "profile": "True Believers",
+          "profile": "Embajadores",
           "count": 5,
           "color": "#00FF7F"
         },
         {
-          "profile": "Engaged Pragmáticos",
+          "profile": "Comprometidos Pragmáticos",
           "count": 1,
           "color": "#00B4D8"
         },
         {
-          "profile": "Desengaged",
+          "profile": "Desvinculados",
           "count": 1,
           "color": "#DC2626"
         }
@@ -29053,7 +29053,7 @@
         "Monitorear evolución de este tema en próximas mediciones",
         "Profundizar análisis cualitativo con focus groups",
         "⚠️ Alta concentración de perfiles desengaged - requiere intervención prioritaria",
-        "✅ Aprovechar alta proporción de True Believers como embajadores"
+        "✅ Aprovechar alta proporción de Embajadores como embajadores"
       ]
     }
   ],
@@ -29106,13 +29106,13 @@
     ],
     "profiles": [
       {
-        "id": "True Believers",
-        "name": "True Believers",
+        "id": "Embajadores",
+        "name": "Embajadores",
         "color": "#00FF7F"
       },
       {
-        "id": "Engaged Pragmáticos",
-        "name": "Engaged Pragmáticos",
+        "id": "Comprometidos Pragmáticos",
+        "name": "Comprometidos Pragmáticos",
         "color": "#00B4D8"
       },
       {
@@ -29121,8 +29121,8 @@
         "color": "#F59E0B"
       },
       {
-        "id": "Desengaged",
-        "name": "Desengaged",
+        "id": "Desvinculados",
+        "name": "Desvinculados",
         "color": "#DC2626"
       }
     ],

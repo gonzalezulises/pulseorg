@@ -26,7 +26,7 @@ interface DimensionBarChartProps {
 
 export function DimensionBarChart({
   dimensions,
-  title = "Score por Dimensión",
+  title = "Puntuación por Indicador",
   showBenchmark = true,
   maxItems = 17,
   sortBy = "score",
@@ -65,7 +65,7 @@ export function DimensionBarChart({
           <p className="font-medium text-sm mb-2">{data.fullName}</p>
           <div className="space-y-1 text-sm">
             <div className="flex justify-between gap-4">
-              <span className="text-muted-foreground">Score:</span>
+              <span className="text-muted-foreground">Puntuación:</span>
               <span className="font-bold" style={{ color: data.color }}>
                 {data.score.toFixed(2)}/5.00
               </span>
@@ -84,7 +84,7 @@ export function DimensionBarChart({
             </div>
             {showBenchmark && (
               <div className="flex justify-between gap-4 pt-1 border-t">
-                <span className="text-muted-foreground">Gap vs Benchmark:</span>
+                <span className="text-muted-foreground">Brecha vs Ref.:</span>
                 <span className={data.gap >= 0 ? "text-green-600" : "text-red-600"}>
                   {data.gap >= 0 ? "+" : ""}{data.gap.toFixed(1)}pp
                 </span>
@@ -185,7 +185,7 @@ interface DimensionComparisonBarProps {
 export function DimensionComparisonBar({
   currentDimensions,
   previousDimensions,
-  title = "Comparación de Dimensiones",
+  title = "Comparación de Indicadores",
   maxItems = 10,
 }: DimensionComparisonBarProps) {
   // Preparar datos de comparación

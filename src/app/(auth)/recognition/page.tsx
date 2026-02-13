@@ -136,7 +136,7 @@ export default function RecognitionPage() {
             />
             <SummaryCard
               icon={Star}
-              label="Engagement Promedio"
+              label="Compromiso Promedio"
               value={(summary.average_engagement ?? 0).toFixed(2)}
               color="bg-blue-100 text-blue-600"
             />

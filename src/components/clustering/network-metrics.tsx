@@ -68,9 +68,9 @@ function InfluencerCard({
   onClick?: () => void;
 }) {
   const profileColor =
-    influencer.profile === "True Believers"
+    influencer.profile === "Embajadores"
       ? "#1dc47c"
-      : influencer.profile === "Engaged Pragmáticos"
+      : influencer.profile === "Comprometidos Pragmáticos"
       ? "#00B4D8"
       : influencer.profile === "Neutrales"
       ? "#F59E0B"
@@ -116,9 +116,9 @@ function BridgeCard({
   onClick?: () => void;
 }) {
   const profileColor =
-    bridge.profile === "True Believers"
+    bridge.profile === "Embajadores"
       ? "#1dc47c"
-      : bridge.profile === "Engaged Pragmáticos"
+      : bridge.profile === "Comprometidos Pragmáticos"
       ? "#00B4D8"
       : bridge.profile === "Neutrales"
       ? "#F59E0B"

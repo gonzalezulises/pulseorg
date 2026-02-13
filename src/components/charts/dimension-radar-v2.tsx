@@ -32,7 +32,7 @@ interface RadarDataPoint {
 
 export function DimensionRadarV2({
   data,
-  title = "Score por Dimensión (17 dimensiones)",
+  title = "Puntuación por Indicador (17 indicadores)",
   showBenchmark = false,
 }: DimensionRadarV2Props) {
   // Preparar datos para el gráfico radar (top 8 dimensiones para legibilidad)
@@ -55,7 +55,7 @@ export function DimensionRadarV2({
       <CardHeader>
         <CardTitle className="text-base">{title}</CardTitle>
         <p className="text-sm text-muted-foreground">
-          Top 8 dimensiones por score
+          Top 8 indicadores por puntuación
         </p>
       </CardHeader>
       <CardContent>
@@ -75,7 +75,7 @@ export function DimensionRadarV2({
                 tickCount={6}
               />
               <Radar
-                name="Score"
+                name="Puntuación"
                 dataKey="score"
                 stroke="hsl(var(--primary))"
                 fill="hsl(var(--primary))"
@@ -84,7 +84,7 @@ export function DimensionRadarV2({
               />
               {showBenchmark && (
                 <Radar
-                  name="Benchmark"
+                  name="Referencia"
                   dataKey="benchmark"
                   stroke="hsl(var(--muted-foreground))"
                   fill="transparent"
@@ -102,7 +102,7 @@ export function DimensionRadarV2({
                         <p className="font-medium">{data.dimension}</p>
                         <div className="mt-1 space-y-1 text-sm">
                           <p>
-                            Score:{" "}
+                            Puntuación:{" "}
                             <span
                               className="font-semibold"
                               style={{ color: getSegmentColor(data.segment as any) }}

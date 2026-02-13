@@ -95,12 +95,12 @@ COMPANIES = {
 
 # ─── 17 Dimensions ───────────────────────────────────────────────────────────
 DIMENSIONS = [
-    ("innovacion_cambio", "Innovación y Cambio"),
+    ("innovacion_cambio", "Innovación y Gestión del Cambio"),
     ("autonomia", "Autonomía"),
     ("balance_vida_trabajo", "Balance Vida-Trabajo"),
     ("proposito_trabajo", "Propósito del Trabajo"),
-    ("seguridad_fisica", "Seguridad Física"),
-    ("cohesion_equipo", "Cohesión de Equipo"),
+    ("seguridad_fisica", "Seguridad Laboral"),
+    ("cohesion_equipo", "Trabajo en Equipo"),
     ("cuidado_mutuo", "Cuidado Mutuo"),
     ("liderazgo_efectivo", "Liderazgo Efectivo"),
     ("desarrollo_profesional", "Desarrollo Profesional"),
@@ -109,7 +109,7 @@ DIMENSIONS = [
     ("beneficios_exclusivos", "Beneficios Exclusivos"),
     ("comunicacion_interna", "Comunicación Interna"),
     ("reconocimiento", "Reconocimiento"),
-    ("orgullo_institucional", "Orgullo Institucional"),
+    ("orgullo_institucional", "Sentimiento de Pertenencia"),
     ("resultados_logros", "Resultados y Logros"),
     ("confianza_institucional", "Confianza Institucional"),
 ]
@@ -155,10 +155,10 @@ OFFSETS = {
 
 # Engagement profile distributions per company
 ENGAGEMENT_PROFILES = {
-    "novatech": {"True Believers": 35, "Engaged Pragmáticos": 40, "Neutrales": 15, "Desengaged": 10},
-    "meridian": {"True Believers": 20, "Engaged Pragmáticos": 30, "Neutrales": 35, "Desengaged": 15},
-    "atlas":    {"True Believers": 25, "Engaged Pragmáticos": 45, "Neutrales": 20, "Desengaged": 10},
-    "vitacore": {"True Believers": 28, "Engaged Pragmáticos": 38, "Neutrales": 22, "Desengaged": 12},
+    "novatech": {"Embajadores": 35, "Comprometidos Pragmáticos": 40, "Neutrales": 15, "Desvinculados": 10},
+    "meridian": {"Embajadores": 20, "Comprometidos Pragmáticos": 30, "Neutrales": 35, "Desvinculados": 15},
+    "atlas":    {"Embajadores": 25, "Comprometidos Pragmáticos": 45, "Neutrales": 20, "Desvinculados": 10},
+    "vitacore": {"Embajadores": 28, "Comprometidos Pragmáticos": 38, "Neutrales": 22, "Desvinculados": 12},
 }
 
 # Company-specific risk narratives

@@ -82,7 +82,7 @@ export function AreaOfMonthCard({ data }: AreaOfMonthProps) {
         {current.top_improving_dimensions.length > 0 && (
           <div className="mb-6">
             <p className="text-sm font-medium text-muted-foreground mb-2">
-              Dimensiones que mas crecieron:
+              Indicadores que más crecieron:
             </p>
             <div className="space-y-2">
               {current.top_improving_dimensions.map((dim, idx) => (

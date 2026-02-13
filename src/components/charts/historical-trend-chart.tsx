@@ -37,7 +37,7 @@ interface EngagementTrendChartProps {
  */
 export function EngagementTrendChart({
   data,
-  title = "Evolución del Engagement Global",
+  title = "Evolución del Compromiso Global",
   showRespondents = true,
 }: EngagementTrendChartProps) {
   const CustomTooltip = ({ active, payload, label }: any) => {
@@ -48,11 +48,11 @@ export function EngagementTrendChart({
           <p className="font-bold text-sm mb-2">Año {d.year}</p>
           <div className="space-y-1 text-sm">
             <div className="flex justify-between gap-4">
-              <span className="text-muted-foreground">Score:</span>
+              <span className="text-muted-foreground">Puntuación:</span>
               <span className="font-bold text-primary">{d.engagement_score.toFixed(2)}/5.00</span>
             </div>
             <div className="flex justify-between gap-4">
-              <span className="text-muted-foreground">Engagement:</span>
+              <span className="text-muted-foreground">Compromiso:</span>
               <span className="font-bold">{d.engagement_pct.toFixed(1)}%</span>
             </div>
             {showRespondents && (
@@ -93,7 +93,7 @@ export function EngagementTrendChart({
               <Line
                 type="monotone"
                 dataKey="engagement_score"
-                name="Score Engagement"
+                name="Puntuación Compromiso"
                 stroke="#0052CC"
                 strokeWidth={3}
                 dot={{ r: 6, fill: "#0052CC" }}
@@ -121,7 +121,7 @@ export function DimensionTrendChart({
   data,
   dimensions,
   selectedDimensions,
-  title = "Evolución de Dimensiones",
+  title = "Evolución de Indicadores",
 }: DimensionTrendChartProps) {
   const dimensionCodes = selectedDimensions || Object.keys(dimensions).slice(0, 5);
 
@@ -154,7 +154,7 @@ export function DimensionTrendChart({
       <CardHeader>
         <CardTitle className="text-base">{title}</CardTitle>
         <CardDescription>
-          Comparación de {dimensionCodes.length} dimensiones seleccionadas
+          Comparación de {dimensionCodes.length} indicadores seleccionados
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -202,7 +202,7 @@ interface TopBottomTrendChartProps {
 export function TopBottomTrendChart({
   data,
   dimensions,
-  title = "Top 3 vs Bottom 3 Dimensiones",
+  title = "Top 3 vs Bottom 3 Indicadores",
 }: TopBottomTrendChartProps) {
   // Get latest year data to determine top/bottom
   const latestYear = Math.max(...data.map((d) => d.year));
@@ -252,7 +252,7 @@ export function TopBottomTrendChart({
       <CardHeader>
         <CardTitle className="text-base">{title}</CardTitle>
         <CardDescription>
-          Evolución de las dimensiones con mejor y peor desempeño
+          Evolución de los indicadores con mejor y peor desempeño
         </CardDescription>
       </CardHeader>
       <CardContent>

@@ -200,7 +200,7 @@ export function FilterPanel({
 
             {/* Profiles Filter */}
             <div className="space-y-3">
-              <Label className="text-sm font-medium">Perfiles de Engagement</Label>
+              <Label className="text-sm font-medium">Perfiles de Compromiso</Label>
               <div className="flex flex-wrap gap-1">
                 {filterOptions.profiles.map((profile) => (
                   <Badge

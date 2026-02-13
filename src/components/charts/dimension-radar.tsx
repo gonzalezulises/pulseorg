@@ -26,7 +26,7 @@ interface RadarDataPoint {
 
 export function DimensionRadar({
   data,
-  title = "Favorabilidad por Dimensión",
+  title = "Favorabilidad por Indicador",
 }: DimensionRadarProps) {
   // Preparar datos para el gráfico radar
   const radarData: RadarDataPoint[] = data.map((d) => ({

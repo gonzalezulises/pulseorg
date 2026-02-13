@@ -2514,7 +2514,7 @@
         ]
       },
       "orgullo_institucional": {
-        "name": "Orgullo Institucional",
+        "name": "Sentimiento de Pertenencia",
         "data": [
           {
             "year": 2023,
@@ -2543,7 +2543,7 @@
         ]
       },
       "seguridad_fisica": {
-        "name": "Seguridad Física",
+        "name": "Seguridad Laboral",
         "data": [
           {
             "year": 2023,
@@ -2601,7 +2601,7 @@
         ]
       },
       "cohesion_equipo": {
-        "name": "Cohesión de Equipo",
+        "name": "Trabajo en Equipo",
         "data": [
           {
             "year": 2023,
@@ -2804,7 +2804,7 @@
         ]
       },
       "innovacion_cambio": {
-        "name": "Innovación y Cambio",
+        "name": "Innovación y Gestión del Cambio",
         "data": [
           {
             "year": 2024,
@@ -2914,7 +2914,7 @@
     },
     {
       "dimension_code": "orgullo_institucional",
-      "dimension_name": "Orgullo Institucional",
+      "dimension_name": "Sentimiento de Pertenencia",
       "score_2023": 3.88,
       "favorability_2023": 53.3,
       "score_2024": 4.59,
@@ -2926,7 +2926,7 @@
     },
     {
       "dimension_code": "seguridad_fisica",
-      "dimension_name": "Seguridad Física",
+      "dimension_name": "Seguridad Laboral",
       "score_2023": 3.88,
       "favorability_2023": 43.8,
       "score_2024": 4.65,
@@ -2950,7 +2950,7 @@
     },
     {
       "dimension_code": "cohesion_equipo",
-      "dimension_name": "Cohesión de Equipo",
+      "dimension_name": "Trabajo en Equipo",
       "score_2023": 3.79,
       "favorability_2023": 61.9,
       "score_2024": 4.31,
@@ -3034,7 +3034,7 @@
     },
     {
       "dimension_code": "innovacion_cambio",
-      "dimension_name": "Innovación y Cambio",
+      "dimension_name": "Innovación y Gestión del Cambio",
       "score_2024": 4.15,
       "favorability_2024": 60.1,
       "score_2025": 4.13,

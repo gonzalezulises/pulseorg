@@ -223,7 +223,7 @@ export function HighRiskAreasTable({ areas }: HighRiskAreasTableProps) {
             <TableRow>
               <TableHead>Area</TableHead>
               <TableHead className="text-center">Riesgo</TableHead>
-              <TableHead className="text-center">Engagement</TableHead>
+              <TableHead className="text-center">Compromiso</TableHead>
               <TableHead className="text-center">Empleados</TableHead>
               <TableHead>Problemas Clave</TableHead>
             </TableRow>
@@ -277,9 +277,9 @@ export function EngagementRotationCorrelation({
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="text-base">Correlacion Engagement vs Rotacion</CardTitle>
+        <CardTitle className="text-base">Correlación Compromiso vs Rotación</CardTitle>
         <CardDescription>
-          Relacion historica entre niveles de engagement y tasas de rotacion
+          Relación histórica entre niveles de compromiso y tasas de rotación
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -290,11 +290,11 @@ export function EngagementRotationCorrelation({
               <XAxis
                 type="number"
                 dataKey="engagement"
-                name="Engagement"
+                name="Compromiso"
                 domain={[2, 5]}
                 tick={{ fontSize: 12 }}
                 label={{
-                  value: "Score de Engagement",
+                  value: "Puntuación de Compromiso",
                   position: "insideBottom",
                   offset: -10,
                   fontSize: 12,
@@ -320,7 +320,7 @@ export function EngagementRotationCorrelation({
                     return (
                       <div className="rounded-lg border bg-background p-3 shadow-sm">
                         <p className="text-sm font-medium">
-                          Engagement: {data.engagement.toFixed(1)}
+                          Compromiso: {data.engagement.toFixed(1)}
                         </p>
                         <p className="text-sm text-muted-foreground">
                           Rotacion: {data.rotation}%

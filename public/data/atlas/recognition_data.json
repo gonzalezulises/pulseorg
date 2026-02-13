@@ -713,7 +713,7 @@
       "id": "dim_orgullo_institucional_Innovación Digital",
       "type": "dimension",
       "icon": "star",
-      "message": "Innovación Digital alcanzó 5.00 en Orgullo Institucional",
+      "message": "Innovación Digital alcanzó 5.00 en Sentimiento de Pertenencia",
       "area": "Innovación Digital",
       "dimension": "orgullo_institucional",
       "value": 5.0,

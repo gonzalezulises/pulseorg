@@ -31,7 +31,7 @@ interface ProjectionChartProps {
 
 export function ProjectionChart({
   data,
-  title = "Proyeccion de Score General",
+  title = "Proyección de Puntuación General",
 }: ProjectionChartProps) {
   // Combine historical and forecast data for the chart
   const chartData = [
@@ -239,7 +239,7 @@ interface DimensionProjectionsProps {
 
 export function DimensionProjections({
   data,
-  title = "Proyecciones por Dimension",
+  title = "Proyecciones por Indicador",
 }: DimensionProjectionsProps) {
   const getTrendIcon = (trend: string) => {
     switch (trend) {
@@ -260,7 +260,7 @@ export function DimensionProjections({
       <CardHeader>
         <CardTitle className="text-base">{title}</CardTitle>
         <CardDescription>
-          Evolucion esperada de las dimensiones criticas
+          Evolución esperada de los indicadores críticos
         </CardDescription>
       </CardHeader>
       <CardContent>

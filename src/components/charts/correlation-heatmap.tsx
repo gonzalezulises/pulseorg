@@ -30,7 +30,7 @@ export function CorrelationHeatmap({
   matrix,
   dimensions,
   onCellClick,
-  title = "Matriz de Correlación entre Dimensiones",
+  title = "Matriz de Correlación entre Indicadores",
 }: CorrelationHeatmapProps) {
   const [hoveredCell, setHoveredCell] = useState<{ row: number; col: number } | null>(null);
 
@@ -55,7 +55,7 @@ export function CorrelationHeatmap({
           {title}
         </CardTitle>
         <CardDescription>
-          Haz clic en una celda para ver el scatter plot de esas dimensiones
+          Haz clic en una celda para ver el scatter plot de esos indicadores
         </CardDescription>
       </CardHeader>
       <CardContent>

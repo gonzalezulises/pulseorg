@@ -14,7 +14,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.06,
           "favorability_pct": 77.0,
           "gap_vs_global": -0.1
@@ -42,14 +42,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 4.89,
           "favorability_pct": 96.0,
           "gap_vs_global": -0.03
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.6,
           "favorability_pct": 93.0,
           "gap_vs_global": 0.11
@@ -112,7 +112,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.79,
           "favorability_pct": 96.0,
           "gap_vs_global": -0.12
@@ -143,7 +143,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.34,
           "favorability_pct": 85.8,
           "gap_vs_global": 0.18
@@ -171,14 +171,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 4.99,
           "favorability_pct": 99.2,
           "gap_vs_global": 0.07
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.36,
           "favorability_pct": 84.6,
           "gap_vs_global": -0.13
@@ -241,7 +241,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.85,
           "favorability_pct": 95.8,
           "gap_vs_global": -0.06
@@ -272,7 +272,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.1,
           "favorability_pct": 76.3,
           "gap_vs_global": -0.06
@@ -300,14 +300,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 4.96,
           "favorability_pct": 100,
           "gap_vs_global": 0.04
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.47,
           "favorability_pct": 84.2,
           "gap_vs_global": -0.02
@@ -370,7 +370,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.77,
           "favorability_pct": 96.4,
           "gap_vs_global": -0.14
@@ -401,7 +401,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.14,
           "favorability_pct": 75.8,
           "gap_vs_global": -0.02
@@ -429,14 +429,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 5.0,
           "favorability_pct": 98.2,
           "gap_vs_global": 0.08
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.47,
           "favorability_pct": 83.8,
           "gap_vs_global": -0.02
@@ -499,7 +499,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.81,
           "favorability_pct": 97.0,
           "gap_vs_global": -0.1
@@ -530,7 +530,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.11,
           "favorability_pct": 76.3,
           "gap_vs_global": -0.05
@@ -558,14 +558,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 5.0,
           "favorability_pct": 100,
           "gap_vs_global": 0.08
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.63,
           "favorability_pct": 91.8,
           "gap_vs_global": 0.14
@@ -628,7 +628,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.74,
           "favorability_pct": 90.8,
           "gap_vs_global": -0.17
@@ -659,7 +659,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.18,
           "favorability_pct": 79.4,
           "gap_vs_global": 0.02
@@ -687,14 +687,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 4.74,
           "favorability_pct": 93.5,
           "gap_vs_global": -0.18
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.41,
           "favorability_pct": 83.1,
           "gap_vs_global": -0.08
@@ -757,7 +757,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 5.0,
           "favorability_pct": 100,
           "gap_vs_global": 0.09
@@ -788,7 +788,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.14,
           "favorability_pct": 80.1,
           "gap_vs_global": -0.02
@@ -816,14 +816,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 4.93,
           "favorability_pct": 99.0,
           "gap_vs_global": 0.01
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.6,
           "favorability_pct": 90.1,
           "gap_vs_global": 0.11
@@ -886,7 +886,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 5.0,
           "favorability_pct": 100,
           "gap_vs_global": 0.09
@@ -917,7 +917,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.2,
           "favorability_pct": 77.2,
           "gap_vs_global": 0.04
@@ -945,14 +945,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 5.0,
           "favorability_pct": 97.2,
           "gap_vs_global": 0.08
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.35,
           "favorability_pct": 86.7,
           "gap_vs_global": -0.14
@@ -1015,7 +1015,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.88,
           "favorability_pct": 98.8,
           "gap_vs_global": -0.03
@@ -1046,7 +1046,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.04,
           "favorability_pct": 77.6,
           "gap_vs_global": -0.12
@@ -1074,14 +1074,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 5.0,
           "favorability_pct": 99.5,
           "gap_vs_global": 0.08
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.52,
           "favorability_pct": 86.8,
           "gap_vs_global": 0.03
@@ -1144,7 +1144,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.76,
           "favorability_pct": 95.2,
           "gap_vs_global": -0.15
@@ -1175,7 +1175,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.14,
           "favorability_pct": 76.1,
           "gap_vs_global": -0.02
@@ -1203,14 +1203,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 4.84,
           "favorability_pct": 96.9,
           "gap_vs_global": -0.08
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.41,
           "favorability_pct": 86.6,
           "gap_vs_global": -0.08
@@ -1273,7 +1273,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.97,
           "favorability_pct": 100,
           "gap_vs_global": 0.06
@@ -1306,7 +1306,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.18,
           "favorability_pct": 82.2,
           "gap_vs_global": 0.02
@@ -1334,14 +1334,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 4.93,
           "favorability_pct": 98.2,
           "gap_vs_global": 0.01
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.55,
           "favorability_pct": 91.0,
           "gap_vs_global": 0.06
@@ -1404,7 +1404,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.98,
           "favorability_pct": 100,
           "gap_vs_global": 0.07
@@ -1435,7 +1435,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.08,
           "favorability_pct": 76.3,
           "gap_vs_global": -0.08
@@ -1463,14 +1463,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 4.92,
           "favorability_pct": 96.2,
           "gap_vs_global": 0.0
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.39,
           "favorability_pct": 85.7,
           "gap_vs_global": -0.1
@@ -1533,7 +1533,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 5.0,
           "favorability_pct": 100,
           "gap_vs_global": 0.09
@@ -1564,7 +1564,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.08,
           "favorability_pct": 79.8,
           "gap_vs_global": -0.08
@@ -1592,14 +1592,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 5.0,
           "favorability_pct": 100,
           "gap_vs_global": 0.08
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.52,
           "favorability_pct": 85.8,
           "gap_vs_global": 0.03
@@ -1662,7 +1662,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 5.0,
           "favorability_pct": 99.5,
           "gap_vs_global": 0.09
@@ -1693,7 +1693,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.17,
           "favorability_pct": 78.9,
           "gap_vs_global": 0.01
@@ -1721,14 +1721,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 5.0,
           "favorability_pct": 100,
           "gap_vs_global": 0.08
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.6,
           "favorability_pct": 87.5,
           "gap_vs_global": 0.11
@@ -1791,7 +1791,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.76,
           "favorability_pct": 93.5,
           "gap_vs_global": -0.15
@@ -1822,7 +1822,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.11,
           "favorability_pct": 75.0,
           "gap_vs_global": -0.05
@@ -1850,14 +1850,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 4.77,
           "favorability_pct": 96.8,
           "gap_vs_global": -0.15
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.43,
           "favorability_pct": 88.3,
           "gap_vs_global": -0.06
@@ -1920,7 +1920,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.88,
           "favorability_pct": 94.1,
           "gap_vs_global": -0.03
@@ -1953,7 +1953,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.16,
           "favorability_pct": 79.9,
           "gap_vs_global": 0.0
@@ -1981,14 +1981,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 4.88,
           "favorability_pct": 99.7,
           "gap_vs_global": -0.04
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.42,
           "favorability_pct": 87.3,
           "gap_vs_global": -0.07
@@ -2051,7 +2051,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.89,
           "favorability_pct": 96.3,
           "gap_vs_global": -0.02
@@ -2082,7 +2082,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.21,
           "favorability_pct": 82.8,
           "gap_vs_global": 0.05
@@ -2110,14 +2110,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 4.86,
           "favorability_pct": 99.1,
           "gap_vs_global": -0.06
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.54,
           "favorability_pct": 86.8,
           "gap_vs_global": 0.05
@@ -2180,7 +2180,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.96,
           "favorability_pct": 100,
           "gap_vs_global": 0.05
@@ -2211,7 +2211,7 @@
       "dimensions": [
         {
           "dimension_code": "innovacion_cambio",
-          "dimension_name": "Innovación y Cambio",
+          "dimension_name": "Innovación y Gestión del Cambio",
           "avg_score": 4.09,
           "favorability_pct": 77.5,
           "gap_vs_global": -0.07
@@ -2239,14 +2239,14 @@
         },
         {
           "dimension_code": "seguridad_fisica",
-          "dimension_name": "Seguridad Física",
+          "dimension_name": "Seguridad Laboral",
           "avg_score": 5.0,
           "favorability_pct": 98.4,
           "gap_vs_global": 0.08
         },
         {
           "dimension_code": "cohesion_equipo",
-          "dimension_name": "Cohesión de Equipo",
+          "dimension_name": "Trabajo en Equipo",
           "avg_score": 4.57,
           "favorability_pct": 91.7,
           "gap_vs_global": 0.08
@@ -2309,7 +2309,7 @@
         },
         {
           "dimension_code": "orgullo_institucional",
-          "dimension_name": "Orgullo Institucional",
+          "dimension_name": "Sentimiento de Pertenencia",
           "avg_score": 4.97,
           "favorability_pct": 100,
           "gap_vs_global": 0.06
@@ -2367,12 +2367,12 @@
   ],
   "heatmap": {
     "dimensions": [
-      "Innovación y Cambio",
+      "Innovación y Gestión del Cambio",
       "Balance Vida-Trabajo",
       "Liderazgo Efectivo",
       "Compensación",
       "Desarrollo Profesional",
-      "Cohesión de Equipo"
+      "Trabajo en Equipo"
     ],
     "departments": [
       "Medicina General",
@@ -2389,7 +2389,7 @@
     "cells": [
       {
         "department": "Medicina General",
-        "dimension": "Innovación y Cambio",
+        "dimension": "Innovación y Gestión del Cambio",
         "score": 4.09,
         "segment": "aceptable"
       },
@@ -2419,13 +2419,13 @@
       },
       {
         "department": "Medicina General",
-        "dimension": "Cohesión de Equipo",
+        "dimension": "Trabajo en Equipo",
         "score": 4.67,
         "segment": "fortaleza_excepcional"
       },
       {
         "department": "Enfermería",
-        "dimension": "Innovación y Cambio",
+        "dimension": "Innovación y Gestión del Cambio",
         "score": 3.98,
         "segment": "atencion"
       },
@@ -2455,13 +2455,13 @@
       },
       {
         "department": "Enfermería",
-        "dimension": "Cohesión de Equipo",
+        "dimension": "Trabajo en Equipo",
         "score": 4.81,
         "segment": "fortaleza_excepcional"
       },
       {
         "department": "Farmacia",
-        "dimension": "Innovación y Cambio",
+        "dimension": "Innovación y Gestión del Cambio",
         "score": 4.41,
         "segment": "fortaleza_solida"
       },
@@ -2491,13 +2491,13 @@
       },
       {
         "department": "Farmacia",
-        "dimension": "Cohesión de Equipo",
+        "dimension": "Trabajo en Equipo",
         "score": 4.38,
         "segment": "fortaleza_solida"
       },
       {
         "department": "Laboratorio",
-        "dimension": "Innovación y Cambio",
+        "dimension": "Innovación y Gestión del Cambio",
         "score": 4.13,
         "segment": "aceptable"
       },
@@ -2527,13 +2527,13 @@
       },
       {
         "department": "Laboratorio",
-        "dimension": "Cohesión de Equipo",
+        "dimension": "Trabajo en Equipo",
         "score": 4.38,
         "segment": "fortaleza_solida"
       },
       {
         "department": "Administración",
-        "dimension": "Innovación y Cambio",
+        "dimension": "Innovación y Gestión del Cambio",
         "score": 3.89,
         "segment": "atencion"
       },
@@ -2563,13 +2563,13 @@
       },
       {
         "department": "Administración",
-        "dimension": "Cohesión de Equipo",
+        "dimension": "Trabajo en Equipo",
         "score": 4.93,
         "segment": "fortaleza_excepcional"
       },
       {
         "department": "TI Salud",
-        "dimension": "Innovación y Cambio",
+        "dimension": "Innovación y Gestión del Cambio",
         "score": 4.57,
         "segment": "fortaleza_excepcional"
       },
@@ -2599,13 +2599,13 @@
       },
       {
         "department": "TI Salud",
-        "dimension": "Cohesión de Equipo",
+        "dimension": "Trabajo en Equipo",
         "score": 4.76,
         "segment": "fortaleza_excepcional"
       },
       {
         "department": "Recursos Humanos",
-        "dimension": "Innovación y Cambio",
+        "dimension": "Innovación y Gestión del Cambio",
         "score": 4.53,
         "segment": "fortaleza_excepcional"
       },
@@ -2635,13 +2635,13 @@
       },
       {
         "department": "Recursos Humanos",
-        "dimension": "Cohesión de Equipo",
+        "dimension": "Trabajo en Equipo",
         "score": 4.32,
         "segment": "fortaleza_solida"
       },
       {
         "department": "Calidad",
-        "dimension": "Innovación y Cambio",
+        "dimension": "Innovación y Gestión del Cambio",
         "score": 4.49,
         "segment": "fortaleza_solida"
       },
@@ -2671,13 +2671,13 @@
       },
       {
         "department": "Calidad",
-        "dimension": "Cohesión de Equipo",
+        "dimension": "Trabajo en Equipo",
         "score": 4.47,
         "segment": "fortaleza_solida"
       },
       {
         "department": "Urgencias",
-        "dimension": "Innovación y Cambio",
+        "dimension": "Innovación y Gestión del Cambio",
         "score": 4.11,
         "segment": "aceptable"
       },
@@ -2707,13 +2707,13 @@
       },
       {
         "department": "Urgencias",
-        "dimension": "Cohesión de Equipo",
+        "dimension": "Trabajo en Equipo",
         "score": 4.53,
         "segment": "fortaleza_excepcional"
       },
       {
         "department": "Investigación",
-        "dimension": "Innovación y Cambio",
+        "dimension": "Innovación y Gestión del Cambio",
         "score": 4.33,
         "segment": "fortaleza_solida"
       },
@@ -2743,7 +2743,7 @@
       },
       {
         "department": "Investigación",
-        "dimension": "Cohesión de Equipo",
+        "dimension": "Trabajo en Equipo",
         "score": 4.18,
         "segment": "aceptable"
       }

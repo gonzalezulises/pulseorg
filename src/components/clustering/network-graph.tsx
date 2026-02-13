@@ -269,11 +269,11 @@ export function NetworkGraph({
             <div className="flex flex-wrap gap-2 text-xs">
               <div className="flex items-center gap-1">
                 <div className="w-3 h-3 rounded-full bg-[#1dc47c]" />
-                <span>True Believers</span>
+                <span>Embajadores</span>
               </div>
               <div className="flex items-center gap-1">
                 <div className="w-3 h-3 rounded-full bg-[#00B4D8]" />
-                <span>Engaged</span>
+                <span>Comprometidos</span>
               </div>
               <div className="flex items-center gap-1">
                 <div className="w-3 h-3 rounded-full bg-[#F59E0B]" />
@@ -281,7 +281,7 @@ export function NetworkGraph({
               </div>
               <div className="flex items-center gap-1">
                 <div className="w-3 h-3 rounded-full bg-[#DC2626]" />
-                <span>Desengaged</span>
+                <span>Desvinculados</span>
               </div>
               <div className="flex items-center gap-1">
                 <div className="w-4 h-4 rounded border-2 border-gray-400 flex items-center justify-center text-[8px] font-bold">

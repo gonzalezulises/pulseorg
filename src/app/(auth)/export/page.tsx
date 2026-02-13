@@ -31,16 +31,16 @@ const formatConfig: Record<
 const scopeConfig: Record<ExportScope, { label: string; description: string }> =
   {
     dimensions: {
-      label: "Dimensiones",
-      description: "Estadísticas de las 17 dimensiones",
+      label: "Indicadores",
+      description: "Estadísticas de los 17 indicadores",
     },
     engagement: {
-      label: "Engagement",
-      description: "Datos de engagement y perfiles",
+      label: "Compromiso",
+      description: "Datos de compromiso y perfiles",
     },
     all: {
       label: "Todos los datos",
-      description: "Dimensiones y engagement completos",
+      description: "Indicadores y compromiso completos",
     },
   };
 
@@ -137,14 +137,14 @@ export default function ExportPage() {
               engagement_score: eng.engagement_score,
               engagement_pct: eng.engagement_pct,
               respondent_count: eng.respondent_count,
-              true_believers_n: eng.profiles["True Believers"]?.n || 0,
-              true_believers_pct: eng.profiles["True Believers"]?.pct || 0,
-              engaged_pragmaticos_n: eng.profiles["Engaged Pragmáticos"]?.n || 0,
-              engaged_pragmaticos_pct: eng.profiles["Engaged Pragmáticos"]?.pct || 0,
+              embajadores_n: eng.profiles["Embajadores"]?.n || 0,
+              embajadores_pct: eng.profiles["Embajadores"]?.pct || 0,
+              comprometidos_pragmaticos_n: eng.profiles["Comprometidos Pragmáticos"]?.n || 0,
+              comprometidos_pragmaticos_pct: eng.profiles["Comprometidos Pragmáticos"]?.pct || 0,
               neutrales_n: eng.profiles["Neutrales"]?.n || 0,
               neutrales_pct: eng.profiles["Neutrales"]?.pct || 0,
-              desengaged_n: eng.profiles["Desengaged"]?.n || 0,
-              desengaged_pct: eng.profiles["Desengaged"]?.pct || 0,
+              desvinculados_n: eng.profiles["Desvinculados"]?.n || 0,
+              desvinculados_pct: eng.profiles["Desvinculados"]?.pct || 0,
             });
           }
         });
@@ -266,7 +266,7 @@ export default function ExportPage() {
               {/* Dimensión (solo si scope incluye dimensiones) */}
               {(scope === "dimensions" || scope === "all") && (
                 <div className="space-y-2">
-                  <Label>Dimensión</Label>
+                  <Label>Indicador</Label>
                   <Select
                     value={dimension}
                     onValueChange={(value) =>
@@ -277,7 +277,7 @@ export default function ExportPage() {
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="all">Todas las dimensiones (17)</SelectItem>
+                      <SelectItem value="all">Todos los indicadores (17)</SelectItem>
                       {Object.entries(DIMENSION_LABELS_V2).map(([key, label]) => (
                         <SelectItem key={key} value={key}>
                           {label}
@@ -346,7 +346,7 @@ export default function ExportPage() {
                   </li>
                   {(scope === "dimensions" || scope === "all") && (
                     <li className="flex justify-between">
-                      <span>Dimensión:</span>
+                      <span>Indicador:</span>
                       <span className="font-medium text-foreground">
                         {dimension === "all"
                           ? "Todas (17)"
@@ -358,11 +358,11 @@ export default function ExportPage() {
               </div>
 
               <div className="p-4 border rounded-lg space-y-2">
-                <h4 className="font-medium">Modelo V2 - 17 Dimensiones</h4>
+                <h4 className="font-medium">Modelo V2 - 17 Indicadores</h4>
                 <ul className="text-sm text-muted-foreground space-y-1 list-disc list-inside">
                   <li>Datos procesados del informe ejecutivo</li>
-                  <li>17 dimensiones del clima organizacional</li>
-                  <li>4 perfiles de engagement</li>
+                  <li>17 indicadores del clima organizacional</li>
+                  <li>4 perfiles de compromiso</li>
                   <li>Datos históricos 2023-2026</li>
                 </ul>
               </div>

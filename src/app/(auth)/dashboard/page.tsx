@@ -44,8 +44,8 @@ export default function DashboardPage() {
   return (
     <>
       <Header
-        title="Dashboard"
-        description="Clima Organizacional - Modelo 17 Dimensiones"
+        title="Panel General"
+        description="Clima Organizacional - 17 Indicadores"
         selectedYear={selectedYear}
         onYearChange={setSelectedYear}
       />
@@ -72,14 +72,14 @@ export default function DashboardPage() {
             ) : (
               <>
                 <KPICard
-                  title="Engagement"
+                  title="Compromiso"
                   value={`${kpis?.engagementPct.toFixed(0) || 0}%`}
                   icon={Heart}
                   trend={kpis?.yearOverYearChange}
                   trendLabel="vs año anterior"
                 />
                 <KPICard
-                  title="Score Global"
+                  title="Puntuación Global"
                   value={kpis?.engagementScore.toFixed(2) || "0.00"}
                   icon={Target}
                   description="Promedio /5.00"
@@ -91,19 +91,19 @@ export default function DashboardPage() {
                   description={`Año ${selectedYear}`}
                 />
                 <KPICard
-                  title="Dimensiones"
+                  title="Indicadores"
                   value={kpis?.dimensionsAnalyzed || 0}
                   icon={Layers}
-                  description="Modelo V2"
+                  description="analizados"
                 />
                 <KPICard
                   title="Requieren Atención"
                   value={kpis?.criticalDimensions || 0}
                   icon={AlertTriangle}
-                  description="Dimensiones críticas"
+                  description="Indicadores críticos"
                 />
                 <KPICard
-                  title="Top Dimensión"
+                  title="Mejor Indicador"
                   value={kpis?.topDimension?.avg_score.toFixed(2) || "-"}
                   icon={TrendingUp}
                   description={kpis?.topDimension?.dimension_name || "-"}
@@ -131,7 +131,7 @@ export default function DashboardPage() {
         {/* Grid de las 17 dimensiones */}
         <section>
           <h2 className="text-lg font-semibold mb-4">
-            17 Dimensiones del Clima Organizacional
+            17 Indicadores del Clima Organizacional
           </h2>
           {dimensionsLoading ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">

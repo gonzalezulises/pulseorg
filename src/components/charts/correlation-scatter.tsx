@@ -448,7 +448,7 @@ export function CorrelationScatterPlot({
     return (
       <Card>
         <CardContent className="h-[400px] flex items-center justify-center text-muted-foreground">
-          Selecciona dos dimensiones para ver el scatter plot
+          Selecciona dos indicadores para ver el scatter plot
         </CardContent>
       </Card>
     );
@@ -759,7 +759,7 @@ export function InteractiveScatterPlot({
               Análisis de Correlación
             </CardTitle>
             <CardDescription>
-              Selecciona dos dimensiones para explorar su correlación con análisis estadístico completo
+              Selecciona dos indicadores para explorar su correlación con análisis estadístico completo
             </CardDescription>
           </div>
           {displayStats && (
@@ -793,11 +793,11 @@ export function InteractiveScatterPlot({
         <div className="grid gap-4 sm:grid-cols-2 mb-6">
           <div className="space-y-1.5">
             <label className="text-sm font-medium text-muted-foreground">
-              Dimensión X (horizontal)
+              Indicador X (horizontal)
             </label>
             <Select value={dim1} onValueChange={setDim1}>
               <SelectTrigger>
-                <SelectValue placeholder="Selecciona dimensión" />
+                <SelectValue placeholder="Selecciona indicador" />
               </SelectTrigger>
               <SelectContent>
                 {dimensions.map((d) => (
@@ -811,11 +811,11 @@ export function InteractiveScatterPlot({
 
           <div className="space-y-1.5">
             <label className="text-sm font-medium text-muted-foreground">
-              Dimensión Y (vertical)
+              Indicador Y (vertical)
             </label>
             <Select value={dim2} onValueChange={setDim2}>
               <SelectTrigger>
-                <SelectValue placeholder="Selecciona dimensión" />
+                <SelectValue placeholder="Selecciona indicador" />
               </SelectTrigger>
               <SelectContent>
                 {dimensions.map((d) => (
@@ -981,7 +981,7 @@ export function InteractiveScatterPlot({
           </>
         ) : (
           <div className="h-[350px] flex items-center justify-center text-muted-foreground">
-            Selecciona dos dimensiones diferentes
+            Selecciona dos indicadores diferentes
           </div>
         )}
       </CardContent>
