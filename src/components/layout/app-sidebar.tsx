@@ -17,6 +17,7 @@ import {
   Trophy,
   Waypoints,
   BookOpen,
+  ArrowLeft,
 } from "lucide-react";
 import {
   Sidebar,
@@ -168,6 +169,13 @@ export function AppSidebar() {
       </SidebarContent>
 
       <SidebarFooter className="border-t border-sidebar-border px-4 py-4">
+        <Link
+          href="/"
+          className="flex items-center gap-2 text-xs text-sidebar-foreground/50 hover:text-sidebar-foreground transition-colors mb-2"
+        >
+          <ArrowLeft className="h-3 w-3" />
+          Volver a la introducción
+        </Link>
         <p className="text-xs text-sidebar-foreground/50">
           © 2026 PulseOrg ·{" "}
           <a href="https://www.rizo.ma" target="_blank" rel="noopener noreferrer" className="underline hover:text-sidebar-foreground">
