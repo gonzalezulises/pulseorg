@@ -54,14 +54,16 @@ export default function Home() {
             <div className="max-w-4xl mx-auto w-full flex-1 flex flex-col">
               {/* Logo + Badge */}
               <div className="text-center mb-10 space-y-4">
-                <Image
-                  src="/images/brand/logo-plenos-color.png"
-                  alt="Rizoma"
-                  width={160}
-                  height={77}
-                  className="mx-auto"
-                  priority
-                />
+                <a href="https://www.rizo.ma" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src="/images/brand/logo-plenos-color.png"
+                    alt="Rizoma"
+                    width={160}
+                    height={77}
+                    className="mx-auto"
+                    priority
+                  />
+                </a>
                 <Badge variant="secondary" className="text-sm">
                   MRI · Diagnóstico de Clima Organizacional
                 </Badge>
@@ -82,7 +84,7 @@ export default function Home() {
               {/* Bloque 2: Por qué te importa */}
               <div className="mb-14">
                 <h2 className="text-xl md:text-2xl font-semibold text-center mb-8">
-                  Por qué necesitas medir el clima
+                  ¿Por qué necesitas medir el clima?
                 </h2>
                 <div className="grid gap-4 md:grid-cols-3">
                   {[
@@ -116,7 +118,7 @@ export default function Home() {
               {/* Bloque 3: Qué podrás hacer */}
               <div className="mb-14">
                 <h2 className="text-xl md:text-2xl font-semibold text-center mb-8">
-                  Qué podrás hacer con los resultados
+                  ¿Qué podrás hacer con los resultados?
                 </h2>
                 <div className="grid gap-4 md:grid-cols-2">
                   {[
@@ -306,13 +308,13 @@ export default function Home() {
 const STEPS = [
   {
     icon: Building2,
-    title: "Configura tu empresa",
+    title: "Configuramos tu empresa",
     description:
-      "Define departamentos, demografía y estructura organizacional. Toma 5 minutos.",
+      "Ajustamos departamentos, demografía y estructura organizacional junto contigo.",
   },
   {
     icon: Send,
-    title: "Lanza la encuesta",
+    title: "Lanzamos la encuesta",
     description:
       "Cada colaborador recibe un enlace único y anónimo. Responde en menos de 10 minutos.",
   },
