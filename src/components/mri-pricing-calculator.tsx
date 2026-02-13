@@ -56,16 +56,6 @@ const ADDON_ROI_BADGES: Record<string, string> = {
   "addon-transformacion": "\u2197 +20% impacto en productividad",
 };
 
-const ROI_BOOSTS = {
-  rotation: { "addon-ona": 0.15, "addon-predictivo": 0.25 } as Record<string, number>,
-  absenteeism: { "addon-sentimiento": 0.1 } as Record<string, number>,
-  productivity: { "addon-taller": 0.1, "addon-transformacion": 0.2 } as Record<string, number>,
-};
-
-// Fixed assumptions for ROI (industry averages, LATAM)
-const ROTATION_PCT = 0.18;
-const AVG_SALARY = 1200;
-
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
 function useAnimatedValue(target: number, duration = 600): number {
@@ -104,11 +94,6 @@ function fmt(v: number): string {
   return `$${v.toLocaleString("en-US")}`;
 }
 
-function tierMidpoint(tier: BaseTier): number {
-  if (tier.maxSize === 999) return 750;
-  return Math.round((tier.minSize + tier.maxSize) / 2 / 10) * 10;
-}
-
 function AnimatedPrice({ value, className }: { value: number; className?: string }) {
   const animated = useAnimatedValue(value);
   return (
@@ -145,47 +130,6 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
     [selectedAddons],
   );
   const inversionMRI = selectedTier.price + addonsTotal;
-
-  // ── ROI (fixed assumptions, updates with tier + addons) ──
-  const roi = useMemo(() => {
-    const headcount = tierMidpoint(selectedTier);
-    const salAnual = AVG_SALARY * 12;
-    const payroll = headcount * salAnual;
-
-    // Rotation savings
-    const salidasAnuales = headcount * ROTATION_PCT;
-    const costoPorSalida = AVG_SALARY * 6;
-    let redRotation = 0.2;
-    for (const [id, boost] of Object.entries(ROI_BOOSTS.rotation)) {
-      if (selectedAddons.has(id)) redRotation += boost;
-    }
-    const ahorroRotacion = salidasAnuales * costoPorSalida * redRotation;
-
-    // Absenteeism savings
-    let redAusentismo = 0.15;
-    for (const [id, boost] of Object.entries(ROI_BOOSTS.absenteeism)) {
-      if (selectedAddons.has(id)) redAusentismo += boost;
-    }
-    const ahorroAusentismo = headcount * 8 * (AVG_SALARY / 22) * redAusentismo;
-
-    // Productivity gains
-    let incProductividad = 0.05;
-    for (const [id, boost] of Object.entries(ROI_BOOSTS.productivity)) {
-      if (selectedAddons.has(id)) incProductividad += boost;
-    }
-    const gananciaProductividad = payroll * incProductividad;
-
-    const retornoBruto = ahorroRotacion + ahorroAusentismo + gananciaProductividad;
-    const costoImpl = payroll * 0.043;
-    const inversionTotal = inversionMRI + costoImpl;
-    const retornoNeto = retornoBruto - inversionTotal;
-    const roiMultiple = inversionTotal > 0 ? retornoBruto / inversionTotal : 0;
-
-    return { retornoBruto, retornoNeto, roiMultiple };
-  }, [selectedTier, selectedAddons, inversionMRI]);
-
-  const roiColor =
-    roi.roiMultiple >= 1.5 ? "text-primary" : roi.roiMultiple >= 1 ? "text-yellow-500" : "text-muted-foreground";
 
   return (
     <div className="w-full">
@@ -294,22 +238,69 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
             )}
           </div>
 
-          {/* ROI card */}
-          <div className="rounded-2xl border p-6 space-y-4">
-            <div className="flex items-baseline justify-between">
-              <span className="text-sm font-medium text-muted-foreground">ROI proyectado</span>
-              <span className={`text-3xl font-bold ${roiColor}`} style={{ fontVariantNumeric: "tabular-nums" }}>
-                {roi.roiMultiple.toFixed(1)}x
-              </span>
-            </div>
-            <div className="flex items-baseline justify-between">
-              <span className="text-sm text-muted-foreground">Retorno neto estimado</span>
-              <AnimatedPrice value={roi.retornoNeto} className="text-lg font-bold text-primary" />
-            </div>
-            <p className="text-[11px] text-muted-foreground leading-relaxed pt-2 border-t">
-              Basado en promedios de industria (SHRM, Gallup, OIT). Incluye costos de implementación.
-              Resultados reales dependen de las intervenciones ejecutadas.
-            </p>
+          {/* Benefits card */}
+          <div className="rounded-2xl border p-6">
+            <p className="text-sm font-semibold mb-4">Qué incluye tu diagnóstico</p>
+            <ul className="space-y-2.5">
+              <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 shrink-0" />
+                <span>Diagnóstico cuantificado de 17 indicadores de clima</span>
+              </li>
+              <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 shrink-0" />
+                <span>Entrevistas con líderes clave de tu organización</span>
+              </li>
+              <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 shrink-0" />
+                <span>Informe ejecutivo con fortalezas, alertas y plan de acción</span>
+              </li>
+              <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 shrink-0" />
+                <span>Sesión de presentación con equipo directivo (60 min)</span>
+              </li>
+              {selectedAddons.has("addon-ona") && (
+                <li className="flex items-start gap-2 text-sm text-primary animate-in fade-in slide-in-from-top-1 duration-200">
+                  <CheckCircle2 className="h-4 w-4 mt-0.5 shrink-0" />
+                  <span>Mapa de redes informales de influencia y colaboración</span>
+                </li>
+              )}
+              {selectedAddons.has("addon-predictivo") && (
+                <li className="flex items-start gap-2 text-sm text-primary animate-in fade-in slide-in-from-top-1 duration-200">
+                  <CheckCircle2 className="h-4 w-4 mt-0.5 shrink-0" />
+                  <span>Score de riesgo de rotación por segmento</span>
+                </li>
+              )}
+              {selectedAddons.has("addon-comparativa") && (
+                <li className="flex items-start gap-2 text-sm text-primary animate-in fade-in slide-in-from-top-1 duration-200">
+                  <CheckCircle2 className="h-4 w-4 mt-0.5 shrink-0" />
+                  <span>Posicionamiento de tus indicadores vs tu sector</span>
+                </li>
+              )}
+              {selectedAddons.has("addon-taller") && (
+                <li className="flex items-start gap-2 text-sm text-primary animate-in fade-in slide-in-from-top-1 duration-200">
+                  <CheckCircle2 className="h-4 w-4 mt-0.5 shrink-0" />
+                  <span>Taller facilitado de medio día con C-suite</span>
+                </li>
+              )}
+              {selectedAddons.has("addon-sentimiento") && (
+                <li className="flex items-start gap-2 text-sm text-primary animate-in fade-in slide-in-from-top-1 duration-200">
+                  <CheckCircle2 className="h-4 w-4 mt-0.5 shrink-0" />
+                  <span>Análisis de sentimiento en comunicaciones internas</span>
+                </li>
+              )}
+              {selectedAddons.has("addon-transformacion") && (
+                <li className="flex items-start gap-2 text-sm text-primary animate-in fade-in slide-in-from-top-1 duration-200">
+                  <CheckCircle2 className="h-4 w-4 mt-0.5 shrink-0" />
+                  <span>Hoja de ruta de transformación a 6 meses</span>
+                </li>
+              )}
+              {selectedAddons.has("addon-multi") && (
+                <li className="flex items-start gap-2 text-sm text-primary animate-in fade-in slide-in-from-top-1 duration-200">
+                  <CheckCircle2 className="h-4 w-4 mt-0.5 shrink-0" />
+                  <span>Extensión a múltiples sedes o países</span>
+                </li>
+              )}
+            </ul>
           </div>
 
           {/* CTA */}
