@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Header } from "@/components/layout/header";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -90,6 +91,17 @@ export default function InstrumentoPage() {
       />
 
       <div className="flex-1 space-y-6 p-6">
+        {/* Logo Rizoma */}
+        <div className="flex justify-center">
+          <Image
+            src="/images/brand/logo-plenos-color.png"
+            alt="Rizoma"
+            width={180}
+            height={87}
+            priority
+          />
+        </div>
+
         {/* Section 1: Capacidades Principales */}
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           <Card>

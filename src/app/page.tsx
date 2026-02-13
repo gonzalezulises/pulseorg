@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -51,8 +52,16 @@ export default function Home() {
         >
           <div className="min-h-full flex flex-col px-6 py-12 md:py-16">
             <div className="max-w-4xl mx-auto w-full flex-1 flex flex-col">
-              {/* Badge */}
-              <div className="text-center mb-10">
+              {/* Logo + Badge */}
+              <div className="text-center mb-10 space-y-4">
+                <Image
+                  src="/images/brand/logo-plenos-color.png"
+                  alt="Rizoma"
+                  width={160}
+                  height={77}
+                  className="mx-auto"
+                  priority
+                />
                 <Badge variant="secondary" className="text-sm">
                   PulseOrg · Diagnóstico de Clima Organizacional
                 </Badge>
