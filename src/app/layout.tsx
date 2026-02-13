@@ -14,9 +14,9 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  title: "PulseOrg - Plataforma de Clima Organizacional",
+  title: "MRI · Diagnóstico de Clima Organizacional",
   description:
-    "Plataforma analítica para visualización y análisis de encuestas de clima organizacional",
+    "Diagnóstico integral de clima organizacional con 17 indicadores. Analítica avanzada, segmentación y análisis predictivo.",
   authors: [{ name: "Ulises González" }],
 };
 

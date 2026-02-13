@@ -126,7 +126,7 @@ export function AppSidebar() {
       <SidebarHeader className="border-b border-sidebar-border px-4 py-4">
         <div className="flex flex-col gap-2">
           <Link href="/dashboard" className="text-sm font-bold text-sidebar-foreground tracking-tight">
-            PulseOrg
+            MRI
           </Link>
           <CompanySelector />
         </div>
@@ -177,7 +177,7 @@ export function AppSidebar() {
           Volver a la introducción
         </Link>
         <p className="text-xs text-sidebar-foreground/50">
-          © 2026 PulseOrg ·{" "}
+          © 2026 MRI · Rizoma ·{" "}
           <a href="https://www.rizo.ma" target="_blank" rel="noopener noreferrer" className="underline hover:text-sidebar-foreground">
             rizo.ma
           </a>

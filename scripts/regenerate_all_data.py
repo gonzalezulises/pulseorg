@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Regenerate all 36 company JSON data files for PulseOrg.
+Regenerate all 36 company JSON data files for MRI Organizacional.
 
 Reads 9 template JSONs from clima-dashboard and generates 4 differentiated
 company variants with narrative offsets, populated segmentation dimensions,

@@ -63,7 +63,7 @@ export default function Home() {
                   priority
                 />
                 <Badge variant="secondary" className="text-sm">
-                  PulseOrg · Diagnóstico de Clima Organizacional
+                  MRI · Diagnóstico de Clima Organizacional
                 </Badge>
               </div>
 
@@ -73,7 +73,7 @@ export default function Home() {
                   La radiografía completa de tu clima organizacional
                 </h1>
                 <p className="mt-5 text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-                  PulseOrg mide 17 indicadores clave de clima a través de una encuesta
+                  El MRI mide 17 indicadores clave de clima a través de una encuesta
                   breve y anónima. Transforma las respuestas de tu equipo en un
                   diagnóstico visual, segmentado y accionable — en tiempo real.
                 </p>
@@ -288,7 +288,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="px-6 py-6 text-center relative z-10">
         <p className="text-xs text-muted-foreground">
-          © 2026 PulseOrg ·{" "}
+          © 2026 MRI · Rizoma ·{" "}
           <a
             href="https://www.rizo.ma"
             target="_blank"

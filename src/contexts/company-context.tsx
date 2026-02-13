@@ -18,7 +18,7 @@ interface CompanyContextType {
 
 const CompanyContext = createContext<CompanyContextType | undefined>(undefined);
 
-const STORAGE_KEY = "pulseorg-company";
+const STORAGE_KEY = "mri-company";
 
 function applyTheme(theme: CompanyTheme) {
   const root = document.documentElement;

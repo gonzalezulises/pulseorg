@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate variant company data for PulseOrg demo.
+Generate variant company data for MRI Organizacional demo.
 Reads the 9 original JSON files and creates modified copies for each company.
 """
 
