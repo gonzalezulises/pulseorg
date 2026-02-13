@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import MRIPricingCalculator from "@/components/mri-pricing-calculator";
 import {
   Target,
   TrendingUp,
@@ -20,17 +21,25 @@ import {
   CheckCircle2,
 } from "lucide-react";
 
-export default function Home() {
-  const [slide, setSlide] = useState<0 | 1>(0);
+type Slide = 0 | 1 | 2;
 
-  const goNext = useCallback(() => setSlide(1), []);
-  const goPrev = useCallback(() => setSlide(0), []);
+export default function Home() {
+  const [slide, setSlide] = useState<Slide>(0);
+
+  const goNext = useCallback(
+    () => setSlide((s) => Math.min(s + 1, 2) as Slide),
+    [],
+  );
+  const goPrev = useCallback(
+    () => setSlide((s) => Math.max(s - 1, 0) as Slide),
+    [],
+  );
 
   useEffect(() => {
     function handleKeyDown(e: KeyboardEvent) {
-      if (e.key === "ArrowRight" && slide === 0) goNext();
-      if (e.key === "ArrowLeft" && slide === 1) goPrev();
-      if (e.key === "Enter" && slide === 1) {
+      if (e.key === "ArrowRight" && slide < 2) goNext();
+      if (e.key === "ArrowLeft" && slide > 0) goPrev();
+      if (e.key === "Enter" && slide === 2) {
         window.location.href = "/dashboard";
       }
     }
@@ -41,7 +50,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground overflow-hidden">
       <div className="flex-1 relative">
-        {/* Slide 1 */}
+        {/* Slide 0 — Qué es */}
         <div
           className="absolute inset-0 transition-all duration-300 ease-in-out overflow-y-auto"
           style={{
@@ -181,12 +190,17 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Slide 2 */}
+        {/* Slide 1 — Así de simple funciona */}
         <div
           className="absolute inset-0 transition-all duration-300 ease-in-out overflow-y-auto"
           style={{
             opacity: slide === 1 ? 1 : 0,
-            transform: slide === 1 ? "translateX(0)" : "translateX(100%)",
+            transform:
+              slide === 1
+                ? "translateX(0)"
+                : slide === 0
+                  ? "translateX(100%)"
+                  : "translateX(-100%)",
             pointerEvents: slide === 1 ? "auto" : "none",
           }}
         >
@@ -269,7 +283,11 @@ export default function Home() {
               {/* Botones + dots */}
               <div className="mt-auto text-center space-y-6 pb-4">
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-                  <Button asChild size="lg" className="text-base">
+                  <Button size="lg" className="text-base" onClick={goNext}>
+                    Siguiente
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                  <Button asChild variant="ghost" size="lg" className="text-base text-muted-foreground">
                     <Link href="/dashboard">
                       Explorar la demostración
                       <ArrowRight className="ml-2 h-4 w-4" />
@@ -281,6 +299,50 @@ export default function Home() {
                   </Button>
                 </div>
                 <Dots active={1} />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Slide 2 — Inversión y retorno */}
+        <div
+          className="absolute inset-0 transition-all duration-300 ease-in-out overflow-y-auto"
+          style={{
+            opacity: slide === 2 ? 1 : 0,
+            transform: slide === 2 ? "translateX(0)" : "translateX(100%)",
+            pointerEvents: slide === 2 ? "auto" : "none",
+          }}
+        >
+          <div className="min-h-full flex flex-col px-6 py-12 md:py-16">
+            <div className="max-w-5xl mx-auto w-full flex-1 flex flex-col">
+              {/* Título */}
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-center mb-4">
+                Inversión y retorno
+              </h1>
+              <p className="text-base text-muted-foreground text-center max-w-2xl mx-auto mb-10">
+                Configura tu diagnóstico a medida y proyecta el retorno sobre la inversión
+              </p>
+
+              {/* Calculator */}
+              <div className="mb-14">
+                <MRIPricingCalculator ctaUrl="https://www.rizo.ma/agendar" />
+              </div>
+
+              {/* Botones + dots */}
+              <div className="mt-auto text-center space-y-6 pb-4">
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+                  <Button asChild size="lg" className="text-base">
+                    <Link href="/dashboard">
+                      Explorar la demostración
+                      <ArrowRight className="ml-2 h-4 w-4" />
+                    </Link>
+                  </Button>
+                  <Button variant="ghost" size="lg" className="text-base text-muted-foreground" onClick={goPrev}>
+                    <ArrowLeft className="mr-2 h-4 w-4" />
+                    Volver
+                  </Button>
+                </div>
+                <Dots active={2} />
               </div>
             </div>
           </div>
@@ -332,19 +394,17 @@ const STEPS = [
   },
 ];
 
-function Dots({ active }: { active: 0 | 1 }) {
+function Dots({ active }: { active: Slide }) {
   return (
     <div className="flex items-center justify-center gap-2">
-      <div
-        className={`h-2 rounded-full transition-all duration-300 ${
-          active === 0 ? "w-6 bg-primary" : "w-2 bg-muted-foreground/30"
-        }`}
-      />
-      <div
-        className={`h-2 rounded-full transition-all duration-300 ${
-          active === 1 ? "w-6 bg-primary" : "w-2 bg-muted-foreground/30"
-        }`}
-      />
+      {([0, 1, 2] as const).map((i) => (
+        <div
+          key={i}
+          className={`h-2 rounded-full transition-all duration-300 ${
+            active === i ? "w-6 bg-primary" : "w-2 bg-muted-foreground/30"
+          }`}
+        />
+      ))}
     </div>
   );
 }
