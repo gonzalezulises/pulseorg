@@ -56,6 +56,15 @@ const ADDON_ROI_BADGES: Record<string, string> = {
   "addon-transformacion": "\u2197 +20% impacto en productividad",
 };
 
+const ROI_BOOSTS = {
+  rotation: { "addon-ona": 0.15, "addon-predictivo": 0.25 } as Record<string, number>,
+  absenteeism: { "addon-sentimiento": 0.1 } as Record<string, number>,
+  productivity: { "addon-taller": 0.1, "addon-transformacion": 0.2 } as Record<string, number>,
+};
+
+const AVG_SALARY = 1200;
+const ROTATION_PCT = 0.18;
+
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
 function useAnimatedValue(target: number, duration = 600): number {
@@ -94,6 +103,11 @@ function fmt(v: number): string {
   return `$${v.toLocaleString("en-US")}`;
 }
 
+function tierMidpoint(tier: BaseTier): number {
+  if (tier.maxSize === 999) return 750;
+  return Math.round((tier.minSize + tier.maxSize) / 2 / 10) * 10;
+}
+
 function AnimatedPrice({ value, className }: { value: number; className?: string }) {
   const animated = useAnimatedValue(value);
   return (
@@ -130,6 +144,28 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
     [selectedAddons],
   );
   const inversionMRI = selectedTier.price + addonsTotal;
+
+  // ── ROI (fixed assumptions) ──
+  const roiMultiple = useMemo(() => {
+    const headcount = tierMidpoint(selectedTier);
+    const payroll = headcount * AVG_SALARY * 12;
+
+    let redRot = 0.2;
+    for (const [id, b] of Object.entries(ROI_BOOSTS.rotation)) if (selectedAddons.has(id)) redRot += b;
+    const ahorroRot = headcount * ROTATION_PCT * AVG_SALARY * 6 * redRot;
+
+    let redAbs = 0.15;
+    for (const [id, b] of Object.entries(ROI_BOOSTS.absenteeism)) if (selectedAddons.has(id)) redAbs += b;
+    const ahorroAbs = headcount * 8 * (AVG_SALARY / 22) * redAbs;
+
+    let incProd = 0.05;
+    for (const [id, b] of Object.entries(ROI_BOOSTS.productivity)) if (selectedAddons.has(id)) incProd += b;
+    const gananciaProd = payroll * incProd;
+
+    const retorno = ahorroRot + ahorroAbs + gananciaProd;
+    const invTotal = inversionMRI + payroll * 0.043;
+    return invTotal > 0 ? retorno / invTotal : 0;
+  }, [selectedTier, selectedAddons, inversionMRI]);
 
   return (
     <div className="w-full">
@@ -236,6 +272,12 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
                 Base {fmt(selectedTier.price)} + Add-ons {fmt(addonsTotal)}
               </p>
             )}
+            <div className="mt-4 pt-4 border-t border-white/10 flex items-baseline justify-between">
+              <span className="text-sm opacity-60">ROI proyectado</span>
+              <span className="text-2xl font-bold text-[#34A856]" style={{ fontVariantNumeric: "tabular-nums" }}>
+                {roiMultiple.toFixed(1)}x
+              </span>
+            </div>
           </div>
 
           {/* Benefits card */}
