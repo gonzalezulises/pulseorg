@@ -349,7 +349,7 @@ export default function ExportPage() {
                       <span>Indicador:</span>
                       <span className="font-medium text-foreground">
                         {dimension === "all"
-                          ? "Todas (17)"
+                          ? "Todos (17)"
                           : DIMENSION_LABELS_V2[dimension]}
                       </span>
                     </li>

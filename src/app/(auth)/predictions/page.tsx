@@ -53,7 +53,7 @@ export default function PredictionsPage() {
     <>
       <Header
         title="Predicciones y Alertas"
-        description="Analisis predictivo y sistema de alertas tempranas del clima organizacional"
+        description="Análisis predictivo y sistema de alertas tempranas del clima organizacional"
         showYearSelector={false}
         showFilters={false}
       />
@@ -81,7 +81,7 @@ export default function PredictionsPage() {
           <TabsList className="grid w-full grid-cols-3 max-w-lg">
             <TabsTrigger value="rotation" className="gap-1">
               <Target className="h-4 w-4" />
-              <span className="hidden sm:inline">Rotacion</span>
+              <span className="hidden sm:inline">Rotación</span>
             </TabsTrigger>
             <TabsTrigger value="projections" className="gap-1">
               <LineChartIcon className="h-4 w-4" />
@@ -124,7 +124,7 @@ export default function PredictionsPage() {
                 />
               </>
             ) : (
-              <EmptyState message="No hay datos de riesgo de rotacion disponibles" />
+              <EmptyState message="No hay datos de riesgo de rotación disponibles" />
             )}
           </TabsContent>
 
@@ -158,7 +158,7 @@ export default function PredictionsPage() {
         {/* Last updated */}
         {summary && (
           <p className="text-xs text-muted-foreground text-center">
-            Ultima actualizacion:{" "}
+            Última actualización:{" "}
             {new Date(summary.last_updated).toLocaleString("es-ES", {
               dateStyle: "medium",
               timeStyle: "short",

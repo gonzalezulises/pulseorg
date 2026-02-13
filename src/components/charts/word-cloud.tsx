@@ -27,7 +27,7 @@ interface WordCloudProps {
 export function WordCloud({
   data,
   title = "Nube de Palabras",
-  description = "Palabras mas frecuentes en los comentarios",
+  description = "Palabras más frecuentes en los comentarios",
 }: WordCloudProps) {
   const [selectedWord, setSelectedWord] = useState<string | null>(null);
   const comments = useCommentsByWord(selectedWord);

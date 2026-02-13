@@ -106,8 +106,8 @@ export default function ClustersPage() {
   return (
     <>
       <Header
-        title="Analisis de Clusters y Redes"
-        description="Visualizacion de comunidades basada en comentarios y preocupaciones compartidas"
+        title="Análisis de Clusters y Redes"
+        description="Visualización de comunidades basada en comentarios y preocupaciones compartidas"
         showYearSelector={false}
         showFilters={false}
       />
@@ -143,7 +143,7 @@ export default function ClustersPage() {
               <Card>
                 <CardContent className="p-4">
                   <div className="flex items-center gap-3">
-                    <div className="p-2 rounded-lg bg-purple-100 text-purple-600">
+                    <div className="p-2 rounded-lg bg-rizoma-cyan/10 text-rizoma-cyan">
                       <MessageSquare className="h-5 w-5" />
                     </div>
                     <div>
@@ -213,7 +213,7 @@ export default function ClustersPage() {
               </TabsTrigger>
               <TabsTrigger value="analysis" className="gap-1">
                 <BarChart3 className="h-4 w-4" />
-                <span className="hidden sm:inline">Analisis</span>
+                <span className="hidden sm:inline">Análisis</span>
               </TabsTrigger>
               <TabsTrigger value="clusters" className="gap-1">
                 <MessageSquare className="h-4 w-4" />

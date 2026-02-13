@@ -56,9 +56,9 @@ export function RotationGauge({ riskIndex, trend = "stable" }: RotationGaugeProp
       <CardHeader>
         <CardTitle className="text-base flex items-center gap-2">
           <Target className="h-5 w-5" />
-          Indice de Riesgo de Rotacion
+          Índice de Riesgo de Rotación
         </CardTitle>
-        <CardDescription>Probabilidad estimada de rotacion en los proximos 12 meses</CardDescription>
+        <CardDescription>Probabilidad estimada de rotación en los próximos 12 meses</CardDescription>
       </CardHeader>
       <CardContent>
         <div className="flex flex-col items-center">
@@ -105,7 +105,7 @@ export function RotationGauge({ riskIndex, trend = "stable" }: RotationGaugeProp
               <span>Bajo</span>
               <span>Moderado</span>
               <span>Alto</span>
-              <span>Critico</span>
+              <span>Crítico</span>
             </div>
             <div className="flex h-2 rounded-full overflow-hidden">
               <div className="flex-1 bg-green-500" />
@@ -137,7 +137,7 @@ function getRiskLevel(risk: number): string {
   if (risk < 25) return "Riesgo Bajo";
   if (risk < 50) return "Riesgo Moderado";
   if (risk < 75) return "Riesgo Alto";
-  return "Riesgo Critico";
+  return "Riesgo Crítico";
 }
 
 interface RiskFactorsListProps {
@@ -152,7 +152,7 @@ export function RiskFactorsList({ factors }: RiskFactorsListProps) {
           <AlertTriangle className="h-5 w-5" />
           Factores de Riesgo
         </CardTitle>
-        <CardDescription>Principales factores que contribuyen al riesgo de rotacion</CardDescription>
+        <CardDescription>Principales factores que contribuyen al riesgo de rotación</CardDescription>
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
@@ -213,15 +213,15 @@ export function HighRiskAreasTable({ areas }: HighRiskAreasTableProps) {
       <CardHeader>
         <CardTitle className="text-base flex items-center gap-2">
           <Users className="h-5 w-5" />
-          Areas de Mayor Riesgo
+          Áreas de Mayor Riesgo
         </CardTitle>
-        <CardDescription>Departamentos con mayor probabilidad de rotacion</CardDescription>
+        <CardDescription>Departamentos con mayor probabilidad de rotación</CardDescription>
       </CardHeader>
       <CardContent>
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHead>Area</TableHead>
+              <TableHead>Área</TableHead>
               <TableHead className="text-center">Riesgo</TableHead>
               <TableHead className="text-center">Compromiso</TableHead>
               <TableHead className="text-center">Empleados</TableHead>
@@ -303,11 +303,11 @@ export function EngagementRotationCorrelation({
               <YAxis
                 type="number"
                 dataKey="rotation"
-                name="Rotacion"
+                name="Rotación"
                 domain={[0, 50]}
                 tick={{ fontSize: 12 }}
                 label={{
-                  value: "Tasa de Rotacion (%)",
+                  value: "Tasa de Rotación (%)",
                   angle: -90,
                   position: "insideLeft",
                   fontSize: 12,
@@ -323,7 +323,7 @@ export function EngagementRotationCorrelation({
                           Compromiso: {data.engagement.toFixed(1)}
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Rotacion: {data.rotation}%
+                          Rotación: {data.rotation}%
                         </p>
                       </div>
                     );
@@ -352,7 +352,7 @@ export function EngagementRotationCorrelation({
           </ResponsiveContainer>
         </div>
         <div className="flex items-center justify-center gap-6 mt-4 pt-4 border-t text-xs text-muted-foreground">
-          <span>A mayor engagement, menor rotacion</span>
+          <span>A mayor engagement, menor rotación</span>
         </div>
       </CardContent>
     </Card>

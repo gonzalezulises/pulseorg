@@ -147,8 +147,8 @@ export default function TextAnalysisPage() {
           <Card>
             <CardContent className="p-4">
               <div className="flex items-center gap-3">
-                <div className="p-2 rounded-lg bg-purple-500/10">
-                  <Layers className="h-5 w-5 text-purple-600" />
+                <div className="p-2 rounded-lg bg-rizoma-cyan/10">
+                  <Layers className="h-5 w-5 text-rizoma-cyan" />
                 </div>
                 <div>
                   <p className="text-2xl font-bold">

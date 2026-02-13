@@ -77,7 +77,7 @@ export function RankingsTable({ rankings }: RankingsTableProps) {
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <Award className="h-5 w-5" />
-          Ranking Completo de Areas
+          Ranking Completo de Áreas
         </CardTitle>
         <CardDescription>
           Todas las áreas ordenadas por compromiso
@@ -88,7 +88,7 @@ export function RankingsTable({ rankings }: RankingsTableProps) {
           <TableHeader>
             <TableRow>
               <TableHead className="w-16">Pos</TableHead>
-              <TableHead>Area</TableHead>
+              <TableHead>Área</TableHead>
               <TableHead className="text-center">Compromiso</TableHead>
               <TableHead className="text-center">Medalla</TableHead>
               <TableHead className="text-center">Tendencia</TableHead>

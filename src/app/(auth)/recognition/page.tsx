@@ -106,8 +106,8 @@ export default function RecognitionPage() {
   return (
     <>
       <Header
-        title="Reconocimiento y Gamificacion"
-        description="Celebra los logros y el progreso de las areas de la organizacion"
+        title="Reconocimiento y Gamificación"
+        description="Celebra los logros y el progreso de las áreas de la organización"
         showYearSelector={false}
         showFilters={false}
       />

@@ -170,7 +170,7 @@ export function NetworkMetricsCard({ metrics, onNodeSelect }: NetworkMetricsProp
           icon={Network}
           label="Conexiones"
           value={metrics.participant_edges.toLocaleString()}
-          color="bg-purple-100 text-purple-600"
+          color="bg-rizoma-cyan/10 text-rizoma-cyan"
           index={1}
         />
         <MetricCard
@@ -192,7 +192,7 @@ export function NetworkMetricsCard({ metrics, onNodeSelect }: NetworkMetricsProp
       {/* Detailed Analysis */}
       <Card>
         <CardHeader className="pb-3">
-          <CardTitle className="text-lg">Analisis de Comunidades</CardTitle>
+          <CardTitle className="text-lg">Análisis de Comunidades</CardTitle>
         </CardHeader>
         <CardContent>
           <Tabs defaultValue="influencers">
@@ -207,14 +207,14 @@ export function NetworkMetricsCard({ metrics, onNodeSelect }: NetworkMetricsProp
               </TabsTrigger>
               <TabsTrigger value="distribution" className="gap-1">
                 <Building2 className="h-4 w-4" />
-                <span className="hidden sm:inline">Distribucion</span>
+                <span className="hidden sm:inline">Distribución</span>
               </TabsTrigger>
             </TabsList>
 
             <TabsContent value="influencers" className="mt-4">
               <div className="space-y-1">
                 <p className="text-sm text-muted-foreground mb-3">
-                  Participantes con mayor numero de conexiones
+                  Participantes con mayor número de conexiones
                 </p>
                 <ScrollArea className="h-64">
                   {metrics.influencers.map((inf, idx) => (
@@ -232,7 +232,7 @@ export function NetworkMetricsCard({ metrics, onNodeSelect }: NetworkMetricsProp
             <TabsContent value="bridges" className="mt-4">
               <div className="space-y-1">
                 <p className="text-sm text-muted-foreground mb-3">
-                  Participantes conectados a multiples temas (puentes entre comunidades)
+                  Participantes conectados a múltiples temas (puentes entre comunidades)
                 </p>
                 <ScrollArea className="h-64">
                   {metrics.bridges.map((bridge, idx) => (

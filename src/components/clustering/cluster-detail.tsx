@@ -108,7 +108,7 @@ export function ClusterDetailView({ cluster, onClose }: ClusterDetailViewProps) 
               <CardHeader className="pb-2">
                 <CardTitle className="text-sm flex items-center gap-2">
                   <Building2 className="h-4 w-4" />
-                  Distribucion por Area
+                  Distribución por Área
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -134,7 +134,7 @@ export function ClusterDetailView({ cluster, onClose }: ClusterDetailViewProps) 
               <CardHeader className="pb-2">
                 <CardTitle className="text-sm flex items-center gap-2">
                   <Users className="h-4 w-4" />
-                  Distribucion por Perfil
+                  Distribución por Perfil
                 </CardTitle>
               </CardHeader>
               <CardContent>

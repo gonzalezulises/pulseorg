@@ -144,7 +144,7 @@ export function FilterPanel({
             {/* Node Size Slider */}
             <div className="space-y-3">
               <div className="flex items-center justify-between">
-                <Label className="text-sm font-medium">Tamano de Nodos</Label>
+                <Label className="text-sm font-medium">Tamaño de Nodos</Label>
                 <span className="text-sm text-muted-foreground">
                   {(filters.nodeSize * 100).toFixed(0)}%
                 </span>
@@ -162,7 +162,7 @@ export function FilterPanel({
             {/* Min Common Themes Slider */}
             <div className="space-y-3">
               <div className="flex items-center justify-between">
-                <Label className="text-sm font-medium">Temas en Comun (min)</Label>
+                <Label className="text-sm font-medium">Temas en Común (min)</Label>
                 <span className="text-sm text-muted-foreground">
                   {filters.minCommonThemes}
                 </span>
@@ -183,7 +183,7 @@ export function FilterPanel({
             {/* Min Connections Slider */}
             <div className="space-y-3">
               <div className="flex items-center justify-between">
-                <Label className="text-sm font-medium">Peso de Conexion (min)</Label>
+                <Label className="text-sm font-medium">Peso de Conexión (min)</Label>
                 <span className="text-sm text-muted-foreground">
                   {filters.minConnections}
                 </span>

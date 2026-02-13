@@ -51,7 +51,7 @@ const DIMENSIONS = [
   },
   {
     category: "Cultura",
-    color: "bg-purple-100 text-purple-800",
+    color: "bg-rizoma-cyan/10 text-rizoma-cyan-dark",
     items: [
       { name: "Trabajo en Equipo", description: "Colaboración, confianza y sentido de unidad en los equipos de trabajo." },
       { name: "Innovación y Gestión del Cambio", description: "Apertura a nuevas ideas y capacidad de adaptación organizacional." },

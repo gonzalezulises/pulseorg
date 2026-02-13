@@ -46,15 +46,15 @@ const typeConfig = {
     emoji: "📈",
   },
   dimension: {
-    gradient: "from-blue-400 to-indigo-400",
-    textColor: "text-blue-700",
-    bgColor: "bg-blue-50",
+    gradient: "from-rizoma-blue to-rizoma-cyan",
+    textColor: "text-rizoma-blue",
+    bgColor: "bg-rizoma-blue/5",
     emoji: "⭐",
   },
   streak: {
-    gradient: "from-purple-400 to-pink-400",
-    textColor: "text-purple-700",
-    bgColor: "bg-purple-50",
+    gradient: "from-rizoma-cyan to-rizoma-cyan-light",
+    textColor: "text-rizoma-cyan-dark",
+    bgColor: "bg-rizoma-cyan/5",
     emoji: "🏆",
   },
 };
@@ -143,10 +143,10 @@ export function AchievementsFeed({ achievements }: AchievementsFeedProps) {
           <div>
             <CardTitle className="flex items-center gap-2">
               <PartyPopper className="h-5 w-5 text-yellow-500" />
-              Celebracion de Logros
+              Celebración de Logros
             </CardTitle>
             <CardDescription>
-              Logros recientes de las areas
+              Logros recientes de las áreas
             </CardDescription>
           </div>
           {milestonesCount > 0 && (

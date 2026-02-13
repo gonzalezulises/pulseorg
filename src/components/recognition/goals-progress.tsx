@@ -30,7 +30,7 @@ const statusConfig = {
   },
   needs_attention: {
     icon: AlertTriangle,
-    label: "Requiere atencion",
+    label: "Requiere atención",
     color: "text-yellow-600",
     bgColor: "bg-yellow-100",
     borderColor: "border-yellow-300",
@@ -46,7 +46,7 @@ const statusConfig = {
   },
   critical: {
     icon: XCircle,
-    label: "Critico",
+    label: "Crítico",
     color: "text-red-600",
     bgColor: "bg-red-100",
     borderColor: "border-red-300",
@@ -137,12 +137,12 @@ export function GoalsProgress({ goals }: GoalsProgressProps) {
             </Badge>
             {needsAttention > 0 && (
               <Badge variant="outline" className="bg-yellow-100 text-yellow-700 border-yellow-300">
-                {needsAttention} requieren atencion
+                {needsAttention} requieren atención
               </Badge>
             )}
             {critical > 0 && (
               <Badge variant="outline" className="bg-red-100 text-red-700 border-red-300">
-                {critical} criticos
+                {critical} críticos
               </Badge>
             )}
           </div>

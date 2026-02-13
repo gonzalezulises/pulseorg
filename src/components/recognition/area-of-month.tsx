@@ -33,7 +33,7 @@ export function AreaOfMonthCard({ data }: AreaOfMonthProps) {
           >
             <Star className="h-6 w-6 fill-white" />
           </motion.div>
-          Area del Mes
+          Área del Mes
         </CardTitle>
         <CardDescription className="text-white/80">
           {current.month}

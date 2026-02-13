@@ -41,7 +41,7 @@ const colorMap: Record<string, string> = {
   green: "bg-green-100 text-green-600 border-green-300",
   pink: "bg-pink-100 text-pink-600 border-pink-300",
   blue: "bg-blue-100 text-blue-600 border-blue-300",
-  purple: "bg-purple-100 text-purple-600 border-purple-300",
+  purple: "bg-rizoma-cyan/10 text-rizoma-cyan-dark border-rizoma-cyan/30",
   orange: "bg-orange-100 text-orange-600 border-orange-300",
 };
 
@@ -106,7 +106,7 @@ const badgeDefinitions = [
   {
     id: "rising_star",
     name: "Estrella en Ascenso",
-    description: "Mayor mejora vs periodo anterior",
+    description: "Mayor mejora vs período anterior",
     icon: "star",
     color: "yellow",
   },
@@ -119,15 +119,15 @@ const badgeDefinitions = [
   },
   {
     id: "wellness_leader",
-    name: "Lider en Bienestar",
+    name: "Líder en Bienestar",
     description: "Top en Balance Vida-Trabajo",
     icon: "heart",
     color: "pink",
   },
   {
     id: "team_spirit",
-    name: "Espiritu de Equipo",
-    description: "Excelente cohesion de equipo",
+    name: "Espíritu de Equipo",
+    description: "Excelente cohesión de equipo",
     icon: "users",
     color: "blue",
   },
@@ -150,11 +150,11 @@ export function BadgesDisplay({ rankings }: BadgesDisplayProps) {
         <div className="flex items-center justify-between">
           <div>
             <CardTitle className="flex items-center gap-2">
-              <Award className="h-5 w-5 text-purple-500" />
+              <Award className="h-5 w-5 text-rizoma-cyan" />
               Badges y Reconocimientos
             </CardTitle>
             <CardDescription>
-              Insignias ganadas por cada area
+              Insignias ganadas por cada área
             </CardDescription>
           </div>
           <Badge variant="secondary">
@@ -191,7 +191,7 @@ export function BadgesDisplay({ rankings }: BadgesDisplayProps) {
           ) : (
             <div className="text-center py-8 text-muted-foreground">
               <Award className="h-12 w-12 mx-auto mb-3 opacity-30" />
-              <p>Aun no hay badges otorgados</p>
+              <p>Aún no hay badges otorgados</p>
             </div>
           )}
         </div>
