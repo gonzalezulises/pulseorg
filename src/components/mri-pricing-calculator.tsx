@@ -296,8 +296,10 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
     const gananciaProductividad = payroll * incProductividad;
 
     const retornoBruto = ahorroRotacion + ahorroAusentismo + gananciaProductividad;
-    const retornoNeto = retornoBruto - inversionMRI;
-    const roiMultiple = inversionMRI > 0 ? retornoBruto / inversionMRI : 0;
+    const costoImpl = payroll * 0.043;
+    const inversionTotal = inversionMRI + costoImpl;
+    const retornoNeto = retornoBruto - inversionTotal;
+    const roiMultiple = inversionTotal > 0 ? retornoBruto / inversionTotal : 0;
 
     const rotBoosted = Object.keys(ROI_BOOSTS.rotation).some((id) => selectedAddons.has(id));
     const absBoosted = Object.keys(ROI_BOOSTS.absenteeism).some((id) => selectedAddons.has(id));
@@ -305,7 +307,7 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
 
     return {
       ahorroRotacion, salidasEvitadas, ahorroAusentismo, diasRecuperados,
-      gananciaProductividad, payroll,
+      gananciaProductividad, payroll, inversionTotal,
       retornoBruto, retornoNeto, roiMultiple,
       rotBoosted, absBoosted, prodBoosted,
     };
@@ -488,9 +490,9 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
                   <AnimatedPrice value={roi.retornoBruto} className="text-lg font-bold" />
                 </div>
                 <div>
-                  <p className="text-[11px] uppercase tracking-wide opacity-60 mb-1">Inversión MRI</p>
-                  <AnimatedPrice value={inversionMRI} className="text-lg font-bold opacity-80" />
-                  <p className="text-[10px] opacity-50 mt-0.5">USD</p>
+                  <p className="text-[11px] uppercase tracking-wide opacity-60 mb-1">Inversión total</p>
+                  <AnimatedPrice value={roi.inversionTotal} className="text-lg font-bold opacity-80" />
+                  <p className="text-[10px] opacity-50 mt-0.5">Diagnóstico + implementación</p>
                 </div>
                 <div>
                   <p className="text-[11px] uppercase tracking-wide opacity-60 mb-1">ROI</p>
