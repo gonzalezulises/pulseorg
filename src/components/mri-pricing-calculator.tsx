@@ -4,12 +4,7 @@ import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { Slider } from "@/components/ui/slider";
 import { Progress } from "@/components/ui/progress";
 import { Input } from "@/components/ui/input";
-import {
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-} from "@/components/ui/collapsible";
-import { CheckCircle2, ChevronDown } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 
 // ─── Inline Data ────────────────────────────────────────────────────────────
 
@@ -69,14 +64,6 @@ const ROI_BOOSTS = {
   absenteeism: { "addon-sentimiento": 0.1 } as Record<string, number>,
   productivity: { "addon-taller": 0.1, "addon-transformacion": 0.2 } as Record<string, number>,
 };
-
-const IMPL_COSTS = [
-  { name: "Capacitación de líderes", pct: 0.015, desc: "Programas de desarrollo de liderazgo basados en hallazgos" },
-  { name: "Programas de desarrollo", pct: 0.01, desc: "Planes de carrera, mentoring, upskilling" },
-  { name: "Iniciativas de bienestar", pct: 0.008, desc: "Programas de salud, flexibilidad, balance" },
-  { name: "Mejora de comunicación interna", pct: 0.005, desc: "Herramientas, rituales, transparencia" },
-  { name: "Sistema de reconocimiento", pct: 0.005, desc: "Programas formales e informales de reconocimiento" },
-];
 
 // ─── Hooks & Helpers ────────────────────────────────────────────────────────
 
@@ -253,7 +240,6 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
   const [rotation, setRotation] = useState(18);
   const [salary, setSalary] = useState(1200);
   const [headcount, setHeadcount] = useState(() => tierMidpoint(BASE_TIERS[0]));
-  const [implOpen, setImplOpen] = useState(false);
 
   const selectedTier = BASE_TIERS.find((t) => t.id === selectedTierId) ?? BASE_TIERS[0];
 
@@ -309,13 +295,9 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
     }
     const gananciaProductividad = payroll * incProductividad;
 
-    const costoImpl = payroll * 0.043;
-    const implItems = IMPL_COSTS.map((c) => ({ ...c, monto: payroll * c.pct }));
-
     const retornoBruto = ahorroRotacion + ahorroAusentismo + gananciaProductividad;
-    const inversionTotal = inversionMRI + costoImpl;
-    const retornoNeto = retornoBruto - inversionTotal;
-    const roiMultiple = inversionTotal > 0 ? retornoBruto / inversionTotal : 0;
+    const retornoNeto = retornoBruto - inversionMRI;
+    const roiMultiple = inversionMRI > 0 ? retornoBruto / inversionMRI : 0;
 
     const rotBoosted = Object.keys(ROI_BOOSTS.rotation).some((id) => selectedAddons.has(id));
     const absBoosted = Object.keys(ROI_BOOSTS.absenteeism).some((id) => selectedAddons.has(id));
@@ -323,8 +305,8 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
 
     return {
       ahorroRotacion, salidasEvitadas, ahorroAusentismo, diasRecuperados,
-      gananciaProductividad, payroll, costoImpl, implItems,
-      retornoBruto, inversionTotal, retornoNeto, roiMultiple,
+      gananciaProductividad, payroll,
+      retornoBruto, retornoNeto, roiMultiple,
       rotBoosted, absBoosted, prodBoosted,
     };
   }, [headcount, rotation, salary, selectedAddons, inversionMRI]);
@@ -497,64 +479,18 @@ export default function MRIPricingCalculator({ ctaUrl }: Props) {
             ))}
           </div>
 
-          {/* Implementation costs (collapsible) */}
-          <Collapsible open={implOpen} onOpenChange={setImplOpen}>
-            <div className="border rounded-xl overflow-hidden">
-              <CollapsibleTrigger className="w-full flex items-center justify-between px-4 py-3 hover:bg-muted transition-colors">
-                <div className="flex items-center gap-2">
-                  <span className="text-sm font-semibold">Inversión en implementación</span>
-                  <span className="text-[10px] font-medium text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
-                    Estimado
-                  </span>
-                </div>
-                <ChevronDown
-                  className={`h-4 w-4 text-muted-foreground transition-transform duration-300 ${implOpen ? "rotate-180" : ""}`}
-                />
-              </CollapsibleTrigger>
-
-              <CollapsibleContent>
-                <div className="px-4 pb-4">
-                  <p className="text-[11px] text-muted-foreground mb-3">
-                    Para materializar el retorno, la organización típicamente invierte en programas de mejora.
-                    Costos estimados como % de nómina anual:
-                  </p>
-                  <div className="space-y-2">
-                    {roi.implItems.map((item) => (
-                      <div key={item.name} className="flex items-start justify-between gap-3">
-                        <div className="min-w-0">
-                          <p className="text-sm">{item.name}</p>
-                          <p className="text-[11px] text-muted-foreground">{item.desc}</p>
-                        </div>
-                        <div className="text-right shrink-0">
-                          <p className="text-sm font-medium" style={{ fontVariantNumeric: "tabular-nums" }}>
-                            {fmtCompact(item.monto)}
-                          </p>
-                          <p className="text-[10px] text-muted-foreground">{(item.pct * 100).toFixed(1)}%</p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="border-t mt-3 pt-3 flex items-baseline justify-between">
-                    <span className="text-sm font-semibold">Subtotal implementación</span>
-                    <AnimatedPrice value={roi.costoImpl} className="text-sm font-bold" />
-                  </div>
-                </div>
-              </CollapsibleContent>
-            </div>
-          </Collapsible>
-
           {/* ROI result */}
           <div className="rounded-2xl overflow-hidden" style={{ backgroundColor: "#1a3a2a" }}>
             <div className="p-6 text-white">
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <p className="text-[11px] uppercase tracking-wide opacity-60 mb-1">Retorno bruto</p>
+                  <p className="text-[11px] uppercase tracking-wide opacity-60 mb-1">Retorno proyectado</p>
                   <AnimatedPrice value={roi.retornoBruto} className="text-lg font-bold" />
                 </div>
                 <div>
-                  <p className="text-[11px] uppercase tracking-wide opacity-60 mb-1">Inversión total</p>
-                  <AnimatedPrice value={roi.inversionTotal} className="text-lg font-bold opacity-80" />
-                  <p className="text-[10px] opacity-50 mt-0.5">MRI + implementación</p>
+                  <p className="text-[11px] uppercase tracking-wide opacity-60 mb-1">Inversión MRI</p>
+                  <AnimatedPrice value={inversionMRI} className="text-lg font-bold opacity-80" />
+                  <p className="text-[10px] opacity-50 mt-0.5">USD</p>
                 </div>
                 <div>
                   <p className="text-[11px] uppercase tracking-wide opacity-60 mb-1">ROI</p>
